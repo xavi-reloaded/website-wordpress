@@ -27,7 +27,7 @@ function wl_reset_slide_image_setting()
 	$ImageUrl2 = get_template_directory_uri()."/images/2.png";
 	$ImageUrl3 = get_template_directory_uri()."/images/3.png";
 	$wl_theme_options['slide_image_1'] = $ImageUrl;
-	$wl_theme_options['slide_title_1'] = "Slide Title";
+	$wl_theme_options['slide_title_1'] = "QUE PASA POR TU CASA";
 	$wl_theme_options['slide_desc_1'] = "Lorem Ipsum is simply dummy text of the printing";
 	$wl_theme_options['slide_btn_text_1'] = "Read More";
 	$wl_theme_options['slide_btn_link_1'] = "#";
