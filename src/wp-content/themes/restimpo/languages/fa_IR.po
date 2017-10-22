@@ -1,0 +1,893 @@
+# Translation of the WordPress theme RestImpo 1.0 by Tomas Toman.
+# This file is distributed under the same license as the RestImpo package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RestImpo 1.0 - Persian\n"
+"POT-Creation-Date: 2014-02-19 19:00+0100\n"
+"PO-Revision-Date: 2016-03-14 16:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: www.AliHosting.ir | Ali Akbar Kaviani <alihosting.ir@gmail."
+"com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:12 search.php:42
+msgid "Nothing Found"
+msgstr "چیزی یافت نشد"
+
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"متاسفانه نتیجه‌ای برای جستجو پیدا نشد. شاید بهتر باشد واژه یا عبارت دیگری "
+"انتخاب کنید."
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "بایگانی روزانه: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "بایگانی ماهانه: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "بایگانی سالانه: %s"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "بایگانی"
+
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "بایگانی نویسنده: %s"
+
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "درباره  %s"
+
+#: class-tgm-plugin-activation.php:156 functions.php:400
+msgid "Install Required Plugins"
+msgstr "افزونه‌های لازم را نصب کنید"
+
+#: class-tgm-plugin-activation.php:157 functions.php:401
+msgid "Install Plugins"
+msgstr "نصب افزونه‌ها"
+
+#: class-tgm-plugin-activation.php:158 functions.php:405
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "در حال نصب افزونه‌ها: %s"
+
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "یک جای کار اشتباه است."
+
+#: class-tgm-plugin-activation.php:170 functions.php:411
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشته به نصب افزونه‌ها"
+
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "بازگشت به پیشخوان"
+
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "افزونه با موفقیت نصب شد."
+
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "افزونه زیر با موفقیت فعال شد."
+
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تمام افزونه‌ها با موفقیت نصب و فعال شدند. %1$s"
+
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "این پیام را نشان نده"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "پیوند خارجی"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Private Repository"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "ضروری"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "پیشنهاد می‌شود"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "نصب نشده"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "نصب شده ولی فعال نیست"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"هیچ افزونه‌ای نصب یا فعال نیست <a href=\"%1$s\" عنوان=\"بازگشت به پیشخوان"
+"\">بازگشت به پیشخوان</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "افزونه"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "منبع"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "نوع"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "وضعیت"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "نصب"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "فعال"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "بسته مربوط به نصب در دسترس نیست."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "در حال نصب بسته از <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "در حال بازکردن بسته&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "در حال نصب افزونه&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "نصب افزونه با شکست مواجه شد."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "افزونه با موفقیت نصب شد."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "فعال‌کردن افزونه با شکست مواجه شد."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"فرآیند نصب و فعال‌سازی آغاز شد. این کار ممکن است قدری طول بکشد. لطفا شکیبا "
+"باشید."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s با موفقیت نصب و فعال شد."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "نمایش جزئیات"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "مخفی‌کردن جزئیات"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "تمام نصب‌ها و فعال‌سازی‌ها به پایان رسیدند."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "در حال نصب و فعال‌سازی %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"فرآیند نصب و فعال‌سازی آغاز شد. این کار ممکن است قدری طول بکشد. لطفا شکیبا "
+"باشید."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "خطایی در هنگام نصب روی داده است %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب %1$s با شکست روبرو شد."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s با موفقیت نصب شد."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "نصب با موفقیت انجام شد"
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "در حال نصب افزونه‌ها %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "بازگشت به پیشخوان"
+
+#: comments.php:16
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "دیدگاه"
+
+#: comments.php:25
+msgid "&larr; Older Comments"
+msgstr "&larr; دیدگاه‌های قدیمی‌تر"
+
+#: comments.php:26
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه‌های تازه‌تر &rarr;"
+
+#: comments.php:32
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند"
+
+#: comments.php:37
+msgid "Your name"
+msgstr "نام شما"
+
+#: comments.php:38
+msgid "Website"
+msgstr "وب‌سایت"
+
+#: comments.php:39
+msgid "Comment..."
+msgstr "دیدگاه ..."
+
+#: comments.php:43
+msgid "Leave a Comment"
+msgstr "دیدگاهی بگذارید"
+
+#: content-archives.php:31 functions/fe/widget-posts-grid.php:107
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "ادامه مطلب &gt;"
+
+#: functions.php:129
+msgid "Main Header Menu"
+msgstr "منوی اصلی سربرگ"
+
+#: functions.php:130
+msgid "Top Header Menu"
+msgstr "منوی بالایی سربرگ"
+
+#: functions.php:142
+msgid "Right Sidebar"
+msgstr "سایدبار سمت راست"
+
+#: functions.php:144
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "سایدبار سمت راست که در تمام نوشته‌ها و برگه‌ها دیده می‌شود"
+
+#: functions.php:151
+msgid "Footer left widget area"
+msgstr "Footer left widget area"
+
+#: functions.php:153
+msgid "Left column with widgets in footer."
+msgstr "ستون سمت چپ با ابزارک در پاصفحه"
+
+#: functions.php:160
+msgid "Footer middle widget area"
+msgstr "پاصفحه با ناحیه میانی ابزارک"
+
+#: functions.php:162
+msgid "Middle column with widgets in footer."
+msgstr "ستون  میانی با ابزارک‌هایی در پاصفحه"
+
+#: functions.php:169
+msgid "Footer right widget area"
+msgstr "ابزارک سمت راست پاصفحه"
+
+#: functions.php:171
+msgid "Right column with widgets in footer."
+msgstr "ستون سمت راست با ابزارک‌هایی در پاصفحه"
+
+#: functions.php:178
+msgid "Footer notices"
+msgstr "ملاحظات پاصفحه"
+
+#: functions.php:180
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"این خط برای کپی‌رایت و ملاحظات دیگر در ناحیه زیر ابزارک‌های پاصفحه است. در "
+"اینجا می‌توانید یک ابزارک متی قرار دهید و بخش عنوان ابزارک را خالی بگذارید."
+
+#: functions.php:187
+msgid "Latest Posts Homepage widget area"
+msgstr "ناحیه ابزارک آخرین نوشته‌ها برای صفحه اول وب‌سایت"
+
+#: functions.php:189
+msgid ""
+"The area for any RestImpo Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"این ناحیه برای ابزارک تازه‌ترین نوشته‌های پوسته رست‌ایمپو است که تازه‌ترین "
+"نوشته‌ها را از یک دسته مشخص گردآوری می‌کند و آن را زیر ناحیه پیشفرض آخرین "
+"نوشته‌ها قرار می‌دهد."
+
+#: functions.php:236
+msgid "Post navigation"
+msgstr "ناوبری نوشته‌ها"
+
+#: functions.php:238
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> نوشته‌های قدیمی‌تر"
+
+#: functions.php:239
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نوشته‌های تازه‌تر <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:253
+msgid "&larr; Previous post"
+msgstr "&larr; نوشته قبلی"
+
+#: functions.php:254
+msgid "Next post &rarr;"
+msgstr "نوشته بعدی &rarr;"
+
+#: functions.php:271
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:271
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: functions.php:284
+msgid "(Post author)"
+msgstr "(نویسنده مطلب)"
+
+#: functions.php:290
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: functions.php:296
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار تایید است"
+
+#: functions.php:302
+msgid "Reply"
+msgstr "پاسخ"
+
+#: functions.php:304
+msgid "Edit"
+msgstr "ویرایش"
+
+#: functions.php:402
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"افزونه %1$s برای این پوسته لازم است. روی این دکمه کلیک کنید تا آن را نصب و "
+"فعال نمایید %1$s."
+
+#: functions.php:403
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"افزونه %1$s نصب شد ولی فعال نیست. لطفا اینجا بروید <a href=\"%2$s\">مدیریت "
+"نصب افزونه‌ها</a> تا آن را فعال نمایید."
+
+#: functions.php:404
+#, php-format
+msgid "Install %s Now"
+msgstr "اکنون %s نصب کن"
+
+#: functions.php:406
+msgid "Something went wrong with the plugin API."
+msgstr "چیزی در API افزونه دچار اشکال است"
+
+#: functions.php:407
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"این پوسته به افزونه %1$s نیاز دارد <a href=\"%2$s\"><strong>اینجا را کلیک  "
+"کنید تا فرآیند نصب آغاز شود </strong></a>. شاید نیاز به وارکردن اطلاعات اف "
+"تی پی سرور داشته باشید."
+
+#: functions.php:408
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"متاسفانه شما دسترسی لازم برای نصب افزونه  %s را ندارید. با مدیر وب‌سایت خود "
+"تماس بگیرید."
+
+#: functions.php:409
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"این پوسته به افزونه %1$s نیاز دارد. این افزونه فعلا غیرفعال است. بنابراین "
+"لطفا به <a href=\"%2$s\">صفحه مدیریت افزونه‌ها</a> بروید تا آن را فعال نمایید."
+
+#: functions.php:410
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"متاسفم شما دسترسی لازم برای فعال کردن پلاگین  %s را ندارید! شما میتونید برای "
+"فعال کردن و استفاده از این پلاگین با مدیریت کل سایت در تماس باشید."
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "تعداد نتایج:"
+
+#: search.php:31
+msgid "Search results navigation"
+msgstr "ناوبری نتیجه جستجو"
+
+#: search.php:33
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> نتایج قبلی"
+
+#: search.php:34
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نتایج بعدی <span class=\"meta-nav\">→</span>"
+
+#: search.php:49
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"متاسفانه هیچ موردی مطابق با جستجوی شما یافت نشد.لطفا سعی کنید تا با کلمه ی "
+"دیگر جستجو کنید"
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "جستجو در اینجا ..."
+
+#: single.php:26
+msgid "Pages:"
+msgstr "برگه‌ها:"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "بایگانی برچسب‌ها: %s"
+
+#: functions/be/fw-options.php:1276
+msgid "settings reset."
+msgstr "ری‌ست تنظیمات."
+
+#: functions/be/fw-setup.php:16
+msgid "Theme Options"
+msgstr "تنظیمات پوسته"
+
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "برای نشانی واردشده، چیزی یافت نشد."
+
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "درخواست معتبر نیست. آیا نشانی را وارد کرده‌اید؟"
+
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"چیزی درباره نقشه اشتباه است. لطفا مطمئ شوید که شورت‌کد را به‌‌درستی وارد "
+"کرده‌اید."
+
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "امکان تماس با سرویس API گوگل وجود ندارد."
+
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "جعبه لایک فیسبوک را نمایش می‌دهد."
+
+#: functions/fe/widget-facebook.php:14
+msgid "RestImpo Facebook Like Box Widget"
+msgstr "ابزارک رست‌ایمپو برای جعبه لایک فیسبوک"
+
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-info-box.php:74
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "عنوان:"
+
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "نشانی صفحه فیسبوک:"
+
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "ارتفاع جعبه لایک: (اختیاری)"
+
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"ارتفاع جعبه لایک را بر چسب پیکسل مشخص کنید و فقط عدد وارد کنید. (بدون px)"
+
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "نمایش چهره‌ها:"
+
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr "مشخص کنید که آیا تصویر نمایه افرادی که لایک زده‌اند دیده شود یا خیر."
+
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "نمایش جریان:"
+
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr ""
+"مشخص کنید که آیا جریانی از تازه‌ترین نوشته‌ها در صفحه نمایش داده شود یا خیر."
+
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "جعبه‌ای از متن و پیوند دلخواه شما نمایش می‌دهد."
+
+#: functions/fe/widget-info-box.php:14
+msgid "RestImpo Info-Box"
+msgstr "اینفوباکس قالب رست‌ایمپو"
+
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "آیکن:"
+
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "سبد:"
+
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "کتاب"
+
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "گاهنامه"
+
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: functions/fe/widget-info-box.php:55
+msgid "Computer"
+msgstr "رایانه"
+
+#: functions/fe/widget-info-box.php:56
+msgid "Download"
+msgstr "دانلود"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Envelope"
+msgstr "پاکت"
+
+#: functions/fe/widget-info-box.php:58
+msgid "Gift"
+msgstr "هدیه"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Hand"
+msgstr "دست"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Heart"
+msgstr "قلب"
+
+#: functions/fe/widget-info-box.php:61
+msgid "Music"
+msgstr "موسیقی"
+
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "ستاره"
+
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "تیک"
+
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "کاربر"
+
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "هیچی"
+
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed in the header of the box."
+msgstr "آیکن مورد نظر را برای نمایش در بالای جعبه انتخاب کنید."
+
+#: functions/fe/widget-info-box.php:81
+msgid "Text:"
+msgstr "متن:"
+
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "پیوند:"
+
+#: functions/fe/widget-info-box.php:92
+msgid ""
+"Insert here the full URL which will be displayed as a button (optional)."
+msgstr ""
+"نشانی کاملی را که قرار است به شل یک دکمه دیده شود درج نمایید. (اختیاری)"
+
+#: functions/fe/widget-info-box.php:124
+msgid "READ MORE"
+msgstr "بیشتر بخوانید"
+
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr "تازه‌ترین نوشته‌ها را از دسته مورد نظر شما به شکل پیش‌فرض نمایش می‌دهد."
+
+#: functions/fe/widget-posts-default.php:14
+msgid "RestImpo Posts-Default"
+msgstr "پیش‌فرض رست‌ایمپو برای نوشته‌ها"
+
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "دسته:"
+
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "دسته نوشته‌ها را انتخاب کنید."
+
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "تعداد نوشته‌ها:"
+
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"مشخص کنید چه تعداد از نوشته‌ها قرار است برای دسته مورد نظر نمایش داده شوند."
+
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr "آخرین نوشته‌ها را از دسته مورد نظر به شکل grid نمایش می‌دهد."
+
+#: functions/fe/widget-posts-grid.php:14
+msgid "RestImpo Posts-Grid"
+msgstr "رست‌ایمپو- Grid نوشته‌ها"
+
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"تازه‌ترین نوشته‌ها را از دسته مورد نظر به شکل نامنظم نمایش‌می‌دهد و نخستین نوشته "
+"را های‌لایت می‌کند."
+
+#: functions/fe/widget-posts-list.php:14
+msgid "RestImpo Posts-List"
+msgstr "رست‌ایمپو-فهرست نوشته‌ها"
+
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr "تازه‌ترین نوشته‌ها را از دسته مورد نظر به شکل اسلایدر نمایش می‌دهد"
+
+#: functions/fe/widget-posts-slider.php:14
+msgid "RestImpo Posts-Slider"
+msgstr "رست‌ایمپو-اسلایدر نوشته‌ها"
+
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr ""
+"تازه‌ترین نوشته‌ها را از دسته مورد نظر به شکل تصاویر بندانگشتی نمایش می‌دهد."
+
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "RestImpo Posts-Thumbnail"
+msgstr "رست‌ایمپو- تصاویر بندانگشتی"
+
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by RestImpo"
+msgstr "یک ابزارک شبکه‌های اجتماعی محصول رست‌ایمپو"
+
+#: functions/fe/widget-social.php:14
+msgid "RestImpo Social Widget"
+msgstr "ابزارک اجتماعی رست‌ایمپو"
+
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "تویتر:"
+
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "نشانی کامل نمایه تویتر خود را وارد کنید."
+
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "فیسبوک:"
+
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "نشانی کامل نمایه، صفحه یا گروه فیسبوک خود را وارد کنید."
+
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr "نشانی کامل RSS خود را برای برنامه‌های خبرخوان وارد نمایید."
+
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "گوگل پلاس:"
+
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "نشانی کامل نمایه گوگل پلاس خود را وارد نمایید."
+
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "یوتیوب:"
+
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "نشانی کامل نمایه یوتیوب خود را وارد نمایید."
+
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "لینکدین:"
+
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "نشانی کامل نمایه لینکدین خود را وارد نمایید."
+
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "دلیشس:"
+
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "نشانی کامل نمایه Delicious خود را وارد نمایید."
+
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "پینترست:"
+
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "نشانی کامل نمایه پینترست خود را وارد نمایید."
+
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "فلیکر:"
+
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "نشانی کامل نمایه فلیکر خود را وارد نمایید."
+
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by RestImpo"
+msgstr "ابزارک تویتر محصول رست‌ایمپو"
+
+#: functions/fe/widget-twitter.php:15
+msgid "RestImpo Twitter Widget"
+msgstr "ابزارک تویتر رست‌ایمپو"
+
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "به تویتر ما بپیوندید."
+
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "نام کاربری تویتر"
+
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: restimpo)."
+msgstr "نام کاربری خود را وارد کنید. مثلا restimpo"
+
+#: template-logged-in.php:27
+msgid "You must be logged in to view this page."
+msgstr "شما باید لاگین کنید تا این صفحه را ببینید."
+
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; قبلی"
+
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "بعدی &rarr;"

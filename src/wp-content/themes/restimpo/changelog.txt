@@ -1,0 +1,335 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(27/09/2016) - Update - Version 2.0.5
+
+[*] Updated theme tags.
+
+----
+
+(02/06/2016) - Update - Version 2.0.4
+
+[+] Added option to disable the Scroll-top button.
+[+] Added option to set custom post excerpt length.
+
+----
+
+(09/05/2016) - Update - Version 2.0.3
+
+[*] Updated the list of available Google fonts.
+[*] Changed Support and Get Premium links.
+
+----
+
+(14/03/2016) - Update - Version 2.0.2
+
+[+] Added ability to select Character Set in the Theme Customizer.
+[+] Added Persian translation.
+[*] Updated browser-specific styling to form elements (-webkit-appearance and -moz-appearance values).
+
+----
+
+(13/01/2016) - Update - Version 2.0.1
+
+[*] Removed platform specific styling to form elements by setting -webkit-appearance and -moz-appearance to "none".
+
+----
+
+(02/12/2015) - Update - Version 2.0.0
+
+[*] Moved custom Theme Options to the Customizer API.
+[+] Added "About RestImpo" admin page.
+[x] Removed Favicon option as it is a core option since WordPress 4.3.
+[*] Set "width: 100%" to the Comments section.
+
+----
+
+(11/10/2015) - Update - Version 1.4.7
+
+[*] Updated Post Meta Data classes to pass the Google Structured Data test.
+[!] Fixed problem with floating of the Reply form in the Comments section.
+
+----
+
+(20/08/2015) - Update - Version 1.4.6
+
+[*] Updated deprecated constructor method for the RestImpo Posts-Default Widget.
+[*] Updated Italian translation.
+
+----
+
+(15/06/2015) - Update - Version 1.4.5
+
+[*] Updated the list of available Google fonts (corrected nonfunctional fonts).
+[*] Updated German translation.
+[*] Increased height of the responsive drop-down menus.
+[*] Specified a recommended height of the Header Image.
+
+----
+
+(17/03/2015) - Update - Version 1.4.4
+
+[*] Fixed displaying of drop-down submenus in the Top Header Menu when the text takes up more than 1 line.
+[*] Updated Spanish translation.
+[*] Updated Czech translation.
+
+----
+
+(22/01/2015) - Update - Version 1.4.3
+
+[+] Added support for the "pingback" link in <head> section.
+[*] Updated editor-style.css.
+
+----
+
+(09/01/2015) - Update - Version 1.4.2
+
+[+] Added support for the Title Tag feature.
+[*] Updated paginate_links() arguments (added "add_args").
+
+----
+
+(26/12/2014) - Update - Version 1.4.1
+
+[*] Updated the "HTML5 Shiv" script to the version 3.7.
+[*] Updated position of the Comments section on pages.
+
+----
+
+(17/12/2014) - Update - Version 1.4.0
+
+[*] Updated editor-style.css.
+[x] Removed some unnecessary code from functions/fe/headerdata.php (the main stylesheet is already enqueued in functions.php).
+
+----
+
+(10/12/2014) - Update - Version 1.3.9
+
+[+] Added ability to use the "nextpage" tag on pages.
+
+----
+
+(03/12/2014) - Update - Version 1.3.8
+
+[+] Enabled opening of the Social networks links in a new window.
+[*] Updated floating of the "Edit" link.
+
+----
+
+(26/11/2014) - Update - Version 1.3.7
+
+[*] Enqueue the "HTML5 Shiv" through the function restimpo_scripts_styles().
+[*] Updated Placeholders.js script to the version 3.0.2.
+
+----
+
+(18/11/2014) - Update - Version 1.3.6
+
+[+] Added Polish translation.
+[+] Mentioned the Text Domain in style.css.
+[*] Updated German translation.
+[*] Set the priority of excerpt_length filter from 999 to 20.
+
+----
+
+(09/11/2014) - Update - Version 1.3.5
+
+[*] Updated custom WooCommerce styles (Sale Marker position and Related Products floating).
+[*] Updated displaying of the Homepage Header Image Text on mobile devices.
+
+----
+
+(31/10/2014) - Update - Version 1.3.4
+
+[+] Added Danish translation.
+[*] Updated the "viewport" meta tag.
+
+----
+
+(03/10/2014) - Update - Version 1.3.3
+
+[+] Added Dutch translation.
+
+----
+
+(19/09/2014) - Update - Version 1.3.2
+
+[*] Updated displaying of widgets in the Right Sidebar.
+[*] Updated displaying of sticky posts (uppercase titles).
+
+----
+
+(08/09/2014) - Update - Version 1.3.1
+
+[*] Updated displaying of the footer widget areas.
+[*] Changed position of the scroll-top button.
+
+----
+
+(29/08/2014) - Update - Version 1.3.0
+
+[*] Changed displaying of the header images.
+[*] Updated editor-style.css.
+
+----
+
+(20/08/2014) - Update - Version 1.2.5
+
+[+] Added Italian translation.
+
+----
+
+(11/08/2014) - Update - Version 1.2.4
+
+[+] Added custom Page Template for displaying Full-width pages without Title.
+
+----
+
+(30/07/2014) - Update - Version 1.2.3
+
+[*] Changed function for displaying featured images on archive pages.
+[*] Changed function for displaying the post excerpts.
+
+----
+
+(19/07/2014) - Update - Version 1.2.2
+
+[!] Fixed possible "Undefined index" debug notices in widget-posts-default.php.
+
+----
+
+(09/07/2014) - Update - Version 1.2.1
+
+[*] Moved $content_width definition inside the Theme setup function.
+[!] Fixed displaying of the drop-down submenus when the text takes up more than 1 line.
+
+----
+
+(26/06/2014) - Update - Version 1.2.0
+
+[+] Added support for WooCommerce plugin.
+
+----
+
+(15/06/2014) - Update - Version 1.1.11
+
+[*] Edited URL address for the Google fonts call (removed http to avoid errors when https is used).
+[*] Edited CSS for "iframe" and "embed" elements.
+[x] Removed definition of unused checkboxes in fw-options.php.
+
+----
+
+(02/06/2014) - Update - Version 1.1.10
+
+[+] Added Greek translation.
+[*] Changed styling of the <pre> tag.
+
+----
+
+(20/05/2014) - Update - Version 1.1.9
+
+[+] Added "edit post" links.
+[+] Added theme-slug prefixes to the enqueued scripts and styles.
+[*] Changed styling of the Comments area if comments are closed.
+
+----
+
+(08/05/2014) - Update - Version 1.1.8.1
+
+[!] Fixed function for marking selected options in Theme Options panel.
+
+----
+
+(08/05/2014) - Update - Version 1.1.8
+
+[+] Added 1 new pre-defined color scheme (Forest).
+
+----
+
+(29/04/2014) - Update - Version 1.1.7.1
+
+[!] Fixed function for displaying the Header Image. 
+
+----
+
+(29/04/2014) - Update - Version 1.1.7
+
+[*] Changed the navigation to next/previous pages (added page links).
+[*] Changed the navigation to next/previous posts on single posts (added post titles).
+[*] Updated language localizations.
+
+----
+
+(22/04/2014) - Update - Version 1.1.6
+
+[+] Added custom Page Template for displaying the Landing Page.
+
+----
+
+(15/04/2014) - Update - Version 1.1.5
+
+[+] Added custom Page Template for displaying pages without the Comments area.
+[+] Added custom Page Template for displaying pages without the Page Title.
+[*] Changed the functions for Theme Options output (esc_attr_e strings replaced by esc_attr).
+
+----
+
+(08/04/2014) - Update - Version 1.1.4
+
+[+] Added custom Page Template for displaying the page content only for logged in users.
+[*] Updated language localizations.
+[*] Changed the look of the Scroll-top button.
+
+----
+
+(01/04/2014) - Update - Version 1.1.3
+
+[*] Edited the offer of Google Fonts in Theme Options.
+
+----
+
+(21/03/2014) - Update - Version 1.1.2
+
+[+] Added 1 new pre-defined color scheme (Tan).
+[*] Edited the query function for RestImpo Default-Posts widget.
+[!] Edited font-settings for RestImpo Posts Widgets headlines.
+
+----
+
+(16/03/2014) - Update - Version 1.1.1
+
+[+] Added Russian language localization.
+[+] Added option for displaying the Header Image on all pages.
+
+----
+
+(12/03/2014) - Update - Version 1.1.0
+
+[+] Added option for selecting between Content/Excerpt displaying on Archive pages.
+[+] Added new "Lime" pre-defined color scheme.
+
+----
+
+(25/02/2014) - The initial public release - Version 1.0.1
+
+[+] Added copyright notices for all used images and JavaScript files.
+[*] Changed the icons.
+[*] Changed Theme URL.
+[*] Edited the main query function in index.php and all archive templates.
+[x] Removed custom shortcodes from functions.php.
+[x] Removed Theme Options link from the Admin Bar.
+[x] Removed Color settings tab from Theme Options.
+[!] Added escaping for output of restimpo_get_own_css() function.
+[!] Added escaping for output of home_url function in searchform.php.
+
+----
+
+(21/02/2014) - The initial testing release - Version 1.0.0

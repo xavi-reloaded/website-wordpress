@@ -1,0 +1,1170 @@
+# Translation of the WordPress theme RestImpo 1.3 by Tomas Toman.
+# This file is distributed under the same license as the RestImpo package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RestImpo 1.3\n"
+"POT-Creation-Date: 2014-02-19 19:00+0100\n"
+"PO-Revision-Date: 2014-11-12 15:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: Pawel Grochowski\n"
+"Language: Polski\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# @ restimpo
+#: 404.php:12 search.php:42
+msgid "Nothing Found"
+msgstr "Nic nie znaleziono"
+
+# @ restimpo
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Przepraszamy, ale nie znaleziono żadnych wyników spełniających kryteria "
+"wyszukiwania."
+
+# @ restimpo
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Archiwum: %s"
+
+# @ restimpo
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Archiwum: %s"
+
+# @ restimpo
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Archiwum: %s"
+
+# @ restimpo
+#: archive.php:21
+msgid "Archive"
+msgstr "Archiwum"
+
+# @ restimpo
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Archiwum: %s"
+
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "O %s"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:156 functions.php:400
+msgid "Install Required Plugins"
+msgstr "Zainstaluj wymagane wtyczki"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:157 functions.php:401
+msgid "Install Plugins"
+msgstr "Zainstaluj wtyczki"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:158 functions.php:405
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalacja wtyczki: %s"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Coś poszło źle."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:170 functions.php:411
+msgid "Return to Required Plugins Installer"
+msgstr "Powrót do instalatora wymaganej wtyczki"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Powrót do Kokpitu"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Wtyczka aktywowana."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "Wtyczka została aktywowana:"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Wszystkie wtyczki zostały zainstalowane i są  aktywowane. %1$s"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Odrzuć tę informację"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Link zewnętrzny"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Prywatne repozytorium"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "Repozytorium WordPress"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Wymagane"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Zalecane"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Niezainstalowany"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Zainstalowane, ale nieaktywne"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Brak wtyczki do instalacji lub aktywacji. <a href=\"%1$s\" title=\"Return do "
+"Dashboard\">Powrót do Dashboard</a>"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Wtyczka"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Źródło"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Typ"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Status"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Instaluj"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Aktywuj"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Pakiet instalacyjny nie jest dostępny."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Pobieranie instalowanego pakietu z <span class=\"code\">%s</span>&#8230;"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Rozpakowywanie paczki&#8230;"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Instalowanie wtyczki&#8230;"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Nie zainstalowano wtyczki"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Wtyczki zainstalowane pomyślnie."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Aktywacja wtyczki nie powiodła się."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces instalacji i aktywacji rozpoczęty. Ten proces może trochę potrwać, "
+"więc proszę o cierpliwość."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s zainstalowana i aktywowana pomyślnie."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Pokaż szczegóły"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Ukryj szczegóły"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Wszystkie instalacje i aktywacje zostały zakończone"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalowanie i aktywowanie wtyczki %1$s (%2$d/%3$d)"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Instalacja rozpoczęta. Ten proces może trochę potrwać, więc proszę o "
+"cierpliwość."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Wystąpił błąd podczas instalacji %1$s: <strong>%2$s</strong>."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalacja %1$s nie powiodła się."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s zainstalowano pomyślnie."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Wszystkie instalacje zostały zakończone."
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja wtyczki %1$s (%2$d/%3$d)"
+
+# @ restimpo
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Powrót do Dashboard"
+
+# @ restimpo
+#: comments.php:16
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Komentarz (1)"
+msgstr[1] "Komentarzy (%1$s)"
+
+# @ restimpo
+#: comments.php:25
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+# @ restimpo
+#: comments.php:26
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+# @ restimpo
+#: comments.php:32
+msgid "Comments are closed."
+msgstr "Komentarze są zamknięte."
+
+# @ restimpo
+#: comments.php:37
+msgid "Your name"
+msgstr "Twoje imię"
+
+# @ restimpo
+#: comments.php:38
+msgid "Website"
+msgstr "strona"
+
+# @ restimpo
+#: comments.php:39
+msgid "Comment..."
+msgstr "Komentarz ..."
+
+# @ restimpo
+#: comments.php:43
+msgid "Leave a Comment"
+msgstr "Dodaj komentarz"
+
+# @ restimpo
+#: content-archives.php:31 functions/fe/widget-posts-grid.php:107
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "Więcej &gt;"
+
+# @ restimpo
+#: functions.php:129
+msgid "Main Header Menu"
+msgstr "Nagłowek - Menu główne"
+
+# @ restimpo
+#: functions.php:130
+msgid "Top Header Menu"
+msgstr "Górny pasek - menu"
+
+# @ restimpo
+#: functions.php:142
+msgid "Right Sidebar"
+msgstr "Prawy pasek boczny"
+
+# @ restimpo
+#: functions.php:144
+msgid "Right sidebar which appears on all posts and pages."
+msgstr ""
+"Prawy pasek boczny, który pojawia się we wszystkich postach i na stronach."
+
+# @ restimpo
+#: functions.php:151
+msgid "Footer left widget area"
+msgstr "Stopka, lewa strona widget"
+
+# @ restimpo
+#: functions.php:153
+msgid "Left column with widgets in footer."
+msgstr "Stopka, lewa kolumna z widgetami."
+
+# @ restimpo
+#: functions.php:160
+msgid "Footer middle widget area"
+msgstr "Stopka, środek widget"
+
+# @ restimpo
+#: functions.php:162
+msgid "Middle column with widgets in footer."
+msgstr "Stopka, środkowa kolumna z widgetami."
+
+# @ restimpo
+#: functions.php:169
+msgid "Footer right widget area"
+msgstr "Stopka, prawa strona widget"
+
+# @ restimpo
+#: functions.php:171
+msgid "Right column with widgets in footer."
+msgstr "Stopka, prawa kolumna z widgetami."
+
+# @ restimpo
+#: functions.php:178
+msgid "Footer notices"
+msgstr "Stopka, pole notatek"
+
+# @ restimpo
+#: functions.php:180
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"Linia do praw autorskich i innych informacji, poniżej obszarów widgetów "
+"stopki. Wstaw tutaj jeden widget tekstu. Pole \"Tytuł\" w tym widgecie "
+"powinno zostać puste."
+
+#: functions.php:187
+msgid "Latest Posts Homepage widget area"
+msgstr "Ostatnie posty, Homepage"
+
+# @ restimpo
+#: functions.php:189
+msgid ""
+"The area for any RestImpo Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"Obszar dla wszelkich RestImpo Posts widgetu, który wyświetla najnowsze "
+"wiadomości z określonej kategorii poniżej domyślnego obszaru Ostatnich "
+"postów."
+
+# @ restimpo
+#: functions.php:236
+msgid "Post navigation"
+msgstr "Temat nawigacji"
+
+#: functions.php:238
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starsze posty"
+
+#: functions.php:239
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nowsze posty <span class=\"meta-nav\">&rarr;</span>"
+
+# @ restimpo
+#: functions.php:253
+msgid "&larr; Previous post"
+msgstr "&larr; Poprzedni post"
+
+# @ restimpo
+#: functions.php:254
+msgid "Next post &rarr;"
+msgstr "Następny post &rarr;"
+
+# @ restimpo
+#: functions.php:271
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ restimpo
+#: functions.php:271
+msgid "(Edit)"
+msgstr "(Eytuj)"
+
+# @ restimpo
+#: functions.php:284
+msgid "(Post author)"
+msgstr "(Post autora)"
+
+# @ restimpo
+#: functions.php:290
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s - %2$s"
+
+# @ restimpo
+#: functions.php:296
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz czeka na akceptację."
+
+# @ restimpo
+#: functions.php:302
+msgid "Reply"
+msgstr "Odpowiedź"
+
+# @ restimpo
+#: functions.php:304
+msgid "Edit"
+msgstr "Edycja"
+
+# @ restimpo
+#: functions.php:402
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s wtyczka jest wymagana do tego tematu. Kliknij na poniższy duży "
+"niebieski przycisk aby ją zainstalować i aktywować %1$s."
+
+# @ restimpo
+#: functions.php:403
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"%1$s jest zainstalowana, ale nieaktywna. Przejdź do zakładki <a href=\"%2$s"
+"\">Wtyczki</a>, aby ją aktywować."
+
+# @ restimpo
+#: functions.php:404
+#, php-format
+msgid "Install %s Now"
+msgstr "Zainstaluj teraz %s"
+
+# @ restimpo
+#: functions.php:406
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczki."
+
+# @ restimpo
+#: functions.php:407
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Temat ten wymaga %1$s wtyczki. <a href=\"%2$s\"><strong> Kliknij tutaj, aby "
+"rozpocząć proces instalacji </ strong></a>. Możesz zostać poproszony o "
+"poświadczenie FTP w oparciu o konfiguracji serwera."
+
+# @ restimpo
+#: functions.php:408
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Przepraszamy, ale nie masz odpowiednich uprawnień, aby zainstalować wtyczkę "
+"%s. Skontaktuj się z administratorem strony aby to zrobić."
+
+# @ restimpo
+#: functions.php:409
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Temat ten wymaga wtyczki %1$s. Wtyczka jest aktualnie nieaktywna, proszę iść "
+"do <a href=\"%2$s\">strony administracji wtyczki</a>, aby go uaktywnić."
+
+# @ restimpo
+#: functions.php:410
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Przepraszamy, ale nie masz odpowiednich uprawnień, aby aktywować %s wtyczkę. "
+"Aby ją aktywować skontaktuj się z administratorem strony."
+
+# @ restimpo
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+# @ restimpo
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Liczba wyników:</strong>: "
+
+# @ restimpo
+#: search.php:31
+msgid "Search results navigation"
+msgstr "Wyniki wyszukiwania nawigacji"
+
+#: search.php:33
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Poprzedni"
+
+#: search.php:34
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Następny <span class=\"meta-nav\">&rarr;</span>"
+
+# @ restimpo
+#: search.php:49
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Przepraszamy, ale nie znaleziono żadnych wyników spełniających kryteria "
+"wyszukiwania. Spróbuj ponownie używając innych słów kluczowych."
+
+# @ restimpo
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Szukaj..."
+
+# @ restimpo
+#: single.php:26
+msgid "Pages:"
+msgstr "Strony:"
+
+# @ restimpo
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Archiwum: %s"
+
+# @ restimpo
+#: functions/be/fw-options.php:1276
+msgid "settings reset."
+msgstr "przywróć ustawienia."
+
+# @ restimpo
+#: functions/be/fw-setup.php:16
+msgid "Theme Options"
+msgstr "Opcje motywu"
+
+# @ restimpo
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "Nie znaleziono podanego adresu lokalizacji."
+
+# @ restimpo
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "Nieprawidłowe żądanie. Czy podałeś adres?"
+
+# @ restimpo
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"Coś poszło nie tak podczas pobierania mapy, należy upewnić się, że "
+"prawidłowo wpisano krótki kod."
+
+# @ restimpo
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "Nie można połączyć się z serwisem Google API."
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "Facebook Like Box."
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:14
+msgid "RestImpo Facebook Like Box Widget"
+msgstr "RestImpo Facebook Like Box Widget"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-info-box.php:74
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "Tytuł:"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "Adres URL strony na Facebook:"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Wstaw tutaj pełny adres URL swojej strony na Facebook, (przykład: http://www."
+"facebook.com/FacebookDevelopers)."
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "Wysokość boksu Like (opcjonalnie)"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"Wstaw tutaj wysokość boksu Like. Wartość w pikselach, w polu należy wpisać "
+"TYLKO CYFRY (bez symbolu \"px\")!"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "Pokaż profile:"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr "Określ, czy wyświetlać zdjęcia ludzi, którzy lubią stronę."
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "Pokaż strumień wiadomości:"
+
+# @ restimpo
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr "Określ, czy wyświetlać strumień najnowszych wiadomości przez stronę."
+
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "Wyświetl pole z tekstem a link."
+
+# @ restimpo
+#: functions/fe/widget-info-box.php:14
+msgid "RestImpo Info-Box"
+msgstr "RestImpo Info-Box"
+
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "Ikonę:"
+
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "Koszyk"
+
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "Książka"
+
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "Kalendarz"
+
+# @ restimpo
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "Komentarze"
+
+#: functions/fe/widget-info-box.php:55
+msgid "Computer"
+msgstr "Komputer"
+
+#: functions/fe/widget-info-box.php:56
+msgid "Download"
+msgstr "Pobierz"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Envelope"
+msgstr "Koperta"
+
+#: functions/fe/widget-info-box.php:58
+msgid "Gift"
+msgstr "Prezent"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Hand"
+msgstr "Ręka"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Heart"
+msgstr "Serce"
+
+#: functions/fe/widget-info-box.php:61
+msgid "Music"
+msgstr "Muzyka"
+
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "Gwiazda"
+
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "Tick"
+
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "Użytkownik"
+
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "brak"
+
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed in the header of the box."
+msgstr "Wybierz ikonę."
+
+#: functions/fe/widget-info-box.php:81
+msgid "Text:"
+msgstr "Tekst:"
+
+# @ restimpo
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "Powiązanie:"
+
+#: functions/fe/widget-info-box.php:92
+msgid ""
+"Insert here the full URL which will be displayed as a button (optional)."
+msgstr "Wstaw tutaj pełny adres URL przycisku (fakultatywny)."
+
+#: functions/fe/widget-info-box.php:124
+msgid "READ MORE"
+msgstr "Więcej"
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr "Najnowsze domyślne posty z wybranej kategorii."
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:14
+msgid "RestImpo Posts-Default"
+msgstr "RestImpo Posts-Default"
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "Kategoria:"
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "Wybierz kategorię postu."
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "Liczba postów:"
+
+# @ restimpo
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"Wstaw tutaj liczbę najnowszych wiadomości z wybranej kategorii, które mają "
+"być wyświetlane."
+
+# @ restimpo
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr "Najnowsze posty z wybranej kategorii jako tabela."
+
+# @ restimpo
+#: functions/fe/widget-posts-grid.php:14
+msgid "RestImpo Posts-Grid"
+msgstr "RestImpo Posts-Grid"
+
+# @ restimpo
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"Najnowsze posty z wybranej kategorii jako nieuporządkowana lista z "
+"podświetlonym pierwszym postem."
+
+# @ restimpo
+#: functions/fe/widget-posts-list.php:14
+msgid "RestImpo Posts-List"
+msgstr "RestImpo Posts-List"
+
+# @ restimpo
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr "Najnowsze posty z wybranej kategorii jako suwak."
+
+# @ restimpo
+#: functions/fe/widget-posts-slider.php:14
+msgid "RestImpo Posts-Slider"
+msgstr "RestImpo Posts-Slider"
+
+# @ restimpo
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr "Najnowsze posty z wybranej kategorii jako miniatury."
+
+# @ restimpo
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "RestImpo Posts-Thumbnail"
+msgstr "RestImpo Posts-Thumbnail"
+
+# @ restimpo
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by RestImpo"
+msgstr "Social widget RestImpo"
+
+# @ restimpo
+#: functions/fe/widget-social.php:14
+msgid "RestImpo Social Widget"
+msgstr "RestImpo Social Widget"
+
+# @ restimpo
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Wprowadź pełny adres URL swojego profilu na Twitterze."
+
+# @ restimpo
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Wprowadź pełny adres URL profilu, strony lub grupy na Facebook."
+
+# @ restimpo
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr "Wprowadź adres URL RSS. Możesz podać swój RSS z FeedBurner."
+
+# @ restimpo
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Wprowadź pełny adres URL swojego profilu Google Plus"
+
+# @ restimpo
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "YouTube:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Wprowadź pełny adres URL swojego profilu na YouTube."
+
+# @ restimpo
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Wprowadź pełny adres URL swojego profilu na LinkedIn."
+
+# @ restimpo
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Wprowadź pełny adres URL swojego profilu Delicious."
+
+# @ restimpo
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Wprowadź pełny adres URL swojego profilu na Pinterest."
+
+# @ restimpo
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+# @ restimpo
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Wprowadź pełny adres URL swojego profilu na Flickr."
+
+# @ restimpo
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by RestImpo"
+msgstr "RestImpo Twitter widget."
+
+# @ restimpo
+#: functions/fe/widget-twitter.php:15
+msgid "RestImpo Twitter Widget"
+msgstr "RestImpo Twitter Widget"
+
+# @ restimpo
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "Dołącz do nas na Twitterze"
+
+# @ restimpo
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "Nazwa użytkownika na Twitter:"
+
+# @ restimpo
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: restimpo)."
+msgstr "Wprowadź swoją nazwę użytkownika na Twitter. (przykład: restimpo)."
+
+# @ restimpo
+#: template-logged-in.php:27
+msgid "You must be logged in to view this page."
+msgstr "Musisz być zalogowany, aby zobaczyć tę stronę."
+
+# @ restimpo
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Następny"
+
+# @ restimpo
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "Następny &rarr;"
+
+# @ restimpo
+msgid ""
+"Display popular posts, recent posts, comments and tags in tabbed format."
+msgstr ""
+"Wyświetl popularne posty, ostatnie posty, komentarze i tagi w formacie "
+"zakładkami."
+
+# @ restimpo
+msgid "Select Tabs"
+msgstr "Wybierz zakładki"
+
+# @ restimpo
+msgid "Popular Tab"
+msgstr "Popularne zakładki"
+
+# @ restimpo
+msgid "Recent Tab"
+msgstr "Najnowsze zakładki"
+
+# @ restimpo
+msgid "Comments Tab"
+msgstr "Zakładki komentarzy"
+
+# @ restimpo
+msgid "Tags Tab"
+msgstr "Zakładka tagów"
+
+# @ restimpo
+msgid "Tab Order"
+msgstr "Kolejność zakładek"
+
+# @ restimpo
+msgid "Popular"
+msgstr "Popularne"
+
+# @ restimpo
+msgid "Recent"
+msgstr "Najnowsze"
+
+# @ restimpo
+msgid "Tags"
+msgstr "Tagi"
+
+# @ restimpo
+msgid "Advanced Options"
+msgstr "Opcje zaawansowane"
+
+# @ restimpo
+msgid "Allow pagination"
+msgstr "Umożliwiają podział na strony"
+
+# @ restimpo
+msgid "Number of posts to show:"
+msgstr "Liczba postów do pokazania:"
+
+# @ restimpo
+msgid "Show post thumbnails"
+msgstr "Pokaż miniatury postów"
+
+# @ restimpo
+msgid "Show post date"
+msgstr "Pokaż datę postu"
+
+# @ restimpo
+msgid "Show number of comments"
+msgstr "Pokaż liczbę komentarzy"
+
+# @ restimpo
+msgid "Show post excerpt"
+msgstr "Pokaż wiadomość - fragment"
+
+# @ restimpo
+msgid "Excerpt length (words):"
+msgstr "Długość fragmentu (słowa):"
+
+# @ restimpo
+msgid "Number of comments on Comments Tab:"
+msgstr "Ilość komentarzy w zakładce Komentarze:"
+
+# @ restimpo
+msgid "Show avatars on Comments Tab"
+msgstr "Pokaż awatary na zakładce Komentarze"
+
+# @ restimpo
+msgid "No Comment"
+msgstr "Brak komentarzy"
+
+# @ restimpo
+msgid "One Comment"
+msgstr "Jeden komentarz"
+
+# @ restimpo
+msgid "No comments yet."
+msgstr "Brak komentarzy."
+
+# @ restimpo
+msgid "No tags created."
+msgstr "Brak tagów."
+
+# @ restimpo
+#: functions.php:197
+msgid "Homepage slideshow"
+msgstr "Pokaz slajdów strona główna"
+
+# @ restimpo
+#: functions.php:199
+msgid ""
+"The area for Cyclone Slider Widget which displays a slideshow on your "
+"homepage."
+msgstr ""
+"Obszar dla Cyclone Slider Widget, który wyświetla pokaz slajdów na stronie "
+"głównej."

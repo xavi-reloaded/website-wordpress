@@ -92,6 +92,7 @@ class Illdy_Widget_Service extends WP_Widget {
 		);
 		$instance = wp_parse_args( $instance, $defaults );
 
+
 		$output = '<div class="service" data-service-color="' . esc_attr( $instance['color'] ) . '">';
 			$output .= '<div class="service-icon">';
 				  $output .= '<i class="fa ' . esc_attr( $instance['icon'] ) . '"></i>';
@@ -103,6 +104,7 @@ class Illdy_Widget_Service extends WP_Widget {
 				$output .= wp_kses_post( $instance['entry'] );
 			$output .= '</div><!--/.service-entry-->';
 		$output .= '</div><!--/.service-->';
+
 
 		echo $output;
 
