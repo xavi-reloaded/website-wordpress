@@ -204,7 +204,10 @@ class Illdy_Companion_Import_Data {
 
     public static function import_widgets() {
 
-        $json = '{"footer-sidebar-1":{"text-5":{"title":"PRODUCTS","text":"<ul><li><a href=\"#\" title=\"Our work\">Our work<\/a><\/li><li><a href=\"#\" title=\"Club\">Club<\/a><\/li><li><a href=\"#\" title=\"News\">News<\/a><\/li><li><a href=\"#\" title=\"Announcement\">Announcement<\/a><\/li><\/ul>","filter":false}},"footer-sidebar-2":{"text-6":{"title":"INFORMATION","text":"<ul><li><a href=\"#\" title=\"Pricing\">Pricing<\/a><\/li><li><a href=\"#\" title=\"Terms\">Terms<\/a><\/li><li><a href=\"#\" title=\"Affiliates\">Affiliates<\/a><\/li><li><a href=\"#\" title=\"Blog\">Blog<\/a><\/li><\/ul>","filter":false}},"footer-sidebar-3":{"text-7":{"title":"SUPPORT","text":"<ul><li><a href=\"#\" title=\"Documentation\">Documentation<\/a><\/li><li><a href=\"#\" title=\"FAQs\">FAQs<\/a><\/li><li><a href=\"#\" title=\"Forums\">Forums<\/a><\/li><li><a href=\"#\" title=\"Contact\">Contact<\/a><\/li><\/ul>","filter":false}},
+        $json = '
+{"footer-sidebar-1":{"text-5":{"title":"PRODUCTOS","text":"<ul><li><a href=\"#\" title=\"Our work\">Wallet<\/a><\/li><li><a href=\"#\" title=\"Club\">Exchange \/ Cambio<\/a><\/li><li><a href=\"#\" title=\"News\">Secure Deal<\/a><\/li><li><a href=\"#\" title=\"Announcement\">ECommerce<\/a><\/li><\/ul>","filter":false}},
+"footer-sidebar-2":{"text-6":{"title":"INFORMATION","text":"<ul><li><a href=\"#\" title=\"Pricing\">Precios<\/a><\/li><li><a href=\"#\" title=\"Terms\">Nota Legal<\/a><\/li><li><a href=\"#\" title=\"Affiliates\">Afiliados<\/a><\/li><li><a href=\"#\" title=\"Blog\">Blog<\/a><\/li><\/ul>","filter":false}},
+"footer-sidebar-3":{"text-7":{"title":"SOPORTE","text":"<ul><li><a href=\"#\" title=\"Documentation\">Documentación<\/a><\/li><li><a href=\"#\" title=\"FAQs\">FAQs<\/a><\/li><li><a href=\"#\" title=\"Forums\">Forums<\/a><\/li><li><a href=\"#\" title=\"Contact\">Contacto<\/a><\/li><\/ul>","filter":false}},
 "front-page-about-sidebar":{
 "illdy_skill-2":{"title":"Banking","percentage":60,"icon":"fa fa-bitcoin","color":"#f18b6d"},
 "illdy_skill-3":{"title":"Real State","percentage":82,"icon":"fa fa-bitcoin","color":"#f1d204"},
