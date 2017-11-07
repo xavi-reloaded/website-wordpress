@@ -1,0 +1,11 @@
+/*
+Theme Name: FlipMag Child
+Theme URI: http://octocreation.com/
+Description: A child theme of FlipMag
+Author: OctoCreation
+Author URI: http://octocreation.com/
+Template: flipmag
+Version: 1.1.0
+*/
+
+@import url("../flipmag/style.css");

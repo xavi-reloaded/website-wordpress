@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>FlipMag Wordpress Theme By OctoCreation</title>
+<link rel="shortcut icon" href="img/favicon.png" />
+<link rel="alternate" type="application/rss+xml" title="" href="">
+<link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet"
+        type="text/css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/prettify.css">
+</head>
+<body>
+<div class="wrapper">
+<nav>
+ 
+    <div class="pull-left">
+    	<h1><a href="javascript:"><img src="img/logo.png" alt="OctoCreation" /></a></h1>
+    </div>
+    
+    <div class="pull-right">
+    	<a href="http://demo.octocreation.com/flipmag/documentation/documentation.zip" target="_blank" class="btn btn-download"><img src="img/download.png" width="25" alt="Download Flipmag Documentation" /> Download Now</a>
+    </div>
+
+</nav>
+<header>
+  <div class="container">
+    <h2 class="lone-header">FlipMag Wordpress Theme Documentation </h2>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <ul class="docs-nav">
+      <li><a href="#welcome" class="cc-active">Welcome</a></li>
+      <li><a href="#installation" class="cc-active">Installation</a></li>
+      <li><a href="#recommended" class="cc-active">Recommended Plugins</a></li>
+      <li><a href="#categories" class="cc-active">Setup Categories</a></li>
+      <li><a href="#adding-posts" class="cc-active">Adding Posts</a></li>
+      <li><a href="#creating-pages" class="cc-active">Creating Pages</a></li>
+      <li><a href="#homepage-setup" class="cc-active">Homepage Setup</a></li>      
+      <li><a href="#setup-navigation" class="cc-active">Setup Navigation</a></li>
+      <li><a href="#header-setup" class="cc-active">Header & Logo Setup</a></li>
+      <li><a href="#widgets" class="cc-active">Sidebars and Widgets</a></li>
+      <li><a href="#footer-setup" class="cc-active">Footer Setup</a></li>
+      <li><a href="#style-typography" class="cc-active">Color/Style & Typography</a></li>
+      <li><a href="#blocks" class="cc-active">Blocks</a></li>
+      <li><a href="#modules" class="cc-active">Modules</a></li>
+      <li><a href="#other-settings" class="cc-active">Other Settings</a></li>
+      <li><a href="#woocommerce" class="cc-active">WooCommerce Setup</a></li>
+      <li><a href="#bbpress" class="cc-active">bbPress Setup</a></li>
+      <li><a href="#internalization" class="cc-active">Translation & Internalization</a></li>
+      <li><a href="#customizations" class="cc-active">Advanced Customizations</a></li>
+      <li><a href="#shortcodes" class="cc-active">Shortcodes</a></li>
+      <li><a href="#credits" class="cc-active">Copyright & Credits</a></li>
+      
+      
+    </ul>
+    <div class="docs-content">
+      <h1 class="title" id="welcome">Welcome to FlipMag!</h1>
+      <h2 class="title">Thanks for Buying</h2>
+      <p>First of all, thank you for buying this theme. To make your experience pleasant, 
+          we've added as much info as needed in this documentation.</p>
+      <ul>
+            <li>Created By: OctoCreation</li>
+            <li>Support Site: <a href="http://octocreation.com/">OctoCreation Forums</a></li>
+            <li>Twitter Updates: <a href="http://twitter.com/Octo_Creation">@Octo_Creation</a></li>
+            <li>Version: 1.1.0</li>
+      </ul>
+
+  
+      <!--
+      //
+      // Installation
+      //
+      --> 
+      <h3 class="title" id="installation"> Installation</h3>
+      <p>There are two methods to install the theme. If the normal installation method (a) 
+          is not supported by your web host, you will have to use the alternate option (b).</p>
+      <h3>a. Normal Installation</h3>
+      <ol>
+            <li>Login to WordPress Admin and browse to <strong>Appearance &gt; Themes.</strong></li>
+            <li>Click on the <strong>Add New Theme</strong> (or "Install Themes" tab for older versions) and click <strong>Upload</strong>.</li>
+            <li>Browse your computer to select "flipmag.zip" (it's in the zip file you downloaded from ThemeForest). Click <strong>"Install Now"</strong> button.</li>
+            <li>Once it's uploaded, click the <strong>Activate</strong> link.</li>
+        </ol>
+      
+        <h3>b. FTP Installation (alternate method)</h3>
+
+        <ol>
+        <li>Use your FTP software to browse to <em>wp-content/themes</em> folder.</li>
+        <li>Extract <strong>flipmag.zip</strong> and upload the <strong>flipmag</strong> folder.</li>
+        <li>Once it's uploaded, go to your WordPress Admin, browse to <strong>Appearance > Themes.</strong></li>
+        <li>Click the <strong>Activate</strong> link.</li>
+        </ol>
+
+
+        <p><span class="label label-warning">Important</span> After activation, you will be presented with several plugins that you <strong>have to activate</strong>. Do not 
+        forget to activate them all or not all of the theme features will be available.</p>
+
+        <p><span class="label label-info">Note</span> If you have existing content and featured images, you will have to install 
+            <a href="http://wordpress.org/plugins/regenerate-thumbnails/"><strong>Regenerate Thumbnails</strong></a> plugin and run it from <strong>Tools &gt; Regen. Thumbnails</strong>.</p>
+      
+        <h3>Sample Content Import (optional)</h3>
+	
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/8dGJy-GSmms" frameborder="0" allowfullscreen></iframe>
+        
+        <p>We highly recommend <strong>against</strong> using this method in production. Please only use on a an extra copy for testing or experimenting. This method 
+        most likely will <storng>fail</storng> on shared web hosts. Uncheck "import attachments" option if it fails and try again.</p>
+
+        <p><span class="label label-warning">Warning</span> Please <strong>do not</strong> import content on a WordPress installation that already has a lot of content. Or the very least, make a backup first. A catastrophic mess can be created.</p>
+
+        <h4>a. Method (recommended)</h4>
+        <p>Using the new method, you can get sample content that's pretty close to the demo site. It will generate random images that are under public domain license (creative commons zero).</p>
+
+        <ol>
+                <li>Enable all Octo plugins as recommended by the Theme.</li>
+                <li>Optional: Install WooCommerce and bbPress if you wish to use them.</li>
+                <li>Optional: Delete all your existing widgets from Appearance > Widgets from the "Main Sidebar".</li>
+                <li>Go to <strong>FlipMag Settings &gt; Sample Import</strong> and click <strong>Import Sample Data.</strong> You might have to wait up to 5 minutes!</li>
+                <li>That's it.</li>
+        </ol>
+
+        <p><span class="label label-info">Tip</span> If it fails, you will have to request your webhost to increase your PHP max_execution_time (or any other webserver timeout to at least 300 secs) and memory_limit (to at least 196M) temporarily.</p>
+
+        <h4>b. Old Method (not recommended)</h4>
+        <p>This will require performing more steps and it will require extra work to make it look like demo.</p>
+
+        <ol>
+                <li>Log into Admin and go to <strong>Tools &gt; Import &gt; WordPress</strong>.</li>
+                <li>Install the WordPress importer.</li>
+                <li>Select the flipmag-sample.xml (located in the main zip file in Sample Data folder) and upload it.</li>
+                <li>On the next screen, under Assign Authors, select or enter a new username for each author.</li>
+                <li><strong>Do NOT</strong> check "Download and import file attachments". It will just download placeholder images that you have to change anyways.</li>
+                <li>Please be patience as it will take quite some time. Do not interrupt it.</li>
+                <li>(optional) Once it's done, go to <strong>Appearance &gt; Menus &gt; Manage Locations</strong>. Select "Main Menu" next to "Main Navigation".</li>
+                <li>(optional) Go to <strong>Edit Menus</strong> on the same page, select "Main Menu (Main Navigation)" from menus to edit and click Select. Click to expand <strong>Features</strong> and select <strong>Mega Menu for Links</strong> under Mega Menu. You may do the same for categories like Entertainment but selecting "Category Mega Menu" instead.</li>
+                <li>(optional) Setup your homepage to "Main Homepage" by following the <a href="#homepage-setup">Homepage Setup</a> section.</li>
+                <li>All Done.</li>
+        </ol>
+
+      <!--
+      //
+      // Recommended Plugins
+      //
+      --> 
+      <h3 class="title" id="recommended"> Recommended Plugins</h3> 
+
+      <p>For Flipmag we using some plugin for our theme make very easy and handle anyone with plugin.</p>
+
+      <p>We recommended that plugin</p>
+
+      <ol>
+            <li><a target="_blank" href="https://wordpress.org/plugins/siteorigin-panels/">Page Builder by SiteOrigin</a></li>
+            <li><a target="_blank" href="https://wordpress.org/plugins/so-widgets-bundle/">SiteOrigin Widgets Bundle</a></li>
+            <li><a target="_blank" href="http://octocreation.com/">Octo Shortcodes</a></li>
+            <li><a target="_blank" href="https://wordpress.org/plugins/custom-sidebars/">Custom Sidebars</a></li>
+            <li><a target="_blank" href="https://wordpress.org/plugins/wp-retina-2x/">WP Retina 2x</a></li>
+            <li><a target="_blank" href="https://wordpress.org/plugins/contact-form-7/">Contact Form 7</a></li>
+      </ol>
+
+      <h4> TGM Plugin Activation Class ( Developer Guide )</h4> 
+      <p>The <a href="https://github.com/thomasgriffin/TGM-Plugin-Activation">TGM Plugin Activation class</a> allows you to package plugins for installation with your WordPress theme, including directly from the <span class="skimlinks-unlinked">WordPress.org</span> plugin repository. <em>Envato WordPress Evangelist</em>, has recorded a great little video explaining how to use it.</p>
+
+      <iframe width="100%" height="350" src="https://www.youtube.com/embed/_qIMUt4tHu0" frameborder="0" allowfullscreen></iframe>
+
+      <p>If you didn't catch the link already, you can download the class from <a href="https://github.com/thomasgriffin/TGM-Plugin-Activation">Thomas Griffin's GitHub</a> page and start playing around with this yourself.</p>
+
+      <!--
+      //
+      // Setup Categories
+      //
+      
+      -->
+        <h3 class="title" id="categories"> Setup Categories</h3>
+        				
+                <p>We prefer and recommend categories over tags, but if you wish to use tags, you can enable them from flipmag settings panel.</p>
+                <p>Setting up categories for this theme is no different than ordinary category setup in WordPress, however, we provide some additional layout settings.</p>
+
+                <p>Go to <strong>Posts &gt; Categories</strong> and fill in the info required. To choose the correct layout, refer to the <a href="http://demo.octocreation.com/flipmag/default">Demo</a>.</p>
+
+                <p><img src="img/shots/category-options.png" alt="Category Options" class="img-polaroid" /></p>
+
+                <h4 id="category-listing-style">Category Listing Style</h4>
+
+                <p>There are 20 Block and 14 options to choose from: (click to view demo for more information on each style)</p>
+
+                <ol>
+                    <li><a href="#block-1">Block 1</a></li>
+                    <li><a href="#block-2">Block 2</a></li>
+                    <li><a href="#block-3">Block 3</a></li>
+                    <li><a href="#block-4">Block 4</a></li>
+                    <li><a href="#block-5">Block 5</a></li>
+                    <li><a href="#block-6">Block 6</a></li>
+                    <li><a href="#block-7">Block 7</a></li>
+                    <li><a href="#block-8">Block 8</a></li>
+                    <li><a href="#block-9">Block 9</a></li>
+                    <li><a href="#block-10">Block 10</a></li>
+                    <li><a href="#block-11">Block 11</a></li>
+                    <li><a href="#block-12">Block 12</a></li>
+                    <li><a href="#block-13">Block 13</a></li>
+                    <li><a href="#block-14">Block 14</a></li>
+                    <li><a href="#block-15">Block 15</a></li>
+                    <li><a href="#block-16">Block 16</a></li>
+                    <li><a href="#block-17">Block 17</a></li>
+                    <li><a href="#block-18">Block 18</a></li>
+                    <li><a href="#block-19">Block 19</a></li>
+                    <li><a href="#block-20">Block 20</a></li>
+                        
+                </ol>
+
+
+
+                <h4>Show Sidebar?</h4>
+                        <p>This option allows you to set whether you would like to show the sidebar in the category listing or not.</p>
+
+                        <p><span class="label label-info">Note</span> It does not affect the <em>"single post"</em> view in the category. You can modify whether to show sidebar for a 
+                        post or not for each post.</p> 
+
+                <h4>Featured Slider?</h4>
+                        <p>FlipMag supports featured sliders for categories. There are two options here:</p>
+
+                        <ol>
+                                <li>Show Posts Marked for Featured Slider: This will show posts that have "Featured Slider Post?" checked.</li>
+                                <li>Show Latest Posts: Show most recent posts in slider, ignoring "Featured Slider Post?" setting.</li>
+                        </ol>
+
+                <h4>Posts Per Page <small>&mdash; Optional</small></h4>
+                        <p>By default posts per page setting from <strong>Settings &gt; Reading</strong> is used. This option can be used to override that.</p>
+
+                <h4 id="pagination-type">Pagination Type</h4>
+                        <ul>
+                                <li><strong>Default</strong> uses the settings from <strong>FlipMag Settings > Listing Layouts > Pagination Type On Archives</strong>.</li> 
+                                <li><strong>Normal</strong> will set it to typical pagination with page numbers.</li>
+                                <li><strong>Ajax</strong> will set it to typical pagination with page numbers display blocks without refreshing page.</li>
+                                <li><strong>Infinite Scroll</strong> will automatically load more posts as user scrolls. No pagination will be shown.</li>
+                        </ul>
+                
+                <h4>Animation</h4>
+                <p>When block post is load with different animation style.</p>
+                
+                <h4>Disable Date</h4>
+                <p>Enable/Disable Post date in block.</p>
+                
+                <h4>Date Format</h4>
+                <p>Choose date format as you want from given option.</p>
+                
+                <h4>Date Link</h4>
+                <p>Change archive link from year, month or post date.</p>
+                
+                <h4>Disable Category</h4>
+                <p>Show/Hide Category on block posts.</p>
+                
+                <h4>Disable Comment</h4>
+                <p>Show/Hide Number of Comments on block posts.</p>
+                
+                <h4>Disable Author</h4>
+                <p>Enable/Disable Post author in block.</p>
+                
+                <h4>Disable Excerpt</h4>
+                <p>Enable/Disable Post excerpt in block.</p>
+                
+                <h4>Excerpt Length</h4>
+                <p>Enter number of length of excerpt but excerpt is enable.</p>
+                
+                <h4>Disable Read More</h4>
+                <p>Show/Hide Read More on block posts.</p>
+                
+      <!--
+      //
+      // Adding Posts
+      //
+      -->
+        <h3 class="title" id="adding-posts"> Adding Posts</h3>
+        
+        <p>While the theme can function without featured images, it's highly recommended that you add a featured image to each post. This not only makes your site/blog 
+            more lively but also improves user experience.</p>
+
+        <p>To set the featured image, use the WordPress normal method.</p>
+
+        <p><img src="img/shots/set-featured.jpg" class="img-polaroid" /></p>
+
+        <p><span class="label label-warning">Important</span> If you have existing content and featured images, you will have to install <a href="http://wordpress.org/plugins/regenerate-thumbnails/"><strong>Regenerate Thumbnails</strong></a> plugin and run it from <strong>Tools &gt; Regen. Thumbnails</strong>. Skipping this will make your existing images look out of proportions or stretched.</p>
+
+        <h4>Recommended Image Size</h4>
+
+                <p>Image size (dimensions) will depend on what type of layout you're using throughout your WordPress installation or per individual post basis. This image will not only be used on the post, but also on the category listing pages. </p>
+
+                <ul>					
+                        <li>Compatible with all layouts and default slider: <strong>1078x516 minimum</strong> (width x height).</li>
+                        <li>If you don't use <strong>Full Width</strong> layout: <strong>702x336 minimum</strong>.</li>
+                        <li>For posts that will only appears in homepage blocks and listings (no slider, no full-width): <strong>351x185 minimum</strong>.</li>
+                </ul>
+
+                <p><span class="label label-info">Note</span> FlipMag uses WordPress's standard cropping and resizing method.</p> 
+
+                <p><span class="label label-info">About Retina</span> We recommended using images of double height and width to have even your content images appear sharp on high-res devices like iPad. Read more below.</p> 
+
+        <h4 id="about-retina">About Retina Images</h4>
+
+        <p>Retina images are used for hi-definition / hight DPI screens such as iPad, Macbook Retina and so on. For these devices, you need to upload images twice the recommended dimensions above.</p>
+
+        <p>FlipMag, when activated, informs you to install a few plugins and one of them is <strong>WP Retina 2x</strong>. Assuming you had existing images that are large enough, you can convert them to retina images from Media &gt; Retina, after activating the plugin.</p>
+
+<h3>Supported Post Formats</h3>
+
+        <p><img src="img/shots/post-formats.jpg" class="img-polaroid" /></p>
+
+        <h4>Video Format</h4>
+
+                <p>Setup your post normally and set a featured image. Copy the embed code of the video from YouTube, Vimeo or any other site that gives you video embed codes.
+                Paste the code in the <strong>"Featured Video Code"</strong> box.
+                </p>
+
+                <p><img src="img/shots/featured-video.jpg" class="img-polaroid" /></p>
+
+                <p><span class="label label-info">Note</span> Videos will be resized to fit the container so you can choose a larger embed format if the video site allows you to 
+                specify size/dimensions. </p> 
+
+
+        <h4 id="gallery-format">Gallery Format</h4>
+
+                <p>FlipMag will automatically convert the <strong>first gallery</strong> inserted into a post to a gallery slider - granted "gallery" post format is checked. To use the gallery post format, same as every other post, set a featured image first.</p>
+
+                <ol>
+                        <li>Click <strong>Add Media</strong> button.</li>
+                        <li>Click <strong>Create Gallery</strong>. Upload images or select from Media Library. Click <strong>Create a new gallery</strong>.</li>
+                        <li>Click "Insert gallery".</li>
+                        <li> (optional) If you wish to show thumbnails or create a static/non-slider gallery, set image captions and click <strong>Insert Gallery</strong>. 
+                                Change post format to <strong>Standard</strong>.</li>		
+                </ol>
+
+                <p><span class="label label-info">Note</span> To create a tiled mosaic gallery, <strong>Slim Jetpacks</strong> plugin is required.</p>
+
+        <h4>Audio Format</h4>
+                <p>WordPress supports embedding into posts by default. An audio player will be inserted into the post.</p>
+
+                <ol>
+                        <li>Click <strong>Add Media</strong> button.</li>
+                        <li>Select your audio file. Once uploaded, make sure embed option is selected.</li>
+                        <li>Insert and Publish.</li>
+                </ol>
+
+
+        <h4>Image Format</h4>
+
+                <p>Image format works very similar to a standard post. Just set a featured image of a recommend size and you're done.</p>
+
+
+<h3 id="post-options">Post Settings &amp; Options</h3>
+
+        <p>You will see the following post options when adding a post.</p>
+
+        <p><img src="img/shots/post-options.jpg" alt="Post Options"  class="img-polaroid" /></p>
+
+        <ul>
+                <li><strong>Featured Post?</strong> - Check this to feature this post in the homepage/category sliders.</li>
+                <li><strong>Layout Style</strong>: You have the option of a layout with a sidebar on right or a full-width layout for this post.</li>
+                <li><strong>Featured Video Code</strong>: As shown in the Video Format above, it's for setting a featured video for the post.</li>
+                <li><strong>Custom Background Image</strong>: Available when your layout is set to <strong>Boxed</strong> in Theme Settings. This allows you to change the background image of your site for only this post.</li>
+        </ul>
+        
+        <h3 id="content-slideshow">Multi-page Content Slideshow</h3>
+
+        <p>One of the unique features is a multi-page content slideshow. It's basically <code>&lt;!--nextpage--&gt;</code> feature of WordPress with enhanced functionality.</p>
+        <p>If you are new to WordPress nextpage feature, the only thing to know is that you can place a <code>&lt;!--nextpage--&gt;</code> in <strong>Text</strong> editor anywhere to split to content into multiple pages - <a href="http://en.support.wordpress.com/splitting-content/nextpage/">More info here</a>.</p>
+
+        <p>Once you have created a multi-page post normally, you will have to enable the slideshow feature. Follow the steps below:</p>
+
+        <ol>
+                <li>Edit your post and look for <strong>Post Options</strong>.</li>
+                <li>Next to <strong>Multi-page Content Slideshow?</strong> select either "AJAX - No Refresh" or "Multi-page" option (explanation below).</li>
+                <li>Save your post. That's all. Your slidehow will be split based on <code>&lt;!--nextpage--&gt;</code>.</li>
+        </ol>
+
+        <p><span class="label label-info">Note</span> It's recommended to check "Disable Featured?" for posts of this type.</p>
+
+        <h4>AJAX or Multi-Page?</h4>
+
+        <p>There are two options available. AJAX option prevents a page refresh so the content will be loaded via AJAX. This may be good or bad depending on your personal usage.</p>
+
+        <p>A site looking for more advertising views will want to use the Multi-page option to register more views. Whereas, a dynamic website wishing to make things faster for users will want to use the AJAX option.</p>
+
+
+
+
+<h3>Shortcodes</h3>
+
+        <p>Most of the shortcodes you will need are added to the GUI Shortcode Generator. Click the "Shortcodes" button while adding a post to see a list of 
+        generator-based shortcodes. There are a few layout related shortcodes that will not be listed there.</p>
+
+        <p>For more info, refer to the <a href="#shortcodes">Shortcodes</a>	section of the docs.</p>
+        
+      <!--
+      //
+      // Creating Pages
+      //
+      -->
+        <h3 class="title" id="creating-pages"> Creating Pages</h3>
+        
+        <p>Creating pages is a simple process. However, the available templates and special layout based shortcodes might need a bit of explanation.</p>
+
+        <h3 id="page-builder">The Page Builder</h3>
+
+        <p><img src="img/shots/page-builder.jpg" alt="Page Builder" class="img-polaroid" /></p>
+
+        <p>Using the page builder is recommended to create homepages. But you can use it to setup any page you like using the combination of widgets 
+            available. What's more, you can even use shortcodes within the text widget within the page builder. The only limit is your creativity!</p>
+
+        <p>To use the page builder:</p>
+
+        <ol>
+                <li>Considering you're at new page screen (Pages &gt; Add New), click <strong>Page Builder</strong> next to Visual and Text tab, above the post editor.</li>
+
+                <li>Click the <strong>+</strong> button to add new widgets. There are two types of widgets, the normal widgets and special <strong>block</strong> widgets. You can drag and drop multiple normal widgets into a row or column but the same cannot be done for block widgets.</li>
+
+                <li>Click on three lines button next to <strong>+</strong> button to add a row. You can create multi-column or single column row.</li>
+
+                <li>Under <strong>Page Attributes</strong>, select <strong>Homepage &amp; Blocks</strong> as  Template.</li>
+
+                <li>Play around with the widgets. Don't forget to enter a page title. Preview and Publish.</li>
+        </ol>
+
+<h3>About Shortcodes <small>&mdash; Advanced &amp; Optional</small></h3>
+
+        <p>You can either use the pagebuilder or use advanced shortcodes for everything. Not only that, you may also use shortcodes within the pagebuilder widgets such as Text or Rich Text widget.</p>
+
+        <p>For more info, refer to the <a href="#shortcodes">Shortcodes</a>	section of the docs.</p>
+
+<h3>Page Templates</h3>
+
+        <p><img src="img/shots/page-templates.jpg" alt="Page Templates" class="img-polaroid" /></p>
+
+        <ol>
+                <li><strong>Default</strong>: The default page has a container.</li>
+
+                <li><strong>Homepage &amp; Blocks</strong>: This is a bare-bone template. Use it with page builder or when using advanced shortcodes to create the homepage.</li>
+
+                <li><strong>Authors List</strong>: Use this template to create a list of blog authors.</li>
+
+                <li><strong>Sitemap</strong>: This is a special template only to be used to create a Sitemap page as shown in the demo.</li>
+        </ol>
+
+<h3 id="setting-a-slider">Setting The Slider</h3>
+
+        <p><img src="img/shots/page-options.jpg" alt="Page Options" class="img-polaroid" /></p>
+
+        <p>When creating or editing a page (for example, your Homepage), under the editor in <strong>Page Options</strong>, next to <strong>Show Featured Slider?</strong>, 
+        select the type of slider you wish to use.</p>
+
+        <p>Both the options are self-explanatory, the first uses posts you manually marked as "Featured Slider Post?" , whereas the second option shows the most recent posts automatically.</p>
+
+        <p>Flipmag provide 7 style of slider setting in page and category options. there are demo example link given below :</p>
+        
+        <ol>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-1" target="_blank">Feature 1</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-2" target="_blank">Feature 2</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-3" target="_blank">Feature 3</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-4" target="_blank">Feature 4</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-5" target="_blank">Feature 5</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-6" target="_blank">Feature 6</a></li>
+            <li><a href="http://demo.octocreation.com/flipmag/default/feature-7" target="_blank">Feature 7</a></li>
+        </ol>
+
+<h3>Custom Sidebars</h3>
+
+<p>Details in <a href="#custom-sidebars">Sidebars &amp; Widgets</a> section.</p>
+
+<h3>Other Pages, Instructions and Samples</h3>
+
+        <h4>Contact Page</h4>
+
+                <p>Setting up a contact page requires that you install the "Contact Form 7" (go to Appearance &gt; Install Plugins if you have not already installed it).</p>
+
+                <p>First create a contact form:</p>
+
+                <ol>
+                        <li>Go to <strong>Contact</strong> and edit the default contact form (Contact Form 1).</li>
+                        <li><p>Replace form content with this:</p>
+                        <pre class="prettyprint">
+            &lt;p&gt;[text* your-name placeholder &quot;Your Name&quot;] &lt;/p&gt;
+
+            &lt;p&gt;[email* your-email placeholder &quot;Your Email&quot;] &lt;/p&gt;
+
+            &lt;p&gt;[text your-subject placeholder &quot;Subject&quot;]&lt;/p&gt;
+
+            &lt;p&gt;[textarea your-message placeholder &quot;Your Message&quot;] &lt;/p&gt;
+
+            &lt;p&gt;[submit class:submit-button &quot;Send Message&quot;]&lt;/p&gt;
+                                                                            </pre></li>								
+            <li>Edit the "Mail" settings to suit your needs and <strong>Save</strong></li>
+            <li>For more information, refer to <a href="http://contactform7.com/faq/">Contact Form 7's FAQ</a> and <a href="http://contactform7.com/docs/">Docs</a>.</li>
+            </ol>
+
+            <p>Once you have created your form:</p>
+
+            <ol>
+            <li>Go to <strong>Contact</strong> again. Copy the code under <strong>Shortcode</strong> column.</li>
+            <li>Go to <strong>Pages &gt; Add New</strong>. Add your page content and paste the shortcode where you would like your contact form to appear.</li>
+            </ol> 
+
+            <p><strong>Adding Google Maps to Contact Page</strong></p>
+
+            <p>To add Google Maps:</p>
+            <ol>
+            <li>Go to <a href="https://maps.google.com">Google Maps</a>.</li>
+            <li>Find the desired location and in the left pane, click Link icon (it's to the right side of "My places" button, next to print icon).</li>
+            <li>Click customize and preview embedded map. Set settings as desired and the copy the HTML code.</li>
+            <li>Edit your page and go to <strong>Text</strong> editor (next to Visual). Paste your code and Publish.</li>							
+            </ol>
+
+            <h4>Authors List</h4>
+
+            <p>To create a page with the list of authors, simply create a normal page and use <strong>Authors List</strong> as Page Template.</p>
+
+      <!--
+      //
+      // Homepage Setup
+      //
+      -->
+        <h3 class="title" id="homepage-setup"> Homepage Setup</h3>
+        <p>There are many different widgets/blocks that can be used to construct your homepage (or any page). To create a page, please refer to 
+        <a href="#creating-pages">Creating Pages</a> section of the docs.</p>
+
+        <h3>Setting Up Homepage</h3>
+
+                <p>Once you have created a page that you would like to use as your homepage, follow these steps:</p>
+
+                <ol>
+                        <li>Go to <strong>Settings > Reading</strong>.</li>
+                        <li>Choose <strong>"A static page"</strong> option for <em>Front page displays</em>.</li>
+                        <li>Next to <em>Front Page</em>, select the page you created to be used as the homepage.</li>
+                        <li>Save Changes.</li>
+                </ol>
+
+        <h3 id="page-modules">Pagebuilder Blocks For Homepage</h3>
+
+        <p>While you can use all the page builder blocks widgets for homepage, there are few blocks that are very 
+                suitable for homepage. We have used a combination of these in our demo.</p>
+
+
+        <h4>Modules</h4>
+        <ol>
+            <li><a href="#module-1">Module 1</a></li>
+            <li><a href="#module-2">Module 2</a></li>
+            <li><a href="#module-3">Module 3</a></li>
+            <li><a href="#module-4">Module 4</a></li>
+            <li><a href="#module-5">Module 5</a></li>
+            <li><a href="#module-6">Module 6</a></li>
+            <li><a href="#module-7">Module 7</a></li>
+        </ol>
+        
+        <h4>Block</h4>
+        <ol>
+            <li><a href="#block-1">Block 1</a></li>
+            <li><a href="#block-2">Block 2</a></li>
+            <li><a href="#block-3">Block 3</a></li>
+            <li><a href="#block-4">Block 4</a></li>
+            <li><a href="#block-5">Block 5</a></li>
+            <li><a href="#block-6">Block 6</a></li>
+            <li><a href="#block-7">Block 7</a></li>
+            <li><a href="#block-8">Block 8</a></li>
+            <li><a href="#block-9">Block 9</a></li>
+            <li><a href="#block-10">Block 10</a></li>
+            <li><a href="#block-11">Block 11</a></li>
+            <li><a href="#block-12">Block 12</a></li>
+            <li><a href="#block-13">Block 13</a></li>
+            <li><a href="#block-14">Block 14</a></li>
+            <li><a href="#block-15">Block 15</a></li>
+            <li><a href="#block-16">Block 16</a></li>
+            <li><a href="#block-17">Block 17</a></li>
+            <li><a href="#block-18">Block 18</a></li>
+            <li><a href="#block-19">Block 19</a></li>
+            <li><a href="#block-20">Block 20</a></li>
+
+        </ol>
+        
+        
+      <!--
+      //
+      // Setup Navigation & Menus
+      //
+      -->
+        <h3 class="title" id="setup-navigation"> Setup Navigation & Menus</h3>
+        <p>If you have imported demo content, follow (a) else follow (b) to create a new menu.</p>
+					
+        <h3>(a) Existing Menu</h3>
+                <ol>
+                        <li>Go to to <strong>Appearance &gt; Menus</strong>. </li>
+                        <li>In the "Manage Locations" area, under <strong>Main Navigation</strong>, select <strong>Main Menu</strong>. Click Save.</li>
+                </ol>
+
+        <h3 id="creating-new-menu">(b) Creating a New Menu</h3>
+
+                <ol>
+                        <li>Go to to <strong>Appearance &gt; Menus</strong>. </li>
+                        <li>Click on the <strong>+</strong> button or the <strong>create a new menu</strong> link. Enter a menu name and click <strong>Create Menu</strong>.</li>
+                        <li>Using the <strong>Custom Links</strong> and <strong>Pages</strong> boxes at the left, add items to the menu and drag/drop to arrange them.</li>
+                        <li>(optional) If you would like to use this menu in navigation, in the "Manage Locations" area, under <strong>Main Navigation</strong>, select your newly 
+                                created menu. Click Save.</li>
+                        <li>Click <strong>Save Menu</strong> and that is all.</li>
+                </ol>
+
+        <h3 id="mega-menus">Mega Menus</h3>
+
+                <p>There are two types of mega menus that FlipMag is equipped with.</p>
+
+                <h4>Links Mega Menu</h4>
+
+                <p>The first one is used to create an organized multi-column list of links. We call it the "Links Mega Menu".</p>
+
+                <p><img src="img/shots/mega-menu-links.jpg" class="img-polaroid" /></p>
+
+                <h4>Category Mega Menu</h4>
+
+                <p>The category mega menu is a 2 column mega menu that shows sub-categories in first column, the latest featured post in the 2 column.</p>
+
+                <p><img src="img/shots/mega-menu-cat.jpg" class="img-polaroid" /></p>
+
+                <h4>Add Mega Menu</h4>
+
+                <p>To add mega menu to your menu item:</p>
+
+                <ol>
+                        <li>Go to to <strong>Appearance &gt; Menus</strong> and select your menu.</li>
+                        <li>Expand the item you wish to add mega menu to by clicking the arrow icon.</li>
+                        <li>Under <strong>Mega Menu</strong>, select <strong>Mega Menu for Links</strong> or <strong>Category Mega Menu</strong>.</li>
+                        <li>Save Menu. Next configure sub-items (below).</li>
+                </ol>
+
+                <h4>Configure Mega Menu Items</h4>
+
+                <p>To make mega-menus work, you have one additional step of adding sub-items.</p>
+
+                <p>For <strong>Category Mega Menu</strong>, add a few sub-categories as sub-items (drag/drop them under a parent category in menu). Example:</p>
+
+                <p><img src="img/shots/mega-menu-cat-setup.jpg" class="img-polaroid" /></p>
+
+                <p><strong>Links Mega Menu</strong> is configured by adding Custom Links to be used as headings. You can use 4 of these headings. Then, a 3rd-level sub-items are added which are displayed as links, under each heading. Example:</p>
+
+                <p><img src="img/shots/mega-menu-links-setup.jpg" class="img-polaroid" /></p>
+
+
+        <h3 id="breadcrumbs">Navigation Breadcrumbs</h3>
+
+        <p>FlipMag has breadcrumbs enabled by default on all pages but the homepage (they would be redundant on homepage). The navigation breadcrumbs not only aid in navigation but also are immensely valuable for Search Engine Optimization (SEO).</p>
+
+        <p>The default breadcrumbs have <a href="https://support.google.com/webmasters/answer/99170?hl=en">Rich Snippets</a> built-in so more SEO is undesirable. If you use a SEO plugin like "WordPress SEO by Yoast", please do not enable the breadcrumb functionality of the plugin.</p>
+
+        <p>However, if you wish to disable the breadcrumbs: (NOT RECOMMENDED)</p>
+
+        <ol>
+
+                <li>Go to <strong>Appearance > Theme Settings</strong>.</li>
+                <li>Under <strong>Header</strong>, click on the button under <strong>Disable Breadcrumbs</strong>.</li>
+                <li>Save Settings.</li>
+
+        </ol>
+
+        <h3>Sticky Navigation</h3>
+
+        <p>FlipMag has an option that can make your navigation menu stick to top of the browser when your users
+         scroll. This ensures that your navigation menu is always accessible to the user, no matter how scrolled  into the page.</p>
+
+        <p>To enable sticky navigation:</p>
+
+        <ol>
+
+                <li>Go to <strong>Appearance > FlipMag Settings</strong>.</li>
+                <li>Under <strong>Header</strong>, click on the button under <strong>Sticky Navigation</strong>.</li>
+                <li>Save Settings.</li>
+
+        </ol>
+        
+      <!--
+      //
+      // Header Setup
+      //
+      -->
+        <h3 class="title" id="header-setup"> Header Setup</h3>
+        
+        <h3>Custom Logo</h3>
+						
+                <p>By default, your site title will be used as a text-based logo. However, you can also use an image-based logo.</p>
+
+                <h4>Text-based Logo</h4>
+
+                        <ol>
+                                <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>.</li>
+                                <li>Under <strong>Logo Text</strong>, Enter Website Site Name.</li>
+                                <li>Save Changes.</li>
+                        </ol>
+
+                <h4>Using an Image-based Logo</h4>
+
+                        <p>To be retina friendly (look high quality on devices like iPad), you will have to create two images of your logo. One the normal size and the second exactly double the height and width.</p>
+
+                        <ol>
+                                <li>Go to <strong>Appearances &gt; FlipMag Settings</strong>. </li>
+                                <li>Under <strong>Logo Image</strong>, click <strong>Upload</strong> button.</li>
+                                <li>Upload your second logo (2x size) under <strong>Logo Image Retina (2x)</strong>.</li>
+                                <li>Click <strong>Save Settings</strong>.</li>
+                        </ol>
+
+        <h3 id="top-bar">Ticker Bar</h3>
+
+                <p>Ticker Bar is the area Below the header. It's enabled by default and has a News Ticker showing latest posts to the left, FlipMag Setting to Social Networks Section adding social icons to the right.</p>
+
+                <h4>Disabling Ticker Bar</h4>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>.</li>
+                        <li>Under <strong>Disable Ticker Bar</strong>, click the button.</li>
+                        <li>Save Changes.</li>
+                </ol>
+
+                <h4>Adding Social Icons</h4>
+
+                <p>You will use the social shortcode in a widget to add your social icons.</p>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>.</li>
+                        <li>Under <strong>Social Networks </strong> Section, Paste URL of your different social account.</li>                        
+                        <li>Save.</li>
+                </ol>
+        
+      <!--
+      //
+      // Sidebars and Widgets
+      //
+      -->
+        <h3 class="title" id="widgets"> Sidebars and Widgets</h3>
+        <p>FlipMag comes equipped with several custom widgets but also styles many of the default widgets in several locations.</p>
+	<p>If you are unable to see these custom widgets, please activate the <strong>SiteOrigin Widgets Bundle</strong> plugin.</p>
+					
+        <h3 id="custom-widgets">Custom Widgets</h3>
+
+                <dl class="dl-horizontal">
+                        <dt>About Website - Octo</dt>
+                                <dd>A widget to display an image/logo and a description of your site/blog. Recommended for footer.</dd>
+
+                        <dt>Recent Tweet - Octo</dt>
+                                <dd>Display a configurable number of tweets from your account with configurable sorting options. Recommended for footer.</dd>
+
+                        <dt>Social Counter - Octo</dt>
+                               <dd>Get count of your social account with configurable sorting options from this widgets.</dd>
+
+                        <dt>Blocks</dt>
+                                <dd>Add 20 Blocks for page, sidebar and footer. Information is given from <a href="#blocks">Blocks</a> section with easy configurable options </dd>
+
+                        <dt>Modules</dt>
+                                <dd>Add Module for page, sidebar and footer. Information is given from <a href="#modules">Modules</a> section with easy configurable options </dd>
+                        <dt>
+                </dl>
+
+                <h4>How to use widgets</h4>
+
+                        <ol>
+                                <li>Go to <strong>Appearance &gt; Widgets</strong>.</li>
+                                <li><strong>Main Sidebar</strong> is the main right sidebar and <strong>Footer (4 widgets columns)</strong> is the large footer. 
+                                        Expand the box at right, where you would like to place your widget, by clicking on the arrow icon next to it.</li>
+                                <li>Drag &amp; drop the widget you wish to use, in the expanded area below the box (Main Sidebar for example).</li>
+                                <li>Fill in the information necessary and click Save.</li>
+                        </ol>
+
+        <h3 id="right-sidebar">The Left/Right Sidebar</h3>
+
+                <p>FlipMag's left/right sidebar uses the <strong>Main Sidebar</strong> widget area. Any widgets you drag/drop in this widget area will be displayed in the left/right sidebar.</p>
+
+                <p>Demo uses Recent Tabs, a Text widget with latest-gallery shortcode, an Advertisement widget, and the Latest Reviews widget.</p>
+
+
+        <h3 id="custom-sidebars">Custom Sidebars</h3>
+
+                <p>FlipMag is fully compatible with all of the custom sidebars plugins available for free. Custom sidebars allow you to change the right sidebar (for example) to display different widgets on a specific category, post, or page.</p>
+
+                <p>If you wish to use custom sidebars feature, we recommend the 
+                <a href="http://wordpress.org/plugins/custom-sidebars/">Custom Sidebars</a> plugin. It's an extremely powerful and flexible free plugin. It's recommended by the Theme to be installed but if you haven't installed it yet, install it from <strong>Appearance &gt; Install Plugins</strong> (not visible if plugin already installed).</p>
+
+                <p>To use this plugin, go to <strong>Appearance &gt; Widgets</strong> and <strong>Create a new sidebar</strong>. After you have created a Custom Sidebar, you will have to to go to <strong>Appearance &gt; Widgets</strong>, click to expand "Main Sidebar", and tick "Allow this sidebar to be replaced". </p>
+
+                <p>Next, simply add/edit a post or page and you should have a <strong>Sidebars</strong> box at the right side where you can select your sidebar from a 
+                drop-down list. </p>
+
+                <h4>Using on categories, tags archives, search, and other archives</h4>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; Widgets</strong>. Click arrow to expand the sidebar you wish to use on a category.</li>
+                        <li>Click <strong>Sidebar Location</strong> link.</li>
+                        <li>Click to expand <strong>For Archives</strong>.</li>
+                        <li>For categories, click on <strong>Category Archive</strong> tab.</li>
+                        <li>For other archives like custom taxonomies, search, tag archives etc. click on <strong>Archive Types</strong>.</li>
+                        <li>Check "As Main Sidebar for selected"... and click on the input box to select your categories or archives types.</li>
+                        <li>Save Changes.</li>
+                </ol>
+
+                <h4>Older Custom Sidebars - less than v2.0</h4>
+
+                <p>If you're using older than v2 of Custom Sidebar, go to <strong>Appearance &gt; Custom Sidebars</strong>, under <strong>Replaceable Sidebars</strong> select <strong>Main Sidebar</strong> and Save.</p>						
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; Widgets</strong>. Click arrow to expand the sidebar you wish to use on a category.</li>
+                        <li>Click <strong>Where?</strong> link.</li>
+                        <li>Click to expand on <strong>As a default sidebars for archives</strong>.</li>
+                        <li>Click on <strong>Category archives</strong>. Expand your desired category by clicking on it.</li>
+                        <li>Select your sidebar from the drop-down list or click the "&lt;- Set SIDEBAR here." where SIDEBAR is your sidebar name.</li>
+                </ol>
+
+                <p>As you may have noticed, there are other boxes after step 3 such as "Tag archives", "Author archives", "Search results page". You can use these 
+                to set a custom sidebar for a tag, author page, or the search results page respectively.</p>
+        
+      <!--
+      //
+      // Footer Setup
+      //
+      -->
+        <h3 class="title" id="footer-setup"> Footer Setup</h3>
+        
+        <p>FlipMag comes with a footer that's split into two sections, the larger (upper) footer and the sub footer. upper footer are widget areas that can be modified as you wish and lower footer updated in <strong>FlipMag Setting &gt; Footer.</strong></p>
+
+        <p>Please ensure that you have already acquainted yourself with general widget setup via the sections above. This section assumes you already know how to add widgets to widget areas.</p>
+        
+        <p>By default, you're supposed to use 4 widgets in the footer. However, should you wish to go advanced, you may add a Text widget and use 
+        <a href="#shortcode-column">Columns Shortcode</a> to create as many columns as you want with your own content.</p>
+
+        <p>Recommended Widgets:</p>
+
+        <dl class="dl-horizontal">
+            <dt>About Website - Octo</dt>
+                    <dd>Write a description and use an image/logo link - you can upload an image in Media Library and copy/pate the link. Full custom code and HTML supported.</dd>
+
+            <dt>Social Counter - Octo</dt>
+                    <dd>Get count of your social account with configurable sorting options from this widgets.</dd>
+
+            <dt>Recent Tweet - Octo</dt>
+                    <dd>Display a configurable number of tweets from your account with configurable sorting options. Recommended for footer.</dd>
+        </dl>
+
+        <p>While the above is a recommended list, you are free to use many of the default widgets in the footer, like Calendar, Image widget etc. </p>
+
+        <h4>FeedBurner Subscribe <small>&mdash; In About Widget</small></h4>
+
+        <p>The subscription option shown in the Demo is simply a <a href="http://feedburner.com/">Feedburner</a> <a href="#shortcodes">Shortcode</a>. To setup, in your description box of About widget, enter the following shortcode:</p>
+
+        <pre class="prettyprint">
+[feedburner user="<strong>FEEDBURNER USERNAME</strong>" heading="Subscribe to our newsletter:" label="Email Address" button_text="SUBMIT"]
+</pre>
+
+<h3>Lower Footer</h3>
+
+        <p>Lower footer is best used for simple copyright message. For a simple copyright message, just add one line message from <strong>FlipMag Setting &gt; Footer</strong> for left side area and for right side area you can enable your social icons from same section.</p>
+
+      <!--
+      //
+      // Color, Style & Typography
+      //
+      -->
+        <h3 class="title" id="style-typography"> Color, Style & Typography</h3>
+        <p>Both the color/style and typography settings are located in <strong>FlipMag Settings</strong>.</p>
+						
+        <h3>Color &amp; Style</h3>
+
+        <h4>Using a Pre-defined Skin</h4>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>. Click <strong> General Settings</strong> tab at left.</li>
+                        <li>Select one of the pre-defined skins and click <strong>Save Settings</strong>.</li>
+                </ol>
+
+
+        <h4>Customizing the Colors &amp; Backgrounds</h4>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>. Click <strong>Style &amp; Colors</strong> tab at left.</li>
+                        <li>Usually you may wish to only change <strong>Main Color</strong>. This will effect links, background of special elements like slider and 
+                        highlights module, and other relevant areas. Leave everything default and see if you like the result.</li>
+                        <li>If the Main Color changes are not enough, customize and change colors as you please.</li>
+                        <li>Save Settings.</li>
+                </ol>
+
+                <p><span class="label label-info">Note</span> In case you mess up, you can always click <strong>Reset Colors</strong>. DO NOT click Reset All Settings as that will erase all other settings
+                        too.
+                </p>
+
+<h3>Typography</h3>
+
+        <p><img src="img/shots/typography.jpg" class="img-polaroid" alt="Typogrpahy"/></p>
+
+        <p>For typography, we use <a href="http://www.google.com/fonts/">Google Web Fonts</a>. Many of the typography elements have suggested font families or fonts.</p>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings</strong>. Click <strong>Typography</strong> tab at left.</li>
+                        <li>Select a font you like as the Main Font, Heading Font etc. and Save Settings.</li>
+                        <li>Experiment to get the best effect.</li>
+                </ol>
+
+        <h4>Other Recommended Fonts</h4>
+
+        <ul>
+                <li>Droid Sans</li>
+                <li>Lato</li>
+                <li>PT Sans</li>
+                <li>Roboto</li>
+                <li>Gudea</li>
+                <li>Merriweather Sans</li>
+                <li>Oxygen</li>
+        </ul>
+
+
+        <h4>About Character Sets <small>&mdash; Advanced</small></h4>
+
+        <p>Non-latin script based languages will not display correctly when using the default fonts. This is because, to limit size, only latin charset is included by default.</p>
+
+        <p>To get the fonts to display correctly, you will have to tick the character sets for your language. Some latin-based languages required Latin Extended.</p>
+
+        <p><span class="label label-info">Note</span> If all else fails, you can use the <strong>System Fonts</strong> show towards the end of the drop down choices.</p>
+        
+      <!--
+      //
+      // Blocks
+      //
+      -->
+        <h3 class="title" id="blocks"> Blocks</h3>
+        
+        <h3 id="block-1">Block 1</h3>
+        
+        <p><img src="img/shots/block_1.jpg" class="img-polaroid" alt="Block 1"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-1" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-2">Block 2</h3>
+        <p><img src="img/shots/block_2.jpg" class="img-polaroid" alt="Block 2"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-2" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-3">Block 3</h3>
+        <p><img src="img/shots/block_3.jpg" class="img-polaroid" alt="Block 3"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-3" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-4">Block 4</h3>
+        <p><img src="img/shots/block_4.jpg" class="img-polaroid" alt="Block 4"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-4" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-5">Block 5</h3>
+        <p><img src="img/shots/block_5.jpg" class="img-polaroid" alt="Block 5"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-5" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-6">Block 6</h3>
+        <p><img src="img/shots/block_6.jpg" class="img-polaroid" alt="Block 6"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-6" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-7">Block 7</h3>
+        <p><img src="img/shots/block_7.jpg" class="img-polaroid" alt="Block 7"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-7" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-8">Block 8</h3>
+        <p><img src="img/shots/block_8.jpg" class="img-polaroid" alt="Block 8"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-8" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-9">Block 9</h3>
+        <p><img src="img/shots/block_9.jpg" class="img-polaroid" alt="Block 9"/></p>
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-9" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-10">Block 10</h3>
+        <p><img src="img/shots/block_10.jpg" class="img-polaroid" alt="Block 10"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-10" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-11">Block 11</h3>
+        <p><img src="img/shots/block_11.jpg" class="img-polaroid" alt="Block 11"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-11" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-12">Block 12</h3>
+        <p><img src="img/shots/block_12.jpg" class="img-polaroid" alt="Block 12"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-12" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-13">Block 13</h3>
+        <p><img src="img/shots/block_13.jpg" class="img-polaroid" alt="Block 13"/></p>
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-13" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-14">Block 14</h3>
+        <p><img src="img/shots/block_14.jpg" class="img-polaroid" alt="Block 14"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-14" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-15">Block 15</h3>
+        <p><img src="img/shots/block_15.jpg" class="img-polaroid" alt="Block 15"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-15" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-16">Block 16</h3>
+        <p><img src="img/shots/block_16.jpg" class="img-polaroid" alt="Block 16"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-16" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-17">Block 17</h3>
+        <p><img src="img/shots/block_17.jpg" class="img-polaroid" alt="Block 17"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-17" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-18">Block 18</h3>
+        <p><img src="img/shots/block_18.jpg" class="img-polaroid" alt="Block 18"/></p>        
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-18" target="_blank" >See Demo</a></p>        
+        
+        <h3 id="block-19">Block 19</h3>
+        <p><img src="img/shots/block_19.jpg" class="img-polaroid" alt="Block 19"/></p>
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-19" target="_blank" >See Demo</a></p>
+        
+        <h3 id="block-20">Block 20</h3>
+        <p><img src="img/shots/block_20.jpg" class="img-polaroid" alt="Block 20"/></p>
+        <p><a href="http://demo.octocreation.com/flipmag/default/block-20" target="_blank" >See Demo</a></p>
+        
+      <!--
+      //
+      // Modules
+      //
+      -->
+        <h3 class="title" id="modules"> Modules</h3>
+        <h3 id="module-1">Module 1</h3>
+        <p><img src="img/shots/module_1.jpg" class="img-polaroid" alt="Module 1"/></p>
+        
+        <h3 id="module-2">Module 2</h3>
+        <p><img src="img/shots/module_2.jpg" class="img-polaroid" alt="Module 2"/></p>
+        
+        <h3 id="module-3">Module 3</h3>
+        <p><img src="img/shots/module_3.jpg" class="img-polaroid" alt="Module 3"/></p>
+        
+        <h3 id="module-4">Module 4</h3>
+        <p><img src="img/shots/module_4.jpg" class="img-polaroid" alt="Module 4"/></p>
+        
+        <h3 id="module-5">Module 5</h3>
+        <p><img src="img/shots/module_5.jpg" class="img-polaroid" alt="Module 5"/></p>
+        
+        <h3 id="module-6">Module 6</h3>
+        <p><img src="img/shots/module_6.jpg" class="img-polaroid" alt="Module 6"/></p>
+        
+        <h3 id="module-7">Module 7</h3>
+        <p><img src="img/shots/module_7.jpg" class="img-polaroid" alt="Module 7"/></p>
+                
+      <!--
+      //
+      // Other Settings
+      //
+      -->
+        <h3 class="title" id="other-settings"> Other Settings</h3>
+        <p>To access these settings in question, go to <strong>Appearance &gt; FlipMag Settings</strong>.
+                Each setting includes relevant information on the right side about what it does making everything very self-explanatory.
+        </p>
+
+        <h4>FavIcon and Mobile Icon</h4>
+						
+        <p>These favicons are good to have when someone bookmarks your site. Both of these settings are located in 
+                <strong>Header Settings</strong> near the bottom.</p>
+
+        <p>Use a 32x32 .ico file for your favicon and 144x144 .png file for mobile icon. Mobile icon will be used 
+        when users add your website as a shortcut on mobile devices like iPhone, iPad, Android etc.</p>   
+
+        <h4>Post Tags</h4>
+
+        <p>While we prefer categories over tags, some of our users might want to use both at the same time. To enable tags, 
+        go to <strong>Page / Post Settings</strong> and set <strong>Show Tags</strong> to Yes.</p>
+
+        <h4 id="custom-css">Custom CSS</h4>
+
+        <p>Please do not edit .css files directly. When there is a theme upgrade, you will lose any custom edits you made. Rather, 
+        we recommend that you use the built-in custom CSS setting to extend the default style.
+        This CSS will be preserved between upgrades.
+        </p> 
+
+        <p>Go to <strong>Custom CSS</strong>, enter your desired CSS and click Save Settings.</p>
+
+<h4>Settings Backup &amp; Restore</h4>
+
+        <p>Before you make any massive like in colors, you may wish to create a backup. Just click <strong>Download Backup</strong> to
+        get a backup. You can later restore it using the Restore/Import feature. </p>
+      <!--
+      //
+      // WooCommerce & Setup
+      //
+      -->
+        <h3 class="title" id="woocommerce"> WooCommerce & Setup</h3>
+        <p>FlipMag can be used with WooCommerce 2.1+ to setup an eCommerce Shop with fully compatibility.</p>
+
+        <p><span class="label label-info"><strong>Note</strong></span> This section assumes you already have WooCommerce Plugin activated. If you do not yet know how to use WooCommerce, please use <a href="http://docs.woothemes.com/documentation/plugins/woocommerce/woocommerce-user-guide/getting-started/">WooCommerce's Documentation</a> to familiarize yourself.</p>
+
+        <h3>Sample Content</h3>
+
+        <p>FlipMag uses the WooCommerce's default sample content. Follow the official <a href="http://docs.woothemes.com/document/importing-woocommerce-dummy-data/">WooCommerce Dummy Data</a> guide.</p>
+
+        <p>Please note, on demo, for the Shop Sidebar example, we're using a custom sidebar with two widgets: WooCommerce Price Filter, and WooCommerce Top Rated Products.</p>
+
+        <h3>The Default Shop Pages</h3>
+
+        <p>FlipMag fully uses WooCommerce's internal pages. When WooCommerce is activated, it will create Shop, Cart, Checkout and My Account pages. These are normal WordPress pages that you can edit just like any other page.</p>
+
+        <h3>Setting Up Sidebars</h3>
+
+                <p>By default, the WooCommerce integration will have full-width layout. If you wish to enable the "Left Sidebar" or "Right Sidebar":</p>
+
+                <ol>
+                        <li>Go to <strong>Appearance &gt; FlipMag Settings &gt; WooCommerce</strong>.</li>
+                        <li>Select <strong>Left Sidebar</strong> or <strong>Right Sidebar</strong> setting under "WooCommerce Default Sidebar".</li>
+                        <li>Save Settings.</li>
+                </ol>
+
+                <h4>Setting a Custom Sidebar for your Shop</h4>
+
+                <p>To replace the right sidebar with a custom sidebar for your Shop, follow the steps below.</p>
+
+                <ol>
+                        <li>If this is your first custom sidebar, perform the steps mentioned under <a href="#custom-sidebars">Custom Sidebars</a>.</li>
+                        <li>Go to <strong>Appearance &gt; Custom Sidebars</strong>. Click <strong>Default Sidebars</strong> tab.</li>
+                        <li>To set it for single products, click to expand <strong>By post type</strong>. Click <strong>Products</strong> and select your newly created custom sidebar (from step 1) next to "Main Sidebar". You may wish to do the same for Variations, Orders, and Coupons.</li>
+                        <li>To set it for product listings, click to expand <strong>Post type archives</strong>. Like in step 3, click <strongs>Products</strongs> and select your custom sidebar. You can also repeat it for Variations, Orders and Coupons - depending on whether you're using those features.</li>
+                        <li>Click <strong>Save Changes</strong>.</li>
+                </ol>
+
+                <h4>Disabling Sidebar Selectively for Pages</h4>
+
+                <p>Sometimes you may wish to disable the sidebar for only some pages. You can disable the sidebar selectively for pages.</p>
+
+                <ol>
+                        <li>Go to <strong>Pages &gt; All Pages</strong>. Locate and edit one of the WooCommerce shop page such as Shop, Cart, Checkout or My Account.</li>
+                        <li>Edit the page normally and under <strong>Page Options</strong> box, next to <strong>Layout Style</strong>, select <strong>Full Width</strong>.</li>
+                        <li>Save your page.</li>
+                </ol>
+
+                <p><span class="label label-info"><strong>Tip</strong></span> The page named "Shop" is used for all product listings so you may change its sidebar settings to affect all product listing pages/archives.</p>
+        
+      <!--
+      //
+      // bbPress & Setup
+      //
+      -->
+        <h3 class="title" id="bbpress"> bbPress & Setup</h3>
+        
+        <p>FlipMag can be used with bbPress with fully compatibility.</p>
+
+        <p><span class="label label-info"><strong>Note</strong></span> This section assumes you already have bbPress Forum Plugin activated.</p>
+
+        <h3>Adding Categories &amp; Forums</h3>
+
+        <p>FlipMag's default bbPress layout is based on traditional forum hierarchy. You need to create categories and forums.</p>
+
+        <h4>Create categories:</h4>
+
+        <ol>
+                <li>Go to <strong>Forums &gt; New Forum</strong>.</li>
+                <li>Enter the required info and on the right side, under <strong>Forum Attributes</strong>, select <strong>Category</strong> next to "Type".</li>
+                <li>Publish.</li>
+        </ol>
+
+        <h4>Create forums:</h4>
+
+        <ol>
+                <li>Go to <strong>Forums &gt; New Forum</strong>.</li>
+                <li>Enter the required info and on the right side, under <strong>Forum Attributes</strong>, next to <strong>Parent</strong>, select the category you created in the instructions above.</li>
+                <li>Publish.</li>
+        </ol>
+
+        <h3 id="login-modal">Adding Login/Register Button to Navigation</h3>
+
+        <ol>
+                <li>Go to <strong>Appearance &gt; Menus</strong> and edit your main navigation menu.</li>
+                <li>On the right side, click on <strong>Links</strong>, enter URL as <strong>#user-login</strong> (or a link to your login page but it must include #user-login at the end). In Link Text, enter:
+
+                        <code>&lt;i class="fa fa-user"&gt;&lt;/i&gt;</code></li>
+
+                <li>Save your menu.</li>
+        </ol>
+
+        <h3>Setup Sidebar for bbpress forum page</h3>
+
+        <p>Please make sure to sure <strong>Custom sidebar is activated.</strong>.</p>
+        
+        <p>Please go to <strong>FlipMag Seeting </strong> &gt; Appearance &gt; Widgets &gt; Create new sidebar or existing sidebar( make sure you activated custom sidebar plugin ) 
+            then click on clicking on the <strong>"Sidebar Location"</strong> link of the custom sidebar and then selecting <strong>"Forum Archives"</strong> in the Archive Types  as displayed in the following screenshot.</p>
+        
+        <p><img src="img/shots/bbpress_1.jpg" alt="Bbpress Options" class="img-polaroid" /></p>
+        
+        <p>If you want to display the custom sidebar on single forum pages like following</p>
+        <p>then you can do so by selecting Forums as Post Types in the Sidebar Location pop up as shown in the following screenshot.</p>
+        
+        <p><img src="img/shots/bbpress_2.jpg" alt="Bbpress Options" class="img-polaroid" /></p>
+        
+        <p>To display custom sidebar on specific forum, you have to select the custom sidebar in the Sidebars metabox displayed in the Edit Forum screen.</p>
+        
+      <!--
+      //
+      // Translation & Internalization
+      //
+      -->
+        <h3 class="title" id="internalization"> Translation & Internalization</h3>
+        <p>FlipMag comes with .po and .pot file included under the languages folder. To translate:</p>
+						
+        <ol>
+                <li>Download and install <a href="http://www.poedit.net/">Poedit</a>.</li>
+                <li>Open flipmag.pot in Poedit. Translate as needed.</li>
+                <li>Save the file with the locale. If you have already setup WordPress in your language, you can get it from your wp-config.php file under, for example:  
+                        <code>define('WPLANG', 'en_GB');</code>. In this case, you would save your file as en_GB.po.</li>
+                <li>Step above should have generated a <strong>.po</strong> and an <strong>.mo</strong> file. Copy both these files under the languages folder of Flipmag.</li> 
+        </ol>
+
+        <h3>Your Language &amp; Localization</h3>
+                <p>After translating, you may wish to use the correct locale to translate and localize your WordPress installation completely. Refer to <a href="http://codex.wordpress.org/Installing_WordPress_in_Your_Language">Installing WordPress In Your Language</a> at WordPress Codex to learn how to.</p>
+
+        <h3>RTL Version</h3>
+                <p>For languages that read from right-to-left unlike English which is left-to-right, FlipMag will automatically switch to an RTL style, as long as you it's in your language and uses the correct locale (as explained above).</p>
+
+        <h3>Multilingual Sites</h3>
+
+        <p>For multilingual sites, the best way is to purchase the <a href="http://wpml.org/">WPML Plugin</a>. FlipMag is compatible with the plugin.</p>
+
+        <p>When using WPML, we recommend you use <strong>Display the language switcher in the WP Menu</strong> option and select <strong>Main Menu</strong>. 
+        This will display the languages drop down menu in the main navigation menu.</p>
+        
+<!--
+      //
+      // Advanced Customizations
+      //
+      -->
+        <h3 class="title" id="customizations"> Advanced Customizations</h3>
+        
+        
+        <p>If you are looking for layout customizations beyond the <a href="#style-typography">Style &amp; Typography</a> settings built into the theme, 
+        it's important to judge the nature of customization.</p> 
+
+        <p>If it's a simple layout change, it's very likely achievable by using different <a href="#shortcodes">Shortcodes</a> or 
+                <a href="#custom-css">Custom CSS</a>. However, for something not possible using either of these, a child theme is recommended.</p>
+
+        <h3>Child Theme</h3>
+
+        <p>WPBeginner has a great article on <a href="http://www.wpbeginner.com/wp-themes/how-to-create-a-wordpress-child-theme-video/" target="_blank">How to create a 
+        WordPress Child Theme</a>. Use <code>Template: flipmag</code> instead of twentyeleven.
+        </p>
+
+        <p>Also, use <code>@import url("../flipmag/style.css");</code> in the CSS file to import parent stylesheet.</p>
+
+        
+      <!--
+      //
+      // Shortcodes
+      //
+      -->
+        <h3 class="title" id="shortcodes"> Shortcodes</h3>
+        
+        <p>FlipMag supports the usage of shortcodes in <strong>Pages, Posts, Page Builder Text/Rich Text widgets, Advertisement, About, and Text widgets</strong>. Thereby, giving your maximum flexibility. Please note when creating a post or a page , most of these shortcodes are accessible via the Shortcodes button in the Visual editor.</p>
+
+    <h3>Posts Shortcodes</h3>
+
+            <p>Post shortcodes are accessible via the <strong>GUI Shortcode Generator</strong>. Simply click the <strong>Shortcodes</strong> drop-down in the editor 
+            (make sure you're on Visual editor) and select the relevant shortcode to be guided.</p>
+
+            <p>If you wish to manually use the shortcodes (advanced users only), the guide below offers some insight into each.</p>
+
+            <h4>PullQuote</h4>
+                    <pre class="prettyprint">[pullquote]quote here[/pullquote]</pre>
+
+
+            <h4>Dropcap</h4>
+
+                    <pre class="prettyprint">[dropcap]A[/dropcap]</pre>
+
+                    <p>To use the square version:</p>
+
+                    <pre class="prettyprint">[dropcap style="square"]A[/dropcap]</pre>
+
+            <h4>Buttons</h4>
+
+                    <pre class="prettyprint">[button link="http://somewhere.com" color="white, blue, black, green, red, yellow, or custom hex code" text_color="optional hex color" size="small, medium, or large"]Label[/button]</pre>
+
+
+            <h4>Tabs</h4>
+
+                    <pre class="prettyprint">[tabs]
+	[tab title="Title 1"]Content 1[/tab]
+	[tab title="Title 2"]Content 2[/tab]
+[/tabs]</pre>
+
+
+						<h4>Accordions</h4>
+						
+							<pre class="prettyprint">[accordions]
+	[accordion title="Title 1" load="show"]Content 1[/accordion]
+	[accordion title="Title 2" load="hide"]Content 2[/accordion]
+[/accordions]</pre>
+
+							<p><span class="label label-info">Tip</span> <code>load="show"</code> defines to show this accordion (expanded) by default.</p>
+							
+						<h4>Toggles</h4>
+						
+							<pre class="prettyprint">[toggle title="Title 1" load="show"]Content 1[/toggle]
+[toggle title="Title 2" load="hide"]Content 2[/toggle]
+							</pre>
+							
+							<p><span class="label label-info">Tip</span> <code>load="show"</code> defines to show this accordion (expanded) by default.</p>
+							
+						<h4>Custom List</h4>
+
+							<pre class="prettyprint">[list style="arrow, check, edit, folder, file, or heart"]
+	[li]Item 1[/li]
+	[li]Item 2[/li]
+[/list]</pre>
+							<p>Custom lists support all of the icons from <a href="http://fontawesome.io/icons/">FontAwesome</a>. Simply type it in style argument without the fa- (ex. <strong>arrows</strong> for fa-arrows).</p>
+
+							
+						<h4>Columns</h4>
+						
+							<p>Columns are a border-line layout shortcodes. While they're also often used in posts, they're covered below.</p>
+							
+							
+					<h3>Layout &amp; Block Shortcodes <small>&mdash; Advanced!</small></h3>
+					
+						<p>This section is only for advanced users. Use <a href="#page-builder">page builder</a> if you are uncomfortable with using shortcodes.</p>
+					
+						<h4>Column Shortcodes</h4>
+						
+							<p>The column shortcode is a special shortcode. Sample shortcode:</p>
+							
+							<pre class="prettyprint">[columns]
+
+	[column size="1/4"]Column 1 goes here[/column]
+	[column size="1/4"]Column 2 goes here[/column]
+	[column size="2/4"]Column 3 goes here[/column]
+
+[/columns]</pre>
+
+        <p>The <code>[column]</code> shortcode has the following variables/options:</p>
+
+        <dl class="dl-horizontal">
+                <dt>size</dt>
+                        <dd>5 columns are supported. Hence all combinations are supported up to 5 such as 1/2, 2/3, 1/4, 3/5 etc. Alternatively, English version of the numbers 
+                        is also supported, such as half, one-third, three-fourth, four-fifth etc. Example: <code>size="one-fourth"</code>.</dd>
+
+                <dt>text_align</dt>
+                        <dd>left, center, and right are valid alignment values. left is used by default. Example: <code>text_align="right"</code>.</dd>
+
+                <dt>class</dt>
+                        <dd>Any of the custom CSS classes can be defined for the column using this attribute.</dd>
+
+        </dl> 
+        
+        <h4>Separator</h4>
+							
+        <pre class="prettyprint">[separator type="space" /]</pre>
+
+        <dl class="dl-horizontal">
+                <dt>type</dt>
+                        <dd>value: space, line, half-space, half-line. The separator can be either be a large empty space, line-based, small empty space, or line-based but with lesser space.</dd>								
+        </dl> 
+        
+        <h3>Media Shortcodes</h3>
+						
+        <p>WordPress core supports embedding much of media out of the box.</p>
+
+        <h4>Galleries</h4>
+
+                <p>Galleries were already covered in <a href="#gallery-format">Gallery Post Format</a> section. For advanced usage, refer to 
+                        <a href="http://codex.wordpress.org/Gallery_Shortcode" target="_blank">Gallery Shortcode</a> section in WordPress docs.
+                </p>
+
+        <h4>Embedding Videos &amp; Audio</h4>
+                <p>To show a video from YouTube or Vimeo for example, you would just copy the link and paste it into your post content.</p>
+
+                <p><a href="http://codex.wordpress.org/Embeds">Checkout the Embeds</a> section of WordPress's docs to find the supported sites.</p>
+
+                <p>Should that fail, you can use the embed shortcode as <code>[embed]https://www.youtube.com/watch?v=IiCmEzjV3_Y[/embed]</code>.</p>
+
+
+        <h4>Self-hosted Audio &amp; Video</h4>
+
+                <p>Starting WordPress 3.6, you can self-host audio or video easily. However, not many webhosts will allow you to upload files of large size.</p>
+
+                <ol>
+                        <li>While adding a post, click <strong>Add Media</strong>. Go to <strong>Insert Media &gt; Upload Files</strong>.</li>
+                        <li>Select and upload your audio or video file. </li>
+                        <li>Make sure <strong>Embed Media Player</strong> is selected in "Embed or Link" option.</li>
+                        <li>Click <strong>Insert into post</strong>.</li>
+                </ol>
+
+                <p>For advanced usage, check out the <a href="http://codex.wordpress.org/Audio_Shortcode" target="_blank">Audio</a> and 
+                        <a href="http://codex.wordpress.org/Video_Shortcode" target="_blank">Video</a> sections of the WordPress docs.</p>
+        
+       <!--
+      //
+      // Copyright & Credits
+      //
+      -->
+        <h3 class="title" id="credits"> Copyright & Credits</h3>
+         
+        <h3>Resources Used</h3>
+        <ul>
+                <li><a href="http://fitvidsjs.com/">FitVids</a></li>
+                <li><a herf="http://botmonster.com/jquery-bootpag/">Bootpag</a></li>
+                <li><a href="https://github.com/woothemes/flexslider">FlexSlider</a></li>
+                <li><a href="http://infinite-scroll.com/">Infinite Scroll</a></li>
+                <li><a href="http://onehackoranother.com/projects/jquery/tipsy/">jQuery Tipsy</a></li>
+                <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></li>
+                <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a></li>
+                <li><a herf="http://fontawesome.io/">FontAwesome</a></li>                
+        </ul>
+       
+        
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="">
+    <p> &copy; Copyright <a href="http://octocreation.com/">OctoCreation</a>. All Rights Reserved.</p>
+  </div>
+</footer>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/prettify/prettify.js"></script> 
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+<script src="js/layout.js"></script>
+</body>
+</html>
