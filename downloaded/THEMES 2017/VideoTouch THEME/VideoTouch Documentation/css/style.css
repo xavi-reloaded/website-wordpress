@@ -1,0 +1,83 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	line-height: 1.9;
+}
+p.lead{
+	line-height: 1.6;
+}
+.chapter-title{
+	padding-top: 60px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+  background: #E74C3C;
+  padding-left: 20px;
+  color: #FFF;
+  margin-top: 40px;
+  position: relative;
+}
+.chapter-title:before{
+  content: '';
+  border-top: 4px double #fff;
+  width: 80px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  display: block;
+}
+.chapter-subtitle{
+	padding-top: 60px;
+  border-bottom: 3px double #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.spacer{
+	height: 40px;
+}
+.multi-col-menu{
+	padding: 20px;
+}
+.faq-item{
+  margin-bottom: 40px;
+}

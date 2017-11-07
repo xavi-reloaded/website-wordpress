@@ -1,0 +1,119 @@
+/*	Headings indent
+-------------------------------------------------- */
+	#pagetitle { border-top:1px solid; padding-bottom:24px; padding-top:31px; position:relative; text-align:center; z-index:1;}
+	#pagetitle .grid_12 { overflow:hidden;margin-bottom: 0;}
+	#pagetitle:after, #pagetitle:before { content:''; position:absolute; bottom:0; display:block; width:100%;}
+	#pagetitle:after { height:102px;}
+	#pagetitle:before { top:0;}
+	
+	
+	#comments,#reply-title { margin:30px 0 27px; padding:37px 0 0;}
+	
+	.blog_2 .entry-title { margin:9px 0 14px;}
+	.content-area .widget-title { margin:0 0 20px; padding-left:2px;}
+	.footer-area .widget-title { margin:0 0 24px;}
+	
+	.entry-content h1, .textwidget h1, div[itemprop~="description"] h1, .term-description h1,
+	.entry-content h2, .textwidget h2, div[itemprop~="description"] h2, .term-description h2,
+	.entry-content h3, .textwidget h3, div[itemprop~="description"] h3, .term-description h3 {
+		margin:0 0 12px;
+	}
+	.entry-content h4, .textwidget h4, div[itemprop~="description"] h4, .term-description h4,
+	.entry-content h5, .textwidget h5, div[itemprop~="description"] h5, .term-description h5,
+	.entry-content h6, .textwidget h6, div[itemprop~="description"] h6, .term-description h6 {
+		margin:0 0 14px;
+	}
+	
+	.entry-title { margin:0 0 10px;}
+	.entry-valign-title { display:table-cell; height:95px; min-height:95px; vertical-align:middle;}
+	.entry-valign-title .tags { margin-top:-5px;}
+	.entry-valign-title h1.entry-title { margin:0; padding-bottom:10px;}
+	
+	.page-title { display:inline-block; margin:0 auto; position:relative; z-index:1;}
+	
+	h1.entry-title { margin:5px 0;}
+	h1.page-title:after { right:-634px;}
+	h1.page-title:before { left:-634px;}
+	h1.page-title:before,h1.page-title:after { background:rgba(59,24,18,0.06); content:''; height:1px; position:absolute; top:31px; width:500px; z-index:1;}
+	h2.page-title { padding:0 60px;}
+
+/*	Valigmnet
+-------------------------------------------------- */
+	.posts_listing { margin-bottom:43px; padding:0 0 36px;}
+	p,pre,ul,ol,dl,dd { margin:0 0 13px;}
+
+/*	Image style
+-------------------------------------------------- */
+	#authorbox .imgborder { -ms-box-sizing:inherit; -moz-box-sizing:inherit; box-sizing:inherit;}
+	.thumb-indent, .thumb-area .thumb, .thumb-indent .attachment-square_thumbnail, .imgborder { -ms-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background:#fff; box-shadow:1px 2px 5px rgba(28,20,6,0.14); padding:8px;}
+	.lightbox { position:relative; display:block; text-align:center; line-height:.7; z-index:1;	}
+	.lightbox b {display:block; position:relative;}
+	.lightbox .imgborder { display:block; padding:8px 8px 32px;}
+	
+	a.lightbox { padding-bottom: 32px;}
+	
+	p.attachment a.lightbox { display:inline-block;}
+	
+	.lightbox-zoom {
+		position: absolute; bottom:12px; left:0; right:0;
+		display: block; 
+		z-index:99;
+		-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -webkit-transition:all .3s ease-in-out;
+	}
+	.lightbox-zoom:after { right:-10px;}
+	.lightbox-zoom:before { left:-10px;}
+	.lightbox-zoom:before,.lightbox-zoom:after { bottom:4px; content:''; display:inline-block; height:1px; position:relative; width:9px;}
+
+/*	Aligmnet
+-------------------------------------------------- */
+	.alignleft { float:left; margin-right:20px;}
+	.alignright { float:right; margin-left:20px;}
+	
+	.wp-caption.aligncenter { margin:0 auto;}
+	
+	a.alignnone, p.aligncenter a { display:inline-block; max-width:100%;}
+	
+	.wpb_text_column p .alignnone, .wpb_text_column p .alignleft, .wpb_text_column p .alignright, .aligncenter, 
+	p .alignnone, p .alignleft, p .alignright, .aligncenter { margin-bottom:13px;}
+	p.aligncenter, .wp-caption.aligncenter { text-align:center;}
+
+
+/*	TYPOGRAPHY Custom styles
+-------------------------------------------------- */
+	pre {
+		margin-bottom:15px; overflow-x:auto; padding:0 10px;
+		background: url(../images/code.png) repeat;
+		color: #3c2e25;	line-height: 21px;
+	}
+	
+	blockquote { margin:0 0 13px 23px; padding:18px 20px 5px 38px; position:relative;}
+	blockquote > blockquote { margin-bottom:0;}
+	blockquote cite { clear:both; display:block; margin-top:8px;}
+	blockquote:before { content:''; height:41px; left:-19px; position:absolute; top:15px; width:46px;}
+	
+	.ox_list_simple { list-style:none; margin:0px 0 18px; padding:0;}
+	.ox_list_simple li { padding:7px 0 5px 29px; position:relative;}
+	.ox_list_simple li:before { content:''; height:9px; left:10px; position:absolute; top:11px; width:9px;}
+	.ox_list_simple li:first-child { padding-top:0;}
+	.ox_list_simple li:first-child:before { top: 4px;}
+	
+	.ox_list_animated { list-style:none; margin:-10px 0 18px; padding:0;}
+	.ox_list_animated li { padding:7px 0 5px 29px; position:relative;}
+	.ox_list_animated li:before { content:''; height:9px; left:10px; position:absolute; top:11px; width:9px;}
+	.ox_list_animated li { -moz-transition:all .8s ease-in; -o-transition:all .8s ease-in; -webkit-transition:all .8s ease-in;}
+	.ox_list_animated li:hover { -moz-transition:all .1s ease-in; -o-transition:all .1s ease-in; -webkit-transition:all .1s ease-in;}
+	.ox_list_simple ul { margin:0;}
+	.ox_list_animated ul, .ox_list_animated ul ul, .ox_list_animated ul ul { margin: 7px 0px 0px -28px;}
+	
+	.hdark { display:inline-block; margin-top:-1px; padding:2px 6px 3px; vertical-align:middle;}
+	
+	.ox_table { margin-bottom:21px; width:100%;}
+	.ox_table tbody td { -moz-transition:all .6s ease-in-out; -o-transition:all .6s ease-in-out; -webkit-transition:all .6s ease-in-out; border-top:1px solid #d8c5b8; color:#723f32;}
+	.ox_table tbody tr:first-child td { border-top:0;}
+	.ox_table tbody tr:hover td { -moz-transition:all .1s ease-in-out; -o-transition:all .1s ease-in-out; -webkit-transition:all .1s ease-in-out; background:#fff;}
+	.ox_table tfoot { font-style:italic;}
+	.ox_table th,.ox_table td,.ox_table caption { padding:10px 15px;}
+	.ox_table thead { background:#452019;}
+	.ox_table thead th { color:#fafafa; text-align:left;}
+	
+	.wp-caption-text { margin-top:10px; text-align:center;}

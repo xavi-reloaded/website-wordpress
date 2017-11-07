@@ -1,0 +1,2409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soundboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-25 10:48+0100\n"
+"PO-Revision-Date: 2015-06-13 16:30+0100\n"
+"Last-Translator: Gerda <ggerda@hotmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "404 ERROR - Not Found"
+msgstr "404 FEHLER - Nicht gefunden"
+
+#: 404.php:12
+msgid "The page you requested does not exist."
+msgstr "Die angeforderte Seite existiert nicht."
+
+#: archive.php:16
+msgid "All posts on"
+msgstr ""
+
+#: archive.php:19 archive.php:22
+msgid "All posts in"
+msgstr ""
+
+#: archive.php:25
+msgid "Author"
+msgstr "Autor"
+
+#: archive.php:28
+msgid "Blog Archives"
+msgstr "Blog Archiev"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieser Eintrag ist Passwort geschützt. Gib das Passwort ein um Kommentare "
+"sehen zu können."
+
+#: comments.php:15
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: comments.php:15
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: comments.php:15
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: comments.php:52 includes/metaboxes/config-meta-boxes.php:121
+#: template-contact.php:82
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:57
+msgid "Email (will not be published) "
+msgstr "Email (wird nicht angezeigt)"
+
+#: footer.php:14
+msgid "All Rights Reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#: functions.php:18
+msgid "sidebar on homepage"
+msgstr "Sidebar auf der Homepage"
+
+#: functions.php:27
+msgid "sidebar on contact page. Will display below content."
+msgstr "Sidebar auf der Kontakt Seite."
+
+#: functions.php:43
+msgid "LEMONCHILI Main Menu"
+msgstr "LEMONCHILI Hauptmenü"
+
+#: includes/admin/options-framework.php:261
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/admin/options-framework.php:295
+msgid "Restore Defaults"
+msgstr "Einstellungen zurücksetzen"
+
+#: includes/admin/options-framework.php:295
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+"Bestätige mit OK um alle Einstellungen zurückzusetzen. Alle persönlichen "
+"Einstellungen gehen somit verloren."
+
+#: includes/admin/options-framework.php:299
+msgid "Save Options"
+msgstr "Speichern"
+
+#: includes/admin/options-framework.php:335
+msgid "Default options restored."
+msgstr "Die Standardeinstellungen wurden wieder hergestellt."
+
+#: includes/admin/options-framework.php:382
+msgid "Options saved."
+msgstr "Optionen wurden gespeichert."
+
+#: includes/admin/options-framework.php:430
+msgid "LemonChili Options"
+msgstr "LemonChili Optionen"
+
+#: includes/admin/options-medialibrary-uploader.php:127
+msgid "Upload"
+msgstr "Hochladen"
+
+#: includes/admin/options-medialibrary-uploader.php:150
+msgid "View File"
+msgstr "Datei ansehen"
+
+#: includes/admin/options.php:43
+msgid "light"
+msgstr "hell"
+
+#: includes/admin/options.php:43
+msgid "dark"
+msgstr "dunkel"
+
+#: includes/admin/options.php:85
+msgid "GENERAL"
+msgstr "ALLGEMEIN"
+
+#: includes/admin/options.php:89
+msgid "Configure the general setup of your theme."
+msgstr "Allgemeine Theme Einstellungen"
+
+#: includes/admin/options.php:93
+msgid "Load responsive stylesheets"
+msgstr "Lade responsive stylesheets"
+
+#: includes/admin/options.php:94
+msgid ""
+"Check this box if you would like to load responsive stylesheets for tablets "
+"and mobile phones"
+msgstr ""
+"Aktiviere dieses Kontrollkästchen, um responsive stylesheets für Tablets und "
+"Handys zu laden."
+
+#: includes/admin/options.php:101
+msgid "Custom CSS"
+msgstr "CSS code"
+
+#: includes/admin/options.php:102
+msgid ""
+"Want to add any custom CSS code? Put it in here, and the rest is taken care "
+"of. This overrides any other stylesheets."
+msgstr ""
+"Hier kannst Du CSS Code einfügen. Damit überschreibst Du den CSS code in "
+"sämtlichen sylesheets."
+
+#: includes/admin/options.php:107
+msgid "404 Error"
+msgstr "404 Fehler"
+
+#: includes/admin/options.php:108
+msgid "Add your own text to display on error pages."
+msgstr "Füge hier Text ein, welcher auf den Fehlerseiten gezeigt werden soll."
+
+#: includes/admin/options.php:113
+msgid "Google Analytics Code"
+msgstr "Google Besucherstatistik Code"
+
+#: includes/admin/options.php:114
+msgid ""
+"Enter your Google Analytics or other tracking code here. It will be inserted "
+"before the closing head tag of your theme."
+msgstr ""
+"Hier kannst Du den Google Besucherstatistik Code oder einen andern "
+"Besucherstatistik Code einfügen. Dieser wird dann automatisch vor dem "
+"abschließenden head tag eingefügt."
+
+#: includes/admin/options.php:120
+msgid "Theme Customization"
+msgstr "Theme Anpassungen"
+
+#: includes/admin/options.php:126
+msgid "Text for \"Navigation\" on mobile devices"
+msgstr "Text für \"Navigation\" auf mobilen Geräten"
+
+#: includes/admin/options.php:127
+msgid "Text to be used for the <strong>Navigation</strong> on mobile devices"
+msgstr ""
+"Text, welcher für die <strong>Navigation</strong> auf mobilen Geräten "
+"verwendet wird."
+
+#: includes/admin/options.php:132
+msgid "Make left area scrollable"
+msgstr "Scrollen für den linken Bereich aktivieren"
+
+#: includes/admin/options.php:133
+msgid ""
+"Check this box if you would like the left area (Logo, navigation, search "
+"bar, social icons) to scroll with the content"
+msgstr ""
+"Aktiviere dieses Kontrollkästchen, wenn der linke Seitenbereich (Logo, Menü, "
+"Suchfeld, social icons) nicht fixiert sondern \"mitgescrollt\" werden soll"
+
+#: includes/admin/options.php:138
+msgid "Team Page - Number of columns"
+msgstr "Team Seite - Anzahl der Spalten"
+
+#: includes/admin/options.php:144
+msgid "When event is over..."
+msgstr "Wenn das Event vorbei ist..."
+
+#: includes/admin/options.php:145
+msgid ""
+"This does not affect the events widget (past events will always be removed "
+"from the event widget)."
+msgstr ""
+"Das Event widget ist davon nicht betroffen (vergangene Termine werden immer "
+"vom Event widget entfernt)."
+
+#: includes/admin/options.php:151
+msgid "Display search bar"
+msgstr "Suchfeld einblenden"
+
+#: includes/admin/options.php:152
+msgid ""
+"Check this box if you would like to display a search bar below the "
+"navigation area"
+msgstr ""
+"Aktiviere dieses Kontrollkästchen, wenn ein Suchfeld unter dem Hauptmenü "
+"angezeigt werden soll."
+
+#: includes/admin/options.php:157
+msgid "Show author info in the news info section"
+msgstr "Zeige den Namen des Autor im News Info Bereich an"
+
+#: includes/admin/options.php:158
+msgid ""
+"Check this box if you would like to display the name of the author for each "
+"news posts"
+msgstr ""
+"Aktiviere dieses Kontrollkästchen, wenn der Name des Autor im News Eintrag "
+"angezeigt werden soll."
+
+#: includes/admin/options.php:163
+msgid "Remove Comments"
+msgstr "Entferne Kommentare"
+
+#: includes/admin/options.php:165
+msgid "Remove all comment sections from the entire website"
+msgstr "Entferne alle Kommentar-Bereiche von der gesamten Seite"
+
+#: includes/admin/options.php:169
+msgid "Copyright text"
+msgstr "Copyright Text"
+
+#: includes/admin/options.php:170
+msgid "Add your own  copyright text to display below content."
+msgstr "Copyright Text"
+
+#: includes/admin/options.php:177
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/admin/options.php:183
+msgid "Upload Logo"
+msgstr "Lade ein Logo hoch"
+
+#: includes/admin/options.php:184
+msgid "Upload your Logo. Recommended image width: 140px."
+msgstr "Lade Dein Logo hoch. Empfohlene Bildgröße: 140px breit."
+
+#: includes/admin/options.php:188
+msgid "Upload Retina Logo (Optional)"
+msgstr "Lade ein Retina Logo hoch (optional)"
+
+#: includes/admin/options.php:189
+msgid ""
+"Upload your Retina Logo. This should be your Logo in double size (If your "
+"Logo is 140 x 50px, it should be 280 x 100px)"
+msgstr ""
+"Lade ein Retina Logo hoch. Die Bildgröße sollte exakt doppelt so groß sein "
+"wie die Größe des Original logo. (Wenn Dein logo eine Größe von 140 x 50px "
+"hat, sollte das Retina Logo 280 x 100px groß sein)."
+
+#: includes/admin/options.php:193
+msgid "Original Logo Width"
+msgstr "Breite des Original Logo"
+
+#: includes/admin/options.php:194
+msgid ""
+"Enter the width of the Standard Logo you have uploaded (not the Retina "
+"Logo). If your Logo has a width of 140px, enter: 140. This is important for "
+"your Retina Logo to display properly."
+msgstr ""
+"Gib die Breite des Standard Logo ein (nicht jene des Retina Logos). Wenn "
+"Dein Standard Logo eine Breite von 140px hat, gib 140 ein. Diese Eingabe ist "
+"wichtig, damit das Retina Logo korrekt dargestellt wird."
+
+#: includes/admin/options.php:199
+msgid "Original Logo Height"
+msgstr "Höhe des Original Logo"
+
+#: includes/admin/options.php:207
+msgid "Logo for Login page"
+msgstr "Logo für die Login Seite"
+
+#: includes/admin/options.php:213
+msgid "Upload Logo for Login page"
+msgstr "Logo für die Login Seite"
+
+#: includes/admin/options.php:214
+msgid "Upload a Logo to replace the Wordpress Logo on the Login page"
+msgstr ""
+"Lade ein Logo hoch, um das Wordpress Logo auf der Login Seite zu ersetzen"
+
+#: includes/admin/options.php:218
+msgid "Login Logo Height"
+msgstr "Höhe des Login logo"
+
+#: includes/admin/options.php:225 includes/admin/options.php:231
+msgid "Favicon"
+msgstr "Favicon"
+
+#: includes/admin/options.php:232
+msgid "Upload a 16 x 16 favicon"
+msgstr "Lade ein Favicon mit den Abmessungen 16px x 16px hoch"
+
+#: includes/admin/options.php:238 includes/admin/options.php:244
+msgid "Custom Gravatar"
+msgstr "Gravatar"
+
+#: includes/admin/options.php:245
+msgid "Upload a Gravatar"
+msgstr "Lade ein Gravatar Bild hoch"
+
+#: includes/admin/options.php:255
+msgid "STYLE"
+msgstr "STYLE"
+
+#: includes/admin/options.php:259
+msgid ""
+"Choose light or dark skin, set a background image or color and add a box "
+"shadow and rounded corners."
+msgstr ""
+"Wähle zwischen hellem und dunklem Design, bestimme ein Hintergrundbild oder "
+"eine Hintergrundfarbe und füge Schatten und runde Ecken zum Design hinzu."
+
+#: includes/admin/options.php:262
+msgid "Theme Skin"
+msgstr "Design"
+
+#: includes/admin/options.php:263
+msgid "Choose light or dark skin"
+msgstr "Wähle ein helles oder dunkles Erscheinungsbild"
+
+#: includes/admin/options.php:269
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: includes/admin/options.php:270
+msgid "Upload your own custom background image."
+msgstr "Lade hier ein Hintergrundbild hoch."
+
+#: includes/admin/options.php:274
+msgid "Background Position"
+msgstr "Position des Hintergrundbildes"
+
+#: includes/admin/options.php:275
+msgid "Choose background image positioning"
+msgstr "Wähle aus, wie das Hintergrundbild positioniert werden soll"
+
+#: includes/admin/options.php:280
+msgid "Repeat Background"
+msgstr "Hintergrundbild wiederholen"
+
+#: includes/admin/options.php:281
+msgid "Stretched Background  /  Fixed Position"
+msgstr "gestrecktes Hintergrundbild / Fixiert"
+
+#: includes/admin/options.php:282
+msgid "No Repeat  /  Position: Top Center"
+msgstr "Bild nicht wiederholen / oben-mittig"
+
+#: includes/admin/options.php:286
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: includes/admin/options.php:287
+msgid "Choose a simple color instead of a background image."
+msgstr "Wähle eine Hintergrundfarbe anstatt eines Hintergrundbildes."
+
+#: includes/admin/options.php:292
+msgid "Box Shadow"
+msgstr "Box Shadow"
+
+#: includes/admin/options.php:293
+msgid "Add box shadow to Left Area, Slider and Main Content"
+msgstr ""
+"Füge einen leichen Schatten zum linken Bereich, Slideshow und Hauptbereich "
+"hinzu"
+
+#: includes/admin/options.php:298
+msgid "Rounded Corners"
+msgstr "Runde Ecken"
+
+#: includes/admin/options.php:299
+msgid "Add rounded corners to Left Area, Slider and Main Content"
+msgstr "Füge runde Kanten zum linken Bereich, Slideshow und Hauptbereich hinzu"
+
+#: includes/admin/options.php:310
+msgid "TYPOGRAPHY"
+msgstr "TYPOGRAPHIE"
+
+#: includes/admin/options.php:314
+msgid ""
+"Select your favorite font or upload one of hundreds of Google Web fonts. "
+"This applies to headings, page title, widget title, navigation, slider "
+"caption, event date, price and button text."
+msgstr ""
+"Wähle eine Schriftart oder lade eine von über 600 Google Schriftarten hoch. "
+"Angewendet wird die Schriftart für Überschriften, Seiten Titel, Widget "
+"Titel, Slider Text, Event Datum, Preis,  Buttons und das Hauptmenü."
+
+#: includes/admin/options.php:317
+msgid "Predefined Fonts"
+msgstr "Vordefinierte Schriftarten"
+
+#: includes/admin/options.php:318
+msgid ""
+"Choose a font for your headings, page title, widget title, navigation, "
+"slider caption, event date, price and button text"
+msgstr ""
+"Wähle eine Schriftart für Überschriften, Seiten Titel, Widget Titel, Slider "
+"Text, Event Datum, Preis,  Buttons und das Hauptmenü."
+
+#: includes/admin/options.php:324
+msgid "Custom Google Web Font"
+msgstr "Google Web Font"
+
+#: includes/admin/options.php:325
+msgid ""
+"Simply enter the name of the Google font here. The rest is taken care of. "
+"(Applies to headings, page title, widget title, navigation, slider caption, "
+"event date, price and button text)"
+msgstr ""
+"Gib hier ganz einfach den Namen einer Google web font ein um diese für "
+"Überschriften, Seiten Titel, Widget Titel, Slider Text, Event Datum, Preis,  "
+"Buttons und das Hauptmenü zu verwenden."
+
+#: includes/admin/options.php:330
+msgid "Font Weight"
+msgstr "Strichstärke"
+
+#: includes/admin/options.php:331
+msgid ""
+"Set font weight. Default: 800 (Applies to headings, page title, widget "
+"title, navigation, slider caption, event date, price and button text) Info: "
+"Normal = 400"
+msgstr ""
+"Gib die Strichstärke ein. Voreinstellung: 800 (Angewendet wird dies für "
+"Überschriften, Seiten Titel, Widget Titel, Slider Text, Event Datum, Preis,  "
+"Buttons und das Hauptmenü) Info:  Normal = 400"
+
+#: includes/admin/options.php:336
+msgid "Text Transform"
+msgstr "Groß- und Kleinschreibung"
+
+#: includes/admin/options.php:337
+msgid ""
+"Some Headings are UPPERCASE letters by default. However, some fonts simply "
+"don't look right with just uppercase letters. Here you can set the text "
+"transform to NONE"
+msgstr ""
+"Standardmäßig werden einige der Überschriften und der Button Text in "
+"Großbuchstaben dargestellt. Speziell bei \"Handwriting\"-Schriftarten schaut "
+"dies aber einfach nicht \"richtig\" aus, deshalb kannst du hier die "
+"automatische Großschreibung deaktivieren."
+
+#: includes/admin/options.php:343
+msgid "Letter Spacing"
+msgstr "Buchstabenabstand"
+
+#: includes/admin/options.php:344
+msgid ""
+"Letter spacing for page title and widget title is set to -1px by default. "
+"However, some fonts simply don't look right with negative letter spacing. "
+"Here you can set letter spacing to 0. If you want to set letter spacing to "
+"-1px, enter: -1"
+msgstr ""
+"Standardmäßig ist der Buchstabenabstand für die Seiten- und Widget-"
+"Überschrift um 1px verringert.  Hier kannst Du den Buchstabanabstand auf 0 "
+"setzen. Um den Buchstabenabstand auf -1px zu setzen, gib hier \"-1\" ein."
+
+#: includes/admin/options.php:353
+msgid "COLOR"
+msgstr "FARBEN"
+
+#: includes/admin/options.php:357
+msgid "Set the theme color."
+msgstr "Bestimme die Theme Farbe"
+
+#: includes/admin/options.php:361
+msgid "Predefined Theme Color"
+msgstr "Vordefinierte Theme Farben"
+
+#: includes/admin/options.php:388
+msgid "Custom Theme Color"
+msgstr "Theme Farbe"
+
+#: includes/admin/options.php:389
+msgid ""
+"If you prefer a different color than the ones above,  you can select a "
+"custom color here. This field has priority over the Predefined Theme Color."
+msgstr ""
+"Wenn Du lieber eine andere Farbe, als die obigen verwenden möchtest, kannst "
+"Du hier jede beliebige Farbe auswählen. Diese Auswahl hat Priorität über die "
+"vordefinierten Farben."
+
+#: includes/admin/options.php:394
+msgid "Navigation Menu Active/Hover Color"
+msgstr ""
+
+#: includes/admin/options.php:399
+msgid "Seondary (Hover) Color"
+msgstr "Sekundäre (Hover) Farbe"
+
+#: includes/admin/options.php:400
+msgid "Pick a secondary color."
+msgstr "Wähle eine sekundäre Farbe."
+
+#: includes/admin/options.php:406
+msgid "Copyright Text Color"
+msgstr "Copyright Text Farbe"
+
+#: includes/admin/options.php:407
+msgid "Pick a color for the copyright text below content"
+msgstr "Wähle eine Farbe für den copyright Text"
+
+#: includes/admin/options.php:417 includes/metaboxes/config-meta-boxes.php:156
+msgid "SLIDER"
+msgstr "SLIDER"
+
+#: includes/admin/options.php:421
+msgid "Set up your slider"
+msgstr "Nimm hier die Einstellungen für die Slideshow vor."
+
+#: includes/admin/options.php:425
+msgid "Show Slider on Homepage"
+msgstr "Zeige die Slideshow auf der Homepage"
+
+#: includes/admin/options.php:431
+msgid "Select a Slider"
+msgstr "Wähle eine Slidshow"
+
+#: includes/admin/options.php:432
+msgid "After you have created a slider, you can select it here."
+msgstr ""
+"Nachdem Du eine Slideshow erstellt hast hast, kannst Du sie hier auswählen."
+
+#: includes/admin/options.php:441
+msgid "SOCIAL"
+msgstr "SOCIAL"
+
+#: includes/admin/options.php:445
+msgid ""
+"Enter the info for your social network accounts to display them below the "
+"navigation or in the Top Bar."
+msgstr ""
+"Gib die URL's zu Deinen Sozialen Profilen ein, um diese unterhalb des "
+"Hauptmenü oder im oberen Bereich der Webseite anzuzeigen."
+
+#: includes/admin/options.php:449
+msgid "Social icons position"
+msgstr "Position der Social Icons"
+
+#: includes/admin/options.php:454
+msgid "in Top Bar"
+msgstr "im oberen Bereich"
+
+#: includes/admin/options.php:455
+msgid "below navigation"
+msgstr "unterhalb des Hauptmenü"
+
+#: includes/admin/options.php:460
+msgid "Enter the full URL to your Facebook profile"
+msgstr "Gib hier die vollständige URL zu Deinem Facebook Profil ein."
+
+#: includes/admin/options.php:466
+msgid "Enter the full URL to your Twitter profile"
+msgstr "Gib hier die vollständige URL zu Deinem Twitter Profil ein."
+
+#: includes/admin/options.php:472
+msgid "Enter the full URL to your Google Plus profile"
+msgstr "Gib hier die vollständige URL zu Deinem Google Plus Profil ein."
+
+#: includes/admin/options.php:478
+msgid "Enter the full URL to your FourSquare profile"
+msgstr "Gib hier die vollständige URL zu Deinem FourSquar Profil ein."
+
+#: includes/admin/options.php:484
+msgid "Enter the full URL to your Yelp page"
+msgstr "Gib hier die vollständige URL zu Deiner Yelp Seite ein."
+
+#: includes/admin/options.php:490
+msgid "Enter the full URL to your Tripadvisor page"
+msgstr "Gib hier die vollständige URL zu Deiner Tripadvisor Seite ein."
+
+#: includes/admin/options.php:496
+msgid "Enter the full URL to your YouTube page"
+msgstr "Gib hier die vollständige URL zu Deiner YouTube Seite ein."
+
+#: includes/admin/options.php:502
+msgid "Enter the full URL to your Instagram profile"
+msgstr "Gib hier die vollständige URL zu Deinem Instagram Profil ein."
+
+#: includes/admin/options.php:508
+msgid "Enter the full URL to your Pinterest profile"
+msgstr "Gib hier die vollständige URL zu Deinem Pinterest Profil ein."
+
+#: includes/admin/options.php:514
+msgid "Enter the full URL to your Flickr profile"
+msgstr "Gib hier die vollständige URL zu Deinem Flickr Profil ein."
+
+#: includes/admin/options.php:520
+msgid "Enter the full URL to your LinkedIn profile"
+msgstr "Gib hier die vollständige URL zu Deinem LinkedIn Profil ein."
+
+#: includes/admin/options.php:526
+msgid "Enter the full URL to your Skype profile"
+msgstr "Gib hier die vollständige URL zu Deinem Skype Profil ein."
+
+#: includes/admin/options.php:536
+msgid "CONTACT"
+msgstr "KONTAKT"
+
+#: includes/admin/options.php:540
+msgid ""
+"Enter the contact info for the Top Bar - and the settings for your Contact "
+"Form."
+msgstr ""
+"Gib hier die Kontaktinfo für den oberen Bereich ein und nimm die "
+"Einstellungen für das Kontaktformular vor."
+
+#: includes/admin/options.php:545
+msgid "Contact Form"
+msgstr "Kontaktform"
+
+#: includes/admin/options.php:551
+msgid "Contact Form - Email Address"
+msgstr "Kontaktform - Email Adresse"
+
+#: includes/admin/options.php:552
+msgid ""
+"Enter the email address where the email from the contact form should be sent "
+"to."
+msgstr ""
+"An welche Adresse sollen die Emails, welche mit dem Kontaktformular "
+"versendet werden, geschickt werden?"
+
+#: includes/admin/options.php:557
+msgid "Contact Form - Subject"
+msgstr "Kontaktform - Betreff"
+
+#: includes/admin/options.php:558
+msgid "Enter the subject for messages that are sent via the contact form."
+msgstr ""
+"Welchen Betreff sollen Emails haben, welche mit dem dem Kontaktformular "
+"versandt werden?"
+
+#: includes/admin/options.php:565
+msgid "Top Bar"
+msgstr ""
+
+#: includes/admin/options.php:571
+msgid "Top Bar - Phone"
+msgstr "Oberer Bereich - Telefon Nummer"
+
+#: includes/admin/options.php:572
+msgid "Enter a phone number to diplay in the Top Bar."
+msgstr "Gib hier eine Telefonnummer ein um Sie im oberen Bereich anzuzeigen."
+
+#: includes/admin/options.php:577
+msgid "Top Bar - Tap To Call"
+msgstr "Oberer Bereich - Tippe zum anzurufen"
+
+#: includes/admin/options.php:578
+msgid ""
+"If you want to enable \"Tap to Call\" for mobile phones, enter the phone "
+"number including country and area code, without any punctuation here."
+msgstr ""
+"Um \"Tap to Call\" für Mobiltelefone zu aktivieren, gib hier die "
+"Telefonnummer inklusive Vorwahl, ohne Sonder- oder Leerzeichen ein."
+
+#: includes/admin/options.php:584
+msgid "Top Bar - Address"
+msgstr "Oberer Bereich - Adresse"
+
+#: includes/admin/options.php:585
+msgid "Enter an address to diplay in the Top Bar."
+msgstr "Gib hier eine Adresse ein um sie im oberen Bereich anzuzeigen."
+
+#: includes/admin/options.php:590
+msgid "Top Bar - Link to Google Maps"
+msgstr "Oberer Bereich - Link zu Google Maps"
+
+#: includes/admin/options.php:591
+msgid ""
+"If you would like your address to link to Google maps, enter the google maps "
+"full URL here."
+msgstr ""
+"Wenn die Adresse zu Google Maps verlinkt werden soll, gib hier die Google "
+"Maps URL ein."
+
+#: includes/admin/options.php:597
+msgid "Top Bar Font Size"
+msgstr "Oberer Bereich - Textgröße"
+
+#: includes/admin/options.php:603
+msgid "Top Bar Icon Size"
+msgstr "Oberer Bereich - Icon Größe"
+
+#: includes/admin/options.php:609
+msgid "Top Bar Text and Icon Color"
+msgstr "Oberer Bereich Text und Icon Farbe"
+
+#: includes/admin/options.php:610
+msgid "Pick a color for the text and icons in the top bar."
+msgstr "Wähle eine Farbe für den Text und die Icons in der Top Bar"
+
+#: includes/functions/theme_functions.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar muss erst freigeschaltet werden."
+
+#: includes/metaboxes/config-meta-boxes.php:14
+msgid "DATE / TIME"
+msgstr "DATUM / ZEIT"
+
+#: includes/metaboxes/config-meta-boxes.php:18
+#: includes/posttypes/events.php:10
+msgid "Date"
+msgstr "Datum"
+
+#: includes/metaboxes/config-meta-boxes.php:26
+msgid "Time"
+msgstr "Zeit"
+
+#: includes/metaboxes/config-meta-boxes.php:33
+msgid "Event ends (date)"
+msgstr "Event Ende (Datum)"
+
+#: includes/metaboxes/config-meta-boxes.php:41
+msgid "Event ends (time)"
+msgstr "Event Ende (Uhrzeit)"
+
+#: includes/metaboxes/config-meta-boxes.php:48
+msgid "Recurring Event?"
+msgstr "Wiederkehrendes Event?"
+
+#: includes/metaboxes/config-meta-boxes.php:55
+msgid "link to facebook event"
+msgstr "Link zu Facebook event"
+
+#: includes/metaboxes/config-meta-boxes.php:68
+msgid "GALLERY"
+msgstr "FOTOS"
+
+#: includes/metaboxes/config-meta-boxes.php:73
+msgid "Upload your images. </br></br> Drag and drop images to reorder them."
+msgstr ""
+"Lade Fotos hoch. </br></br> Die Bilder lassen sich einfach mittels Drag & "
+"Drop neu anordnen."
+
+#: includes/metaboxes/config-meta-boxes.php:85
+msgid "MENU DETAILS"
+msgstr "MENÜ DETAILS"
+
+#: includes/metaboxes/config-meta-boxes.php:89
+msgid "Menu Item Description"
+msgstr "Menüeintrag Beschreibung"
+
+#: includes/metaboxes/config-meta-boxes.php:96
+msgid "Price"
+msgstr "Preis"
+
+#: includes/metaboxes/config-meta-boxes.php:97
+msgid "Enter the price (and optionally the currency symbol)"
+msgstr "Gib den Preis (und optional ein Währungssymbol) ein."
+
+#: includes/metaboxes/config-meta-boxes.php:103
+msgid "Cents"
+msgstr "Cents"
+
+#: includes/metaboxes/config-meta-boxes.php:104
+msgid ""
+"If you want to style the cents (smaller font size, bottom border), enter the "
+"cent amount here."
+msgstr ""
+"Wenn Du den Cent Betrag mit kleiner Schrift und Unterstrich darstellen "
+"möchstest, gib den Cent Betrag hier ein."
+
+#: includes/metaboxes/config-meta-boxes.php:117
+msgid "TEAM MEMBER INFO"
+msgstr "TEAM MITGLIED INFO"
+
+#: includes/metaboxes/config-meta-boxes.php:128
+msgid "Position"
+msgstr "Position"
+
+#: includes/metaboxes/config-meta-boxes.php:135 template-contact.php:90
+msgid "Email"
+msgstr "Email"
+
+#: includes/metaboxes/config-meta-boxes.php:142
+msgid "About"
+msgstr "Mehr Info"
+
+#: includes/metaboxes/config-meta-boxes.php:160
+msgid ""
+"<b>Recommended </br> image size:</b> </br> 700px x 340px </br></br>\n"
+"                                      Drag and drop images to reorder them. "
+"</br></br>\n"
+"                                      To enter an URL where the image should "
+"link to, click <b>Edit</b> and enter the full URL under <b>SLIDER Image "
+"Links To</b>. </br></br>\n"
+"                                      To display a caption over the slider "
+"image,click <b>Edit</b> and enter the text under <b>SLIDER Caption</b>."
+msgstr ""
+"Die Bildgöße muss 700px x 340px betragen. </br></br>\n"
+"                                        Die Bilder können mittels Drag & "
+"Drop neu angeordnet werden </br></br>\n"
+"                                       Um eine URL hinzuzufügen, zu der das "
+"Bild verlinkt werden soll, drücke <b>Edit</b> und gib die vollständige URL "
+"bei <b>SLIDER Link</b> an. </br></br>\n"
+"                                       Um eine Bildbeschriftung "
+"hinzuzufügen, drücke <b>Edit</b> und gib den Text unter <b>SLIDER Text</b> "
+"an."
+
+#: includes/metaboxes/config-meta-boxes.php:176
+msgid "MENU CATEGORY"
+msgstr "MENÜ KATEGORIE"
+
+#: includes/metaboxes/config-meta-boxes.php:180 includes/posttypes/menu.php:9
+#: includes/posttypes/menu.php:18
+msgid "Menu Category"
+msgstr "Menü Kategorie"
+
+#: includes/metaboxes/config-meta-boxes.php:208
+msgid "SLIDER Image Links To"
+msgstr "SLIDER Link"
+
+#: includes/metaboxes/config-meta-boxes.php:211
+msgid "Enter full URL. To be used with SLIDER images only."
+msgstr ""
+"Gib die vollständige URL ein. Verwende dieses Feld ausschließlich für SLIDER "
+"Bilder."
+
+#: includes/metaboxes/config-meta-boxes.php:215
+msgid "SLIDER Caption"
+msgstr "SLIDER Text"
+
+#: includes/metaboxes/config-meta-boxes.php:218
+msgid ""
+"Slider Caption. To be used with SLIDER images only. Use &#60;/br> for line "
+"breaks"
+msgstr ""
+"Slider Text. Verwende dieses Feld ausschließlich für SLIDER Bilder. Gib "
+"&#60;/br> für Zeilenumbrüche ein."
+
+#: includes/metaboxes/inc/field.php:185
+msgid "+"
+msgstr "+"
+
+#: includes/metaboxes/inc/field.php:202
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: includes/metaboxes/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr "Wähle eine Datei"
+
+#: includes/metaboxes/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr "Wähle eine Datei"
+
+#: includes/metaboxes/inc/fields/file-input.php:40
+msgid "Select"
+msgstr "Wähle"
+
+#: includes/metaboxes/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/metaboxes/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr "Fehler: Die Datei konnte nicht gelöscht werden"
+
+#: includes/metaboxes/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr "Wähle Bilder"
+
+#: includes/metaboxes/inc/fields/map.php:48
+msgid "Find Address"
+msgstr "Finde Adresse"
+
+#: includes/metaboxes/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: includes/metaboxes/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr "Vorschau"
+
+#: includes/metaboxes/inc/fields/post.php:52
+msgid "Post"
+msgstr "Position"
+
+#: includes/metaboxes/inc/fields/post.php:66
+#: includes/metaboxes/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/metaboxes/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Bitte korrigiere die hervorgehobenen Fehler und versuche nochmals."
+
+#: includes/posttypes/events.php:9
+msgid "Events"
+msgstr "Events"
+
+#: includes/posttypes/events.php:11
+msgid "Add Date"
+msgstr "Termin hinzufügen"
+
+#: includes/posttypes/events.php:12
+msgid "Add New Date"
+msgstr "Termin erstellen"
+
+#: includes/posttypes/events.php:13
+msgid "Edit Date"
+msgstr "Termin bearbeiten"
+
+#: includes/posttypes/events.php:14
+msgid "New Date"
+msgstr "Neuer Termin"
+
+#: includes/posttypes/events.php:15 includes/posttypes/gallery.php:15
+#: includes/posttypes/menu.php:48 includes/posttypes/slider.php:15
+msgid "View Details"
+msgstr "Details ansehen"
+
+#: includes/posttypes/events.php:16
+msgid "Search Events"
+msgstr "Events durchsuchen"
+
+#: includes/posttypes/events.php:17
+msgid "No Dates were found with that criteria"
+msgstr "Kein Termin gefunden."
+
+#: includes/posttypes/events.php:18
+msgid "No Date found in the Trash with that criteria"
+msgstr "Kein Datum  im Papierkorb gefunden."
+
+#: includes/posttypes/events.php:19
+msgid "View Date"
+msgstr "Termin ansehen"
+
+#: includes/posttypes/gallery.php:9
+msgid "Galleries"
+msgstr "Fotoalben"
+
+#: includes/posttypes/gallery.php:10
+msgid "Gallery"
+msgstr "Fotoalbum"
+
+#: includes/posttypes/gallery.php:11
+msgid "Add Gallery"
+msgstr "Fotoalbum hinzufügen"
+
+#: includes/posttypes/gallery.php:12
+msgid "Add New Gallery"
+msgstr "Fotoalbum erstellen"
+
+#: includes/posttypes/gallery.php:13
+msgid "Edit Gallery"
+msgstr "Fotoalbum bearbeiten"
+
+#: includes/posttypes/gallery.php:14
+msgid "New Gallery"
+msgstr "Neues Fotoalbum"
+
+#: includes/posttypes/gallery.php:16
+msgid "Search Galleries"
+msgstr "Fotoalben durchsuchen"
+
+#: includes/posttypes/gallery.php:17
+msgid "No Gallery were found with that criteria"
+msgstr "Kein Fotoalbum gefunden."
+
+#: includes/posttypes/gallery.php:18
+msgid "No Gallery found in the Trash with that criteria"
+msgstr "Kein Fotoalbum im Papierkorb gefunden."
+
+#: includes/posttypes/gallery.php:19
+msgid "View Gallery"
+msgstr "Fotoalbum ansehen"
+
+#: includes/posttypes/menu.php:8
+msgid "Menu Categories"
+msgstr "Menü Kategorien"
+
+#: includes/posttypes/menu.php:10
+msgid "Search Menu Category"
+msgstr "Menü Kategorien durchsuchen"
+
+#: includes/posttypes/menu.php:11
+msgid "All Menu Categories"
+msgstr "Alle Menü Kategorien"
+
+#: includes/posttypes/menu.php:12
+msgid "Parent Menu Category"
+msgstr "Übergeordnete Menü Kategorie"
+
+#: includes/posttypes/menu.php:13
+msgid "Parent Menu Category:"
+msgstr "Übergeordnete Menü Kategorie"
+
+#: includes/posttypes/menu.php:14
+msgid "Edit Menu Category"
+msgstr "Menü Kategorie bearbeiten"
+
+#: includes/posttypes/menu.php:15
+msgid "Update Menu Category"
+msgstr "Menü Kategorie aktualisieren"
+
+#: includes/posttypes/menu.php:16
+msgid "Add New Menu Category"
+msgstr "Neue Menü Kategorie erstellen"
+
+#: includes/posttypes/menu.php:17
+msgid "New Menu Category Name"
+msgstr "Neue Menü Kategorie"
+
+#: includes/posttypes/menu.php:42 includes/posttypes/menu.php:43
+msgid "Menu"
+msgstr "Menü"
+
+#: includes/posttypes/menu.php:44
+msgid "Add Menu item"
+msgstr "Menüeintrag erstellen"
+
+#: includes/posttypes/menu.php:45
+msgid "Add New Menu item"
+msgstr "Neuen Menüeintrag hinzufügen"
+
+#: includes/posttypes/menu.php:46
+msgid "Edit Menu item"
+msgstr "Menüeintrag bearbeiten"
+
+#: includes/posttypes/menu.php:47
+msgid "New Menu item"
+msgstr "Neuer Menüeintrag"
+
+#: includes/posttypes/menu.php:49
+msgid "Search Menu item"
+msgstr "Menüeinträge durchsuchen"
+
+#: includes/posttypes/menu.php:50
+msgid "No Menu item was found with that criteria"
+msgstr "Es wurde kein Menüeintrag mit diesen Kriterien gefunden."
+
+#: includes/posttypes/menu.php:51
+msgid "No Menu item was found in the Trash with that criteria"
+msgstr "Es wurde kein Menüeintrag mit diesen Kriterien im Papierkorb gefunden."
+
+#: includes/posttypes/menu.php:52
+msgid "View Menu item"
+msgstr "Menüeintrag ansehen"
+
+#: includes/posttypes/slider.php:9 includes/posttypes/slider.php:10
+msgid "Slider"
+msgstr "Slideshow"
+
+#: includes/posttypes/slider.php:11
+msgid "Add Slider"
+msgstr "Slideshow hinzufügen"
+
+#: includes/posttypes/slider.php:12
+msgid "Add New Slider"
+msgstr "Slideshow erstellen"
+
+#: includes/posttypes/slider.php:13
+msgid "Edit Slider"
+msgstr "Slideshow bearbeiten"
+
+#: includes/posttypes/slider.php:14
+msgid "New Slider"
+msgstr "Neue Slideshow"
+
+#: includes/posttypes/slider.php:16
+msgid "Search Slider"
+msgstr "Slideshows durchsuchen"
+
+#: includes/posttypes/slider.php:17
+msgid "No Slider was found with that criteria"
+msgstr "Keine Slideshow gefunden."
+
+#: includes/posttypes/slider.php:18
+msgid "No Slider was found in the Trash with that criteria"
+msgstr "Keine Slideshow im Papierkorb gefunden."
+
+#: includes/posttypes/slider.php:19
+msgid "View Slider"
+msgstr "Slideshow ansehen"
+
+#: includes/posttypes/team.php:9
+msgid "Team"
+msgstr "Team"
+
+#: includes/posttypes/team.php:10
+msgid "Team Member"
+msgstr "Team Mitglied"
+
+#: includes/posttypes/team.php:11
+msgid "Add Team Member"
+msgstr "Füge Team Mitglied hinzu"
+
+#: includes/posttypes/team.php:12
+msgid "Add New Team Member"
+msgstr "Neues Team Mitglied hinzufügen"
+
+#: includes/posttypes/team.php:13
+msgid "Edit Team Member"
+msgstr "Bearbeite Team Mitglied"
+
+#: includes/posttypes/team.php:14
+msgid "New Team Member"
+msgstr "Neues Team Mitglied"
+
+#: includes/posttypes/team.php:15 includes/posttypes/team.php:19
+msgid "View Team Member"
+msgstr "Team Mitglied ansehen"
+
+#: includes/posttypes/team.php:16
+msgid "Search Team"
+msgstr "Team Mitglieder durchsuchen"
+
+#: includes/posttypes/team.php:17
+msgid "No Team Member was found with that criteria"
+msgstr "Es wurde kein Team Mitglied mit diesen Kriterien gefunden."
+
+#: includes/posttypes/team.php:18
+msgid "No Team Member was found in the Trash with that criteria"
+msgstr ""
+"Es wurde kein Team Mitglied mit diesen Kriterien im Papierkorb gefunden."
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#: includes/tgm-plugin-activation/tgm-activation.php:72
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#: includes/tgm-plugin-activation/tgm-activation.php:73
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#: includes/tgm-plugin-activation/tgm-activation.php:74
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+#: includes/tgm-plugin-activation/tgm-activation.php:101
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+#: includes/tgm-plugin-activation/tgm-activation.php:102
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Aktiviere"
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Details ansehen"
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Details verbergen"
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-activation.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-activation.php:103
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/widgets/widget-events.php:22
+msgid "Display upcoming events"
+msgstr "Zeige bevorstehende Events"
+
+#: includes/widgets/widget-events.php:25
+msgid "LEMONCHILI - Events"
+msgstr "LEMONCHILI - Events"
+
+#: includes/widgets/widget-events.php:99 single-events.php:30
+#: template-events1.php:66 template-events1.php:95 template-events2.php:61
+msgid "Monday"
+msgstr "Montag"
+
+#: includes/widgets/widget-events.php:100 single-events.php:31
+#: template-events1.php:67 template-events1.php:96 template-events2.php:62
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: includes/widgets/widget-events.php:101 single-events.php:32
+#: template-events1.php:68 template-events1.php:97 template-events2.php:63
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: includes/widgets/widget-events.php:102 single-events.php:33
+#: template-events1.php:69 template-events1.php:98 template-events2.php:64
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: includes/widgets/widget-events.php:103 single-events.php:34
+#: template-events1.php:70 template-events1.php:99 template-events2.php:65
+msgid "Friday"
+msgstr "Freitag"
+
+#: includes/widgets/widget-events.php:104 single-events.php:35
+#: template-events1.php:71 template-events1.php:100 template-events2.php:66
+msgid "Saturday"
+msgstr "Samstag"
+
+#: includes/widgets/widget-events.php:105 single-events.php:36
+#: template-events1.php:72 template-events1.php:101 template-events2.php:67
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: includes/widgets/widget-events.php:111 single-events.php:42
+#: single-events.php:59 template-events2.php:73
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/widgets/widget-events.php:112 single-events.php:43
+#: single-events.php:60 template-events2.php:74
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/widgets/widget-events.php:113 single-events.php:44
+#: single-events.php:61 template-events2.php:75
+msgid "Mar"
+msgstr "Mär"
+
+#: includes/widgets/widget-events.php:114 single-events.php:45
+#: single-events.php:62 template-events2.php:76
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/widgets/widget-events.php:115 single-events.php:46
+#: single-events.php:63 template-events1.php:82 template-events1.php:111
+#: template-events2.php:77
+msgid "May"
+msgstr "Mai"
+
+#: includes/widgets/widget-events.php:116 single-events.php:47
+#: single-events.php:64 template-events2.php:78
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/widgets/widget-events.php:117 single-events.php:48
+#: single-events.php:65 template-events2.php:79
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/widgets/widget-events.php:118 single-events.php:49
+#: single-events.php:66 template-events2.php:80
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/widgets/widget-events.php:119 single-events.php:50
+#: single-events.php:67 template-events2.php:81
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/widgets/widget-events.php:120 single-events.php:51
+#: single-events.php:68 template-events2.php:82
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/widgets/widget-events.php:121 single-events.php:52
+#: single-events.php:69 template-events2.php:83
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/widgets/widget-events.php:122 single-events.php:53
+#: single-events.php:70 template-events2.php:84
+msgid "Dec"
+msgstr "Dez"
+
+#: includes/widgets/widget-events.php:146
+#: includes/widgets/widget-events.php:202 template-events2.php:104
+#: template-events2.php:158
+msgid "<span class=\"moretext\"> view details </span>"
+msgstr "<span class=\"moretext\"> Details </span>"
+
+#: includes/widgets/widget-events.php:234 template-events1.php:214
+#: template-events2.php:188
+msgid "There are no dates yet."
+msgstr "Zur Zeit gibt es keine Termine."
+
+#: includes/widgets/widget-events.php:288
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-calendar</b> "
+msgstr ""
+"Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/icons/"
+"\" target=\"_blank\">hier</a>) </br> Beispiel: <b>fa-calendar</b> "
+
+#: includes/widgets/widget-events.php:292
+#: includes/widgets/widget-featureddish.php:197
+#: includes/widgets/widget-flickr.php:105
+#: includes/widgets/widget-gallery.php:143
+#: includes/widgets/widget-images.php:135 includes/widgets/widget-news.php:171
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/widget-events.php:297
+msgid "Number of Dates:"
+msgstr "Anzahl der Termine:"
+
+#: includes/widgets/widget-featureddish.php:22
+msgid "Display a featured dish"
+msgstr "Menü Empfehlung"
+
+#: includes/widgets/widget-featureddish.php:25
+msgid "LEMONCHILI - Featured Dish"
+msgstr "LEMONCHILI - Menü Empfehlung"
+
+#: includes/widgets/widget-featureddish.php:193
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-cutlery</b> "
+msgstr ""
+"Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/icons/"
+"\" target=\"_blank\">hier</a>) </br> Beispiel: <b>fa-cutlery</b> "
+
+#: includes/widgets/widget-featureddish.php:201
+msgid "select a menu item:"
+msgstr "Wähle ein Gericht aus:"
+
+#: includes/widgets/widget-flickr.php:22
+msgid "Display images from a Flickr account."
+msgstr "Fotos von einem Flickr Konto"
+
+#: includes/widgets/widget-flickr.php:25
+msgid "LEMONCHILI - Flickr"
+msgstr "LEMONCHILI - Flickr"
+
+#: includes/widgets/widget-gallery.php:22
+msgid "Display your latest galleries"
+msgstr "Die neuesten neuesten Foto Galleries"
+
+#: includes/widgets/widget-gallery.php:25
+msgid "LEMONCHILI - Gallery"
+msgstr "LEMONCHILI - Gallery"
+
+#: includes/widgets/widget-gallery.php:139
+#: includes/widgets/widget-images.php:131
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-camera-retro</b> "
+msgstr ""
+"Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/icons/"
+"\" target=\"_blank\">hier</a>) </br> Beispiel: <b>fa-camera-retro</b> "
+
+#: includes/widgets/widget-gallery.php:148
+msgid "Number of galleries:"
+msgstr "Anzahl der Gallerien:"
+
+#: includes/widgets/widget-hours.php:22
+msgid "Display the opening hours"
+msgstr "Zeige die Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:25
+msgid "LEMONCHILI - Opening Hours"
+msgstr "LEMONCHILI - Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:209
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-clock-o</b> "
+msgstr ""
+"Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/icons\" "
+"target=\"_blank\">hier</a>) </br> Beispiel: <b>fa-clock-o</b> "
+
+#: includes/widgets/widget-hours.php:213
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets/widget-hours.php:220
+msgid "Day 1"
+msgstr "Tag 1"
+
+#: includes/widgets/widget-hours.php:224
+msgid "Day 1 hours"
+msgstr "Tag 1 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:231
+msgid "Day 2"
+msgstr "Tag 2"
+
+#: includes/widgets/widget-hours.php:235
+msgid "Day 2 hours"
+msgstr "Tag 2 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:242
+msgid "Day 3"
+msgstr "Tag 3"
+
+#: includes/widgets/widget-hours.php:246
+msgid "Day 3 hours"
+msgstr "Tag 3 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:253
+msgid "Day 4"
+msgstr "Tag 4"
+
+#: includes/widgets/widget-hours.php:257
+msgid "Day 4 hours"
+msgstr "Tag 4 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:264
+msgid "Day 5"
+msgstr "Tag 5"
+
+#: includes/widgets/widget-hours.php:268
+msgid "Day 5 hours"
+msgstr "Tag 5 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:275
+msgid "Day 6"
+msgstr "Tag 6"
+
+#: includes/widgets/widget-hours.php:279
+msgid "Day 6 hours"
+msgstr "Tag 6 Öffnungszeiten"
+
+#: includes/widgets/widget-hours.php:286
+msgid "Day 7"
+msgstr "Tag 7"
+
+#: includes/widgets/widget-hours.php:290
+msgid "Day 7 hours"
+msgstr "Tag 7 Öffnungszeiten"
+
+#: includes/widgets/widget-images.php:22
+msgid "Display images from your gallery"
+msgstr ""
+
+#: includes/widgets/widget-images.php:25
+msgid "LEMONCHILI - Images"
+msgstr "LEMONCHILI - Fotos"
+
+#: includes/widgets/widget-images.php:140 includes/widgets/widget-news.php:176
+msgid "Posts Number:"
+msgstr "Anzahl:"
+
+#: includes/widgets/widget-news.php:22
+msgid "Display your latest News Entries."
+msgstr "Die aktuellsten News Einträge"
+
+#: includes/widgets/widget-news.php:25
+msgid "LEMONCHILI - News"
+msgstr "LEMONCHILI - News"
+
+#: includes/widgets/widget-news.php:116 loop.php:66
+msgid "<span class=\"moretext\"> Read more </span>"
+msgstr "<span class=\"moretext\"> Weiterlesen </span>"
+
+#: includes/widgets/widget-news.php:167
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-pencil</b> "
+msgstr ""
+"Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/icons/"
+"\" target=\"_blank\">hier</a>) </br> Beispiel: <b>fa-pencil</b> "
+
+#: login.php:9
+msgid "Username"
+msgstr "User Name"
+
+#: login.php:10
+msgid "Password"
+msgstr "Passwort"
+
+#: login.php:11
+msgid "Remember Me"
+msgstr "Merken"
+
+#: login.php:12
+msgid "Log In"
+msgstr "Einloggen"
+
+#: loop.php:9 search.php:35 template-events1.php:140 template-events1.php:178
+msgid "Permanent link to"
+msgstr "Permanten link zu"
+
+#: loop.php:78 page.php:27 search.php:66 single-events.php:219
+#: single-gallery.php:45 single-menu.php:44 single-team.php:56 single.php:131
+msgid "Sorry, no posts matched your criteria."
+msgstr "Für diese Suchanfrage gibt es keine Treffer."
+
+#: search.php:4
+msgid "Search Results for "
+msgstr "Suchergebnis für"
+
+#: search.php:9
+msgid "&ldquo;"
+msgstr "&ldquo;"
+
+#: search.php:11
+msgid "&rdquo;"
+msgstr "&ldquo;"
+
+#: search.php:17
+msgid "results"
+msgstr "Ergebnisse"
+
+#: searchform.php:5
+msgid "Search here ..."
+msgstr "Suchen..."
+
+#: searchform.php:6
+msgid "Go"
+msgstr "Los!"
+
+#: single-events.php:108
+msgid "event ends:"
+msgstr "Event Ende:"
+
+#: single-events.php:139 single.php:60
+msgid "no comments"
+msgstr "kein Kommentare"
+
+#: single-events.php:139 single.php:60
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: single-events.php:139 single.php:60
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: single-events.php:148
+msgid "join facebook event"
+msgstr "am facebook event teilnehmen"
+
+#: single-events.php:155 single.php:69
+msgid "SHARE:"
+msgstr "TEILEN:"
+
+#: single.php:41
+msgid "posted in:"
+msgstr ""
+
+#: single.php:49
+msgid "by:"
+msgstr ""
+
+#: template-contact.php:69
+msgid "Thanks, your email was sent successfully."
+msgstr "Danke, dein Email wurde erfolgreich übermittelt."
+
+#: template-contact.php:74
+msgid "Uh oh... an error occured."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: template-contact.php:84
+msgid "&larr; Please enter your name."
+msgstr "&larr; Gib Deinen Namen an."
+
+#: template-contact.php:92
+msgid "&larr; Please enter a valid email address."
+msgstr "&larr; Gib eine gültige Email Adresse an."
+
+#: template-contact.php:98
+msgid "Message"
+msgstr "Nachricht"
+
+#: template-contact.php:100
+msgid "&larr; Please enter a message."
+msgstr "&larr; Gib eine Nachricht ein."
+
+#: template-contact.php:105
+msgid "Send"
+msgstr "Absenden"
+
+#: template-events1.php:78 template-events1.php:107
+msgid "January"
+msgstr "Januar"
+
+#: template-events1.php:79 template-events1.php:108
+msgid "February"
+msgstr "Februar"
+
+#: template-events1.php:80 template-events1.php:109
+msgid "March"
+msgstr "März"
+
+#: template-events1.php:81 template-events1.php:110
+msgid "April"
+msgstr "April"
+
+#: template-events1.php:83 template-events1.php:112
+msgid "June"
+msgstr "Juni"
+
+#: template-events1.php:84 template-events1.php:113
+msgid "July"
+msgstr "Juli"
+
+#: template-events1.php:85 template-events1.php:114
+msgid "August"
+msgstr "August"
+
+#: template-events1.php:86 template-events1.php:115
+msgid "September"
+msgstr "September"
+
+#: template-events1.php:87 template-events1.php:116
+msgid "October"
+msgstr "Oktober"
+
+#: template-events1.php:88 template-events1.php:117
+msgid "November"
+msgstr "November"
+
+#: template-events1.php:89 template-events1.php:118
+msgid "December"
+msgstr "Dezember"
+
+#: template-events1.php:140 template-events1.php:178
+msgid "view details"
+msgstr "Details ansehen"
+
+#~ msgid " Navigation"
+#~ msgstr "Hauptmenü"
+
+#~ msgid ""
+#~ "Configure the general setup of your theme. Upload a Logo, add some custom "
+#~ "CSS and insert a google tracking code."
+#~ msgstr "Hier kannst Du die allgemeinen Einstellungen vornehmen"
+
+#~ msgid "Display your latest images"
+#~ msgstr "Die neuesten neuesten Fotos"
+
+#~ msgid "Select Date"
+#~ msgstr "Wähle ein Datum"
+
+#~ msgid "Number"
+#~ msgstr "Zahl"
+
+#~ msgid "Email description"
+#~ msgstr "Email Beschreibung"
+
+#~ msgid "URL description"
+#~ msgstr "URL Beschreibung"
+
+#~ msgid "File Upload"
+#~ msgstr "Dateien Hochladen"
+
+#~ msgid "Image Upload"
+#~ msgstr "Bilder Hochladen"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Location"
+#~ msgstr "Ort"
+
+#~ msgid "Order saved"
+#~ msgstr "Die Reihenfolge wurde gespeichert"
+
+#~ msgid "You must be %1$slogged in%2$s to post a comment."
+#~ msgstr "Du musst %1$seingeloggt sein%2$s um ein Kommentar zu hinterlasen."
+
+#~ msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+#~ msgstr "Einloggen als %1$s. %2$sAusloggen &raquo;%3$s"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Submit"
+#~ msgstr "Absenden"
+
+#~ msgid "Cancel Reply"
+#~ msgstr "Antworten abbrechen"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentare sind geschlossen."
+
+#~ msgid ""
+#~ "Icon (choose from <a href=\"http://fortawesome.github.com/Font-Awesome/\" "
+#~ "target=\"_blank\">here</a>) </br> Example: <b>icon-camera</b> "
+#~ msgstr ""
+#~ "Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/\" "
+#~ "target=\"_blank\">hier</a>) </br> Example: <b>icon-calendar</b> "
+
+#~ msgid "Tue"
+#~ msgstr "Di"
+
+#~ msgid "Wed"
+#~ msgstr "Mi"
+
+#~ msgid "Thu"
+#~ msgstr "Do"
+
+#~ msgid "Sat"
+#~ msgstr "Sa"
+
+#~ msgid "more info"
+#~ msgstr "mehr info"
+
+#~ msgid "Show tags in the news info section"
+#~ msgstr "Zeige Tags im News Info Bereich"
+
+#~ msgid ""
+#~ "Check this box if you would like to display the tags for each news posts"
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen, wenn Tags im News Eintrag angezeigt "
+#~ "werden sollen."
+
+#~ msgid "Category:"
+#~ msgstr "Kategorie:"
+
+#~ msgid "ago"
+#~ msgstr "ago"
+
+#~ msgid "Choose a color for links and buttons"
+#~ msgstr "Wähle eine Farbe für Links und Buttons"
+
+#~ msgid "Staff"
+#~ msgstr "Team"
+
+#~ msgid "LEMONCHILI - Slider"
+#~ msgstr "LEMONCHILI - Slider"
+
+#~ msgid "select a slider:"
+#~ msgstr "Wähle einen Slider"
+
+#, fuzzy
+#~ msgid "slider image height:"
+#~ msgstr "rechte Sidebar auf der Homepage"
+
+#~ msgid ""
+#~ "Upload your own custom background image. Make sure no background color is "
+#~ "selected below, as it would have priority over the background image "
+#~ "settings and no image would get displayed"
+#~ msgstr ""
+#~ "Lade ein Hintergrundbild hoch. Achte darauf, dass keine Hintergrundfarbe "
+#~ "ausgewählt ist, da die Farbe anstatt des Hintergundbildes angezeigt "
+#~ "werden würde."
+
+#~ msgid "HOME"
+#~ msgstr "HOME"
+
+#~ msgid "Setup the  homepage."
+#~ msgstr "Nimm hier die Einstellungen für die Homepage vor."
+
+#, fuzzy
+#~ msgid "Slider height on homepage"
+#~ msgstr "Zeige die Slideshow auf der Homepage"
+
+#~ msgid "LEMONCHILI - Twitter"
+#~ msgstr "LEMONCHILI - Twitter"
+
+#~ msgid ""
+#~ "Icon (choose from <a href=\"http://fortawesome.github.com/Font-Awesome/\" "
+#~ "target=\"_blank\">here</a>) </br> Example: <b>icon-twitter</b> "
+#~ msgstr ""
+#~ "Icon (wähle von <a href=\"http://fortawesome.github.com/Font-Awesome/\" "
+#~ "target=\"_blank\">hier</a>) </br> Example: <b>icon-calendar</b> "
+
+#~ msgid "Twitter Username"
+#~ msgstr "Twitter Username"
+
+#~ msgid "Number of tweets"
+#~ msgstr "Anzahl der Tweets"
+
+#, fuzzy
+#~ msgid "Display images from your Images"
+#~ msgstr "Die neuesten Fotos"
+
+#~ msgid "LemonChili - News"
+#~ msgstr "LemonChili - News"
+
+#~ msgid "main sidebar"
+#~ msgstr "Haupt-Sidebar"
+
+#~ msgid "sidebar on tour dates page"
+#~ msgstr "Sidebar auf der Tourdates Seite"
+
+#~ msgid "first sidebar in footer"
+#~ msgstr "erste Sidebar im Footer"
+
+#~ msgid "second sidebar in footer"
+#~ msgstr "zweite Sidebar im Footer"
+
+#~ msgid "third sidebar in footer"
+#~ msgstr "dritte Sidebar im Footer"
+
+#~ msgid "fourth sidebar in footer"
+#~ msgstr "vierte Sidebar im Footer"
+
+#~ msgid "LOG OUT"
+#~ msgstr "AUSLOGGEN"
+
+#~ msgid "LOG IN"
+#~ msgstr "EINLOGGEN"
+
+#~ msgid "tags:"
+#~ msgstr "Tags:"
+
+#~ msgid "comments:"
+#~ msgstr "Kommentare:"
+
+#~ msgid "share:"
+#~ msgstr "Teilen:"
+
+#~ msgid "get it here:"
+#~ msgstr "Online Store:"
+
+#~ msgid "AMAZON"
+#~ msgstr "AMAZON"
+
+#~ msgid "iTUNES"
+#~ msgstr "iTUNES"
+
+#~ msgid "release date:"
+#~ msgstr "Erscheinungsdatum:"
+
+#~ msgid "Upcoming Dates"
+#~ msgstr "Nächste Termine"
+
+#~ msgid "Cancelled!"
+#~ msgstr "Abgesagt!"
+
+#~ msgid "Sold Out"
+#~ msgstr "Ausverkauft"
+
+#~ msgid "Buy Tickets"
+#~ msgstr "Tickets"
+
+#~ msgid "Soundboard Options"
+#~ msgstr "Soundboard Optionen"
+
+#~ msgid ""
+#~ "Check this box after you have downloaded the JW Player files and placed "
+#~ "them in the jwplayer folder."
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen nachdem du die JW Player Dateien "
+#~ "heruntergeladen und im Unterordner \"jwplayer\" abgelegt hast."
+
+#~ msgid "Hide Past Tour Dates Section"
+#~ msgstr "Zeige die vergangen Tour Termine NICHT an"
+
+#~ msgid ""
+#~ "Check this box if your would like to hide the Past Tour Dates Section"
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen, wenn die vergangenen Tour Termine "
+#~ "nicht angezeigt werden sollen."
+
+#~ msgid "Hide entire Login Section in header"
+#~ msgstr "Verberge den gesamten Login Bereich oben"
+
+#~ msgid ""
+#~ "Check this box if your would like to hide the entire Login Section in the "
+#~ "header"
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen, wenn der Login Bereich oben nicht "
+#~ "angezeigt werden sollen."
+
+#~ msgid ""
+#~ "On Album page, display SoundCloud and JW Player within content instead of "
+#~ "within a lightbox."
+#~ msgstr ""
+#~ "Auf der \"Album Seite\", platziere den SoundCloud und JW Player direkt "
+#~ "auf der Seite anstelle in einer Lightbox."
+
+#~ msgid ""
+#~ "Check this box if your would like to display the SoundCloud and JW Player "
+#~ "right on the page instead of just a play icon."
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen, wenn Du auf der \"Album Seite\" den "
+#~ "SoundCloud und JW Player direkt auf der Seite einfügen möchtest (anstatt "
+#~ "nur des Play icons)."
+
+#~ msgid "Title in center section on Homepage"
+#~ msgstr ""
+#~ "Gib den Title für den Bereich in der Mitte auf der Homepage hier ein"
+
+#~ msgid ""
+#~ "Enter the Title for the center section on the homepage. If you are "
+#~ "displaying text instead of (or additionally to) the News feed, this "
+#~ "headline will appear above it."
+#~ msgstr ""
+#~ "Gib den Title für den Bereich in der Mitte auf der Homepage hier ein. "
+#~ "Wenn du anstatt (oder zusätzlich) zum News Bereich einen Text im "
+#~ "Mittelteil der Homepage darstellen möchstest, dann wird dieser Titel "
+#~ "darüber angezeigt."
+
+#~ msgid "News Title on Homepage"
+#~ msgstr "News Überschrift auf der Homepage"
+
+#~ msgid "Enter the Title for the News section on the homepage"
+#~ msgstr "Gib den Title für den News-Bereich auf der Homepage hier ein"
+
+#~ msgid "Number of Headlines"
+#~ msgstr "Anzahl der News Einträge"
+
+#~ msgid "Enter the number of headlines you would like to show on the homepage"
+#~ msgstr ""
+#~ "Gib die Anzahl der Headlines an, welche auf der Homepage angezeigt werden "
+#~ "sollen."
+
+#~ msgid "Enter the full URL to your Soundcloud profile"
+#~ msgstr "Gib hier die vollständige URL zu Deinem Soundcloud Profil ein."
+
+#~ msgid "Enter the full URL to your beatport profile"
+#~ msgstr "Gib hier die vollständige URL zu Deinem beatport Profil ein."
+
+#~ msgid ""
+#~ "Enter the full URL to your social icon 1.  Height must be 32px. Color: "
+#~ "white (#ffffff)."
+#~ msgstr ""
+#~ "Gib die vollständige URL zum Logo Nr. 1 ein. Das Logo sollte 32px hoch "
+#~ "sein. Farbe: weiß (#ffffff)."
+
+#~ msgid "If your icon has a width of 50px, enter: 50"
+#~ msgstr "Wenn das Logo eine Breite von 50 px hat, gib \"50\" ein."
+
+#~ msgid "Enter the full URL to your social profile 1."
+#~ msgstr "Gib hier die vollständige URL zu Deinem Profil Nr. 1 ein."
+
+#~ msgid ""
+#~ "Enter the full URL to your social icon 2.  Height must be 32px. Color: "
+#~ "white (#ffffff)."
+#~ msgstr ""
+#~ "Gib die vollständige URL zum Logo Nr. 2 ein. Das Logo sollte 32px hoch "
+#~ "sein. Farbe: weiß (#ffffff)."
+
+#~ msgid "Enter the full URL to your social profile 2"
+#~ msgstr "Gib hier die vollständige URL zu Deinem Profil Nr. 2 ein."
+
+#~ msgid ""
+#~ "Enter the full URL to your social icon 3.  Height must be 32px. Color: "
+#~ "white (#ffffff)."
+#~ msgstr ""
+#~ "Gib die vollständige URL zum Logo Nr. 3 ein. Das Logo sollte 32px hoch "
+#~ "sein. Farbe: weiß (#ffffff)."
+
+#~ msgid "Enter the full URL to your social profile 3"
+#~ msgstr "Gib hier die vollständige URL zu Deinem Profil Nr. 3 ein."
+
+#~ msgid ""
+#~ "Enter the full URL to your social icon 4.  Height must be 32px. Color: "
+#~ "white (#ffffff)."
+#~ msgstr ""
+#~ "Gib die vollständige URL zum Logo Nr. 4 ein. Das Logo sollte 32px hoch "
+#~ "sein. Farbe: weiß (#ffffff)."
+
+#~ msgid "Enter the full URL to your social profile 4"
+#~ msgstr "Gib hier die vollständige URL zu Deinem Profil Nr. 4 ein."
+
+#~ msgid ""
+#~ "Enter the full URL to your social icon 5.  Height must be 32px. Color: "
+#~ "white (#ffffff)."
+#~ msgstr ""
+#~ "Gib die vollständige URL zum Logo Nr. 5 ein. Das Logo sollte 32px hoch "
+#~ "sein. Farbe: weiß (#ffffff)."
+
+#~ msgid "Enter the full URL to your social profile 5"
+#~ msgstr "Gib hier die vollständige URL zu Deinem Profil Nr. 5 ein."
+
+#~ msgid "Subject"
+#~ msgstr "Betreff"
+
+#~ msgid "TOUR DATES"
+#~ msgstr "TOUR TERMINE"
+
+#~ msgid "City / Country"
+#~ msgstr "Stadt / Land"
+
+#~ msgid "Ticket URL"
+#~ msgstr "Ticket URL"
+
+#~ msgid "Enter the full URL to the ticket sales website"
+#~ msgstr "Gib hier die vollständige URL zur Ticket Verkaufsstelle ein."
+
+#~ msgid "Sold Out?"
+#~ msgstr "Ausverkauft?"
+
+#~ msgid "Check if show is sold out."
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen wenn dieser Termin ausverkauft ist."
+
+#~ msgid "Cancelled?"
+#~ msgstr "Abgesagt?"
+
+#~ msgid "Check if show is cancelled."
+#~ msgstr "Aktiviere dieses Kontrollkästechen wenn der Termin abgesagt wurde."
+
+#~ msgid "ALBUM"
+#~ msgstr "ALBUM"
+
+#~ msgid "Release Date"
+#~ msgstr "Erscheinungsdatum"
+
+#~ msgid "Additional Info"
+#~ msgstr "Zusätzliche Info"
+
+#~ msgid ""
+#~ "Enter any additional info (Lyrics, etc...) about the Album. It will be "
+#~ "displayed in the right column. You can use HTML too."
+#~ msgstr ""
+#~ "Füge hier zusätzliche Info zum Album (zB Songtexte) hinzu. Diese wird in "
+#~ "der rechten Spalte platziert. Du kannst auch HTML verwenden."
+
+#~ msgid "BUY / DOWNLOAD LINKS"
+#~ msgstr "KAUFEN / DOWNLOAD LINKS"
+
+#~ msgid "Amazon"
+#~ msgstr "Amazon"
+
+#~ msgid "Enter the full URL to the album on Amazon"
+#~ msgstr "Gib hier die vollständige URL zum Album auf  Amazon ein."
+
+#~ msgid "Enter the full URL to the album on iTunes"
+#~ msgstr "Gib hier die vollständige URL zum Album auf  iTunes ein."
+
+#~ msgid "Other buying / downloading link"
+#~ msgstr "Zusätzlicher Kaufen / Downloaden Link"
+
+#~ msgid "Enter the full URL to the album"
+#~ msgstr ""
+#~ "Gib hier die vollständige URL zu der Webseite ein, auf der das Album "
+#~ "gekauft / gedownloaded werden kann."
+
+#~ msgid "Button Text for other buying / downloading link"
+#~ msgstr "Button Text für den zusätzlichen Kaufen / Downladen Link"
+
+#~ msgid "SONGTITLES"
+#~ msgstr "MUSIK TITEL"
+
+#~ msgid "Add the Album's songtitles"
+#~ msgstr "Füge Musiktitel des Albums hinzu"
+
+#~ msgid "AUDIO PLAYER (requires JW Player)"
+#~ msgstr "AUDIO PLAYER (hierfür wird JW Player benötigt)"
+
+#~ msgid "Display Audio Player?"
+#~ msgstr "Audio Player anzeigen?"
+
+#~ msgid "Check if you would like to display an Audio Player"
+#~ msgstr ""
+#~ "Aktiviere dieses Kontrollkästchen, wenn ein Audio Player angezeigt werden "
+#~ "soll"
+
+#~ msgid ""
+#~ "Upload music files. They will start uploading once you hit the "
+#~ "<b>Publish / Update</b> button above. If you upload many songtitles at "
+#~ "once, this might take a while."
+#~ msgstr ""
+#~ "Wähle Musiktitel von deiner Festplatte aus. Diese beginnen hochzuladen, "
+#~ "sobald du oben auf die <b>Veröffentlichen / Aktualisieren </b> "
+#~ "Schaltfläche drückst. Wenn du mehrere Musiktitel gleichzeitig hochlädst, "
+#~ "wir dies eine Weile dauern."
+
+#~ msgid "SOUNDCLOUD PLAYER"
+#~ msgstr "SOUNDCLOUD PLAYER"
+
+#~ msgid "Paste Embed Code"
+#~ msgstr "Füge hier den Embed Code ein"
+
+#~ msgid "YOUTUBE OR VIMEO VIDEO"
+#~ msgstr "YOUTUBE ODER VIMEO VIDEO"
+
+#~ msgid "Enter the link to a YouTube or Vimeo video"
+#~ msgstr "Gib hier den Link zu einem YouTube oder Vimeo Video ein"
+
+#~ msgid ""
+#~ "It should look like this: http://vimeo.com/31956969 or http://youtu.be/"
+#~ "nVssYUGs-R4"
+#~ msgstr ""
+#~ "Dieser sollte in etwa so aussehen: http://vimeo.com/31956969 oder http://"
+#~ "youtu.be/nVssYUGs-R4"
+
+#~ msgid "SELF-HOSTED VIDEO (requires JW Player)"
+#~ msgstr "SELF-HOSTED VIDEO (dazu wird JW Player benötigt)"
+
+#~ msgid "Enter full URL to the video"
+#~ msgstr "Gib hier die vollständige URL zum Video ein"
+
+#~ msgid "RW_Meta_Box Debug:"
+#~ msgstr "RW_Meta_Box Debug:"
+
+#~ msgid "Add Album"
+#~ msgstr "Album hinzufügen"
+
+#~ msgid "Add New Album"
+#~ msgstr "Album erstellen"
+
+#~ msgid "Edit Album"
+#~ msgstr "Album bearbeiten"
+
+#~ msgid "New Album"
+#~ msgstr "Neues Album"
+
+#~ msgid "No Audio found in the Trash with that criteria"
+#~ msgstr "Kein Album im Papierkorb gefunden."
+
+#~ msgid "View Album"
+#~ msgstr "Album ansehen"
+
+#~ msgid "Search Tourdates"
+#~ msgstr "Termine durchsuchen"
+
+#~ msgid "Videos"
+#~ msgstr "Videos"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Add Video"
+#~ msgstr "Video hinzufügen"
+
+#~ msgid "Add New Video"
+#~ msgstr "Füge ein neues Video hinzu"
+
+#~ msgid "Edit Video"
+#~ msgstr "Bearbeite das Video"
+
+#~ msgid "New Video"
+#~ msgstr "Neues Video"
+
+#~ msgid "No Video was found with that criteria"
+#~ msgstr "Kein Video gefunden."
+
+#~ msgid "No Video found in the Trash with that criteria"
+#~ msgstr "Kein Video im Papierkorb gefunden."
+
+#~ msgid "View Video"
+#~ msgstr "Video ansehen"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Du hast nicht die nötigen Rechte um diese Seite zu betreten."
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Display your latest Album"
+#~ msgstr "Das neuestes Album"
+
+#~ msgid "SOUNDBOARD - Album"
+#~ msgstr "SOUNDBOARD - Album"
+
+#~ msgid "SOUNDBOARD - Flickr"
+#~ msgstr "SOUNDBOARD - Flickr"
+
+#~ msgid "SOUNDBOARD - News"
+#~ msgstr "SOUNDBOARD - News"
+
+#~ msgid "SOUNDBOARD - Tour Dates"
+#~ msgstr "SOUNDBOARD - Tour Termine"
+
+#~ msgid "SOUNDBOARD - Video"
+#~ msgstr "SOUNDBOARD - Video"
+
+#~ msgid "Number of Videos:"
+#~ msgstr "Anzahl der Videos:"
+
+#~ msgid "Select a color"
+#~ msgstr "Wähle eine Farbe"
+
+#~ msgid "Background"
+#~ msgstr "Hintergrund"
+
+#~ msgid "Enter full URL to the audio files"
+#~ msgstr "Gib hier die vollständige URL zu den Audio Dateien an"
+
+#~ msgid "SONGTITLES (requires JW Player)"
+#~ msgstr "MUSIK TITEL (hierfür wird JW Player benötigt)"
+
+#~ msgid "Enter the full URL"
+#~ msgstr "Gib die vollständige URL ein."
+
+#~ msgid "Button text for other link"
+#~ msgstr "Button Text für"
+
+#~ msgid "Uploaded files"
+#~ msgstr "Hochgeladene Dateien"
+
+#~ msgid "Delete this file"
+#~ msgstr "Lösche diese Datei"
+
+#~ msgid "Upload files"
+#~ msgstr "Hochladen"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Drop images here"
+#~ msgstr "Bilder hierher ziehen"
+
+#~ msgid "Previously Uploaded"
+#~ msgstr "Bereits hochgeladen"

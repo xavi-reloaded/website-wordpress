@@ -1,0 +1,37 @@
+<wpml-config>  
+	<custom-fields>
+		<custom-field action="ignore">enclosure</custom-field>
+		<custom-field action="ignore">_menu_item_classes</custom-field>
+		<custom-field action="ignore">_menu_item_menu_item_parent</custom-field>
+		<custom-field action="ignore">_menu_item_object</custom-field>
+		<custom-field action="ignore">_menu_item_object_id</custom-field>
+		<custom-field action="ignore">_menu_item_target</custom-field>
+		<custom-field action="ignore">_menu_item_type</custom-field>
+		<custom-field action="ignore">_menu_item_url</custom-field>
+		<custom-field action="ignore">_menu_item_xfn</custom-field>
+		<custom-field action="ignore">_portfolio_thumb_changed</custom-field>
+		<custom-field action="ignore">_wp_old_slug</custom-field>
+		<custom-field action="ignore">_wp_trash_meta_comments_status</custom-field>
+		<custom-field action="ignore">_wp_trash_meta_status</custom-field>
+		<custom-field action="ignore">_wp_trash_meta_time</custom-field>
+	</custom-fields> 
+	<custom-types>
+		<custom-type translate="1">ox_testimonials</custom-type>
+		<custom-type translate="1">ox_portfolio</custom-type>	
+	</custom-types>    
+	<taxonomies>
+		<taxonomy translate="1">ox_testimonials_cat</taxonomy>
+		<taxonomy translate="1">ox_portfolio_cat</taxonomy>   
+	</taxonomies>    
+	<admin-texts>
+		<key name="rt_logo_custom" />
+		<key name="rt_header_logo_tinymce" />
+		<key name="rt_header_custom_content" />
+		<key name="rt_logo_footer_custom" />
+		<key name="rt_copyright" />
+		<key name="rt_GA" />
+		<key name="rt_footer_tinymce" />
+		<key name="rt_customcss" />
+		<key name="rt_title_share" />
+	</admin-texts> 
+</wpml-config>

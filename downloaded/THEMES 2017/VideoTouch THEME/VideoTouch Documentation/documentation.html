@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>VideoTouch WordPress Theme by TouchSize</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="js/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">VideoTouch Documentation</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#installation">Install guides</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Installation types</li>
+                            <li><a href="#wp-install">WordPress Install</a></li>
+                            <li><a href="#ftp-install">FTP Install</a></li>
+                            <li><a href="#dummy-content">Demo Data Install</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Theme Update <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#theme-update">Update guides</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#wp-update">WordPress Update</a></li>
+                            <li><a href="#ftp-update">FTP Update</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Theme Options <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#options-general">General</a></li>
+                            <li><a href="#options-styles">Styles</a></li>
+                            <li><a href="#options-colors">Colors</a></li>
+                            <li><a href="#options-image-sizes">Image sizes</a></li>
+                            <li><a href="#options-layout">Layout</a></li>
+                            <li><a href="#options-typography">Typography</a></li>
+                            <li><a href="#options-single">Single post</a></li>
+                            <li><a href="#options-page">Page settings</a></li>
+                            <li><a href="#options-social">Social</a></li>
+                            <li><a href="#options-customcss">Custom CSS</a></li>
+                            <li><a href="#options-sidebars">Sidebars</a></li>
+                            <li><a href="#options-import">Import/Export</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layout Builder <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="multi-col-menu">
+                            <div class="row" style="width: 700px">
+                                <ul class="list-unstyled col-lg-3 col-md-3">
+                                    <li><a href="#layout-builder">Builder info</a></li>
+                                    <li><a href="#builder-logo">Logo</a></li>
+                                    <li><a href="#builder-social">Social icons</a></li>
+                                    <li><a href="#builder-search">Search bar</a></li>
+                                    <li><a href="#builder-sidebar">Sidebar</a></li>
+                                    <li><a href="#builder-slider">Slider</a></li>
+                                    <li><a href="#builder-list-portfolios">List portfolios</a></li>
+                                    <li><a href="#builder-testimonials">Testimonials</a></li>
+                                    <li><a href="#builder-list-portfolios">List portfolios</a></li>
+                                    <li><a href="#builder-call-to-action">Call to action</a></li>
+                                    <li><a href="#builder-team">Team members</a></li>
+                                </ul>
+                                <ul class="list-unstyled col-lg-3 col-md-3">
+                                    <li><a href="#builder-ads">Advertising</a></li>
+                                    <li><a href="#builder-delimiter">Delimiter</a></li>
+                                    <li><a href="#builder-title">Title</a></li>
+                                    <li><a href="#builder-video">Video</a></li>
+                                    <li><a href="#builder-image">Image</a></li>
+                                    <li><a href="#builder-filters">Filters</a></li>
+                                    <li><a href="#builder-icon-box">Icon box</a></li>
+                                    <li><a href="#builder-spacer">Spacer</a></li>
+                                    <li><a href="#builder-button">Button</a></li>
+                                    <li><a href="#builder-contact-form">Contact form</a></li>
+                                </ul>
+                                <ul class="list-unstyled col-lg-3 col-md-3">
+                                    <li><a href="#builder-featured-area">Featured area</a></li>
+                                    <li><a href="#builder-shortcodes">Shortcodes</a></li>
+                                    <li><a href="#builder-text">Text</a></li>
+                                    <li><a href="#builder-image-carousel">Image carousel</a></li>
+                                    <li><a href="#builder-pricing-table">Pricing tables</a></li>
+                                    <li><a href="#builder-listed-features">Listed features</a></li>
+                                    <li><a href="#builder-counter">Counter</a></li>
+                                    <li><a href="#builder-toggle">Toggle</a></li>
+                                    <li><a href="#builder-banner">Banner</a></li>
+                                    <li><a href="#builder-products">List products</a></li>
+                                </ul>
+
+                                <ul class="list-unstyled col-lg-3 col-md-3">
+                                    <li><a href="#builder-facebook">Facebook</a></li>
+                                    <li><a href="#builder-customposts">Latest custom posts</a></li>
+                                    <li><a href="#builder-listvideos">List videos</a></li>
+                                    <li><a href="#builder-map">Map</a></li>
+                                    <li><a href="#builder-quote">Quote</a></li>
+                                    <li><a href="#builder-ribbon">Ribbon</a></li>
+                                    <li><a href="#builder-tab">Tab</a></li>
+                                    <li><a href="#builder-timeline">Timeline</a></li>
+                                    <li><a href="#builder-banner">Banner</a></li>
+                                    <li><a href="#builder-video-carousel">Video carousel</a></li>
+                                </ul>
+                            </div>
+                            </li>
+                        </ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">How to's <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#builder-videos">Video tutorials</a></li>
+                                <li><a href="#create-homepage">Set up a frontpage</a></li>
+                            </ul>
+                        </li>
+                    </li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <!-- Begin page content -->
+    <div class="container">
+        <div class="page-header">
+            <h1>Welcome to VideoTouch</h1>
+        </div>
+        <p class="lead">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free check our <a href="http://support.touchsize.com/knowledgebase" target="_blank">knowledgebase</a> or submit a ticket on our <a href="http://support.touchsize.com/" target="_blank">support desk</a>. Thanks so much!</p>
+        <div class="alert alert-danger" role="alert">You'll need a ThemeForest purchase key to write a ticket. If you don't know how to get it, please follow the steps from this article: <a target="_blank" href="http://support.touchsize.com/knowledgebase/How-to-get-the-ThemeForest-Purchase-Key-3.html">Get Purchase Key</a></div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <img src="images/demo.jpg" alt="" />
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <section id="installation">
+                    <h2 class="chapter-title">Installation</h2>
+                    <p>You can install the theme in two ways: through WordPress, or via FTP. The VideoTouch.zip file is the Installable WordPress Theme and what you need to use to get the theme installed. Please see the following sections for each method. But first, you need to download the VideoTouch files from your Themeforest account. Navigate to your downloads tab on Themeforest and find VideoTouch. Click the download button to see the two options. The Main Files and the Installable WordPress Theme. See below.</p><br>
+                    <img src="images/installation/download.jpg" alt="">
+                    <div class="spacer"></div>
+                    <h3 class="chapter-subtitle" id="wp-install">Follow the steps below to install via WordPress:</h3>
+                    <div class="spacer"></div>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <ol>
+                                <li><p>Navigate to Appearance &gt; Themes.</p></li>
+                                <li><p>Click Install Themes and hit the upload button.</p></li>
+                                <li><p>Navigate to find the “VideoTouch.zip” file on your computer and click “Install Now”</p></li>
+                                <li><p>Wait while the theme is uploaded and installed.</p></li>
+                                <li><p>Activate the newly installed theme. Go to Appearance &gt; Themes and activate it.</p></li>
+                            </ol>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <img src="images/installation/wp-install.jpeg">
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <h3 class="chapter-subtitle" id="ftp-install">Follow the steps below to install via FTP:</h3>
+                    <div class="spacer"></div>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <ol>
+                                <li><p>Log into your hosting space via an FTP software</p></li>
+                                <li><p>Unzip the <strong>VideoTouch.zip</strong> file and <strong>ONLY</strong> use the extracted <storng>VideoTouch theme folder</storng></p></li>
+                                <li><p>Navigate to find the <strong>“VideoTouch.zip”</strong> file on your computer and click “Install Now”</p></li>
+                                <li><p>Activate the newly installed theme. Go to <strong>Appearance -&gt; Themes</strong> and activate it.</p></li>
+                            </ol>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <img src="images/installation/ftp-install.jpg">
+                        </div>
+                    </div>
+                    <h2 class="chapter-subtitle" id="dummy-content">Dummy Content Import:</h2>
+                    <p class="lead">
+                        One of the most frequently asked questions "how i can make my webpage as on demo?". The solution is simple - just import the Dummy Content! Dummy content provides you the same pages, settings and arrangement as you can see in our demo version of site. To install the demo content follow the next steps:
+                    </p>
+                    <div class="spacer"></div>
+                    <h3 class="chapter-subtitle">1. Download the dummy content:</h3>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <p>
+                                First, you need to download the VideoTouch files from your Themeforest account. Navigate to your downloads tab on Themeforest and find VideoTouch. Click the download button to see the two options. The Main Files and the Installable WordPress Theme. Download the Main Files.See below (Nr.1).
+                            </p>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <img src="images/installation/download.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <h3 class="chapter-subtitle">2. Import the content:</h3>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <p>
+                                <ol class="large-6 medium-6 small-12 columns">
+                                    <li>
+                                        <p>
+                                            Log into your site as an administrator
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Make sure you activated your theme before proceeding.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Go to Tools → Import
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Upload the demo content .xml using the form provided on that page.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            You will be asked to map the authors in this export file to users on the blog. For each author, you may choose to map to an existing user on the blog or to create a new user.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            You will then have the choice to import attachments, so click on the “Download and import file attachments” box.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Please be patient while WordPress imports all the content. Posts, Pages, Projects, and Menus are imported. You will need assign the menu a theme location &amp; you’ll need to configure widgets. This is a limitation of WordPress’ import system.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <img src="images/installation/import.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- end of import the content -->
+
+                    <!-- start of set everything up -->
+                    <h3 class="chapter-subtitle">3. Set everything up:</h3>
+                    <p>
+                        Firstly you have to check what is missing from your dummy content, in most of cases when you take a look at your page after import you see nothing. It's because of the category selection. You have to enter each page and change categories from uncategorized to other existing ones. It's because of the Category id, if you preventive had any category, the current category id's will not match. The same thing can happen with images from carousel. Also you should not forget to set the imported menu as "Primary Menu" and set up the homepage.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <ol>
+                                <li>
+                                    <p>
+                                        Go to Appearence =&gt; Menus, take a look at the menu, if import did his job not quite good, arrange the menu elements as on the <a href="http://demo.touchsize.com/VideoTouch">Demo</a>. After what scroll down till end and set current menu as "Primary Menu" (see below).
+                                    </p>
+                                    <a href="images/installation//set-up-menu.jpg" class="fancybox">
+                                        <img src="images/installation//set-up-menu.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <p>
+                                        Go to Settings =&gt; Reading and set your front page one of existing, or build your own one.
+                                    </p>
+                                    <a href="images/installation//front-page.jpg" class="fancybox"><img src="images/installation/front-page.jpg"></a>
+                                </li>
+                            </ol>
+                            <ol start="3">
+                                <li>
+                                    <p>
+                                        In case your content is not displayed on home page or any other page, Go to Pages =&gt; "Page you need Name" and edit every list post or carousel. Change their categoryes/photos and enjoy the look of that page. You can select all categories or to choose categories one by one by clicking on the category name then click again in the input then you will be able to select more categories.
+                                    </p>
+                                    <a href="images/installation/category-cfg1.jpg" class="fancybox"><img src="images/installation/category-cfg1.jpg"></a>
+                                </li>
+                                <a href="images/installation/category-cfg.jpg" class="fancybox large-6 columns"><img src="images/installation/category-cfg.jpg"></a>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- end of set everything up -->
+
+                    <!-- start of Settings import -->
+                    <h3 class="chapter-subtitle">4. Settings import</h3>
+                    <p>
+                        In your folder there is a .txt file named "import.txt". This file contains the default settings used in our demo page of VideoTouch. To add them just go to VideoTouch => Import options and paste all the content from "import.txt" file.
+                    </p>
+                    <img src="images/installation/settings-imp.jpg" alt="">
+                    <!-- end of Settings import -->
+
+                    <!-- start of update theme -->
+                    <div class="spacer"></div>
+                    <h2 class="chapter-title" id="theme-update">How to update the theme:</h2>
+                    <p class="lead">
+                        You need to manually download the new theme package from your Themeforest account. Once you have the new theme package, you can choose to upload the theme via WordPress or via FTP. Please see the information below for how to download new files, and install it via WP or via FTP.
+                    </p>
+
+                    <h3 class="chapter-subtitle">How to download new theme files from ThemeForest</h3>
+                    <img src="images/installation/download.jpg" alt="">
+                    <ol>
+                        <li>
+                            <p>
+                                Log into your Themeforest account and navigate to your downloads tab. Find the “VideoTouch” theme purchase.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Click the “download” button next to it and choose to download the “Installable WordPress Theme” which is just the WordPress file, or choose the “Main Files” which is the entire package that contains everything.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Then you need to decide if you want to install the update via FTP or via WordPress. Directions for both methods are below.
+                            </p>
+                        </li>
+                    </ol>
+                    <h3 class="chapter-subtitle" id="wp-update">How to update your theme via WordPress.</h3>
+                    <ol>
+                        <li>
+                            <p>
+                                You need to deactivate the current “VideoTouch” theme in the “appearance &gt; themes” section by simply activating a different theme. Once you activate a different theme, you can delete the VideoTouch theme. Dont worry, your content will not be lost.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Retrieve the “VideoTouch.zip” file from your new Themeforest download. If you downloaded the “Main Files” from Themeforest, then you need to unzip the archive file you received, the VideoTouch.zip will be inside of it
+                            </p>
+                        </li>
+                        <li>
+                            <p>Then simply upload the “VideoTouch.zip” file in the “appearance &gt; themes” section. Click on the “Install Themes” tab at the top and choose to upload the zip file.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Once it uploads, choose to activate the theme.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Lastly, update the included plugins. You will see a notification message letting you know the plugins have a new version and need to be updated. Follow the on screen steps.
+                            </p>
+                        </li>
+                    </ol>
+                    <h3 class="chapter-subtitle" id="ftp-update">How to update your theme via FTP.</h3>
+                    <ol>
+                        <li>
+                            <p>
+                                Go to “wp-content &gt; themes” location and backup your “VideoTouch” theme folder by saving it to your computer, or you can choose to simply delete it. Your content will not be lost.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Retrieve the “VideoTouch.zip” file from your new Themeforest download and extract the file to get the “VideoTouch” theme folder.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Then simply drag and drop the new “VideoTouch” theme folder into “wp-content &gt; themes” location. Choose to “Replace” the current one if you did not delete it.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            Lastly, update the included plugins. You will see a notification message letting you know the plugins have a new version and need to be updated. Follow the on screen steps.
+                            </p>
+                        </li>
+                    </ol>
+                    <!-- end of update theme -->
+                </section>
+
+                <!-- Start of Theme Options Section -->
+
+                <section id="theme-options">
+                    <h2 class="chapter-title">Theme options</h2>
+                    <p class="lead">
+                        Our theme comes with a custom theme options panel. You can find an explanation for most of them below.
+                    </p>
+
+                    <!-- Start of General theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-general">General</h3>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <ol>
+                                <!--1-->
+                                <li>
+                                    <h5>
+                                        Enable preloader for website?
+                                    </h5>
+                                    <p>
+                                        This option can add to your website a fancy preloader that will wait till all the page will be loaded. You can use it only for homepage, or for the entire website.
+                                    </p>
+                                    <a class="fancybox" href="images/settings/general/preload.jpg"><img src="images/settings/general/preload.jpg"></a>
+                                </li>
+                                <!--2-->
+                                <li>
+                                    <h5>
+                                        Use onepage layout?
+                                    </h5>
+                                    <p>
+                                        This option will <strong>disable the clicks</strong> on the menu of your website and will make them slide to sections of the page. If you intend to use the one page layout, please set this to yes.
+                                    </p>
+                                </li> <!--2-->
+                                <li>
+                                    <h5>
+                                        Display featured image in post?
+                                    </h5>
+                                    <p>
+                                        This option enables/disables the <strong>featured image inside a post</strong>. If you don't want to show the featured image inside single post pages, you can disable them from here. Note that this will also disable galleries/videos/audio if disabled.
+                                    </p>
+                                </li>
+                                <!--3-->
+                                <li>
+                                    <h5>
+                                        Enable lightbox?
+                                    </h5>
+                                    <p>
+                                        This option enables/disables the
+                                        <storng>lightbox for images</storng>
+                                        . These will apply to featured images inside posts, inside galleries. We recommend to enable this option for better usability and user experience.
+                                    </p>
+                                </li>
+                                <!--3-->
+                                <li>
+                                    <h5>
+                                        Lazyload images
+                                    </h5>
+                                    <p>
+                                        If set to yes, the images from most of the builder elements will be <b>preloaded</b>. Basically, the images will not be shown until you scroll down and they get into the viewport. This will improve your website speed significantly, but use with care. Might conflict with some scripts or plugins. Please report to our help desk if you have issues.
+                                    </p>
+                                </li>
+                                <!--4-->
+                                <li>
+                                    <h5>
+                                        Enable human type date?
+                                    </h5>
+                                    <p>
+                                        This option is also recommended as it will show a date in a more human friendly format (ex: 3 days ago). You can disable this option as well. Note that this option might not apply to absolutely all dates on the website as there are designed parts that are better to remain as designed.
+                                    </p>
+                                </li>
+                                <!--5-->
+                                <li>
+                                    <h5>
+                                        Which comment system you want to use?
+                                    </h5>
+                                    <p>
+                                        You can configure what comment system you will use. The default WordPress comments or Facebook comments. If you need Disqus comments, you will need the plugin.
+                                    </p>
+                                    <a class="fancybox" href="images/settings/general/comment.jpg"><img src="images/settings/general/comment.jpg"></a>
+                                </li>
+
+                                <!--4-->
+                                <li>
+                                    <h5>
+                                        Facebook modal box
+                                    </h5>
+                                    <p>
+                                        This will show a Facebook modal box once the user will enter your website. This is used for gathering likes for your Facebook page.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Show wordpress admin bar?
+                                    </h5>
+                                    <p>
+                                        In this tab you can disable/enable the wordpress top admin bar.
+                                    </p>
+                                    <a class="fancybox" href="images/settings/general/admin.jpg"><img src="images/settings/general/admin.jpg"></a>
+                                </li>
+                                <!--7-->
+                                <li>
+                                    <h5>
+                                        Enable sticky menu
+                                    </h5>
+                                    <p>
+                                        This options gives you possibility to enable or disable the sticky menu, also you can change here the sticky menu background and text colors. Sticky menu is the menu that appears whenever you scroll lower than top menu.
+                                    </p>
+                                </li>
+                                <!--7-->
+                                <li>
+                                    <h5>
+                                        Enable Mega Menu
+                                    </h5>
+                                    <p>
+                                        This theme comes with a built-in mega menu. This will give you the posibility to arrange your menu items into columns, add images, shortcodes and much more. Check our knowledgebase for more info on this.
+                                    </p>
+                                </li>
+                                <!--8-->
+                                <li>
+                                    <h5>
+                                        Enablet likes
+                                    </h5>
+                                    <p>
+                                        This will add a like element ( button ) to post and this is used sometimes to sort post by likes and in other options.
+                                    </p>
+                                </li>
+                                <!--9-->
+
+                                 <li>
+                                    <h5>
+                                        Likes Icon
+                                    </h5>
+                                    <p>
+                                        Here you can choose the icon that you want to show for like element.
+                                    </p>
+                                </li>
+                                <!--10-->
+
+                                <li>
+                                    <h5>
+                                        Generate Likes
+                                    </h5>
+                                    <p>
+                                        This option will generate a random number of likes for post.
+                                    </p>
+                                </li>
+                                <!--11-->
+
+                                <li>
+                                    <h5>
+                                        Tracking code
+                                    </h5>
+                                    <p>
+                                        Here you can add your google analytics tracking code, or any other script you need.
+                                    </p>
+                                </li>
+                                <!--12-->
+                                <li>
+                                    <h5>
+                                        Grid view excerpt size
+                                    </h5>
+                                    <p>
+                                        Here you enter the maximum characters showed in excerpt for your grid articles.
+                                    </p>
+                                </li>
+                                <!--13-->
+                                <li>
+                                    <h5>
+                                        List view excerpt size
+                                    </h5>
+                                    <p>
+                                        Here you enter the maximum characters showed in excerpt for your list view
+                                    </p>
+                                </li>
+                                <!--14-->
+                                <li>
+                                    <h5>
+                                        Big post view excerpt size
+                                    </h5>
+                                    <p>
+                                        Here you enter the maximum characters showed in excerpt for your big posts view.
+                                    </p>
+                                </li>
+                                <!--15-->
+                                <li>
+                                    <h5>
+                                        Timeline view excerpt size
+                                    </h5>
+                                    <p>
+                                        Here you enter the maximum characters you want to show for excerpt.
+                                    </p>
+                                </li>
+                                <!--16-->
+                                <li>
+                                    <h5>
+                                        User posts status
+                                    </h5>
+                                    <p>
+                                        Set the default status for the posts published by users.
+                                    </p>
+                                </li>
+                                <!--17-->
+                            </ol>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <a class="fancybox" href="images/settings/general.jpg"><img src="images/settings/general.jpg"></a>
+                        </div>
+                    </div>
+                    <!-- End of General theme options Section -->
+
+                    <!-- Start of Styles theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-styles">Styles</h3>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <ol>
+                                <!--1-->
+                                <li>
+                                    <h5>
+                                        Boxed Layout
+                                    </h5>
+                                    <p>
+                                        You can either enable or disable the boxed layout. This will make some options inside the layout builder row options not work as expected. Your row expand option will not work, and you background will not show for the whole width of the website.
+                                    </p>
+                                </li>
+                                <!--2-->
+                                <li>
+                                    <h5>
+                                        Theme Background customization
+                                    </h5>
+                                    <p>
+                                        This option gives posibility to edit you background, you can add a image, change color, or disable it (use the default color <a href="http://demo.touchsize.com/VideoTouch">from our demo</a>)
+                                    </p>
+                                </li>
+                                <!--3-->
+                                <li>
+                                    <h5>
+                                        Custom favicon
+                                    </h5>
+                                    <p>
+                                        In this tab you can find the options to change your custom favicon. A favicon is the icon that appears before you website address in the browser.
+                                    </p>
+                                </li>
+                                <!--4-->
+                                <li>
+                                    <h5>
+                                        Facebook image
+                                    </h5>
+                                    <p>
+                                        Here you can upload the image that you want to show one the website page is shared on facebook.
+                                    </p>
+                                </li>
+                                <!--5-->
+                                <li>
+                                    <h5>
+                                        Enable overlay stripes/dotts effect for images
+                                    </h5>
+                                    <p>
+                                        These options applies in views and on single post page. If you wish to not have the dots layer above the image - you can enable/disable them from here.
+                                    </p>
+                                </li>
+                                <!--5-->
+                                <li>
+                                    <h5>
+                                        Enable sharing overlay buttons in views
+                                    </h5>
+                                    <p>
+                                        With this function you can disable/enable the social sharing on article-image hover.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Logo type / Upload your logo
+                                    </h5>
+                                    <p>
+                                        Here you can change your logo with a image or simple text.  If you choose image logo, an uploader will appear. Browse and select your custom logo. If you wish to have a text logo, there are typography options for it. Just select text logo and choose the font you like. Fonts are included from Google fonts library. Note: Using the retina option will result in shrinking your logo width in half.
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <a class="fancybox"href="images/settings/style.jpg"><img src="images/settings/style.jpg"/></a>
+                        </div>
+                    </div>
+                    <!-- End of Styles theme options Section -->
+
+                    <!-- Start of Colors theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-colors">Colors</h3>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7">
+                            <ol>
+                                <!--1-->
+                                <li>
+                                    <h5>
+                                        General color for the text on the website
+                                    </h5>
+                                    <p>
+                                        This options gives you posibility to change the whole webpage text color.
+                                    </p>
+                                </li>
+                                <!--2-->
+                                <li>
+                                    <h5>
+                                        Link color
+                                    </h5>
+                                    <p>
+                                        Here you can change the color of links on your webpage
+                                    </p>
+                                </li>
+                                <!--5-->
+                                <li>
+                                    <h5>
+                                        Link color on hover
+                                    </h5>
+                                    <p>
+                                        This option gives you posibility to change the link colors on hover.
+                                    </p>
+                                </li>
+                                <!--6-->
+                                <li>
+                                    <h5>
+                                        Link colors in views
+                                    </h5>
+                                    <p>
+                                        In this tab you can select your links color in articles (grid/list/bigpost)
+                                    </p>
+                                </li>
+                                <!--7-->
+                                <li>
+                                    <h5>
+                                        Titles colors on hover in view
+                                    </h5>
+                                    <p>
+                                        Here you can select article titles colors on hover.
+                                    </p>
+                                </li>
+                                <!--8-->
+                                <li>
+                                    <h5>
+                                        Meta text color
+                                    </h5>
+                                    <p>
+                                        In this tab you can select the text color of your tags.
+                                    </p>
+                                </li>
+                                <!--9-->
+                                <li>
+                                    <h5>
+                                        Primary color
+                                    </h5>
+                                    <p>
+                                        Primary color is the main color of the website, It is used for backgrounds, borders of elements, etc. This defines your main brand/website color.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h5>
+                                        Primary color on hover
+                                    </h5>
+                                    <p>
+                                        Change the hover text color of the primary elements.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h5>
+                                        Secondary color
+                                    </h5>
+                                    <p>
+                                        Secondary color of the website is used for backgrounds, borders of elements, etc. This defines your secondary or contrast brand website color.
+                                    </p>
+                                </li>
+
+                                 <li>
+                                    <h5>
+                                        Secondary color on hover
+                                    </h5>
+                                    <p>
+                                        Change the hover text color of the secondary elements.
+                                    </p>
+                                </li>
+
+                                <!--11-->
+                                <li>
+                                    <h5>
+                                        Primary text color
+                                    </h5>
+                                    <p>
+                                        You can select your color for the text that has a primary color background
+                                    </p>
+                                </li>
+                                 <li>
+                                    <h5>
+                                        Primary text color on hover
+                                    </h5>
+                                    <p>
+                                        Change the hover text color of the primary text elements.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h5>
+                                        Secondary text color
+                                    </h5>
+                                    <p>
+                                        You can select your color for the text that has a secondary color background
+                                    </p>
+                                </li>
+                                 <li>
+                                    <h5>
+                                        Secondary text color on hover
+                                    </h5>
+                                    <p>
+                                        Change the hover text color of the secondary text elements.
+                                    </p>
+                                </li>
+                                <!--12-->
+                                <li>
+                                    <h5>
+                                        Submenu background color
+                                    </h5>
+                                    <p>
+                                        Set the background color for submenues.
+                                    </p>
+                                </li>
+                                <!--13-->
+                                <li>
+                                    <h5>
+                                        Submenu background color for items
+                                    </h5>
+                                    <p>
+                                        Set the background color for submenu items on hover.
+                                    </p>
+                                </li>
+                                <!--14-->
+                                <li>
+                                    <h5>
+                                        Menu text color
+                                    </h5>
+                                    <p>
+                                        You can select here your menu and submenu text colors.
+                                    </p>
+                                </li>
+                                <!--15-->
+                                <li>
+                                    <h5>
+                                        Menu text color on hover
+                                    </h5>
+                                    <p>
+                                        The colors of the text in the menus and submenus on hover
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <a class="fancybox" href="images/settings/colors.jpg"><img src="images/settings/colors.jpg"/></a>
+                        </div>
+                    </div>
+                    <!-- End of colors theme options Section -->
+
+                    <!-- Start of Image sizes theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-image-sizes">Image sizes</h3>
+                    <p>
+                        In this tab you can choose the dimensions for the images that are used on your website. Caution - these are not the sizes that will be shown on the website as the website is adaptive, but it is the size of the images that will be used. We strongly recommend to use given settings and not to fiddle with any as long as you are not sure what you are doing.
+                    </p>
+                    <a class="fancybox" href="images/settings/img-size.jpg"><img src="images/settings/img-size.jpg"></a>
+                    <!-- End of image sizes theme options Section -->
+
+
+                    <!-- Start of Layout theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-layout">Layout</h3>
+                    <p>
+                        Here you can set the defaults for your website. Default sidebar settings and the way articles are going to be shown on archive pages, single post, pages, shop page and products (if you have WooCommerce installed).
+                    </p>
+                    <a href="images/settings/layout.jpg" class="fancybox"><img src="images/settings/layout.jpg"></a>
+                    <!-- End of layout theme options Section -->
+
+                    <!-- Start of typography theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-typography">Typography</h3>
+                    <p>
+                        Settings below are used to change typography for the whole webpage.<br>
+                        You can either use the default fonts that are set in the theme or you can use <b>any from the Google fonts directory</b>.
+                        <br>
+                        Also, you can upload you own custom font. Use the tool <a href="http://www.fontsquirrel.com/tools/webfont-generator" target="_blank">here</a> to create a custom web font.
+                    </p>
+                    <a href="images/settings/typography.jpg" class="fancybox"><img src="images/settings/typography.jpg"></a>
+                    <!-- End of typography theme options Section -->
+
+                    <!-- Start of single theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-single">Single Post</h3>
+                    <p>
+                        In this section you can enable/disable related posts, social sharing, tags.
+                    </p>
+                    <a href="images/settings/singlepost.jpg" class="fancybox"><img src="images/settings/singlepost.jpg"></a>
+                    <!-- End of single theme options Section -->
+
+                    <!-- Start of page theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-page">Page Settings</h3>
+                    <p>
+                        In this section you can change settings for pages, to enable/disable page meta and social sharing.
+                    </p>
+                    <a href="images/settings/pageoptions.jpg" class="fancybox"><img src="images/settings/pageoptions.jpg"></a>
+                    <!-- End of page theme options Section -->
+
+                    <!-- Start of social theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-social">Social</h3>
+                    <p>
+                        These are used for social icons. The email set here is going to be used for contact forms.
+                    </p>
+                    <a href="images/settings/social.jpg" class="fancybox"><img src="images/settings/social.jpg"></a>
+                    <!-- End of social theme options Section -->
+
+                    <!-- Start of custom css theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-customcss">Custom CSS</h3>
+                    <p>
+                        If you need to add your custom CSS, we recommend to add it in this section. These will overwrite theme default styles. Please, check twice before adding something here because we are not responsible for your actions.
+                    </p>
+                    <a href="images/settings/customcss.jpg" class="fancybox"><img src="images/settings/customcss.jpg"></a>
+                    <!-- End of custom css theme options Section -->
+
+                    <!-- Start of sidebars theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-sidebars">Sidebars</h3>
+                    <p>
+                        To create new sidebars just use this tab. Add a sidebar name and press the add button. This will create a new sidebar area that you can use anywhere on the website.
+                    </p>
+                    <a href="images/settings/sidebar.jpg" class="fancybox"><img src="images/settings/sidebar.jpg"></a>
+                    <!-- End of sidebars theme options Section -->
+
+                    <!-- Start of import theme options Section -->
+                    <h3 class="chapter-subtitle" id="options-import">Import/Export</h3>
+                    <p>
+                        This is an encoded data for your website. <b>Be very careful with this</b>. Changing data here will result in corrupting website settings data and this will make your site not to run properly. Unless you are sure you copy the entire data from our export do not press the save settings button.
+                    </p>
+                    <a href="images/settings/import.jpg" class="fancybox"><img src="images/settings/import.jpg"></a>
+                    <!-- End of import theme options Section -->
+
+
+
+                </section>
+
+                <!-- End of Theme Options Section -->
+
+                <!-- Start of Layout Builder Section -->
+
+                <section id="layout-builder">
+                    <h2 class="chapter-title">Layout Builder</h2>
+                    <p class="lead">
+                        Ok, you know the theme options, but let's check this theme's party piece: the Touch Layout Builder.
+                        <br>
+                        The Touch Layout Builder is a built-in drag and drop layout composer that let's you create different layouts. Below you have the builder elements explained.
+                    </p>
+
+                    <img src="images/layout-builder/intro.png" alt="Layout builder" />
+                    <div class="spacer"></div>
+
+                    <p>This theme includes a very powerful layout builder. You can edit/delete/move your elements how you like via drag-and-drop.
+                        Our builder containes a lot of elements and options. Below, it's a description of the most common and general settings and options.
+                    </p>
+                    <p>
+                        First of all, the layout builder schematics: its built on 12 columns layout. All your content can have 2-12/12 columns.
+                        There are rows, columns and elements.
+                        Rows - horizontal container blocks. They contain the columns. Rows have options, are draggable (sortable) between them. You can add as many as you can.
+                        Every row has the following options:
+                        <br>
+                        <b>These settings are individual on each row.</b>
+                    <img src="images/layout-builder/row-settings.jpg" alt="Layout builder row settings" />
+                    <div class="spacer"></div>
+                    <ol>
+                    <li>
+                        <h5>Row ID</h5>
+                        will add an id to the row. This is used if you want to customize elements within a certain row with custom CSS or mostly used for the one page layout. The ID's used here will be set as links for the menu items.
+                    </li>
+                    <li>
+                        <h5>Background color</h5>
+                        will add a color the the entire row to all elements.
+                    </li>
+                    <li>
+                        <h5>Text color</h5>
+                        will change the color of the content inside the selected row. Note that this option works only for text elements added inside builder. Default grid/list elements have a color set and do not inherit the color set here.
+                    </li>
+                    <li>
+                        <h5>Background image</h5>
+                        - you can use a background image for you row. Just browse any image, select the options you want for it and it should be shown on your website. If you don't know what the background options do, check <a target="_blank" href="http://www.w3schools.com/cssref/pr_background-attachment.asp">this link</a>. Here you can find information about these options.
+                    </li>
+                    <li>
+                        <h5>Background video</h5>
+                        - you can use a background video for you row. Just browse any mp4 and webm file (both are used for browser compatibility). The video will be automatically set to fit the whole row.
+                    </li>
+                    <li>
+                        <h5>Row mask</h5>
+                        - will add a layer above the video or the background image. You can select the color and the opacity of the layer mask is set to yes.
+                    </li>
+                    <li>
+                        <h5>Paddings</h5>
+                        are margins that go inside your container.
+                    </li>
+                    <li>
+                        <h5>Margins</h5>
+                        are margins that go outside your container.
+                    </li>
+                    <li>
+                        <h5>Content extend</h5>
+                        can extend your content on 100% horizontally. Note that this option works only with non-boxed layout settings.
+                    </li>
+                    <li>
+                        <h5>Text align options</h5>
+                        change the way the content inside you row is aligned. It only reffers to the text elements, not the entire block.
+                    </li>
+                    <li>
+                        <h5>Vertical aligh</h5>
+                        Will align the content inside your row. <b>Note that the bottom and middle align are used with fullscreen row only.</b>
+                    </li>
+                    <li>
+                        <h5>Box shadow</h5>
+                        If set to yes, it will add a subtle inset shadow to your rows.
+                    </li>
+                    <li>
+                        <h5>Expand row</h5>
+                        Is set to expand - it will make the content of the row fit the screen of your device, and will remove the container.
+                    </li>
+                    <li>
+                        <h5>Fullscreen row</h5>
+                        Is set to fullscreen - it will calculate the screen width and height of your device and will make the row fit the entire screen, not only in width (like the expand row) but in height as well.
+                    </li>
+                    <li>
+                        <h5>Special effects options</h5>
+                        change the way the row will appear on load on your website. If the row is already visible it will be animated immediately. If not, on scroll and when the row will appear in the viewport -  the row will be animated.
+                    </li>
+                    <h2>You can choose from 6 row appeareance effects:</h2>
+                        <ol>
+                            <li>
+                                <h5>Slide up</h5>
+                                this effect will make your content appear sliding from bottom.
+                            </li>
+                            <li>
+                                <h5>Perspective X</h5>
+                                this effect will make your content appear flipping on X axis.
+                            </li>
+                            <li>
+                                <h5>Perspective Y</h5>
+                                this effect will make your content appear flipping on Y axis.
+                            </li>
+                            <li>
+                                <h5>Opacity </h5>
+                                this will make your content appear with fade in effect.
+                            </li>
+                            <li>
+                                <h5>Slide left</h5>
+                                this effect will make your content slide in from left to right.
+                            </li>
+                            <li>
+                                <h5>Slide right</h5>
+                                this effect will make your content slide in from right to left.
+                            </li>
+                        </ol>
+                    </ol>
+                    <hr>
+                    <p>Please, be carefull when applying these effects. All of them are CSS3 so you'll need a browser that understands CSS3 and HTML5. Plus, if used in excess - they will make your website feel slower as all these animations use a good amount of computer resources. We recommend to use 2-3 per page. Also, it's strongly recommended that you don't use row effects where you already have set effects on elements inside that speficic row.</p>
+                    </p>
+                    <img src="images/layout-builder/layout-builder.jpg" alt="Layout builder" />
+                    <img src="images/layout-builder/layout-builder-scheme.jpg" alt="Layout builder" />
+                    <p>
+                        Columns - containers for elements. Their role is to divide your content. You can either add or remove column width with the columns' control buttons.
+                        <img src="images/layout-builder/layout-builder-columns-elements.jpg" alt="Layout builder" />
+                    </p>
+
+                    <!-- Start of logo element Section -->
+                    <h3 class="chapter-subtitle" id="builder-logo">Logo</h3>
+                    <p>
+                        This element shows your logo on the website. You can change the logo that is shown by going to the theme options panel to the "Styles" tab. You can add anywhere in your layout builder the logo you have set in VideoTouch => Styles => Logo type.
+                    </p>
+                    <img src="images/layout-builder/logo/logo-element.JPG">
+                    <!-- End of import theme options Section -->
+
+                    <!-- Start of socials element Section -->
+                    <h3 class="chapter-subtitle" id="builder-social">Social icons</h3>
+                    <p>
+                        After you set up the links to your social pages in <a href="#options-social" class="fancybox">VideoTouch Theme options </a> the non-empty fields will show with this element.
+                    </p>
+                    <a href="images/layout-builder/social/demo.png" class="fancybox" ><img src="images/layout-builder/social/social-element.JPG"></a>
+                    <br>
+                    <a href="images/layout-builder/social/demo.png" class="fancybox" ><img src="images/layout-builder/social/demo.png"></a>
+
+                    <!-- End of socials options Section -->
+
+
+                    <!-- Start of search element Section -->
+                    <h3 class="chapter-subtitle" id="builder-search">Search bar</h3>
+                    <p>This option add a simple search bar in the location you chose, so users can use to browse your webpage easier</p>
+                    <a href="images/layout-builder/searchbar/demo.png" class="fancybox"><img src="images/layout-builder/searchbar/demo.png"></a>
+                    <!-- End of search options Section -->
+
+                    <!-- Start of menu element Section -->
+                    <h3 class="chapter-subtitle" id="builder-menu">Menu element</h3>
+                    <p>
+                        This option gives you pisibility to add your main menu wherever in the page layout and change his text and background color.
+                    </p>
+                    <a class="fancybox" href="images/layout-builder/menu/options.png"><img src="images/layout-builder/menu/menu-element.JPG"></a>
+                    <!-- End of menu options Section -->
+
+                    <!-- Start of sidebar element Section -->
+                    <h3 class="chapter-subtitle" id="builder-sidebar">Sidebar</h3>
+                    <p>Choose the sidebar you want to show. You can select from the default or create your own dynamically. </p>
+                    <a href="#options-sidebar" class="fancybox">Also you can see where to add the sidebar by clicking going to sidebar tab in theme options.</a>
+
+                     <a class="fancybox" href="images/layout-builder/menu/options.png"><img src="images/layout-builder/sidebar/sidebar-element.JPG"></a>
+
+                    <!-- End of sidebar options Section -->
+
+                    <!-- Start of slider element Section -->
+                    <h3 class="chapter-subtitle" id="builder-slider">Slider</h3>
+                    <p>To use the slider option, firstly you need to build one in Sliders => Add New. There is a little guide below.</p>
+                    <a href="images/layout-builder/slider/add-item.jpg" class="fancybox"><img src="images/layout-builder/slider/add-item.jpg"></a>
+                    <p>After you create a slider it will apear as choice in your layout builder.</p>
+                    <a href="images/layout-builder/slider/add-item.jpg" class="fancybox"><img src="images/layout-builder/slider/slider-element.JPG"></a>
+                    <!-- End of slider options Section -->
+
+
+                    <!-- Start of portfolio element Section -->
+                    <h3 class="chapter-subtitle" id="builder-list-portfolios">List portfolios</h3>
+                    <p>
+                        This builder element is a place where you can add your recent projects, events or any other kind of activity you did. This is a kind of presentation of your skills, and your experience. If you don't have a pretty portfolio with needed information and argues - you can lose a big part of people that could offer you work. This is an important piece of page so you should pay attention how you set it up!
+                      <br>
+                      <b>See a little guide in the screen bellow</b>
+                    </p>
+                    <a class="fancybox"href="images/layout-builder/portfolio/add-item.jpg"><img src="images/layout-builder/portfolio/add-item.jpg"></a>
+
+                    <a class="fancybox"href="images/layout-builder/portfolio/add-item.jpg"><img src="images/layout-builder/portfolio/list-portfolio-element.png"></a>
+
+                    <!-- End of portfolio options Section -->
+
+                    <!-- Start of testimonials element Section -->
+                    <h3 class="chapter-subtitle" id="builder-testimonials">Testimonials</h3>
+                    <p>
+                        These are used to create testimonials on page. You can add them dynamically in your layout builder.
+                        <br>
+                        <i>Please use square images for author image, to get the rounded effect.</i>
+                    </p>
+                    <a href="images/layout-builder/testimonials/add-item.jpg" class="fancybox"><img src="images/layout-builder/testimonials/add-item.jpg"></a>
+                    <p>After what, you will be able to chose one of testimonials category in layout builder.</p>
+                    <a href="images/layout-builder/testimonials/demo.png" class="fancybox"><img src="images/layout-builder/testimonials/demo.png"></a>
+                    <!-- End of testimonials options Section -->
+
+
+                    <!-- Start of list posts element Section -->
+                    <h3 class="chapter-subtitle" id="builder-list-posts">List posts</h3>
+                    <p>This theme offers 5 view types with tons of options. As you can see below, you can select your view type, the categories you want to show your posts from, the posts you want to exclude, how many posts you want to exclude from the start, post behavior, title positions, view layouts, elements per row, etc.</p>
+                    <p>Each view has its own options, you if once you change the view, you get different layout options.</p>
+                    <br>
+                    <img src="images/layout-builder/listpost/list-post-element.png">
+                    <hr>
+                    <h3>Below you can see how they look:</h3>
+                    <ol start="1">
+                        <!--thumbnail-->
+                        <li>
+                            <h5>Thumbnail view</h5>
+                            <p>shows only images with a hover efect. You have an example below:</p>
+                            <img src="images/layout-builder/listpost/thumb/demo.png">
+                            <p>Thumbnail view is best for showcase of portfolio. You can choose to have either 1/2/3/4/6 items per row.</p>
+                        </li>
+                        <!--Grid view-->
+                        <li>
+                            <h5>Grid view</h5>
+                            <p>shows images with a hover efect, the title, meta data of the post. Also, with grid view you can select your title position. You have an example below:</p>
+                            <img src="images/layout-builder/listpost/grid/demo.png">
+                            <p>The first shows the hover effect of the grid view image. You can choose to have either 1/2/3/4/6 items per row.</p>
+                        </li>
+                        <!--List View-->
+                        <li>
+                            <h5>List View</h5>
+                            <p>shows posts listed one above the other. This view an have only 1 item per row. You can choose to show/hide meta, how many posts to extract, and how to split the content. You can split it 3 ways: 1/3, 1/2, 3/4. This shows how much space will the first part of content have. You have an example below:</p>
+                            <img src="images/layout-builder/listpost/list/demo.png">
+                        </li>
+                        <!--Big posts-->
+                        <li>
+                            <h5>Big posts</h5>
+                            <p>shows posts listed one above the other just like list view. Many name it the blog view style. This view an have only 1 item per row. You can choose to show/hide meta, how many posts to extract, and how to split the content. You can split it 3 ways: 1/3, 1/2, 3/4. This shows how much space will the image part of content have. Also, you have the option to show related posts if needed. You have an example below:</p>
+                            <img src="images/layout-builder/listpost/bigposts/demo.png">
+                        </li>
+                        <!-- Super Posts -->
+                        <li>
+                            <h5>Super posts</h5>
+                            <p>shows posts with max 2 per line. You can choose how many posts to extract. You have an example below:</p>
+                            <img src="images/layout-builder/listpost/superpost/demo.png">
+                        </li>
+                        <li>
+                            <h5>Timeline view</h5>
+                            <img src="images/layout-builder/listpost/timeline/demo.png">
+                        </li>
+
+                         <li>
+                            <h5>Mozaic view</h5>
+                            <img src="images/layout-builder/listpost/mozaic/demo.png">
+                        </li>
+                    </ol>
+                    <!-- End of list posts options Section -->
+
+
+
+                    <!-- Start of list posts element Section -->
+                    <h3 class="chapter-subtitle" id="builder-call-to-action">Call to action</h3>
+                    <p>element contains 3 things: a text field, a button link and a button text. If you don't need a button, leave the fields blank. You can see on the image below</p>
+                    <a href="images/layout-builder/calltoaction/calltoaction-element.JPG" class="fancybox"><img src="images/layout-builder/calltoaction/calltoaction-element.JPG"></a>
+                    <img src="images/layout-builder/calltoaction/demo.png">
+                    <!-- End of list posts options Section -->
+
+
+
+                    <!-- Start of team element Section -->
+                    <h3 class="chapter-subtitle" id="builder-team">Team members</h3>
+                    <p>These are shown by category. First of all, you add them as a custom post. Do not forget to add each team to a certain category. In the layout builder you list all team members by category. Also, you have the team members per row options and how many of them to show at all.
+                        <br> you can see below a demo of how your team members field will look
+                    </p>
+                    <img src="images/layout-builder/teams/demo.png">
+                    <p>Also you can see below an example of team members form</p>
+                    <img src="images/layout-builder/teams/add-item.jpg">
+                    <!-- End of team options Section -->
+
+
+                    <!-- Start of ads element Section -->
+                    <h3 class="chapter-subtitle" id="builder-ads">Advertising</h3>
+                    <p>
+                        This element has a textarea where you add your code. Be careful what scripts you include, as <b>we are not responsible for this.</b>
+                    </p>
+                    <a href="images/layout-builder/advertising/advertising-element.JPG" class="fancybox"><img src="images/layout-builder/advertising/advertising-element.JPG"></a>
+                    <!-- End of ads options Section -->
+
+
+                    <!-- Start of delimiter element Section -->
+                    <h3 class="chapter-subtitle" id="builder-delimiter">Delimiter</h3>
+                    <h2>Delimiter</h2>
+                    <p>This block creates a visual delimiter in the place you selected in layout builder with width equal to number of columns used.
+                    <br>You can chose one of the following styles (see below):</p>
+                    <img src="images/layout-builder/delimiter/delimiter-element.JPG">
+                    <br>
+                    <p>Below you can see a demo o the delimiters avaible</p>
+                    <br>
+                    <img src="images/layout-builder/delimiter/demo.png">
+                    <!-- End of delimiter options Section -->
+
+
+
+                    <!-- Start of title element Section -->
+                    <h3 class="chapter-subtitle" id="builder-title">Title</h3>
+                    <p>These are used to give name to your content blocks/elements. There are 5 styles of titles available. There is also a posibility that we'll add more later. Choose the style you want. Also, you can choose the size of the title. You have option to use H1-H5. A title description (subtitle) is also available. If left blank, it not show anything. </p>
+                    <img src="images/layout-builder/title/add-item.jpg">
+                    <p style="margin-top:30px;">And lower you can see a little demo:</p>
+                    <img src="images/layout-builder/title/demo.jpeg">
+                    <!-- End of title options Section -->
+
+
+
+                    <!-- Start of video element Section -->
+                    <h3 class="chapter-subtitle" id="builder-video">Video</h3>
+                    <p>With this element's help you can add a video from youtube or vimeo that will take the width equal to your block columns size and will calculate an auto height.
+                    <br><b> Pay atention that you should insert the clean youtube video url (not the iframe).</b></p>
+
+                    <a class="fancybox" href="images/layout-builder/video/video-element.JPG"><img src="images/layout-builder/video/video-element.JPG"></a>
+
+                    <!-- End of video options Section -->
+
+
+
+                    <!-- Start of image element Section -->
+                    <h3 class="chapter-subtitle" id="builder-image">Image</h3>
+                    <p>This element element gives you the opportunity to upload or to use an image from your media library. If you set a link, it will show an image with link on your website. If you leave the field blank, the image will not have a link.
+                    <a class="fancybox" href="images/layout-builder/image/image-element.JPG"><img src="images/layout-builder/image/image-element.JPG"></a>
+                    <!-- End of video options Section -->
+
+
+
+                    <!-- Start of filters element Section -->
+                    <h3 class="chapter-subtitle" id="builder-filters">Filters</h3>
+                    <p>This function display chosen posts or portfolios with category filter.
+                    <br> You can see an example of options and display below:</p>
+
+                    <a href="images/layout-builder/filter/filter-element.JPG" class="fancybox" ><img src="images/layout-builder/filter/filter-element.JPG"></a>
+                    <!-- End of filters options Section -->
+
+
+                    <!-- Start of icon box element Section -->
+                    <h3 class="chapter-subtitle" id="builder-icon-box">Icon box</h3>
+                    <p>These are usually used for showcasing the services or features that you offer/have. Adding one is simple, just like another custom post.</p>
+                    <a href="images/layout-builder/icon-box/icon-box-element.png" class="fancybox" ><img src="images/layout-builder/icon-box/icon-box-element.png"></a>
+                    <a href="images/layout-builder/icon-box/demo.jpg" class="fancybox" ><img src="images/layout-builder/icon-box/demo.jpg"></a>
+                    <!-- End of icon box options Section -->
+
+                    <!-- Start of spacer box element Section -->
+                    <h3 class="chapter-subtitle" id="builder-spacer">Spacer</h3>
+                    <p>Creates an empty block with equal to the columns size you select, and height equal to your choice (in pixels). Used to make spaces between element</p>
+                    <a href="images/layout-builder/spacer/example.jpg" class="fancybox"><img src="images/layout-builder/spacer/example.jpg"></a>
+                    <!-- End of spacer box options Section -->
+
+                    <!-- Start of button box element Section -->
+                    <h3 class="chapter-subtitle" id="builder-button">Button</h3>
+                    <p>This element has 4 sizes. This adds and button on your website. You can select the size, target, link and colors for text and background.</p>
+                    <a href="images/layout-builder/buttons/button-elements.png" class="fancybox"><img src="images/layout-builder/buttons/button-elements.png"></a>
+                    <!-- End of button box options Section -->
+
+                    <!-- Start of contact element Section -->
+                    <h3 class="chapter-subtitle" id="builder-contact-form">Contact form</h3>
+                    <p>This element adds a contact form on your website. You will recieve the emails sent through it on the mail set in social tab in theme options.</p>
+
+                    <a href="images/layout-builder/contact/contact-form-element.JPG" class="fancybox"><img src="images/layout-builder/contact/contact-form-element.JPG"></a>
+                    <p>Below you will find some demos of the contact form</p>
+                    <a href="images/layout-builder/contact/demo.jpg" class="fancybox"><img src="images/layout-builder/contact/demo.jpg"></a>
+                    <!-- End of contact options Section -->
+
+                    <!-- Start of featured area element Section -->
+                    <h3 class="chapter-subtitle" id="builder-featured-area">Featured area</h3>
+                    <p>element is mostly used for news/magazine websites. It includes 4 posts (1 big post as you main article and 3 smaller). You can select the position of the main article on the right or on the left.</p>
+                    <a href="images/layout-builder/featured/featured-area-element.JPG" class="fancybox"><img src="images/layout-builder/featured/featured-area-element.JPG"></a>
+
+                    <img src="images/layout-builder/featured/demo.png">
+                    <!-- End of contact options Section -->
+
+                    <!-- Start of featured area element Section -->
+                    <h3 class="chapter-subtitle" id="builder-shortcodes">Shortcodes</h3>
+                    <p>This element element let's you use shortcodes from other plugins. Not all plugins might be compatible so we are not responsible for that.
+                    <br> you can see a little example in the image below:</p>
+                    <a href="images/layout-builder/shortcode/shortcodes-element.JPG" class="fancybox"><img src="images/layout-builder/shortcode/shortcodes-element.JPG"></a>
+                    <a href="images/layout-builder/shortcode/demo.jpg" class="fancybox"><img src="images/layout-builder/shortcode/demo.jpg"></a>
+                    <!-- End of featured area options Section -->
+
+                    <!-- Start of text element Section -->
+                    <h3 class="chapter-subtitle" id="builder-text">Text</h3>
+                    <p>This element lets you to add any text in your layout builder. You should get a WordPress editor where you can add any text you want.
+                    <a href="images/layout-builder/text/text-element.JPG" class="fancybox"><img src="images/layout-builder/text/text-element.JPG"></a>
+                    <!-- End of text element Section -->
+
+                    <!-- Start of image carousel element Section -->
+                    <h3 class="chapter-subtitle" id="builder-image-carousel">Image carousel</h3>
+                    <p>This element is used to add a custom image gallery anywhere in your layout builder. Carousel takes an automatic height and width depending on the number of columns you use.
+                    <br> Example in image below:</p>
+                    <a href="images/layout-builder/carousel/image-carousel.JPG" class="fancybox"><img src="images/layout-builder/carousel/image-carousel.JPG"></a>
+
+                    <img src="images/layout-builder/carousel/demo.png">
+                    <!-- End of image carousel element Section -->
+
+
+                    <!-- Start of pricing tabel element Section -->
+                    <h3 class="chapter-subtitle" id="builder-pricing-table">Pricing tables</h3>
+                    <p>
+                        You can add pricing tables into 2/3/4 per row, with or without gutter. You can see the options below:
+                        <br>
+                        Example in image below:
+                    </p>
+                    <a href="images/layout-builder/pricing/pricing-tables.JPG" class="fancybox"><img src="images/layout-builder/pricing/pricing-tables.JPG"></a>
+                    <br><br>
+                    <img src="images/layout-builder/pricing/demo.png">
+                    <!-- End of pricing tabel element Section -->
+
+
+                    <!-- Start of listed features element Section -->
+                    <h3 class="chapter-subtitle" id="builder-listed-features">Listed features</h3>
+                    <p>
+                        You can have them with border or without. Also, you can select the align of the icons (left or right)
+                        <br>
+                        Example in image below:
+                    </p>
+                    <img src="images/layout-builder/listed-features/add-new.png">
+                    <br><br>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6"><img src="images/layout-builder/listed-features/demo.png"></div>
+                        <div class="col-lg-6 col-md-6"><img src="images/layout-builder/listed-features/demo2.png"></div>
+                    </div>
+
+                    <!-- End of listed features element Section -->
+
+
+                    <!-- Start of counter element Section -->
+                    <h3 class="chapter-subtitle" id="builder-counter">Counter</h3>
+                    <p>
+                        You can add counters on the website. You need to enter the title and the percentage. They look like this on the website:
+                        <br>
+
+                    </p>
+                    <a href="images/layout-builder/counter/counter-element.JPG" class="fancybox"><img src="images/layout-builder/counter/counter-element.JPG"></a>
+                    <img src="images/layout-builder/counter/demo.png">
+                    <!-- End of counter element Section -->
+
+
+                    <!-- Start of clients element Section -->
+                    <h3 class="chapter-subtitle" id="builder-clients">Clients</h3>
+                    <p>
+                        You can add clients on the website with 2/3/4/6 columns on the website. You need to enter the titles that will appear on hover or make add a carousel. They look like this on the website:
+                        <br>
+
+                    </p>
+                    <a href="images/layout-builder/clients/client-element.JPG" class="fancybox"><img src="images/layout-builder/clients/client-element.JPG"></a>
+                    <img src="images/layout-builder/clients/demo.png">
+                    <!-- End of clients element Section -->
+
+
+                    <!-- Start of toggle element Section -->
+                    <h3 class="chapter-subtitle" id="builder-toggle">Toggle</h3>
+                    <p>
+                        You can add toggles with a opened/closed state. They have titles and content. They look like this:
+                        <br>
+                    </p>
+                    <a href="images/layout-builder/toggle/toggle-element.JPG" class="fancybox"><img src="images/layout-builder/toggle/toggle-element.JPG"></a>
+                    <img src="images/layout-builder/toggle/demo.png">
+                    <!-- End of toggle element Section -->
+
+                    <!-- Start of banner element Section -->
+                    <h3 class="chapter-subtitle" id="builder-banner">Banner</h3>
+                    <p>
+                        You can add banner boxed, select the align of the content that they have. They look like this:
+                        <br>
+                    </p>
+                    <a href="images/layout-builder/banner/banner-element.JPG" class="fancybox"><img src="images/layout-builder/banner/banner-element.JPG"></a>
+                    <img src="images/layout-builder/banner/demo.png">
+                    <!-- End of banner element Section -->
+
+
+                    <!-- Start of banner element Section -->
+                    <h3 class="chapter-subtitle" id="builder-products">List Products</h3>
+                    <p>
+                        If you have the WooCommerce plugin installed on your website, you can showcase products on the website. Here are the options that you have for listing products:
+                    </p>
+                    <a href="images/layout-builder/products/list-products.png" class="fancybox"><img src="images/layout-builder/products/list-products.png"></a>
+                    <p>
+                        On your website, depending on the options that you have set they should look like this:
+                    </p>
+                    <img src="images/layout-builder/products/demo.png">
+                    <!-- End of banner element Section -->
+
+                    <!-- Start of facebook element Section -->
+                    <h3 class="chapter-subtitle" id="builder-facebook">Facebook</h3>
+                    <p>
+                        This element will show on your page inside a box the people that likes your facebook page
+                    </p>
+                    <a href="images/layout-builder/facebook/facebook-element.JPG" class="fancybox"><img src="images/layout-builder/facebook/facebook-element.JPG"></a>
+                    <p class="text-center">
+                    <img src="images/layout-builder/facebook/demo.png" alt=""></p>
+                    <!-- End of facebook element Section -->
+
+                    <!-- Start of latest custom posts element Section -->
+                    <h3 class="chapter-subtitle" id="builder-customposts">Latest custom posts</h3>
+                    <p>
+                        This element will show the latest from from different categories.
+                    </p>
+                    <a href="images/layout-builder/customposts/latest-custopost-element.png" class="fancybox"><img src="images/layout-builder/customposts/latest-custopost-element.png"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of latest custom posts element Section -->
+
+                    <!-- Start of list videos posts element Section -->
+                    <h3 class="chapter-subtitle" id="builder-listvideos">List videos</h3>
+                    <p>
+                        This element will show the video posts.
+                    </p>
+                    <a href="images/layout-builder/list-videos/list-videos-element.png" class="fancybox"><img src="images/layout-builder/list-videos/list-videos-element.png"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of list videos posts element Section -->
+
+                    <!-- Start of map element Section -->
+                    <h3 class="chapter-subtitle" id="builder-map">Map</h3>
+                    <p>
+                        This element gives you the option to insert google maps inside you page, here you need to insert the code that you have to show the map.
+                    </p>
+                    <a href="images/layout-builder/map/map-element.jpg" class="fancybox"><img src="images/layout-builder/map/map-element.jpg"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of map element Section -->
+
+                    <!-- Start of quote element Section -->
+                    <h3 class="chapter-subtitle" id="builder-quote">Quote</h3>
+                    <p>
+                        This element gives you the opotion to add quotes inside you page, you can choose the icon for the quote and the author of the quote.
+                    </p>
+                    <a href="images/layout-builder/quote/quote-element.jpg" class="fancybox"><img src="images/layout-builder/quote/quote-element.jpg"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of quote element Section -->
+
+                    <!-- Start of ribbon element Section -->
+                    <h3 class="chapter-subtitle" id="builder-ribbon">Ribbon</h3>
+                    <p>
+                        Show a ribbon element on your website, you can customize the appearance of the element.
+                    </p>
+                    <a href="images/layout-builder/ribbon/ribbon.JPG" class="fancybox"><img src="images/layout-builder/ribbon/ribbon.JPG"></a>
+                    <a href="images/layout-builder/ribbon/demo.png" class="fancybox"><img src="images/layout-builder/ribbon/demo.png"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of ribbon element Section -->
+
+                    <!-- Start of tab element Section -->
+                    <h3 class="chapter-subtitle" id="builder-tab">Tab</h3>
+                    <p>
+                        Create different layout of tabs.
+                    </p>
+                    <a href="images/layout-builder/tab/tab-element.jpg" class="fancybox"><img src="images/layout-builder/tab/tab-element.jpg"></a>
+                    <p>
+
+                    </p>
+                    <!-- End of tab element Section -->
+
+                    <!-- Start of timeline element Section -->
+                    <h3 class="chapter-subtitle" id="builder-timeline">Timeline</h3>
+                    <p>
+                        Create a timeline with your features.
+                    </p>
+                    <a href="images/layout-builder/timeline/timeline-element.JPG" class="fancybox"><img src="images/layout-builder/timeline/timeline-element.JPG"></a>
+            
+                    <p>Below you can see a little demo of the timeline element</p>
+                    <a href="images/layout-builder/timeline/demo.png" class="fancybox"><img src="images/layout-builder/timeline/demo.png"></a>
+                    <!-- End of timeline element Section -->
+
+                    <!-- Start of video-carousel element Section -->
+                    <h3 class="chapter-subtitle" id="builder-video-carousel">Video Carousel</h3>
+                    <p>
+                        This element offers you the option to create a carousel from you vide post by choosing the category from where to get the posts.
+                    </p>
+                    <a href="images/layout-builder/video-carousel/video-carousel-element.JPG" class="fancybox"><img src="images/layout-builder/video-carousel/video-carousel-element.JPG"></a>
+                    <p>Below you can see a preview of the video carousel.</p>
+                    <a href="images/layout-builder/video-carousel/demo.png" class="fancybox"><img src="images/layout-builder/video-carousel/demo.png"></a>
+                    <!-- End of video-carousel element Section -->
+
+                </section>
+
+                <!-- End of Theme Options Section -->
+
+
+                <div class="spacer"></div>
+
+                <section id="builder-videos">
+                    <h2 class="chapter-title">Layout builder demo videos</h2>
+                    <iframe width="853" height="480" src="http://www.youtube.com/embed/hQ1ABH9gj-k" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="853" height="480" src="http://www.youtube.com/embed/IA2Qm2AFQVg" frameborder="0" allowfullscreen></iframe>
+                    <h3><a href="http://support.touchsize.com/knowledgebase/VideoTouch" target="_blank">Go to VideoTouch knowledgebase</a></h3>
+
+                </section>
+
+                <section id="create-homepage">
+                    <h2 class="chapter-title">How to create a homepage</h2>
+                     On first install, you will get the blog page only. If you want to use the drag and drop builder and create custom layouts - after creating a new page you'll need to add it to reading options so that WordPress knows what page to show as frontpage.
+
+                    Then set it up in <b>Settings -> Reading</b> as your frontpage like this:<br><br>
+                    <img src="images/howto/setfrontpage.png" alt="">
+                </section>
+
+                <section id="faq">
+                    <h2 class="chapter-title">FAQ</h2>
+                    <div class="faq-item" id="dummy-not-exact">
+                        <h4>I have imported the dummy data, but it does not look 100% the same</h4>
+                        <p>
+                            The dummy data import option from the Import/Export tab of the theme options is not an exact copy of the theme demo mostly because the ID's of the categories, images that were selected demos might not be the same with the ones that will be created on your demo. Also, some of the images and videos are not allowed to be redistributed or haven't been imported at all by the importer.
+                            <br><br>
+                            Every time we do an update and include new features or new elements we'll include the new import data in the theme so you can see it. Any pages, elements, or other data that was not imported can be re-created. Please write on our help desk if you need help with that.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="theme-wont-install">
+                        <h4>The theme does not install</h4>
+                        <p>
+                            Usually this issue appears when you are not uploading the right archive to your server. From your downloads on ThemeForest select the "Installable WordPress file only" link which is the zip that you need to upload.
+                            <br><br>
+                            If you need help with that, we have described this in the documentation above, you can find some information by clicking in the menus. If that does not help, please submit a ticket on our help desk.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="theme-wont-install">
+                        <h4>The theme does not install, stylesheet missing error</h4>
+                        <p>
+                            Usually this issue appears when you are not uploading the right archive to your server. From your downloads on ThemeForest select the "Installable WordPress file only" link which is the zip that you need to upload.
+                            <br><br>
+                            If you need help with that, we have described this in the documentation above, you can find some information by clicking in the menus. If that does not help, please submit a ticket on our help desk.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="theme-wont-install">
+                        <h4>How do I edit my header and footer?</h4>
+                         <p>
+                            The global header and footer can be changed by going to their respective tabs in the theme options panel. You can see a screenshot of that below:<br><br>
+                         </p>
+                         <img src="images/howto/headerfooter.png" alt="">
+
+                         <p>The header and footer elements you set here will be used everywhere on the website. If you decide that you need a custom header for one of your pages like let's say, for your homepage you can just disable it from the page settings. You have a screenshot attached below:</p>
+                        <img src="images/howto/disableheaderfooter.png" alt="">
+                    </div>
+
+                </section>
+
+                <section>
+                    <h2 class="chapter-title">Thank you!</h2>
+                    Once again, thank you so much for purchasing this theme. As we said at the beginning, we'd be glad to help you if you have any questions relating to this theme. No guarantees, but we'll do my best to assist. Please, use the support desk to ask for assistance because you'll get a quicker response. Don't forget to check the knowledgebase first!
+                </section>
+                <div class="spacer"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright <a href="http://touchsize.com">TouchSize</a>. Check our other products as well on our website: http://touchsize.com</p>
+        </div>
+    </div>
+
+
+    <!--   ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

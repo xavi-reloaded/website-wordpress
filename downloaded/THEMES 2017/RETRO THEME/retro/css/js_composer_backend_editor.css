@@ -1,0 +1,43 @@
+/*	Notification
+-------------------------------------------------- */
+
+	.ox_notification,
+	.vc_message_box.vc_message_box-retro,
+    .vc_message_box.vc_message_box-tinvwl-retro {
+		position:relative;
+		clear:both;
+		margin-bottom:21px; padding:31px 25px 31px 71px;
+		box-shadow: 1px 1px 4px rgba(28,20,6,0.14);
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-position: 27px 31px;
+		font-size:16px;
+	}
+	.ox_notification p,
+    .vc_message_box.vc_message_box-tinvwl-retro p { margin-bottom:0}
+	.ox_notification:before,
+	.vc_message_box.vc_message_box-retro:before,
+    .vc_message_box.vc_message_box-tinvwl-retro:before { content:''; display:block; height:26px; left:27px; position:absolute; top:31px; width:26px;}
+	
+	/* Notification */
+		.vc_message_box.vc_message_box-retro.vc_type-success:before,
+		.notification_mark:before,
+        .vc_message_box.vc_message_box-tinvwl-retro.vc_type-success:before {
+            background:url(../images/skin/default/sprite_retro.png) no-repeat -100px -200px;
+        }
+		.vc_message_box.vc_message_box-retro.vc_type-info:before,
+		.notification_info:before,		
+        .vc_message_box.vc_message_box-tinvwl-retro.vc_type-info:before {
+            background:url(../images/skin/default/sprite_retro.png) no-repeat -150px -200px
+        }
+		.vc_message_box.vc_message_box-retro.vc_type-warning:before,
+		.notification_warning:before,		
+        .vc_message_box.vc_message_box-tinvwl-retro.vc_type-warning:before {
+            background:url(../images/skin/default/sprite_retro.png) no-repeat -200px -200px
+        }
+		.vc_message_box.vc_message_box-retro.vc_type-error:before,
+		.notification_error:before,
+		.vc_message_box.vc_message_box-tinvwl-retro.vc_type-error:before, 		
+        .vc_message_box.vc_message_box-tinvwl-retro.vc_type-danger:before {
+            background:url(../images/skin/default/sprite_retro.png) no-repeat -250px -200px
+        }

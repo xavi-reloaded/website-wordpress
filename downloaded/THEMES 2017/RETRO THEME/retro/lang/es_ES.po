@@ -1,0 +1,4226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Retro - Premium Vintage WordPress Theme v3.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-22 08:19+0700\n"
+"PO-Revision-Date: 2017-05-22 08:19+0700\n"
+"Last-Translator: admin <stan@olegnax.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/revslider\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+# @ retro
+#: 404.php:6
+msgid "The page you are trying to reach can&apos;t be found"
+msgstr "La página que está tratando de buscar no se puede encontrar"
+
+# @ retro
+#: 404.php:7
+msgid ""
+"Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+"Trate de mejorar su búsqueda, o utilizar la navegación para localizar la "
+"noticia."
+
+# @ retro
+#: 404.php:8
+msgid "back to home"
+msgstr "Volver al inicio"
+
+# @ retro
+#: classes/Admin/Theme/Element/File.php:32
+#: classes/Admin/Theme/Element/File/Favicon.php:26
+msgid "Upload"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Element/InstallDummy.php:18
+msgid ""
+"<p><strong>Warning!</strong><br> DO NOT INSTALL dummy data on your live "
+"website. <br>It will corrupt your existing data.</p><p>We suggest you "
+"install dummy data only on clean WordPress setup.</p><p><small>We do not "
+"hold any responsibility if you lost existing data.</small></p>"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Element/InstallDummy.php:22
+msgid "Dummy content already installed."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Element/InstallDummy.php:24
+msgid "Install dummy content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Element/InstallDummy.php:27
+msgid "Loading"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:11 classes/Admin/Theme/Item/Blog.php:12
+#: lib/shortcode/vcshortcode.php:122
+msgid "Blog"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:23
+msgid "Blog Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:28
+msgid "Sidebar position for blog listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:29
+msgid "Choose a sidebar position for blog listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:37
+msgid "Sidebar for blog listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:38
+msgid "Choose a sidebar for blog listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:48
+msgid "Blog listing template"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:49
+msgid "Choose a blog listing template"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:61
+msgid "Switch On to disable excerpts on blog listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:62
+msgid "Disable excerpts"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:68
+msgid "Switch On to disable about author box on post entry"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:69
+msgid "Disable about author box"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:79
+msgid "Sidebar position for single post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:80
+msgid "Choose a sidebar position for single post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:88
+msgid "Sidebar for single post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:89
+msgid "Choose a sidebar for single post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:100
+msgid "Select a  slideshow type"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:101
+msgid "Select a  slideshow type "
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:109
+#: classes/Admin/Theme/Item/Slideshow.php:81
+msgid "Select one of sliders"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:110
+#: classes/Admin/Theme/Item/Slideshow.php:82
+msgid "Select one of sliders "
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:116
+msgid "Blog page title"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Blog.php:117
+msgid "Title will be shown on any blog post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Captcha.php:7
+#: classes/Admin/Theme/Item/Captcha.php:8
+msgid "reCaptcha"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Captcha.php:23
+msgid ""
+"Learn more about reCaptcha <a href='//developers.google.com/recaptcha/' "
+"title='What is reCAPTCHA?'  target='_blank'>here</a>"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Captcha.php:27
+msgid "Public Key"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Captcha.php:28
+#: classes/Admin/Theme/Item/Captcha.php:35
+msgid "These keys are required for using in reCaptcha."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Captcha.php:34
+msgid "Private Key"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Dummy.php:12 classes/Admin/Theme/Item/Dummy.php:13
+msgid "Dummy content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Dummy.php:23
+msgid "Dummy content install"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:9 classes/Admin/Theme/Item/Footer.php:10
+msgid "Footer"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:22
+msgid "Footer Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:32
+msgid "Enable footer widget area"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:33
+msgid ""
+"Check this box if you want to enable footer widgets area for whole site."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:40
+msgid "Columns number for footer widgets area"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:41
+msgid ""
+"Select how many columns(sidebars) you want display for footer widgets area."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:53
+msgid "Footer text"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:54
+msgid "Type here text that appear at botttom of each page - copyrights, etc.."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:61
+msgid "Google Analytics"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:62
+msgid "Insert your Google Analytics (or other) code here."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:74
+msgid "Footer custom content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Footer.php:75
+msgid "You can use custom content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:10
+#: classes/Admin/Theme/Item/General.php:11
+msgid "General"
+msgstr ""
+
+# @ retro
+# @ revslider
+#: classes/Admin/Theme/Item/General.php:23 classes/Widget/MailChimp.php:38
+msgid "General Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:29
+msgid "Show preview switcher"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:30
+msgid "Check to show preview color switcher"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:37
+msgid "Preview default Skin slider"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:38
+msgid "Select a slideshow fore preview default skin"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:44
+msgid "Preview Skin 1 slider"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:45
+msgid "Select a slideshow fore preview skin 1"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:51
+msgid "Preview 2 slider"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:52
+msgid "Select a slideshow fore preview skin 2"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:58
+msgid "Preview 3 slider"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:59
+msgid "Select a slideshow fore preview skin 3"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:65
+msgid "Preview 4 slider"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:66
+msgid "Select a slideshow fore preview skin 4"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:93
+msgid "Choose Google font for titles"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:94
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:151
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:151
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:154
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:152
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:152
+msgid "Choose a Font for titles, etc."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:102
+msgid "Disable Google fonts"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:103
+msgid "Check to disable Google fonts"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:111
+msgid ""
+"Check to disable default theme font and use \"font family for content\" value"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:112
+msgid "Use default theme font BazarMedium(if google font disable)"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:124
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:125
+msgid "Check to disable Font Awesome"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:137
+#: classes/Admin/Theme/Item/General.php:138
+msgid "Choose a font family for content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:146
+#: classes/Admin/Theme/Item/General.php:147
+msgid "Choose a font style for content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:159
+msgid "Favicon"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:160
+msgid "Click upload button, then choose and upload your favicon file"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:171
+msgid "Disable responsive"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/General.php:172
+msgid "Check to disable responsive support"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:11
+#: classes/Admin/Theme/Item/Header.php:12
+msgid "Header"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:23
+msgid "Header Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:44
+msgid "Header custom content - left"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:45
+msgid "headder left text area"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:57
+msgid "Header custom content - right"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:58
+msgid "header right text area"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:67
+msgid "Hide my account link"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:68
+msgid "Check this box if you want to hide my account link at top line"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:76
+msgid "Hide wishlist link"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:77
+msgid "Check this box if you want to hide wishlist link at top line"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:89
+msgid "Wishlist icon"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:90
+msgid "Click upload button, then choose and upload your wishlist icon"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:99
+msgid "Hide shopping cart"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Header.php:100
+msgid "Check this box if you want to hide shopping cart at top line"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/MailChimp.php:5
+#: classes/Admin/Theme/Item/MailChimp.php:6 classes/Widget/MailChimp.php:10
+msgid "MailChimp"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/MailChimp.php:16
+#: classes/Admin/Theme/Item/MailChimp.php:29
+#: classes/Admin/Theme/Item/MailChimp.php:30
+msgid "MailChimp API key"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/MailChimp.php:21
+msgid ""
+"Enter a valid MailChimp API key here to get started. Once you've done that, "
+"you can use the MailChimp Widget from the Widgets menu. You will need to "
+"have at least MailChimp list set up before the using the widget."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/MailChimp.php:25
+msgid ""
+"Don't know where to get? please visit this link, <a href=\"http://kb."
+"mailchimp.com/article/how-do-i-log-in-to-the-mailchimp-iphone-app-through-"
+"google-apps\" target=\"_blank\">Get API Key</a>"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:13
+#: classes/Admin/Theme/Item/Portfolios.php:14
+msgid "Portfolios"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:24
+msgid "Portfolios settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:29
+msgid "Sidebar position for portfolios listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:30
+msgid "Choose a sidebar position for portfolios listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:38
+msgid "Sidebar for portfolios listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:39
+msgid "Choose a sidebar for portfolios listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:49
+msgid "Side content position for single portfolio post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:50
+msgid "Choose a sidebar position for single portfolio"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:63
+msgid "Portfolio post slug"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:64
+msgid "Write custom slug for portfolio post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:71
+msgid "Portfolio category slug"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Portfolios.php:72
+msgid "Write custom slug for portfolio category"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:24 classes/Admin/Theme/Item/Share.php:25
+msgid "Share buttons"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:36
+msgid "Share button Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:40
+msgid "Show share buttons under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:52
+msgid "Share title"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:53
+msgid "Text before share buttons."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:59
+msgid "Share button style"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:60
+msgid "Choose a Share button style"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:72
+msgid "Share buttons list"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:76
+msgid "Show Facebook"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:77
+msgid "Check this box if you want to show Facebook share button under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:84
+msgid "Show Twitter"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:85
+msgid "Check this box if you want to show Twitter share button under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:92
+msgid "Show Google+"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:93
+msgid "Check this box if you want to show Google+ share button under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:100
+msgid "Show LinkedIn"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:101
+msgid "Check this box if you want to show LinkedIn share button under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:108
+msgid "Show Pinterest"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:109
+msgid "Check this box if you want to show Pinterest share button under content"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:120
+msgid "List which displays share buttons"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:124
+msgid "Show on post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:125
+msgid "Check this box if you want to show share button on post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:132
+msgid "Show on page"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:133
+msgid "Check this box if you want to show share button on page"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:140
+msgid "Show on portfolio"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:141
+msgid "Check this box if you want to show share button on portfolio"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:148
+msgid "Show on product"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Share.php:149
+msgid "Check this box if you want to show share button on product"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:9
+#: classes/Admin/Theme/Item/Sidebar.php:10
+msgid "Sidebars"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:21
+msgid "Sidebars Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:26
+msgid "Add Sidebar:"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:27
+msgid "Enter the name of the new sidebar that you would like to create."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:33
+msgid "Below are the Sidebars you have created:"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Sidebar.php:34
+msgid "Sidebars created:"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Skin.php:9
+msgid "Theme Skin Layout"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Skin.php:10
+msgid "Theme Skin"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Skin.php:21
+msgid "Skin Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Skin.php:26
+msgid "Skin layout"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Skin.php:27
+msgid "Select to activate skin layout for theme"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:54
+#: classes/Admin/Theme/Item/Slideshow.php:55
+msgid "Slideshows"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:67
+msgid "Slideshow Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:72
+msgid "Select a global slideshow type"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:73
+msgid "Select a global slideshow type "
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:92
+msgid "Headings color - H1"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:93
+#: classes/Admin/Theme/Item/Slideshow.php:100
+#: classes/Admin/Theme/Item/Slideshow.php:107
+#: classes/Admin/Theme/Item/Slideshow.php:114
+msgid "Please select your custom color for content headings text."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:99
+msgid "Headings color - H2"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:106
+msgid "Headings with line color - H3"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:113
+msgid "Headings color - H4"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:120
+msgid "Text color"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Slideshow.php:121
+msgid "Please select your custom color for content text."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:9
+#: classes/Admin/Theme/Item/Testimonials.php:10
+#: classes/Widget/Testimonial.php:109 lib/shortcode/vcshortcode.php:35
+#: lib/shortcode/vcwidgetshortcode.php:297
+msgid "Testimonials"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:21
+msgid "Testimonials Settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:25
+msgid "Sidebar position for testimonials listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:26
+msgid "Choose a sidebar position for testimonials listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:34
+msgid "Sidebar for testimonials listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:35
+msgid "Choose a sidebar for testimonials listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:45
+msgid "Sidebar position for single testimonial"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:46
+msgid "Choose a sidebar position for single testimonial"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:54
+msgid "Sidebar for single testimonial"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:55
+msgid "Choose a sidebar for single testimonial"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:66
+msgid "Testimonial post slug"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:67
+msgid "Write custom slug for testimonial post"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:74
+msgid "Testimonial category slug"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Testimonials.php:75
+msgid "Write custom slug for testimonial category"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:6
+msgid "Authenticating for Twitter"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:7
+msgid "Twitter OAuth"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:16
+msgid "Authenticating a User Timeline for Twitter OAuth API V1.1"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:21
+msgid "Enter a valid Twitter OAuth settings here to get started."
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:25
+msgid ""
+"Don't know where to get? please visit this link, <a href=\"http://www."
+"webdevdoor.com/php/authenticating-twitter-feed-timeline-oauth/\" target="
+"\"_blank\">Authenticating for Twitter </a>"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:29
+#: classes/Admin/Theme/Item/Twitter.php:30
+msgid "Consumer key"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:36
+#: classes/Admin/Theme/Item/Twitter.php:37
+msgid "Consumer secret"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:43
+#: classes/Admin/Theme/Item/Twitter.php:44
+msgid "Access token"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Twitter.php:50
+#: classes/Admin/Theme/Item/Twitter.php:51
+msgid "Access token secret"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:9
+msgid "Theme updater"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:10
+msgid "Theme Updater"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:22
+msgid "User Account Information"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:28
+msgid "Marketplace Username"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:29
+msgid "Please provide Username for theme update"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:36
+msgid "Secret API Key"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Update.php:37
+msgid "Please provide API Key for theme update"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:13
+#: classes/Admin/Theme/Item/Woocommerce.php:14
+msgid "WooCommerce"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:24
+msgid "WooCommerce settings"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:29
+msgid "Sidebar position for products listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:30
+msgid "Choose a sidebar position for products listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:38
+msgid "Sidebar for products listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:39
+msgid "Choose a sidebar for products listing"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:49
+msgid "Sidebar position for product page"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:50
+msgid "Choose a sidebar position for product page"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:58
+msgid "Sidebar for product page"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/Item/Woocommerce.php:59
+msgid "Choose a sidebar for product page"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Woocommerce.php:69
+msgid "Use WooCommerce 3 Product Gallery"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Woocommerce.php:70
+msgid "Use WooCommerce 3 Product Gallery Zoom, Lightbox and Slider. "
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Footer/FooterDefault.php:127
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin1.php:127
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin2.php:127
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin3.php:127
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin4.php:127
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:134
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:134
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:137
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:135
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:135
+msgid "Hide logo image"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Footer/FooterDefault.php:128
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin1.php:128
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin2.php:128
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin3.php:128
+#: classes/Admin/Theme/SkinGroup/Footer/FooterSkin4.php:128
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:135
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:135
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:138
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:136
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:136
+msgid ""
+"Check this box if you want to hide logo image and use text site name instead"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:124
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:124
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:127
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:125
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:125
+msgid "Logo position"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:125
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:125
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:128
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:126
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:126
+msgid "Choose logo position"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:150
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:150
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:153
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:151
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:151
+msgid "Choose a Font for logo"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:159
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:160
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:159
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:160
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:162
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:163
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:160
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:161
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:160
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:161
+msgid "Logo font style"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:169
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:170
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:169
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:170
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:172
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:173
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:170
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:171
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:170
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:171
+msgid "Logo font weight"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:177
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:177
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:180
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:178
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:178
+msgid "Logo text size"
+msgstr ""
+
+# @ retro
+#: classes/Admin/Theme/SkinGroup/Header/HeaderDefault.php:178
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin1.php:178
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin2.php:181
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin3.php:179
+#: classes/Admin/Theme/SkinGroup/Header/HeaderSkin4.php:179
+msgid "Logo text size at any units"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:243
+msgid "Delete this image"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:243
+#: classes/Custom/MetaBox/Taxonomy.php:835
+msgid "Delete"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:334
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:539
+#: classes/Custom/MetaBox/Taxonomy.php:581
+msgid "Remove"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:551
+msgid "Add"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:831
+msgid "Uploaded files"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:842
+msgid "Upload new files"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:848
+msgid "Add more files"
+msgstr ""
+
+# @ retro
+#: classes/Custom/MetaBox/Taxonomy.php:900
+msgid "Select a color"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:102
+msgid "Portfolio Item Title"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:103
+#: classes/Custom/Posts/Type/Testimonial.php:103
+msgid "Image preview"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:104
+msgid "Assign to Portfolios Category(s)"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:137
+msgctxt "post type general name"
+msgid "Portfolios"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:138
+msgctxt "post type general name"
+msgid "Portfolio Posts"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:139
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:140
+#: classes/Custom/Posts/Type/Testimonial.php:139
+msgctxt "item"
+msgid "Add New"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:141
+#: classes/Custom/Posts/Type/Testimonial.php:140
+msgid "Add New Item"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:142
+#: classes/Custom/Posts/Type/Testimonial.php:141
+msgid "Edit Item"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:143
+#: classes/Custom/Posts/Type/Testimonial.php:142
+msgid "New Item"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:144
+#: classes/Custom/Posts/Type/Testimonial.php:143
+msgid "View Item"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:145
+#: classes/Custom/Posts/Type/Testimonial.php:144
+msgid "Search Items"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:146
+#: classes/Custom/Posts/Type/Testimonial.php:145
+msgid "No items found"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:147
+#: classes/Custom/Posts/Type/Testimonial.php:146
+msgid "No items found in Trash"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:156
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:157
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:158
+msgid "Search Portfolios Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:159
+msgid "Popular Portfolios Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:160
+msgid "All Portfolios Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:163
+msgid "Edit Portfolios Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:164
+msgid "Update Portfolios Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:165
+msgid "Add New Portfolios Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:166
+msgid "New Portfolios Category Name"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:167
+msgid "Add or remove Portfolios Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:168
+msgid "Choose from the most used Portfolios Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Portfolio.php:169
+msgid "Separate Portfolios Categories with commas"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:102
+msgid "Testimonial Item Title"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:104
+msgid "Assign to Testimonials Category(s)"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:136
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:137
+msgctxt "post type general name"
+msgid "Testimonial Posts"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:138
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:155
+msgctxt "taxonomy general name"
+msgid "Testimonial Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:156
+msgctxt "taxonomy singular name"
+msgid "Testimonial Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:157
+msgid "Search Testimonials Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:158
+msgid "Popular Testimonials Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:159
+msgid "All Testimonials Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:162
+msgid "Edit Testimonials Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:163
+msgid "Update Testimonials Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:164
+msgid "Add New Testimonials Category"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:165
+msgid "New Testimonials Category Name"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:166
+msgid "Add or remove Testimonials Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:167
+msgid "Choose from the most used Testimonials Categories"
+msgstr ""
+
+# @ retro
+#: classes/Custom/Posts/Type/Testimonial.php:168
+msgid "Separate Testimonials Categories with commas"
+msgstr ""
+
+#: classes/Custom/Thumbnail/Multi.php:51
+#, php-format
+msgid ""
+"The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are "
+"required"
+msgstr ""
+
+#: classes/Custom/Thumbnail/Multi.php:132
+#, php-format
+msgid "Set as %3$s"
+msgstr ""
+
+# @ retro
+#: classes/Envato/Theme/Backup.php:390
+msgid "The backup file was not created"
+msgstr ""
+
+# @ retro
+#: classes/Envato/Theme/Backup.php:457
+msgid "The following files are unreadable and could not be backed up: "
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+# @ retro
+#: classes/Import/Dummy.php:116
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:150 classes/Import/Importer.php:159
+#: classes/Import/Importer.php:209 classes/Import/Importer.php:217
+msgid "Sorry, there has been an error."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:151
+msgid "The file does not exist, please try again."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:194
+msgid "All done."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:194
+msgid "Have fun!"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:225
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:250
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:276
+msgid "Assign Authors"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:277
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:279
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:289
+msgid "Import Attachments"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:292
+msgid "Download and import file attachments"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:309
+msgid "Import author:"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:320
+msgid "or create new user with login name:"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:323
+msgid "as a new user:"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:331
+msgid "assign posts to an existing user:"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:332
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:333
+msgid "- Select -"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:383
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:438
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:480
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:541 classes/Import/Importer.php:666
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:567
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: classes/Import/Importer.php:589
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:638
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:789
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:796
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:859
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:893
+msgid "Remote server did not respond"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:899
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:906
+msgid "Remote file is incorrect size"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:911
+msgid "Zero size file downloaded"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:917
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:1016
+msgid "Import WordPress"
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:1023
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:1038
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+# @ retro
+#: classes/Import/Importer.php:1039
+msgid "Choose a WXR file to upload, then click Upload file and import."
+msgstr ""
+
+# @ retro
+#: classes/Import/Parser.php:34 classes/Import/Parser/SimpleXML.php:12
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+# @ retro
+#: classes/Import/Parser.php:35
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+# @ retro
+#: classes/Import/Parser/Regex.php:75 classes/Import/Parser/SimpleXML.php:16
+#: classes/Import/Parser/SimpleXML.php:21 classes/Import/Parser/XML.php:73
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: classes/Import/Theme/RevSlider5.php:71
+msgid " does not exist!"
+msgstr ""
+
+#: classes/Import/Theme/RevSlider5.php:81
+msgid ""
+"Wrong export slider file format! Please make sure that the uploaded file is "
+"either a zip file with a correct slider_export.txt in the root of it or an "
+"valid slider_export.txt file."
+msgstr ""
+
+#: classes/Import/Theme/RevSlider5.php:386
+#: classes/Import/Theme/RevSlider5.php:418
+msgid " not found!<br>"
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:40
+msgid "Name:"
+msgstr "Nombre:"
+
+# @ retro
+# @ woocommerce
+#: classes/Widget/ContactForm.php:41
+msgid "Email:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:42
+msgid "Your message..."
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:52 lib/shortcode/vcshortcode.php:528
+msgid "Send"
+msgstr "Enviar"
+
+# @ retro
+#: classes/Widget/ContactForm.php:78
+msgid "Please specify your name."
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:79
+msgid "Please enter your message."
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:81
+msgid "We need your email address to contact you."
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:82
+msgid "Your email address must be in the format of name@domain.com"
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:105 lib/shortcode/vcwidgetshortcode.php:58
+msgid "Contact us"
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:110 classes/Widget/FeedburnerEmail.php:80
+#: classes/Widget/Flickr.php:67 classes/Widget/PopularPosts.php:113
+#: classes/Widget/Portfolio.php:107 classes/Widget/RecentPosts.php:107
+#: classes/Widget/Testimonial.php:124 classes/Widget/Twitter.php:143
+msgid "Title:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/ContactForm.php:114
+msgid "Recipient email:"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: classes/Widget/FeedburnerEmail.php:48
+#: woocommerce/single-product-reviews.php:72
+msgid "Submit"
+msgstr "Enviar"
+
+# @ retro
+#: classes/Widget/FeedburnerEmail.php:49
+msgid "Your E-Mail"
+msgstr "Su E-Mail"
+
+# @ retro
+#: classes/Widget/FeedburnerEmail.php:75 lib/shortcode/vcwidgetshortcode.php:88
+msgid "Sign up for our Newsletter"
+msgstr ""
+
+# @ retro
+#: classes/Widget/FeedburnerEmail.php:75 lib/shortcode/vcwidgetshortcode.php:95
+msgid "Keep up with the latest news and events."
+msgstr ""
+
+# @ retro
+#: classes/Widget/FeedburnerEmail.php:84
+msgid "Description:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/FeedburnerEmail.php:88
+msgid "Write only feedburner name:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Flickr.php:62 lib/shortcode/vcshortcode.php:644
+#: lib/shortcode/vcwidgetshortcode.php:125
+msgid "Flickr"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Flickr.php:75
+msgid "Number of photos:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Flickr.php:81 lib/shortcode/vcwidgetshortcode.php:137
+msgid "Flickr ID"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:11
+msgid "Show previews from portfolio category"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:40
+msgid "Title :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:44
+msgid "Select a Mailing List :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:56
+msgid "This is the list your users will be signing up for in your sidebar."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:58
+msgid "Sign Up Button Text :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:61
+msgid "Personal Information"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:62
+msgid ""
+"These fields won't (and shouldn't) be required. Should the widget form "
+"collect users' first and last names?"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:65
+msgid "Collect first name."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:68
+msgid "Collect last name."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:70
+msgid "Notifications"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:71
+msgid ""
+"Use these fields to customize what your visitors see after they submit the "
+"form"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:73
+msgid "Success :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:77
+msgid "Failure :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:243
+msgid "First Name :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:249
+msgid "Last Name :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:255
+msgid "Subscribe"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:258
+msgid "Email Address :"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:312
+msgid "There was a problem processing your submission."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:313
+msgid "Sign up for our mailing list."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:314
+msgid "Join now!"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp.php:315
+msgid ""
+"Thank you for joining our mailing list. Please check your email for a "
+"confirmation link."
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp/Plugin.php:24
+msgid ""
+"You'll need to set up the MailChimp signup widget plugin options before "
+"using it. "
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp/Plugin.php:24 classes/Widget/Twitter.php:115
+msgid "You can make your changes"
+msgstr ""
+
+# @ retro
+#: classes/Widget/MailChimp/Plugin.php:24 classes/Widget/Twitter.php:115
+msgid "here"
+msgstr ""
+
+# @ retro
+#: classes/Widget/PopularPosts.php:84
+msgid "0 - Comments"
+msgstr "0 - Comentarios"
+
+# @ retro
+#: classes/Widget/PopularPosts.php:84
+msgid "1 - Comment"
+msgstr "1 - Comentario"
+
+# @ retro
+#: classes/Widget/PopularPosts.php:84
+msgid "% - Comments"
+msgstr "% - Comentarios"
+
+# @ retro
+#: classes/Widget/PopularPosts.php:117 classes/Widget/RecentPosts.php:111
+msgid "Show post thumbnail:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/PopularPosts.php:123 classes/Widget/RecentPosts.php:117
+msgid "Number of posts to show:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/PopularPosts.php:139
+msgid "Popular post:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Portfolio.php:94 lib/shortcode/vcwidgetshortcode.php:209
+msgid "From portfolio"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Portfolio.php:113
+msgid "Category of portfolio:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Portfolio.php:132
+msgid "Number of items to show:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/RecentPosts.php:133 lib/shortcode/vcwidgetshortcode.php:247
+msgid "Recent posts"
+msgstr ""
+
+# @ retro
+#: classes/Widget/SocialLinks.php:103
+msgid "Hide icon:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/SocialLinks.php:110 classes/Widget/Twitter.php:178
+msgid "Open in new tab:"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: classes/Widget/SocialLinks.php:121 lib/shortcode/vcshortcode.php:237
+#: lib/shortcode/vcshortcode.php:312 lib/shortcode/vcshortcode.php:617
+msgid "Title"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Testimonial.php:130
+msgid "Category of testimonials:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Testimonial.php:148
+msgid "Number of second to show:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Testimonial.php:152
+msgid "Randomize testimonial:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Testimonial.php:160
+msgid "Transition effect:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:34
+msgid "Can't connect to twitter."
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:37
+msgid "There are no public messages."
+msgstr "No hay mensajes públicos."
+
+# @ retro
+#: classes/Widget/Twitter.php:115
+msgid ""
+"You'll need to set up Twitter Feed Authenticate options before using it. "
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:122
+msgid "cURL extension requred."
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:123
+msgid "Please contact your System Administrator."
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:129 lib/shortcode/vcshortcode.php:357
+#: lib/shortcode/vcshortcode.php:642 lib/shortcode/vcwidgetshortcode.php:358
+msgid "Twitter"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:148
+msgid "Twitter username:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:153
+msgid "Number of tweets:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:158
+msgid "Show date posted:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:163
+msgid "Discover hyperlinks:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:168
+msgid "Discover @replies:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter.php:173
+msgid "UTF8 Encode:"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter/Feed.php:87
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+# @ retro
+#: classes/Widget/Twitter/Feed.php:91
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ retro
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+# @ retro
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+# @ retro
+#: comments.php:18
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Un Comentario"
+msgstr[1] "%1$s Comentarios"
+
+# @ retro
+# @ woocommerce
+#: comments.php:56 lib/shortcode/shortcodes/contactForm.php:128
+#: woocommerce/single-product-reviews.php:68
+msgid "Name"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: comments.php:58 lib/shortcode/shortcodes/contactForm.php:127
+msgid "Email"
+msgstr ""
+
+# @ retro
+#: comments.php:60
+msgid "Url"
+msgstr ""
+
+# @ retro
+#: comments.php:64
+msgid "Your message"
+msgstr ""
+
+#: comments.php:66
+msgid ""
+"You may use these HTML tags and attributes: &lt;a href=\"\" title=\"\"> &lt;"
+"abbr title=\"\"&gt; &lt;acronym title=\"\"&gt; &lt;b&gt; &lt;blockquote cite="
+"\"\"&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=\"\"&gt; &lt;em&gt; &lt;"
+"i&gt; &lt;q cite=\"\"&gt; &lt;strike&gt; &lt;strong&gt;"
+msgstr ""
+
+# @ retro
+#: comments.php:68
+msgid "Add comment"
+msgstr "Publicar comentario"
+
+# @ retro
+#: functions.php:329
+msgid "Header  Menu 1"
+msgstr ""
+
+# @ retro
+#: functions.php:330
+msgid "Header  Menu 2"
+msgstr ""
+
+# @ retro
+#: functions.php:456 lib/shortcode/shortcodes.php:395
+#: lib/shortcode/shortcodes.php:435 lib/shortcode/shortcodes.php:457
+#: loop-portfolio.php:117
+msgid "view"
+msgstr "ver"
+
+# @ retro
+#: functions.php:457
+msgid "Something going wrong with connection..."
+msgstr "Algo va mal con conexión..."
+
+# @ retro
+#: functions.php:619
+msgid "The default sidebar!"
+msgstr ""
+
+#: functions.php:770
+msgid "More info"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: functions.php:795 functions.php:832
+#: woocommerce/single-product/product-image.php:59
+msgid "Placeholder"
+msgstr ""
+
+# @ retro
+#: functions.php:847
+msgid "New Label Background color"
+msgstr ""
+
+# @ retro
+#: functions.php:854
+msgid "New Label Font color"
+msgstr ""
+
+# @ retro
+#: functions.php:874
+msgid "New Label Background Color"
+msgstr ""
+
+# @ retro
+#: functions.php:881
+msgid "New Label Font Color"
+msgstr ""
+
+# @ retro
+#: functions.php:910 functions.php:937
+msgid "Sale Label Background Color"
+msgstr ""
+
+# @ retro
+#: functions.php:917 functions.php:944
+msgid "Sale Label Font Color"
+msgstr ""
+
+# @ retro
+#: functions.php:967 functions.php:1002
+msgid "Listing Per Page"
+msgstr ""
+
+# @ retro
+#: functions.php:968 functions.php:1003
+msgid "products"
+msgstr ""
+
+# @ retro
+#: functions.php:975 functions.php:1010
+msgid "Show  product  info button in product listing."
+msgstr ""
+
+# @ retro
+#: functions.php:982 functions.php:1017
+msgid "Hide categories from product page."
+msgstr ""
+
+#: functions.php:1044 header.php:251
+#, php-format
+msgid "Bag - %1$d"
+msgstr ""
+
+# @ woocommerce
+#: functions.php:1059
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+# @ woocommerce
+#: functions.php:1059
+msgid "out of 5"
+msgstr ""
+
+# @ woocommerce
+#: functions.php:1060
+#, php-format
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ retro
+#: functions.php:1061
+msgid "Add Your Review"
+msgstr "Agregar Su Opinión"
+
+# @ retro
+#: functions.php:1113
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ retro
+#: functions.php:1118
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando ser moderado."
+
+# @ retro
+#: header.php:155
+msgid "Feed"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: header.php:231 woocommerce/checkout/thankyou.php:35
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+# @ retro
+#: header.php:235
+msgid "Login / Register"
+msgstr "Iniciar Sesión / Registrarse"
+
+#: header.php:242
+msgid "Wishlist"
+msgstr ""
+
+# @ retro
+# @ revslider
+#: header.php:294
+msgid "Navigation"
+msgstr "MENÚ"
+
+# @ retro
+#: lib/metabox/functions.php:106
+msgid "Portfolio Slider"
+msgstr ""
+
+# @ retro
+#: lib/metabox/functions.php:113
+msgid "The Slides"
+msgstr ""
+
+# @ retro
+#: lib/metabox/functions.php:117
+msgid "Add slides for portfolio slider"
+msgstr ""
+
+# @ retro
+#: lib/metabox/init.php:410 lib/metabox/init.php:432
+msgid "Upload Image"
+msgstr ""
+
+# @ retro
+#: lib/metabox/init.php:411 lib/metabox/init.php:433
+msgid "Remove Slide"
+msgstr ""
+
+# @ retro
+#: lib/metabox/init.php:447
+msgid "Add New Slide"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+# @ retro
+#: lib/plugins/class-tgm-plugin-activation.php:331
+#, fuzzy
+#| msgid "Something going wrong with connection..."
+msgid "Something went wrong with the plugin API."
+msgstr "Algo va mal con conexión..."
+
+#: lib/plugins/class-tgm-plugin-activation.php:333
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:353
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:363
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:368
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:373
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:377
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:378
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:379
+#: lib/plugins/class-tgm-plugin-activation.php:3153
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:380
+#: lib/plugins/class-tgm-plugin-activation.php:2946
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:382
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:384
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:386
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:387
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:388
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:389
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:1976
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2267
+msgid "Required"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2270
+msgid "Recommended"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2286
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2289
+msgid "External Source"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2292
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2309
+msgid "Not Installed"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2313
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2315
+msgid "Active"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2321
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2324
+msgid "Requires Update"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2327
+msgid "Update recommended"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2336
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2382
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2386
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2390
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2394
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2476
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2484
+msgid "Installed version:"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2492
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2504
+msgid "Available version:"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2541
+msgid "Plugin"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2542
+msgid "Source"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2543
+msgid "Type"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2547
+msgid "Version"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2548
+msgid "Status"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2597
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2602
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2711
+msgid "Install"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2717
+msgid "Update"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2720
+msgid "Activate"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2751
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2753
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2794
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:2796
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3152
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3492
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3495
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3497
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3501
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3504
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3506
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3509
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3512
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/plugins/class-tgm-plugin-activation.php:3514
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/contact-form.php:64
+msgid "(required)"
+msgstr ""
+
+# @ revslider
+# @ retro
+#: lib/shortcode/contact-form.php:77 lib/shortcode/vcshortcode.php:202
+#: lib/shortcode/vcshortcode.php:370 lib/shortcode/vcshortcode.php:455
+msgid "Yes"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/contact-form.php:116
+#, php-format
+msgid "%s requires a valid email address"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/contact-form.php:120
+#, php-format
+msgid "%s requires a valid url"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/contact-form.php:128
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/contactForm/contactsend.php:43
+msgid "Your message has been successfully sent to us!"
+msgstr "Su mensaje ha sido enviado. Muchas gracias."
+
+# @ retro
+#: lib/shortcode/shortcodes.php:209 lib/shortcode/shortcodes.php:222
+#: loop.php:165 loop.php:179 loop.php:201 loop.php:210 loop.php:240
+#: loop.php:254 loop.php:275 loop.php:284 search.php:19 search.php:25
+msgid "Permanent Link to"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes.php:220 loop.php:177 loop.php:208 loop.php:252
+#: loop.php:282
+msgid "Comments (0)"
+msgstr "Comentarios (0)"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:220 loop.php:177 loop.php:208 loop.php:252
+#: loop.php:282
+msgid "Comment (1)"
+msgstr "Comentario (1)"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:220 loop.php:177 loop.php:208 loop.php:252
+#: loop.php:282
+msgid "Comments (%)"
+msgstr "Comentarios (%)"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:222 loop.php:179 loop.php:210 loop.php:254
+#: loop.php:284
+msgid "Read more"
+msgstr "Leer más"
+
+# @ retro
+# @ woocommerce
+#: lib/shortcode/shortcodes.php:223 loop.php:180 loop.php:211 loop.php:255
+#: loop.php:285
+msgid "Edit"
+msgstr "Editar"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:327
+msgid "SORT BY"
+msgstr "ORDENAR POR"
+
+# @ default
+# @ retro
+#: lib/shortcode/shortcodes.php:329 lib/shortcode/vcshortcode.php:28
+#: lib/shortcode/vcshortcode.php:115 lib/shortcode/vcwidgetshortcode.php:276
+msgid "All"
+msgstr "Todos"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:343 loop-portfolio.php:11
+msgid "Launch project"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes.php:347
+msgid "more info"
+msgstr "más info"
+
+# @ retro
+#: lib/shortcode/shortcodes.php:571 woocommerce/cart/cross-sells.php:51
+#: woocommerce/single-product/related.php:60
+#: woocommerce/single-product/up-sells.php:55
+msgid "Previous"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes.php:573 woocommerce/cart/cross-sells.php:53
+#: woocommerce/single-product/related.php:62
+#: woocommerce/single-product/up-sells.php:57
+msgid "Next"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1263 lib/shortcode/shortcodes.php:1371
+#: lib/shortcode/shortcodes.php:1386 lib/shortcode/shortcodes.php:1391
+#: lib/shortcode/vcshortcode.php:38 lib/shortcode/vcshortcode.php:85
+#: lib/shortcode/vcshortcode.php:125 lib/shortcode/vcshortcode.php:161
+#: lib/shortcode/vcshortcode.php:231 lib/shortcode/vcshortcode.php:292
+#: lib/shortcode/vcshortcode.php:347 lib/shortcode/vcshortcode.php:597
+#: lib/shortcode/vcshortcode.php:631 lib/shortcode/vcshortcode.php:707
+#: lib/shortcode/vcshortcode.php:737
+msgid "Retro"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1267
+msgid "Retro Type"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1270
+msgid "Success"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1271
+msgid "Error"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1272
+msgid "Informational"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1273
+msgid "Warning"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1275
+msgid "Select message box type."
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1296
+msgid "Retro Small"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1297
+msgid "Retro Border"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1298
+msgid "Retro Text"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1307
+msgid "Button Color"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1310
+msgid "Select button color."
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1318
+msgid "Button Color Text"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1321
+msgid "Select button text color."
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1329
+msgid "Hover Button Color"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1332
+msgid "Select button hover color."
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1340
+msgid "Hover Button Color Text"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1343
+msgid "Select button text hover color."
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1354
+msgid "Retro White"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1355
+msgid "Retro Grey"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:10
+msgid "Contact form"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:115
+msgid "Your new field was saved successfully"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:120
+msgid "Edit this new field"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:121
+msgid "Label"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:122
+msgid "New field"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:123
+msgid "Field type"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:125
+msgid "Checkbox"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:126
+msgid "Drop down"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:129
+msgid "Radio"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:130
+#: lib/shortcode/vcshortcode.php:437 lib/shortcode/vcshortcode.php:724
+#: lib/shortcode/vcshortcode.php:743
+msgid "Text"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:131
+msgid "Textarea"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:132
+msgid "Website"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:138
+msgid "Options"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:139
+msgid "First option"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:142
+msgid "Add another option"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:149
+msgid "Required?"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:155
+msgid "Use for reply?"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:160
+msgid "Save this field"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:165
+msgid "Here's what your form will look like"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:170
+msgid "Add a new field"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:173
+msgid "Add this form to my post"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:176
+msgid "Email settings"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:178
+msgid "Enter your email address"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:181
+msgid "What should the subject line be?"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:184
+msgid "Send button text"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:187
+msgid "Use reCaptcha(Public&Private keys must be set)"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/contactForm.php:188
+msgid "Theme Options -> reCaptcha"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/portfolio.php:93 lib/shortcode/vcshortcode.php:178
+msgid "Filterable"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/portfolio.php:94 lib/shortcode/vcshortcode.php:147
+#: lib/shortcode/vcshortcode.php:179
+msgid "Pagination"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/portfolio.php:107 lib/shortcode/vcshortcode.php:217
+msgid "Big"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/portfolio.php:108 lib/shortcode/vcshortcode.php:218
+#: lib/shortcode/vcshortcode.php:393
+msgid "Medium"
+msgstr ""
+
+# @ retro
+#: lib/shortcode/shortcodes/portfolio.php:109 lib/shortcode/vcshortcode.php:219
+#: lib/shortcode/vcshortcode.php:392
+msgid "Small"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:45
+msgid "Testimonial Category"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:49
+msgid "Choose testimonial category."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:53 lib/shortcode/vcwidgetshortcode.php:311
+msgid "Number of second to show"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:57
+msgid "Second"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:61 lib/shortcode/vcwidgetshortcode.php:318
+msgid "Randomize testimonial"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:67 lib/shortcode/vcwidgetshortcode.php:326
+msgid "Transition effect"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:70 lib/shortcode/vcwidgetshortcode.php:330
+msgid "Fade"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:71 lib/shortcode/vcwidgetshortcode.php:331
+msgid "Fade Out"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:72 lib/shortcode/vcwidgetshortcode.php:332
+msgid "Scroll Horizontal"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:73 lib/shortcode/vcshortcode.php:409
+#: lib/shortcode/vcwidgetshortcode.php:333
+msgid "None"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:75
+msgid "Choose effect"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:82
+msgid "Slogan"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:91
+msgid "H1 title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:94
+msgid "Type your top title here"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:98
+msgid "H3 title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:101
+msgid "Type your second title here"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:105 lib/shortcode/vcwidgetshortcode.php:93
+msgid "Description"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:108
+msgid "Type your description"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:131
+msgid "Category of blog"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:135
+msgid "Choose a category"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:139 lib/shortcode/vcshortcode.php:186
+msgid "Show per page"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:143 lib/shortcode/vcshortcode.php:190
+#: lib/shortcode/vcshortcode.php:255
+msgid "Number to show"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:150
+msgid "Check if you want show pagination"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:158
+msgid "Portfolio"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:167 lib/shortcode/vcshortcode.php:244
+msgid "Taxonomy terms"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:170 lib/shortcode/vcshortcode.php:247
+msgid "Choose a taxonomy terms"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:174
+msgid "Filterable portfolios"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:181
+msgid "Choose if you want use filterable portfolios or with pagination"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:199
+msgid "Show Pagination"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:205
+msgid "Check to show pagenation"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:214
+msgid "Layout Type"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:221
+msgid "Choose a layout type"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:228
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:240
+msgid "Choose custom title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:251
+msgid "Show"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:259
+msgid "Autoplay"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:262
+msgid "Check to enable autoplay"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:266
+msgid "Autoplay timeout"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:270
+msgid "Choose autoplay timeout(millisecond)"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:289
+msgid "Teaser"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:298
+msgid "Choose a template"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:301
+msgid "Post, Page, Gallery"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:305
+msgid "Image src"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:308
+msgid "Type your image here"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:316
+msgid "Type your teaser title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:320
+msgid "Content"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:323
+msgid "Type your teaser content"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:327
+msgid "Button title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:329
+msgid "learn more..."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:330
+msgid "Type your button title here"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:334 lib/shortcode/vcshortcode.php:686
+msgid "URL for button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:337
+msgid "Type your button URL here. Check if you want open in new window."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:344
+msgid "Share Button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:353
+msgid "Button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:356
+msgid "Google++"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:358 lib/shortcode/vcshortcode.php:641
+msgid "Facebook"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:359 lib/shortcode/vcshortcode.php:648
+msgid "Pinterest"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:363 lib/shortcode/vcshortcode.php:448
+#: lib/shortcode/vcshortcode.php:494 lib/shortcode/vcshortcode.php:535
+#: lib/shortcode/vcshortcode.php:546 lib/shortcode/vcshortcode.php:560
+#: lib/shortcode/vcshortcode.php:571
+msgid "Description!!!"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:367
+msgid "Share url: page URL"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:373
+msgid "Use the current page url to share?"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:377
+msgid "Share url: custom URL"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:384
+msgid "Enter custom page url which you like to share on twitter?"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:388
+msgid "Size"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:391
+msgid "Standard"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:394
+msgid "Tall"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:400
+msgid "Select button size."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:404
+msgid "Type of Annotation"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:407
+msgid "Bubble"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:408
+msgid "Inline"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:416
+msgid "Choose a Annotation."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:420
+msgid "HTML5 valid syntax"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:430
+msgid "Default Tweet text"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:441
+msgid "tcount"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:452
+msgid "Use large button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:461
+msgid "Do you like to display a larger Tweet button?"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:465
+msgid "Via @"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:472
+msgid "Enter your Twitter username."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:476
+msgid "Related"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:483
+msgid "Enter your Twitter related."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:487
+msgid "Width"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:498 lib/shortcode/vcshortcode.php:575
+msgid "Button type"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:501 lib/shortcode/vcshortcode.php:578
+msgid "Horizontal"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:502
+msgid "Horizontal with count"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:503
+msgid "Vertical with count"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:509
+msgid "Select button type."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:513
+msgid "Button action"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:517
+msgid "Like"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:518
+msgid "Recommend"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:524
+msgid "Select button action."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:539
+msgid "Show Faces"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:550
+msgid "colorsheme"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:553
+msgid "Light"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:554 lib/shortcode/vcshortcode.php:679
+msgid "Dark"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:564
+msgid "Image"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:579
+msgid "Vertical"
+msgstr ""
+
+# @ retro
+# @ woocommerce
+#: lib/shortcode/vcshortcode.php:580
+#, fuzzy
+#| msgid "My Account"
+msgid "No count"
+msgstr "Mi Cuenta"
+
+#: lib/shortcode/vcshortcode.php:586
+msgid "Select button layout."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:594
+msgid "Audio"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:603
+msgid "Audio file"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:606
+msgid "Type your audion file URL here."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:610
+msgid "Hide Title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:613
+msgid "Check to hide title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:620
+msgid "Type your title"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:628
+msgid "Social Link"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:637
+msgid "Type of button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:640
+msgid "RSS"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:643
+msgid "Dribbble"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:645
+msgid "Vimeo"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:646
+msgid "Email to"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:647
+msgid "Youtube"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:649
+msgid "Google+"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:650
+msgid "Linked In"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:651
+msgid "Picasa"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:652
+msgid "Digg"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:653
+msgid "Plurk"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:654
+msgid "TripAdvisor"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:655
+msgid "Yahoo!"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:656
+msgid "Delicious"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:657
+msgid "deviantART"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:658
+msgid "Tumblr"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:659
+msgid "Skype"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:660
+msgid "Apple"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:661
+msgid "AIM"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:662
+msgid "PayPal"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:663
+msgid "Blogger"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:664
+msgid "Behance"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:665
+msgid "Myspace"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:666
+msgid "Stumble"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:667
+msgid "Forrst"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:668
+msgid "IMDb"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:669
+msgid "Instagram"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:671 lib/shortcode/vcshortcode.php:720
+msgid "Choose a type."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:675
+msgid "Style of button"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:678
+msgid "Default"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:680
+msgid "Stamp"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:682
+msgid "Choose a style."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:689
+msgid "Type your URL here."
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:693
+msgid "Link target"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:696
+msgid "Check if you want open in new window"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:704
+msgid "List"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:714
+msgid "Type of list"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:717
+msgid "Simple dots"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:718
+msgid "Animated"
+msgstr ""
+
+#: lib/shortcode/vcshortcode.php:734
+msgid "Table"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:49
+msgid "Retro Contact form"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:50
+#: lib/shortcode/vcwidgetshortcode.php:80
+#: lib/shortcode/vcwidgetshortcode.php:117
+#: lib/shortcode/vcwidgetshortcode.php:154
+#: lib/shortcode/vcwidgetshortcode.php:201
+#: lib/shortcode/vcwidgetshortcode.php:239
+#: lib/shortcode/vcwidgetshortcode.php:289
+#: lib/shortcode/vcwidgetshortcode.php:350
+msgid "WordPress Widgets"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:56
+#: lib/shortcode/vcwidgetshortcode.php:86
+#: lib/shortcode/vcwidgetshortcode.php:123
+#: lib/shortcode/vcwidgetshortcode.php:160
+#: lib/shortcode/vcwidgetshortcode.php:207
+#: lib/shortcode/vcwidgetshortcode.php:245
+#: lib/shortcode/vcwidgetshortcode.php:295
+#: lib/shortcode/vcwidgetshortcode.php:356
+msgid "Widget title"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:59
+#: lib/shortcode/vcwidgetshortcode.php:89
+#: lib/shortcode/vcwidgetshortcode.php:126
+#: lib/shortcode/vcwidgetshortcode.php:163
+#: lib/shortcode/vcwidgetshortcode.php:210
+#: lib/shortcode/vcwidgetshortcode.php:248
+#: lib/shortcode/vcwidgetshortcode.php:298
+#: lib/shortcode/vcwidgetshortcode.php:359
+msgid ""
+"What text use as a widget title. Leave blank to use default widget title."
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:63
+msgid "Recipient email"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:70
+#: lib/shortcode/vcwidgetshortcode.php:107
+#: lib/shortcode/vcwidgetshortcode.php:144
+#: lib/shortcode/vcwidgetshortcode.php:182
+#: lib/shortcode/vcwidgetshortcode.php:229
+#: lib/shortcode/vcwidgetshortcode.php:267
+#: lib/shortcode/vcwidgetshortcode.php:340
+#: lib/shortcode/vcwidgetshortcode.php:417
+msgid "Extra class name"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:72
+#: lib/shortcode/vcwidgetshortcode.php:109
+#: lib/shortcode/vcwidgetshortcode.php:146
+#: lib/shortcode/vcwidgetshortcode.php:184
+#: lib/shortcode/vcwidgetshortcode.php:231
+#: lib/shortcode/vcwidgetshortcode.php:269
+#: lib/shortcode/vcwidgetshortcode.php:342
+#: lib/shortcode/vcwidgetshortcode.php:419
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:79
+msgid "Retro FeedburnerEmail form"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:100
+msgid "Write only feedburner name"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:116
+msgid "Retro Flickr"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:130
+#: lib/shortcode/vcwidgetshortcode.php:175
+#: lib/shortcode/vcwidgetshortcode.php:260
+msgid "Number of photos"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:153
+msgid "Retro Popular posts"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:162
+msgid "Popular posts"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:167
+#: lib/shortcode/vcwidgetshortcode.php:252
+msgid "Show post thumbnail"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:200
+msgid "Retro From Portfolio"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:214
+msgid "Category of portfolio"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:222
+msgid "Number of items to show"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:238
+msgid "Retro Recent posts"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:288
+msgid "Retro Testimonials"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:302
+msgid "Category of testimonials"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:349
+msgid "Retro Twitter"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:363
+msgid "Twitter username"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:370
+msgid "Number of tweets"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:377
+msgid "Show date posted"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:385
+msgid "Discover hyperlinks"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:393
+msgid "Discover @replies"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:401
+msgid "UTF8 Encode"
+msgstr ""
+
+#: lib/shortcode/vcwidgetshortcode.php:409
+msgid "Open in new tab"
+msgstr ""
+
+# @ retro
+#: lib/tweaks.php:327
+msgid "Search for:"
+msgstr ""
+
+# @ retro
+#: lib/tweaks.php:328
+msgid "To search type and hit enter"
+msgstr "Busca en el sitio"
+
+# @ retro
+#: lib/tweaks.php:329
+msgid "Search"
+msgstr ""
+
+#: lib/tweaks.php:660
+#, php-format
+msgid ""
+"If you want to receive the notice when the new theme update is available "
+"please, put your Marketplace Username and Secret API key here: <a href=\"%s"
+"\" >link</a>"
+msgstr ""
+
+#: lib/tweaks.php:670
+#, php-format
+msgid ""
+"Theme update Check FAILED! Wrong Marketplace Username and Secret API key "
+"here: <a href=\"%s\" >link</a>"
+msgstr ""
+
+# @ retro
+#: loop-portfolio.php:16
+msgid "Learn more"
+msgstr ""
+
+# @ retro
+#: loop-portfolio.php:189 loop-testimonials.php:100 loop.php:337 search.php:64
+msgid "Not Found"
+msgstr "Sin resultados"
+
+# @ retro
+#: loop-portfolio.php:192 loop-testimonials.php:103 loop.php:340 search.php:67
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lo sentimos, pero usted está buscando algo que no está aquí."
+
+# @ retro
+#: loop.php:50 loop.php:124
+msgid "Author: "
+msgstr "Autor:"
+
+# @ retro
+#: loop.php:100
+msgid "<span>Categories:</span>"
+msgstr "<span>Categorías:</span>"
+
+# @ retro
+#: loop.php:103
+msgid "<span>Tags:</span>"
+msgstr "<span>Etiquetas:</span>"
+
+# @ retro
+#: search.php:25
+msgid "read more &rarr;"
+msgstr "leer más &rarr;"
+
+# @ retro
+#: title.php:63
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+# @ retro
+#: title.php:65
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+# @ retro
+#: title.php:67
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+# @ retro
+#: title.php:73
+msgid "404 - Oops!"
+msgstr "404 - ¡Uy! Ha habido un error"
+
+# @ retro
+#: title.php:75
+msgid "Results for: "
+msgstr "Búsqueda:"
+
+# @ retro
+#: title.php:87
+msgid "Author Archives: "
+msgstr "Archivo del Autor:"
+
+# @ retro
+#: title.php:91
+msgid "No posts for current author"
+msgstr "No hay entradas en autor actual."
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+msgid "Total"
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cart.php:38
+msgid "Product name"
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cart.php:39
+msgid "Unit"
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cart.php:40
+msgid "QTY."
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cart.php:41
+msgid "Price"
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cart.php:121
+msgid "Remove from cart:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:126
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Coupon"
+msgstr ""
+
+# @ retro
+#: woocommerce/cart/cross-sells.php:52
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:96
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+#: woocommerce/checkout/form-checkout.php:35
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:74
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:31
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:32
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:39
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+# @ retro
+#: woocommerce/checkout/form-shipping.php:27
+msgid "Shipping Details"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:34
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:64
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:103
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:50
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:61
+#: woocommerce/myaccount/form-login.php:117
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+#: woocommerce/myaccount/form-lost-password.php:34
+msgid "Lost your password?"
+msgstr ""
+
+# @ retro
+#: woocommerce/myaccount/form-login.php:94
+#, fuzzy
+#| msgid "Login / Register"
+msgid "Register"
+msgstr "Iniciar Sesión / Registrarse"
+
+#: woocommerce/myaccount/form-login.php:103
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:110
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:124
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:41
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:36
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:39
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:43
+msgid "Re-enter new password"
+msgstr ""
+
+# @ retro
+#: woocommerce/single-product-reviews.php:49
+#, fuzzy
+#| msgid "There are no public messages."
+msgid "There are no reviews yet."
+msgstr "No hay mensajes públicos."
+
+# @ retro
+#: woocommerce/single-product-reviews.php:62
+#, fuzzy
+#| msgid "Add Your Review"
+msgid "Add a review"
+msgstr "Agregar Su Opinión"
+
+#: woocommerce/single-product-reviews.php:62
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "E-mail"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+# @ retro
+#: woocommerce/single-product-reviews.php:92
+#, fuzzy
+#| msgid "Add Your Review"
+msgid "Your Review"
+msgstr "Agregar Su Opinión"
+
+#: woocommerce/single-product-reviews.php:101
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+# @ retro
+#: woocommerce/single-product/meta.php:35
+#: woocommerce/single-product/meta.php:37
+msgid "<h3 class=\"widget-title\">Tag</h3>"
+msgid_plural "<h3 class=\"widget-title\">Tags</h3>"
+msgstr[0] "<h3 class=\"widget-title\">Etiqueta</h3>"
+msgstr[1] "<h3 class=\"widget-title\">Etiquetas</h3>"
+
+# @ retro
+#: woocommerce/single-product/meta.php:43
+#: woocommerce/single-product/meta.php:45
+msgid "<h3 class=\"widget-title\">Category</h3>"
+msgid_plural "<h3 class=\"widget-title\">Categories</h3>"
+msgstr[0] "<h3 class=\"widget-title\">Categoría</h3>"
+msgstr[1] "<h3 class=\"widget-title\">Categorías</h3>"
+
+#: woocommerce/single-product/price.php:32
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/price.php:32
+msgid "N/A"
+msgstr ""
+
+# @ retro
+#: woocommerce/single-product/related.php:61
+msgid "Related Products"
+msgstr ""
+
+# @ retro
+#: woocommerce/single-product/up-sells.php:56
+msgid "You May Also Like"
+msgstr ""
+
+# @ retro
+#: wpml-integration.php:32
+msgid "This post is also available in: "
+msgstr ""

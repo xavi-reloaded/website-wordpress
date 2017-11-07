@@ -1,0 +1,1736 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LemonChili\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-25 10:47+0100\n"
+"PO-Revision-Date: 2014-08-25 10:48+0100\n"
+"Last-Translator: Gerda <ggerda@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "404 ERROR - Not Found"
+msgstr ""
+
+#: 404.php:12
+msgid "The page you requested does not exist."
+msgstr ""
+
+#: archive.php:16
+msgid "All posts on"
+msgstr ""
+
+#: archive.php:19 archive.php:22
+msgid "All posts in"
+msgstr ""
+
+#: archive.php:25
+msgid "Author"
+msgstr ""
+
+#: archive.php:28
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:15
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:52 includes/metaboxes/config-meta-boxes.php:121
+#: template-contact.php:82
+msgid "Name"
+msgstr ""
+
+#: comments.php:57
+msgid "Email (will not be published) "
+msgstr ""
+
+#: footer.php:14
+msgid "All Rights Reserved."
+msgstr ""
+
+#: functions.php:18
+msgid "sidebar on homepage"
+msgstr ""
+
+#: functions.php:27
+msgid "sidebar on contact page. Will display below content."
+msgstr ""
+
+#: functions.php:43
+msgid "LEMONCHILI Main Menu"
+msgstr ""
+
+#: includes/admin/options-framework.php:261
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/options-framework.php:295
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: includes/admin/options-framework.php:335
+msgid "Default options restored."
+msgstr ""
+
+#: includes/admin/options-framework.php:382
+msgid "Options saved."
+msgstr ""
+
+#: includes/admin/options-framework.php:430
+msgid "LemonChili Options"
+msgstr ""
+
+#: includes/admin/options-medialibrary-uploader.php:127
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/options-medialibrary-uploader.php:150
+msgid "View File"
+msgstr ""
+
+#: includes/admin/options.php:43
+msgid "light"
+msgstr ""
+
+#: includes/admin/options.php:43
+msgid "dark"
+msgstr ""
+
+#: includes/admin/options.php:85
+msgid "GENERAL"
+msgstr ""
+
+#: includes/admin/options.php:89
+msgid "Configure the general setup of your theme."
+msgstr ""
+
+#: includes/admin/options.php:93
+msgid "Load responsive stylesheets"
+msgstr ""
+
+#: includes/admin/options.php:94
+msgid ""
+"Check this box if you would like to load responsive stylesheets for tablets "
+"and mobile phones"
+msgstr ""
+
+#: includes/admin/options.php:101
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/options.php:102
+msgid ""
+"Want to add any custom CSS code? Put it in here, and the rest is taken care "
+"of. This overrides any other stylesheets."
+msgstr ""
+
+#: includes/admin/options.php:107
+msgid "404 Error"
+msgstr ""
+
+#: includes/admin/options.php:108
+msgid "Add your own text to display on error pages."
+msgstr ""
+
+#: includes/admin/options.php:113
+msgid "Google Analytics Code"
+msgstr ""
+
+#: includes/admin/options.php:114
+msgid ""
+"Enter your Google Analytics or other tracking code here. It will be inserted "
+"before the closing head tag of your theme."
+msgstr ""
+
+#: includes/admin/options.php:120
+msgid "Theme Customization"
+msgstr ""
+
+#: includes/admin/options.php:126
+msgid "Text for \"Navigation\" on mobile devices"
+msgstr ""
+
+#: includes/admin/options.php:127
+msgid "Text to be used for the <strong>Navigation</strong> on mobile devices"
+msgstr ""
+
+#: includes/admin/options.php:132
+msgid "Make left area scrollable"
+msgstr ""
+
+#: includes/admin/options.php:133
+msgid ""
+"Check this box if you would like the left area (Logo, navigation, search "
+"bar, social icons) to scroll with the content"
+msgstr ""
+
+#: includes/admin/options.php:138
+msgid "Team Page - Number of columns"
+msgstr ""
+
+#: includes/admin/options.php:144
+msgid "When event is over..."
+msgstr ""
+
+#: includes/admin/options.php:145
+msgid ""
+"This does not affect the events widget (past events will always be removed "
+"from the event widget)."
+msgstr ""
+
+#: includes/admin/options.php:151
+msgid "Display search bar"
+msgstr ""
+
+#: includes/admin/options.php:152
+msgid ""
+"Check this box if you would like to display a search bar below the "
+"navigation area"
+msgstr ""
+
+#: includes/admin/options.php:157
+msgid "Show author info in the news info section"
+msgstr ""
+
+#: includes/admin/options.php:158
+msgid ""
+"Check this box if you would like to display the name of the author for each "
+"news posts"
+msgstr ""
+
+#: includes/admin/options.php:163
+msgid "Remove Comments"
+msgstr ""
+
+#: includes/admin/options.php:165
+msgid "Remove all comment sections from the entire website"
+msgstr ""
+
+#: includes/admin/options.php:169
+msgid "Copyright text"
+msgstr ""
+
+#: includes/admin/options.php:170
+msgid "Add your own  copyright text to display below content."
+msgstr ""
+
+#: includes/admin/options.php:177
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/options.php:183
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/admin/options.php:184
+msgid "Upload your Logo. Recommended image width: 140px."
+msgstr ""
+
+#: includes/admin/options.php:188
+msgid "Upload Retina Logo (Optional)"
+msgstr ""
+
+#: includes/admin/options.php:189
+msgid ""
+"Upload your Retina Logo. This should be your Logo in double size (If your "
+"Logo is 140 x 50px, it should be 280 x 100px)"
+msgstr ""
+
+#: includes/admin/options.php:193
+msgid "Original Logo Width"
+msgstr ""
+
+#: includes/admin/options.php:194
+msgid ""
+"Enter the width of the Standard Logo you have uploaded (not the Retina "
+"Logo). If your Logo has a width of 140px, enter: 140. This is important for "
+"your Retina Logo to display properly."
+msgstr ""
+
+#: includes/admin/options.php:199
+msgid "Original Logo Height"
+msgstr ""
+
+#: includes/admin/options.php:207
+msgid "Logo for Login page"
+msgstr ""
+
+#: includes/admin/options.php:213
+msgid "Upload Logo for Login page"
+msgstr ""
+
+#: includes/admin/options.php:214
+msgid "Upload a Logo to replace the Wordpress Logo on the Login page"
+msgstr ""
+
+#: includes/admin/options.php:218
+msgid "Login Logo Height"
+msgstr ""
+
+#: includes/admin/options.php:225 includes/admin/options.php:231
+msgid "Favicon"
+msgstr ""
+
+#: includes/admin/options.php:232
+msgid "Upload a 16 x 16 favicon"
+msgstr ""
+
+#: includes/admin/options.php:238 includes/admin/options.php:244
+msgid "Custom Gravatar"
+msgstr ""
+
+#: includes/admin/options.php:245
+msgid "Upload a Gravatar"
+msgstr ""
+
+#: includes/admin/options.php:255
+msgid "STYLE"
+msgstr ""
+
+#: includes/admin/options.php:259
+msgid ""
+"Choose light or dark skin, set a background image or color and add a box "
+"shadow and rounded corners."
+msgstr ""
+
+#: includes/admin/options.php:262
+msgid "Theme Skin"
+msgstr ""
+
+#: includes/admin/options.php:263
+msgid "Choose light or dark skin"
+msgstr ""
+
+#: includes/admin/options.php:269
+msgid "Background Image"
+msgstr ""
+
+#: includes/admin/options.php:270
+msgid "Upload your own custom background image."
+msgstr ""
+
+#: includes/admin/options.php:274
+msgid "Background Position"
+msgstr ""
+
+#: includes/admin/options.php:275
+msgid "Choose background image positioning"
+msgstr ""
+
+#: includes/admin/options.php:280
+msgid "Repeat Background"
+msgstr ""
+
+#: includes/admin/options.php:281
+msgid "Stretched Background  /  Fixed Position"
+msgstr ""
+
+#: includes/admin/options.php:282
+msgid "No Repeat  /  Position: Top Center"
+msgstr ""
+
+#: includes/admin/options.php:286
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/options.php:287
+msgid "Choose a simple color instead of a background image."
+msgstr ""
+
+#: includes/admin/options.php:292
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/admin/options.php:293
+msgid "Add box shadow to Left Area, Slider and Main Content"
+msgstr ""
+
+#: includes/admin/options.php:298
+msgid "Rounded Corners"
+msgstr ""
+
+#: includes/admin/options.php:299
+msgid "Add rounded corners to Left Area, Slider and Main Content"
+msgstr ""
+
+#: includes/admin/options.php:310
+msgid "TYPOGRAPHY"
+msgstr ""
+
+#: includes/admin/options.php:314
+msgid ""
+"Select your favorite font or upload one of hundreds of Google Web fonts. "
+"This applies to headings, page title, widget title, navigation, slider "
+"caption, event date, price and button text."
+msgstr ""
+
+#: includes/admin/options.php:317
+msgid "Predefined Fonts"
+msgstr ""
+
+#: includes/admin/options.php:318
+msgid ""
+"Choose a font for your headings, page title, widget title, navigation, "
+"slider caption, event date, price and button text"
+msgstr ""
+
+#: includes/admin/options.php:324
+msgid "Custom Google Web Font"
+msgstr ""
+
+#: includes/admin/options.php:325
+msgid ""
+"Simply enter the name of the Google font here. The rest is taken care of. "
+"(Applies to headings, page title, widget title, navigation, slider caption, "
+"event date, price and button text)"
+msgstr ""
+
+#: includes/admin/options.php:330
+msgid "Font Weight"
+msgstr ""
+
+#: includes/admin/options.php:331
+msgid ""
+"Set font weight. Default: 800 (Applies to headings, page title, widget "
+"title, navigation, slider caption, event date, price and button text) Info: "
+"Normal = 400"
+msgstr ""
+
+#: includes/admin/options.php:336
+msgid "Text Transform"
+msgstr ""
+
+#: includes/admin/options.php:337
+msgid ""
+"Some Headings are UPPERCASE letters by default. However, some fonts simply "
+"don't look right with just uppercase letters. Here you can set the text "
+"transform to NONE"
+msgstr ""
+
+#: includes/admin/options.php:343
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/admin/options.php:344
+msgid ""
+"Letter spacing for page title and widget title is set to -1px by default. "
+"However, some fonts simply don't look right with negative letter spacing. "
+"Here you can set letter spacing to 0. If you want to set letter spacing to "
+"-1px, enter: -1"
+msgstr ""
+
+#: includes/admin/options.php:353
+msgid "COLOR"
+msgstr ""
+
+#: includes/admin/options.php:357
+msgid "Set the theme color."
+msgstr ""
+
+#: includes/admin/options.php:361
+msgid "Predefined Theme Color"
+msgstr ""
+
+#: includes/admin/options.php:388
+msgid "Custom Theme Color"
+msgstr ""
+
+#: includes/admin/options.php:389
+msgid ""
+"If you prefer a different color than the ones above,  you can select a "
+"custom color here. This field has priority over the Predefined Theme Color."
+msgstr ""
+
+#: includes/admin/options.php:394
+msgid "Navigation Menu Active/Hover Color"
+msgstr ""
+
+#: includes/admin/options.php:399
+msgid "Seondary (Hover) Color"
+msgstr ""
+
+#: includes/admin/options.php:400
+msgid "Pick a secondary color."
+msgstr ""
+
+#: includes/admin/options.php:406
+msgid "Copyright Text Color"
+msgstr ""
+
+#: includes/admin/options.php:407
+msgid "Pick a color for the copyright text below content"
+msgstr ""
+
+#: includes/admin/options.php:417 includes/metaboxes/config-meta-boxes.php:156
+msgid "SLIDER"
+msgstr ""
+
+#: includes/admin/options.php:421
+msgid "Set up your slider"
+msgstr ""
+
+#: includes/admin/options.php:425
+msgid "Show Slider on Homepage"
+msgstr ""
+
+#: includes/admin/options.php:431
+msgid "Select a Slider"
+msgstr ""
+
+#: includes/admin/options.php:432
+msgid "After you have created a slider, you can select it here."
+msgstr ""
+
+#: includes/admin/options.php:441
+msgid "SOCIAL"
+msgstr ""
+
+#: includes/admin/options.php:445
+msgid ""
+"Enter the info for your social network accounts to display them below the "
+"navigation or in the Top Bar."
+msgstr ""
+
+#: includes/admin/options.php:449
+msgid "Social icons position"
+msgstr ""
+
+#: includes/admin/options.php:454
+msgid "in Top Bar"
+msgstr ""
+
+#: includes/admin/options.php:455
+msgid "below navigation"
+msgstr ""
+
+#: includes/admin/options.php:460
+msgid "Enter the full URL to your Facebook profile"
+msgstr ""
+
+#: includes/admin/options.php:466
+msgid "Enter the full URL to your Twitter profile"
+msgstr ""
+
+#: includes/admin/options.php:472
+msgid "Enter the full URL to your Google Plus profile"
+msgstr ""
+
+#: includes/admin/options.php:478
+msgid "Enter the full URL to your FourSquare profile"
+msgstr ""
+
+#: includes/admin/options.php:484
+msgid "Enter the full URL to your Yelp page"
+msgstr ""
+
+#: includes/admin/options.php:490
+msgid "Enter the full URL to your Tripadvisor page"
+msgstr ""
+
+#: includes/admin/options.php:496
+msgid "Enter the full URL to your YouTube page"
+msgstr ""
+
+#: includes/admin/options.php:502
+msgid "Enter the full URL to your Instagram profile"
+msgstr ""
+
+#: includes/admin/options.php:508
+msgid "Enter the full URL to your Pinterest profile"
+msgstr ""
+
+#: includes/admin/options.php:514
+msgid "Enter the full URL to your Flickr profile"
+msgstr ""
+
+#: includes/admin/options.php:520
+msgid "Enter the full URL to your LinkedIn profile"
+msgstr ""
+
+#: includes/admin/options.php:526
+msgid "Enter the full URL to your Skype profile"
+msgstr ""
+
+#: includes/admin/options.php:536
+msgid "CONTACT"
+msgstr ""
+
+#: includes/admin/options.php:540
+msgid ""
+"Enter the contact info for the Top Bar - and the settings for your Contact "
+"Form."
+msgstr ""
+
+#: includes/admin/options.php:545
+msgid "Contact Form"
+msgstr ""
+
+#: includes/admin/options.php:551
+msgid "Contact Form - Email Address"
+msgstr ""
+
+#: includes/admin/options.php:552
+msgid ""
+"Enter the email address where the email from the contact form should be sent "
+"to."
+msgstr ""
+
+#: includes/admin/options.php:557
+msgid "Contact Form - Subject"
+msgstr ""
+
+#: includes/admin/options.php:558
+msgid "Enter the subject for messages that are sent via the contact form."
+msgstr ""
+
+#: includes/admin/options.php:565
+msgid "Top Bar"
+msgstr ""
+
+#: includes/admin/options.php:571
+msgid "Top Bar - Phone"
+msgstr ""
+
+#: includes/admin/options.php:572
+msgid "Enter a phone number to diplay in the Top Bar."
+msgstr ""
+
+#: includes/admin/options.php:577
+msgid "Top Bar - Tap To Call"
+msgstr ""
+
+#: includes/admin/options.php:578
+msgid ""
+"If you want to enable \"Tap to Call\" for mobile phones, enter the phone "
+"number including country and area code, without any punctuation here."
+msgstr ""
+
+#: includes/admin/options.php:584
+msgid "Top Bar - Address"
+msgstr ""
+
+#: includes/admin/options.php:585
+msgid "Enter an address to diplay in the Top Bar."
+msgstr ""
+
+#: includes/admin/options.php:590
+msgid "Top Bar - Link to Google Maps"
+msgstr ""
+
+#: includes/admin/options.php:591
+msgid ""
+"If you would like your address to link to Google maps, enter the google maps "
+"full URL here."
+msgstr ""
+
+#: includes/admin/options.php:597
+msgid "Top Bar Font Size"
+msgstr ""
+
+#: includes/admin/options.php:603
+msgid "Top Bar Icon Size"
+msgstr ""
+
+#: includes/admin/options.php:609
+msgid "Top Bar Text and Icon Color"
+msgstr ""
+
+#: includes/admin/options.php:610
+msgid "Pick a color for the text and icons in the top bar."
+msgstr ""
+
+#: includes/functions/theme_functions.php:85
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:14
+msgid "DATE / TIME"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:18
+#: includes/posttypes/events.php:10
+msgid "Date"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:26
+msgid "Time"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:33
+msgid "Event ends (date)"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:41
+msgid "Event ends (time)"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:48
+msgid "Recurring Event?"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:55
+msgid "link to facebook event"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:68
+msgid "GALLERY"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:73
+msgid "Upload your images. </br></br> Drag and drop images to reorder them."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:85
+msgid "MENU DETAILS"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:89
+msgid "Menu Item Description"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:96
+msgid "Price"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:97
+msgid "Enter the price (and optionally the currency symbol)"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:103
+msgid "Cents"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:104
+msgid ""
+"If you want to style the cents (smaller font size, bottom border), enter the "
+"cent amount here."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:117
+msgid "TEAM MEMBER INFO"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:128
+msgid "Position"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:135 template-contact.php:90
+msgid "Email"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:142
+msgid "About"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:160
+msgid ""
+"<b>Recommended </br> image size:</b> </br> 700px x 340px </br></br>\n"
+"                                      Drag and drop images to reorder them. "
+"</br></br>\n"
+"                                      To enter an URL where the image should "
+"link to, click <b>Edit</b> and enter the full URL under <b>SLIDER Image "
+"Links To</b>. </br></br>\n"
+"                                      To display a caption over the slider "
+"image,click <b>Edit</b> and enter the text under <b>SLIDER Caption</b>."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:176
+msgid "MENU CATEGORY"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:180 includes/posttypes/menu.php:9
+#: includes/posttypes/menu.php:18
+msgid "Menu Category"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:208
+msgid "SLIDER Image Links To"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:211
+msgid "Enter full URL. To be used with SLIDER images only."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:215
+msgid "SLIDER Caption"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:218
+msgid ""
+"Slider Caption. To be used with SLIDER images only. Use &#60;/br> for line "
+"breaks"
+msgstr ""
+
+#: includes/metaboxes/inc/field.php:185
+msgid "+"
+msgstr ""
+
+#: includes/metaboxes/inc/field.php:202
+msgid "&#8211;"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: includes/metaboxes/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/post.php:66
+#: includes/metaboxes/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/metaboxes/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: includes/posttypes/events.php:9
+msgid "Events"
+msgstr ""
+
+#: includes/posttypes/events.php:11
+msgid "Add Date"
+msgstr ""
+
+#: includes/posttypes/events.php:12
+msgid "Add New Date"
+msgstr ""
+
+#: includes/posttypes/events.php:13
+msgid "Edit Date"
+msgstr ""
+
+#: includes/posttypes/events.php:14
+msgid "New Date"
+msgstr ""
+
+#: includes/posttypes/events.php:15 includes/posttypes/gallery.php:15
+#: includes/posttypes/menu.php:48 includes/posttypes/slider.php:15
+msgid "View Details"
+msgstr ""
+
+#: includes/posttypes/events.php:16
+msgid "Search Events"
+msgstr ""
+
+#: includes/posttypes/events.php:17
+msgid "No Dates were found with that criteria"
+msgstr ""
+
+#: includes/posttypes/events.php:18
+msgid "No Date found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/events.php:19
+msgid "View Date"
+msgstr ""
+
+#: includes/posttypes/gallery.php:9
+msgid "Galleries"
+msgstr ""
+
+#: includes/posttypes/gallery.php:10
+msgid "Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:11
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:12
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:13
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:14
+msgid "New Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:16
+msgid "Search Galleries"
+msgstr ""
+
+#: includes/posttypes/gallery.php:17
+msgid "No Gallery were found with that criteria"
+msgstr ""
+
+#: includes/posttypes/gallery.php:18
+msgid "No Gallery found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/gallery.php:19
+msgid "View Gallery"
+msgstr ""
+
+#: includes/posttypes/menu.php:8
+msgid "Menu Categories"
+msgstr ""
+
+#: includes/posttypes/menu.php:10
+msgid "Search Menu Category"
+msgstr ""
+
+#: includes/posttypes/menu.php:11
+msgid "All Menu Categories"
+msgstr ""
+
+#: includes/posttypes/menu.php:12
+msgid "Parent Menu Category"
+msgstr ""
+
+#: includes/posttypes/menu.php:13
+msgid "Parent Menu Category:"
+msgstr ""
+
+#: includes/posttypes/menu.php:14
+msgid "Edit Menu Category"
+msgstr ""
+
+#: includes/posttypes/menu.php:15
+msgid "Update Menu Category"
+msgstr ""
+
+#: includes/posttypes/menu.php:16
+msgid "Add New Menu Category"
+msgstr ""
+
+#: includes/posttypes/menu.php:17
+msgid "New Menu Category Name"
+msgstr ""
+
+#: includes/posttypes/menu.php:42 includes/posttypes/menu.php:43
+msgid "Menu"
+msgstr ""
+
+#: includes/posttypes/menu.php:44
+msgid "Add Menu item"
+msgstr ""
+
+#: includes/posttypes/menu.php:45
+msgid "Add New Menu item"
+msgstr ""
+
+#: includes/posttypes/menu.php:46
+msgid "Edit Menu item"
+msgstr ""
+
+#: includes/posttypes/menu.php:47
+msgid "New Menu item"
+msgstr ""
+
+#: includes/posttypes/menu.php:49
+msgid "Search Menu item"
+msgstr ""
+
+#: includes/posttypes/menu.php:50
+msgid "No Menu item was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/menu.php:51
+msgid "No Menu item was found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/menu.php:52
+msgid "View Menu item"
+msgstr ""
+
+#: includes/posttypes/slider.php:9 includes/posttypes/slider.php:10
+msgid "Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:11
+msgid "Add Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:12
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:13
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:14
+msgid "New Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:16
+msgid "Search Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:17
+msgid "No Slider was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/slider.php:18
+msgid "No Slider was found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/slider.php:19
+msgid "View Slider"
+msgstr ""
+
+#: includes/posttypes/team.php:9
+msgid "Team"
+msgstr ""
+
+#: includes/posttypes/team.php:10
+msgid "Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:11
+msgid "Add Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:12
+msgid "Add New Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:13
+msgid "Edit Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:14
+msgid "New Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:15 includes/posttypes/team.php:19
+msgid "View Team Member"
+msgstr ""
+
+#: includes/posttypes/team.php:16
+msgid "Search Team"
+msgstr ""
+
+#: includes/posttypes/team.php:17
+msgid "No Team Member was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/team.php:18
+msgid "No Team Member was found in the Trash with that criteria"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#: includes/tgm-plugin-activation/tgm-activation.php:72
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#: includes/tgm-plugin-activation/tgm-activation.php:73
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#: includes/tgm-plugin-activation/tgm-activation.php:74
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+#: includes/tgm-plugin-activation/tgm-activation.php:101
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+#: includes/tgm-plugin-activation/tgm-activation.php:102
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-activation.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-activation.php:103
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/widgets/widget-events.php:22
+msgid "Display upcoming events"
+msgstr ""
+
+#: includes/widgets/widget-events.php:25
+msgid "LEMONCHILI - Events"
+msgstr ""
+
+#: includes/widgets/widget-events.php:99 single-events.php:30
+#: template-events1.php:66 template-events1.php:95 template-events2.php:61
+msgid "Monday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:100 single-events.php:31
+#: template-events1.php:67 template-events1.php:96 template-events2.php:62
+msgid "Tuesday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:101 single-events.php:32
+#: template-events1.php:68 template-events1.php:97 template-events2.php:63
+msgid "Wednesday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:102 single-events.php:33
+#: template-events1.php:69 template-events1.php:98 template-events2.php:64
+msgid "Thursday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:103 single-events.php:34
+#: template-events1.php:70 template-events1.php:99 template-events2.php:65
+msgid "Friday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:104 single-events.php:35
+#: template-events1.php:71 template-events1.php:100 template-events2.php:66
+msgid "Saturday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:105 single-events.php:36
+#: template-events1.php:72 template-events1.php:101 template-events2.php:67
+msgid "Sunday"
+msgstr ""
+
+#: includes/widgets/widget-events.php:111 single-events.php:42
+#: single-events.php:59 template-events2.php:73
+msgid "Jan"
+msgstr ""
+
+#: includes/widgets/widget-events.php:112 single-events.php:43
+#: single-events.php:60 template-events2.php:74
+msgid "Feb"
+msgstr ""
+
+#: includes/widgets/widget-events.php:113 single-events.php:44
+#: single-events.php:61 template-events2.php:75
+msgid "Mar"
+msgstr ""
+
+#: includes/widgets/widget-events.php:114 single-events.php:45
+#: single-events.php:62 template-events2.php:76
+msgid "Apr"
+msgstr ""
+
+#: includes/widgets/widget-events.php:115 single-events.php:46
+#: single-events.php:63 template-events1.php:82 template-events1.php:111
+#: template-events2.php:77
+msgid "May"
+msgstr ""
+
+#: includes/widgets/widget-events.php:116 single-events.php:47
+#: single-events.php:64 template-events2.php:78
+msgid "Jun"
+msgstr ""
+
+#: includes/widgets/widget-events.php:117 single-events.php:48
+#: single-events.php:65 template-events2.php:79
+msgid "Jul"
+msgstr ""
+
+#: includes/widgets/widget-events.php:118 single-events.php:49
+#: single-events.php:66 template-events2.php:80
+msgid "Aug"
+msgstr ""
+
+#: includes/widgets/widget-events.php:119 single-events.php:50
+#: single-events.php:67 template-events2.php:81
+msgid "Sep"
+msgstr ""
+
+#: includes/widgets/widget-events.php:120 single-events.php:51
+#: single-events.php:68 template-events2.php:82
+msgid "Oct"
+msgstr ""
+
+#: includes/widgets/widget-events.php:121 single-events.php:52
+#: single-events.php:69 template-events2.php:83
+msgid "Nov"
+msgstr ""
+
+#: includes/widgets/widget-events.php:122 single-events.php:53
+#: single-events.php:70 template-events2.php:84
+msgid "Dec"
+msgstr ""
+
+#: includes/widgets/widget-events.php:146
+#: includes/widgets/widget-events.php:202 template-events2.php:104
+#: template-events2.php:158
+msgid "<span class=\"moretext\"> view details </span>"
+msgstr ""
+
+#: includes/widgets/widget-events.php:234 template-events1.php:214
+#: template-events2.php:188
+msgid "There are no dates yet."
+msgstr ""
+
+#: includes/widgets/widget-events.php:288
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-calendar</b> "
+msgstr ""
+
+#: includes/widgets/widget-events.php:292
+#: includes/widgets/widget-featureddish.php:197
+#: includes/widgets/widget-flickr.php:105
+#: includes/widgets/widget-gallery.php:143
+#: includes/widgets/widget-images.php:135 includes/widgets/widget-news.php:171
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-events.php:297
+msgid "Number of Dates:"
+msgstr ""
+
+#: includes/widgets/widget-featureddish.php:22
+msgid "Display a featured dish"
+msgstr ""
+
+#: includes/widgets/widget-featureddish.php:25
+msgid "LEMONCHILI - Featured Dish"
+msgstr ""
+
+#: includes/widgets/widget-featureddish.php:193
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-cutlery</b> "
+msgstr ""
+
+#: includes/widgets/widget-featureddish.php:201
+msgid "select a menu item:"
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:22
+msgid "Display images from a Flickr account."
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:25
+msgid "LEMONCHILI - Flickr"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:22
+msgid "Display your latest galleries"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:25
+msgid "LEMONCHILI - Gallery"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:139
+#: includes/widgets/widget-images.php:131
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-camera-retro</b> "
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:148
+msgid "Number of galleries:"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:22
+msgid "Display the opening hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:25
+msgid "LEMONCHILI - Opening Hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:209
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-clock-o</b> "
+msgstr ""
+
+#: includes/widgets/widget-hours.php:213
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:220
+msgid "Day 1"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:224
+msgid "Day 1 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:231
+msgid "Day 2"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:235
+msgid "Day 2 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:242
+msgid "Day 3"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:246
+msgid "Day 3 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:253
+msgid "Day 4"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:257
+msgid "Day 4 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:264
+msgid "Day 5"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:268
+msgid "Day 5 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:275
+msgid "Day 6"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:279
+msgid "Day 6 hours"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:286
+msgid "Day 7"
+msgstr ""
+
+#: includes/widgets/widget-hours.php:290
+msgid "Day 7 hours"
+msgstr ""
+
+#: includes/widgets/widget-images.php:22
+msgid "Display images from your gallery"
+msgstr ""
+
+#: includes/widgets/widget-images.php:25
+msgid "LEMONCHILI - Images"
+msgstr ""
+
+#: includes/widgets/widget-images.php:140 includes/widgets/widget-news.php:176
+msgid "Posts Number:"
+msgstr ""
+
+#: includes/widgets/widget-news.php:22
+msgid "Display your latest News Entries."
+msgstr ""
+
+#: includes/widgets/widget-news.php:25
+msgid "LEMONCHILI - News"
+msgstr ""
+
+#: includes/widgets/widget-news.php:116 loop.php:66
+msgid "<span class=\"moretext\"> Read more </span>"
+msgstr ""
+
+#: includes/widgets/widget-news.php:167
+msgid ""
+"Icon (choose from <a href=\"http://fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">here</a>) </br> Example: <b>fa-pencil</b> "
+msgstr ""
+
+#: login.php:9
+msgid "Username"
+msgstr ""
+
+#: login.php:10
+msgid "Password"
+msgstr ""
+
+#: login.php:11
+msgid "Remember Me"
+msgstr ""
+
+#: login.php:12
+msgid "Log In"
+msgstr ""
+
+#: loop.php:9 search.php:35 template-events1.php:140 template-events1.php:178
+msgid "Permanent link to"
+msgstr ""
+
+#: loop.php:78 page.php:27 search.php:66 single-events.php:219
+#: single-gallery.php:45 single-menu.php:44 single-team.php:56 single.php:131
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: search.php:4
+msgid "Search Results for "
+msgstr ""
+
+#: search.php:9
+msgid "&ldquo;"
+msgstr ""
+
+#: search.php:11
+msgid "&rdquo;"
+msgstr ""
+
+#: search.php:17
+msgid "results"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search here ..."
+msgstr ""
+
+#: searchform.php:6
+msgid "Go"
+msgstr ""
+
+#: single-events.php:108
+msgid "event ends:"
+msgstr ""
+
+#: single-events.php:139 single.php:60
+msgid "no comments"
+msgstr ""
+
+#: single-events.php:139 single.php:60
+msgid "1 comment"
+msgstr ""
+
+#: single-events.php:139 single.php:60
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: single-events.php:148
+msgid "join facebook event"
+msgstr ""
+
+#: single-events.php:155 single.php:69
+msgid "SHARE:"
+msgstr ""
+
+#: single.php:41
+msgid "posted in:"
+msgstr ""
+
+#: single.php:49
+msgid "by:"
+msgstr ""
+
+#: template-contact.php:69
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: template-contact.php:74
+msgid "Uh oh... an error occured."
+msgstr ""
+
+#: template-contact.php:84
+msgid "&larr; Please enter your name."
+msgstr ""
+
+#: template-contact.php:92
+msgid "&larr; Please enter a valid email address."
+msgstr ""
+
+#: template-contact.php:98
+msgid "Message"
+msgstr ""
+
+#: template-contact.php:100
+msgid "&larr; Please enter a message."
+msgstr ""
+
+#: template-contact.php:105
+msgid "Send"
+msgstr ""
+
+#: template-events1.php:78 template-events1.php:107
+msgid "January"
+msgstr ""
+
+#: template-events1.php:79 template-events1.php:108
+msgid "February"
+msgstr ""
+
+#: template-events1.php:80 template-events1.php:109
+msgid "March"
+msgstr ""
+
+#: template-events1.php:81 template-events1.php:110
+msgid "April"
+msgstr ""
+
+#: template-events1.php:83 template-events1.php:112
+msgid "June"
+msgstr ""
+
+#: template-events1.php:84 template-events1.php:113
+msgid "July"
+msgstr ""
+
+#: template-events1.php:85 template-events1.php:114
+msgid "August"
+msgstr ""
+
+#: template-events1.php:86 template-events1.php:115
+msgid "September"
+msgstr ""
+
+#: template-events1.php:87 template-events1.php:116
+msgid "October"
+msgstr ""
+
+#: template-events1.php:88 template-events1.php:117
+msgid "November"
+msgstr ""
+
+#: template-events1.php:89 template-events1.php:118
+msgid "December"
+msgstr ""
+
+#: template-events1.php:140 template-events1.php:178
+msgid "view details"
+msgstr ""
