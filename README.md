@@ -16,7 +16,6 @@ quick init
 
 adaptar theme jobify
 -
-
 en carpeta:
 
 **src\wp-content\themes\jobify\inc\setup\import-content\extended**
