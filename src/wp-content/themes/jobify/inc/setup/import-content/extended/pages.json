@@ -1,0 +1,72 @@
+[
+	{
+		"id": "home",
+		"type": "object",
+		"priority": 0,
+		"data": {
+			"post_type": "page",
+			"post_title": "Home",
+			"post_content": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/jobify.php"
+			}
+		}
+	},
+	{
+		"id": "blog",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Blog",
+			"post_content": "",
+			"comment_status": "closed",
+			"menus": {
+				"Primary": {
+					"menu-item-title": "Blog",
+					"menu-item-parent-title": "Enlaces",
+					"menu-item-position": 1
+				}
+			}
+		}
+	},
+	{
+		"id": "hiw",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Como funciona",
+			"post_content": "",
+			"featured_image": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/template-widgetized.php"
+			},
+			"menus": {
+				"Primary": {
+					"menu-item-position": 1
+				}
+			}
+		}
+	},
+	{
+		"id": "tos",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Condiciones de uso",
+			"post_content": "El acceso y uso del website lleidajobs.com –en adelante WEBSITE- es ofrecido por la compañía de nacionalidad española JUSTDIGITAL, S.L., -en adelante JUSTDIGITAL- domiciliada en Lleida, calle Agustins, número 18, 3ªplanta; consta inscrita en el Registro Mercantil de Lleida, al tomo 12345, Folio 11, Hoja nº LL-12345, y con C.I.F nº Bº2134567. Para cualquier cuestión o duda que esté relacionada con el acceso y uso del WEBSITE o de las presentes Condiciones Generales de Acceso y Uso (en adelante, CGAU) puede dirigir un correo electrónico con su solicitud y datos de contacto a la siguiente dirección: soporte@lleidajobs.com. Además, puede contactar con nosotros dirigiendo su solicitud y datos de contacto a JUST DIGITAL, S.L. . Sin perjuicio de ello, JUSTDIGITAL podrá transmitir notificaciones a través de la página de inicio de la página Web, a fin de informar al Usuario acerca de los cambios introducidos en el WEBSITE. Dichas notificaciones serán consideradas como válidas y por ende, como notificaciones al Usuario.",
+			"featured_image": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": {
+				"Primary": {
+					"menu-item-parent-title": "Enlaces",
+					"menu-item-position": 5
+				}
+			}
+		}
+	}
+]

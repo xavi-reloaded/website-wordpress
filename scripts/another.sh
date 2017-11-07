@@ -5,3 +5,5 @@ wp plugin activate contact-form-7
 wp plugin activate illdy-companion
 wp plugin activate kiwi-social-share
 wp theme activate illdy
+
+
