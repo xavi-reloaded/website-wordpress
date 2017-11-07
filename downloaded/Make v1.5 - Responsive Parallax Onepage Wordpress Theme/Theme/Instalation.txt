@@ -1,0 +1,7 @@
+More info in documentation.
+
+Instalation Types:
+
+1. Upload folder make to wordpress folder wp-content/themes (there are all themes wp)
+
+2. Go to admin panel Appearance -> Themes -> Add new and upload and use make_install_pack.zip
