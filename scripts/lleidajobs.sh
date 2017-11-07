@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 wp db reset --yes
-wp core install --url="http://localhost"  --title="Lleida Jobs" --admin_user="admin" --admin_password="admin" --admin_email="xavi.hidalgo.fernandez@gmail.com"
+wp core install --url="http://localhost"  --title="LleidaJobs" --admin_user="admin" --admin_password="admin" --admin_email="xavi.hidalgo.fernandez@gmail.com"
 wp core language activate es_ES
 
 wp plugin activate wp-job-manager
