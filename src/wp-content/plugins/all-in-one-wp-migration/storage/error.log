@@ -1,0 +1,3 @@
+Nov 05 2017 05:23:23
+{"Number":2,"Message":"rename(\/var\/www\/html\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/9yyaf2gen4gf\/localhost-20171105-052146-763.wpress,\/var\/www\/html\/wp-content\/ai1wm-backups\/localhost-20171105-052146-763.wpress): Operation not permitted","File":"\/var\/www\/html\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-download.php","Line":40}
+
