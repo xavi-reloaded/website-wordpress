@@ -68,10 +68,10 @@
 		"id": "testimonial-customer-1",
 		"type": "object",
 		"data": {
-			"post_title": "Customer #1",
+			"post_title": "Cliente #1",
 			"post_type": "testimonial",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-1.jpg",
-			"post_content": "Excellent service offering a personal touch, if I had an issue they were no longer than a phone call away and were always quick to respond.",
+			"post_content": "Excelente servicio que ofrece un toque personal, si tuviera un problema, no estarían más allá de una llamada telefónica y siempre respondían rápidamente.",
 			"terms": {
 				"testimonial-category": [ "individual" ]
 			}
@@ -81,10 +81,10 @@
 		"id": "testimonial-customer-2",
 		"type": "object",
 		"data": {
-			"post_title": "Customer #2",
+			"post_title": "Cliente #2",
 			"post_type": "testimonial",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-2.jpg",
-			"post_content": "Jobify offer an amazing service and I couldn't be happier! They are dedicated to helping recruiters find great candidates, wonderful service!",
+			"post_content": "¡Jobify ofrece un servicio increíble y no podría estar más feliz! ¡Están dedicados a ayudar a los reclutadores a encontrar grandes candidatos, un maravilloso servicio!",
 			"terms": {
 				"testimonial-category": [ "individual" ]
 			}
@@ -94,10 +94,10 @@
 		"id": "testimonial-customer-3",
 		"type": "object",
 		"data": {
-			"post_title": "Customer #3",
+			"post_title": "Cliente #3",
 			"post_type": "testimonial",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-3.jpg",
-			"post_content": "If I didn't find Jobify I'm pretty sure i'd be no where, they helped me find a job in less than 2 days and the job is amazing,  amazing service!",
+			"post_content": "Si no encontré Jobify estoy bastante seguro de que no estaría en ningún lugar, me ayudaron a encontrar un trabajo en menos de 2 días y ¡el trabajo es increíble, un servicio increíble!",
 			"terms": {
 				"testimonial-category": [ "individual" ]
 			}
@@ -107,10 +107,10 @@
 		"id": "testimonial-customer-4",
 		"type": "object",
 		"data": {
-			"post_title": "Customer #4",
+			"post_title": "Cliente #4",
 			"post_type": "testimonial",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-4.jpg",
-			"post_content": "Wow just Wow! Jobify is an excellent service that offers personal one to one help finding a job and they know how to please, i'd use them again!",
+			"post_content": "¡Guau! ¡Guau !, Jobify es un excelente servicio que ofrece ayuda personal individual para encontrar trabajo y saben cómo complacer, ¡los volvería a utilizar!",
 			"terms": {
 				"testimonial-category": [ "individual" ]
 			}
@@ -120,10 +120,10 @@
 		"id": "testimonial-customer-5",
 		"type": "object",
 		"data": {
-			"post_title": "Customer #5",
+			"post_title": "Cliente #5",
 			"post_type": "testimonial",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-5.jpg",
-			"post_content": "Without Jobify i'd be homeless, they found me a job and got me sorted out quickly with everything! Can't quite believe the service level that they offer!",
+			"post_content": "Sin Jobify estaría sin hogar, ¡me encontraron un trabajo y me ordenaron rápidamente con todo! No puedo creer el nivel de servicio que ofrecen!",
 			"terms": {
 				"testimonial-category": [ "individual" ]
 			}

@@ -56,8 +56,8 @@
 			"text_align": "left",
 			"text_color": "#647585",
 			"background_color": "#f3f4f6",
-			"title": "Browse Hundreds of Jobs",
-			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"title": "Navega entre miles de ofertas de trabajo",
+			"content": "Busque, encuentre y solicite empleos directamente en su dispositivo móvil o ordenador de escritorio. Administre todos los trabajos que ha aplicado desde un panel de control seguro.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-2.jpg"
 		}
 	},
@@ -76,8 +76,8 @@
 			"text_align": "right",
 			"text_color": "#717a8f",
 			"background_color": "#ffffff",
-			"title": "Find Your Match",
-			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"title": "Encuentre lo que busca",
+			"content": "Busque, encuentre y solicite empleos directamente en su dispositivo móvil o ordenador de escritorio. Administre todos los trabajos que ha aplicado desde un panel de control seguro.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-3.jpg"
 		}
 	},
@@ -96,8 +96,8 @@
 			"text_align": "left",
 			"text_color": "#647585",
 			"background_color": "#f3f4f6",
-			"title": "Apply Directly",
-			"content": "Once you have found your matches, you can easily apply to the jobs that suit you best via the convenient web form and even submit your previously uploaded resume to save time.",
+			"title": "Aplicar directamente",
+			"content": "Una vez que haya encontrado sus coincidencias, puede aplicar fácilmente a los trabajos que más le convengan a través del conveniente formulario web e incluso enviar su currículum cargado anteriormente para ahorrar tiempo.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-4.jpg"
 		}
 	},
@@ -108,8 +108,8 @@
 		"data": {
 			"sidebar": "widget-area-front-page",
 			"widget": "jobify_widget_stats",
-			"title": "Jobify Site Stats",
-			"description": "Here we list our site stats and how many people we’ve helped find a job and companies have found recruits. It's a pretty awesome stats area!"
+			"title": "Lleidajobs estadísticas web",
+			"description": "Aquí enumeramos las estadísticas de nuestro sitio y cuántas personas hemos ayudado a encontrar un trabajo y las empresas han encontrado reclutas. ¡Es un área de estadísticas bastante impresionante!"
 		}
 	},
 	{
@@ -127,8 +127,8 @@
 			"text_align": "center",
 			"text_color": "#ffffff",
 			"background_color": "#ffffff",
-			"title": "Got a Question?",
-			"content": "We're here to help. Check out our FAQs, send us an email or call us at 1 (800) 555-5555\n\n<a href='#' class='button button--size-medium'>Contact Us</a>",
+			"title": "Tienes una pregunta?",
+			"content": "Estamos aquí para ayudar. Consulte nuestras preguntas frecuentes, envíenos un correo electrónico o llámenos al 1 800 555 5555\n\n<a href='#' class='button button--size-medium'>Contact Us</a>",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-5.jpg"
 		}
 	},

@@ -5,7 +5,7 @@
 		"priority": 10,
 		"data": {
 			"post_type": "page",
-			"post_title": "Sign Up",
+			"post_title": "Registrate",
 			"post_content": "[woocommerce_simple_registration]",
 			"comment_status": "closed",
 			"meta": {
@@ -13,7 +13,7 @@
 			},
 			"menus": [
 				{
-					"menu-item-title": "Sign Up",
+					"menu-item-title": "Registrate",
 					"menu-item-position": 6,
 					"menu-item-role": "out",
 					"menu-item-classes": "register",

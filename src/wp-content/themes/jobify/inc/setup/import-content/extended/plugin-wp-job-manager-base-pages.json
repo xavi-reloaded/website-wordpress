@@ -6,7 +6,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "find-a-job",
-			"post_title": "Find a Job",
+			"post_title": "Encuentra trabajo",
 			"post_content": "[jobs]",
 			"comment_status": "closed",
 			"meta": {
@@ -16,7 +16,7 @@
 				{	
 					"menu-item-title": "Find a Job",
 					"menu-item-position": 1,
-					"menu-item-parent-title": "Candidates",
+					"menu-item-parent-title": "Candidatos",
 					"menu_name": "Primary"
 				}
 			]
@@ -29,7 +29,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "post-a-job",
-			"post_title": "Post a Job",
+			"post_title": "Publica una oferta de empleo",
 			"post_content": "[submit_job_form]",
 			"comment_status": "closed",
 			"meta": {
@@ -37,8 +37,8 @@
 			},
 			"menus": [
 				{	
-					"menu-item-title": "Post A Job",
-					"menu-item-parent-title": "Employers",
+					"menu-item-title": "Publica una oferta de empleo",
+					"menu-item-parent-title": "Empresas",
 					"menu-item-position": 1,
 					"menu_name": "Primary"
 				}
@@ -52,7 +52,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "manage-jobs",
-			"post_title": "Manage Jobs",
+			"post_title": "Administrar ofertas de empleo",
 			"post_content": "[job_dashboard]",
 			"post_parent": "myaccount",
 			"comment_status": "closed",
@@ -61,9 +61,9 @@
 			},
 			"menus": [
 				{
-					"menu-item-title": "Job Dashboard",
+					"menu-item-title": "Panel de empleos",
 					"menu-item-position": 4,
-					"menu-item-parent-title": "Employers",
+					"menu-item-parent-title": "Empresas",
 					"menu-item-role": "in",
 					"menu_name": "Primary"
 				}
