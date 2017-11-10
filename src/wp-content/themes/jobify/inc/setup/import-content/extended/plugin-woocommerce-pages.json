@@ -35,7 +35,7 @@
 					"menu_name": "Primary"
 				},
 				{
-					"menu-item-title": "Cerrar sessión",
+					"menu-item-title": "Cerrar sesión",
 					"menu-item-position": 10,
 					"menu-item-role": "in",
 					"menu-item-endpoint": "customer-logout",

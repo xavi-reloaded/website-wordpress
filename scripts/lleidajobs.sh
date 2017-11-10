@@ -21,7 +21,7 @@ wp plugin activate ninja-forms
 wp plugin activate if-menu
 wp plugin activate all-in-one-wp-migration
 
-
+wp post delete 1 --force
 
 #wp theme activate jobify
 #wp ai1wm restore localhost-20171105-052146-763.wpress

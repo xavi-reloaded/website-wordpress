@@ -3,7 +3,7 @@
 		"id": "blog-best-and-worst",
 		"type": "object",
 		"data": {
-			"post_title": "The Best (and Worst) Canadian Merchant Account Providers",
+			"post_title": "Los mejores (y peores) proveedores canadienses de cuentas mercantiles",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/blog-1.jpg",
 			"terms": {
 				"category": [ "development", "news" ]
@@ -14,7 +14,7 @@
 		"id": "blog-job",
 		"type": "object",
 		"data": {
-			"post_title": "Do you have a job that the average person doesn’t even know exists?",
+			"post_title": "¿Tienes un trabajo que la persona promedio ni siquiera sabe que existe?",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/blog-2.jpg",
 			"terms": {
 				"category": [ "development", "news" ]
@@ -25,7 +25,7 @@
 		"id": "blog-digital-ocean",
 		"type": "object",
 		"data": {
-			"post_title": "DigitalOcean launches first Canadian data centre in Toronto",
+			"post_title": "DigitalOcean lanza el primer centro de datos Canadiense en Toronto",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/blog-3.jpg",
 			"terms": {
 				"category": [ "development", "news" ]
@@ -36,7 +36,7 @@
 		"id": "blog-outsourcing",
 		"type": "object",
 		"data": {
-			"post_title": "Outsourcing vs. In-House Digital Marketing: Choosing What is Best for a Small Business",
+			"post_title": "Outsourcing vs. Marketing digital interno: elegir lo mejor para una pequeña empresa",
 			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/blog-4.jpg",
 			"terms": {
 				"category": [ "development", "news" ]
