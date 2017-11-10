@@ -6,7 +6,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "find-a-candidate",
-			"post_title": "Find a Candidate",
+			"post_title": "Encuentra un candidato",
 			"post_content": "[resumes]",
 			"comment_status": "closed",
 			"meta": {
@@ -14,9 +14,9 @@
 			},
 			"menus": [
 				{	
-					"menu-item-title": "Find a Candidate",
+					"menu-item-title": "Encuentra un candidato",
 					"menu-item-position": 2,
-					"menu-item-parent-title": "Employers",
+					"menu-item-parent-title": "Empresas",
 					"menu_name": "Primary"
 				}
 			]
@@ -29,7 +29,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "post-a-resume",
-			"post_title": "Post a Resume",
+			"post_title": "Publicar currículum",
 			"post_content": "[submit_resume_form]",
 			"comment_status": "closed",
 			"meta": {
@@ -37,8 +37,8 @@
 			},
 			"menus": [
 				{	
-					"menu-item-title": "Submit Your Resume",
-					"menu-item-parent-title": "Candidates",
+					"menu-item-title": "Sube tu currículum",
+					"menu-item-parent-title": "Candidatos",
 					"menu-item-position": 3,
 					"menu_name": "Primary"
 				}
@@ -52,7 +52,7 @@
 		"data": {
 			"post_type": "page",
 			"post_name": "manage-resumes",
-			"post_title": "Manage Resumes",
+			"post_title": "Administrat currículums",
 			"post_content": "[candidate_dashboard]",
 			"post_parent": "myaccount",
 			"comment_status": "closed",
@@ -61,9 +61,9 @@
 			},
 			"menus": [
 				{
-					"menu-item-title": "Candidate Dashboard",
+					"menu-item-title": "Tablero de candidatos",
 					"menu-item-position": 4,
-					"menu-item-parent-title": "Candidates",
+					"menu-item-parent-title": "Candidatos",
 					"menu-item-role": "in",
 					"menu_name": "Primary"
 				}

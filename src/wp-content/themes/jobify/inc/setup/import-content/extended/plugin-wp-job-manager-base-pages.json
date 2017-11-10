@@ -14,7 +14,7 @@
 			},
 			"menus": [
 				{	
-					"menu-item-title": "Find a Job",
+					"menu-item-title": "Encuentra trabajo",
 					"menu-item-position": 1,
 					"menu-item-parent-title": "Candidatos",
 					"menu_name": "Primary"

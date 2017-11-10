@@ -4,18 +4,18 @@
 		"type": "object",
 		"data": {
 			"post_type": "page",
-			"post_title": "Pricing",
+			"post_title": "Precios",
 			"post_content": "",
 			"comment_status": "closed",
 			"menus": [
 				{
-					"menu-item-title": "Pricing",
+					"menu-item-title": "Precios",
 					"menu-item-position": 2,
 					"menu_name": "Primary"
 				},
 				{
-					"menu-item-title": "Pricing",
-					"menu-item-parent-title": "Employers",
+					"menu-item-title": "Precios",
+					"menu-item-parent-title": "Empresas",
 					"menu-item-position": 3,
 					"menu_name": "Primary"
 				}

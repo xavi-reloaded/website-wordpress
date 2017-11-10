@@ -6,7 +6,7 @@
 			"sidebar": "widget-area-footer",
 			"widget": "text",
 			"title": "Jobify",
-			"text": "Job Searching Just Got Easy. Use Jobify to run a hiring site and earn money in the process!"
+			"text": "La búsqueda de trabajo se hizo fácil. ¡Utiliza Jobify para ejecutar un sitio de contratación y ganar dinero en el proceso!"
 		}
 	},
 	{
@@ -15,7 +15,7 @@
 		"data": {
 			"sidebar": "widget-area-footer-2",
 			"widget": "pages",
-			"title": "Site Map"
+			"title": "Mapa del sitio"
 		}
 	},
 	{
@@ -24,7 +24,7 @@
 		"data": {
 			"sidebar": "widget-area-footer-3",
 			"widget": "recent-posts",
-			"title": "Recent News Articles"
+			"title": "Noticias recientes"
 		}
 	},
 	{
@@ -33,7 +33,7 @@
 		"data": {
 			"sidebar": "widget-area-footer-4",
 			"widget": "text",
-			"title": "Jobify Offices",
+			"title": "Jobify oficinas",
 			"text": "Jobify Inc. 555 Madison Avenue,\nSuite F-2 Manhattan,\nNew York 10282\n\nJobify Inc Canada. 545\n Younge St, Suite 11 Toronto,\n Ontario M4K 6F4",
 			"filter": 1
 		}
@@ -54,8 +54,8 @@
 			"text_align": "center",
 			"text_color": "#ffffff",
 			"background_color": "#ffffff",
-			"title": "How It Works",
-			"content": "Get a digital tour of how Jobify works for you.",
+			"title": "Como funciona",
+			"content": "Obtenga un recorrido digital de cómo Jobify trabaja para ti.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-1.jpg"
 		}
 	},
@@ -74,8 +74,8 @@
 			"text_align": "left",
 			"text_color": "#647585",
 			"background_color": "#ffffff",
-			"title": "Browse Hundreds of Jobs",
-			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"title": "Navega entre miles de ofertas de trabajo",
+			"content": "Busque, encuentre y solicite empleos directamente en su dispositivo móvil o ordenador de escritorio. Administre todos los trabajos que ha aplicado desde un panel de control seguro.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-4.jpg"
 		}
 	},
@@ -94,8 +94,8 @@
 			"text_align": "right",
 			"text_color": "#717a8f",
 			"background_color": "#f3f4f6",
-			"title": "Find Your Match",
-			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"title": "Encuentre lo que busca",
+			"content": "Busque, encuentre y solicite empleos directamente en su dispositivo móvil o ordenador de escritorio. Administre todos los trabajos que ha aplicado desde un panel de control seguro.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-3.jpg"
 		}
 	},
@@ -114,8 +114,8 @@
 			"text_align": "left",
 			"text_color": "#647585",
 			"background_color": "#ffffff",
-			"title": "Apply Directly",
-			"content": "Once you have found your matches, you can easily apply to the jobs that suit you best via the convenient web form and even submit your previously uploaded resume to save time.",
+			"title": "Aplicar directamente",
+			"content": "Una vez que haya encontrado sus coincidencias, puede aplicar fácilmente a los trabajos que más le convengan a través del conveniente formulario web e incluso enviar su currículum cargado anteriormente para ahorrar tiempo.",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-4.jpg"
 		}
 	}
