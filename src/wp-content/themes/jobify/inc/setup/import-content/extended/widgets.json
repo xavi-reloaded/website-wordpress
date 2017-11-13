@@ -5,7 +5,7 @@
 		"data": {
 			"sidebar": "widget-area-footer",
 			"widget": "text",
-			"title": "Jobify",
+			"title": "Lleidajobs",
 			"text": "La búsqueda de trabajo se hizo fácil. ¡Utiliza Jobify para ejecutar un sitio de contratación y ganar dinero en el proceso!"
 		}
 	},
@@ -33,7 +33,7 @@
 		"data": {
 			"sidebar": "widget-area-footer-4",
 			"widget": "text",
-			"title": "Jobify oficinas",
+			"title": "Lleidajobs oficinas",
 			"text": "Jobify Inc. 555 Madison Avenue,\nSuite F-2 Manhattan,\nNew York 10282\n\nJobify Inc Canada. 545\n Younge St, Suite 11 Toronto,\n Ontario M4K 6F4",
 			"filter": 1
 		}

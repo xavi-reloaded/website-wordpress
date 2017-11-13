@@ -21,7 +21,15 @@ wp plugin activate ninja-forms
 wp plugin activate if-menu
 wp plugin activate all-in-one-wp-migration
 
+#delete sample post
 wp post delete 1 --force
+#delete sample page
+wp post delete 2 --force
+
+#copy language traduction from wp-job-manager folder to wordpress language plugin folder
+cp -rf /var/www/html/wp-content/plugins/wp-job-manager/languages/es.po /var/www/html/wp-content/languages/plugins/wp-job-manager-es_ES.po
+cp -rf /var/www/html/wp-content/plugins/wp-job-manager/languages/es.mo /var/www/html/wp-content/languages/plugins/wp-job-manager-es_ES.mo
+
 
 #wp theme activate jobify
 #wp ai1wm restore localhost-20171105-052146-763.wpress

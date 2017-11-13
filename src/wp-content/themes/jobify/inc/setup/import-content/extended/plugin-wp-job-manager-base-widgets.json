@@ -26,7 +26,7 @@
 		"data": {
 			"sidebar": "widget-area-front-page",
 			"widget": "jobify_widget_jobs_spotlight",
-			"title": "Featured Jobs",
+			"title": "Trabajos destacados",
 			"number": 3
 		}
 	},
@@ -37,7 +37,7 @@
 		"data": {
 			"sidebar": "widget-area-front-page",
 			"widget": "jobify_resumes_spotlight",
-			"title": "Featured Candidates",
+			"title": "Candidatos destacados",
 			"number": 3
 		}
 	},
@@ -128,7 +128,7 @@
 			"text_color": "#ffffff",
 			"background_color": "#ffffff",
 			"title": "Tienes una pregunta?",
-			"content": "Estamos aquí para ayudar. Consulte nuestras preguntas frecuentes, envíenos un correo electrónico o llámenos al 1 800 555 5555\n\n<a href='#' class='button button--size-medium'>Contact Us</a>",
+			"content": "Estamos aquí para ayudar. Consulte nuestras preguntas frecuentes, envíenos un correo electrónico o llámenos al 1 800 555 5555\n\n<a href='#' class='button button--size-medium'>Contáctenos</a>",
 			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-5.jpg"
 		}
 	},

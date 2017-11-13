@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-10 12:19+0100\n"
+"PO-Revision-Date: 2017-11-13 12:53+0100\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7.1\n"
 "Last-Translator: \n"
@@ -69,23 +69,23 @@ msgstr ""
 
 #: content-grid.php:28 content-single.php:25 content.php:24
 msgid "0 Comments"
-msgstr ""
+msgstr "0 Comentarios"
 
 #: content-grid.php:28 content-single.php:25 content.php:24
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Comentario"
 
 #: content-grid.php:28 content-single.php:25 content.php:24
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentarios"
 
 #: content-grid.php:38 content.php:38
 msgid "Continue Reading"
-msgstr ""
+msgstr "Continuar leyendo"
 
 #: content-imported-job-listing.php:26 content-job_listing.php:25
 msgid "%s ago"
-msgstr ""
+msgstr "Hace %s"
 
 #: content-none.php:14
 msgid ""
@@ -97,6 +97,8 @@ msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
 msgstr ""
+"Lo sentimos, pero nada coincide con sus términos de búsqueda. Por favor, "
+"inténtelo de nuevo con diferentes palabras clave."
 
 #: content-none.php:23
 msgid ""
@@ -106,15 +108,15 @@ msgstr ""
 
 #: content-resume.php:21 content-single-resume.php:28
 msgid "Updated %s ago"
-msgstr ""
+msgstr "Actualizado hace %s"
 
 #: content-single-job-related.php:42
 msgid "Related Jobs"
-msgstr ""
+msgstr "Trabajos destacados"
 
 #: content-single-job_listing-meta.php:20
 msgid "Posted %s ago"
-msgstr ""
+msgstr "Publicado hace %s"
 
 #: content-single-job_listing-meta.php:23
 msgid "This position has been filled"
@@ -130,7 +132,7 @@ msgstr ""
 
 #: content-single-job_listing.php:37
 msgid "Overview"
-msgstr ""
+msgstr "Información general"
 
 #: content-single-job_listing.php:43 single-company.php:27
 msgid "About %s"
@@ -739,7 +741,7 @@ msgstr ""
 #: searchform-header.php:4 searchform.php:4
 #: woocommerce/product-searchform.php:27
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: inc/integrations/wp-job-manager/customizer/definitions/controls/job-display-address-format.php:17
 #: inc/integrations/wp-job-manager-resumes/customizer/definitions/controls/resume-display-address-format.php:17
@@ -833,7 +835,7 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-social.php:39
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-social.php:45
 msgid "Twitter"
@@ -858,7 +860,7 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-location.php:13
 msgid "Jobify - Job: Location"
-msgstr ""
+msgstr "Jobify - Job: Ubicación"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:11
 msgid "Display a link to more jobs from the company"
@@ -1226,7 +1228,7 @@ msgstr[1] ""
 
 #: inc/listing/template-tags.php:499
 msgid "Anywhere"
-msgstr ""
+msgstr "En cualquier sitio"
 
 #: inc/pages/class-page-settings.php:40
 msgid "Page Title"
@@ -1832,7 +1834,7 @@ msgstr ""
 
 #: inc/widgets/class-widgetized-pages.php:33
 msgid "Page: %s"
-msgstr ""
+msgstr "Página: %s"
 
 #: inc/widgets/class-widgetized-pages.php:34
 msgid "Widgets that appear on the \"%s\" page."
@@ -1870,96 +1872,96 @@ msgstr ""
 
 #: job-filters-flat.php:29 job-filters-flat.php:30 resume-filters-flat.php:13
 msgid "Keywords"
-msgstr ""
+msgstr "Palabras clave"
 
 #: job-filters-flat.php:34 job-filters-flat.php:35 resume-filters-flat.php:18
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: job-filters-flat.php:41 resume-filters-flat.php:25
 #: sidebar-single-job_listing-top.php:40
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: job-filters-flat.php:42 resume-filters-flat.php:26
 msgid "Any category"
-msgstr ""
+msgstr "Cualquier categoría"
 
 #: resume-filters-flat.php:19
 msgid "Any Location"
-msgstr ""
+msgstr "Cualquier ubicación"
 
 #: searchform-header.php:2 searchform.php:2
 #: woocommerce/product-searchform.php:25
 msgid "Search for"
-msgstr ""
+msgstr "Buscar por"
 
 #: searchform-header.php:3 searchform.php:3
 #: woocommerce/product-searchform.php:26
 msgid "Keywords..."
-msgstr ""
+msgstr "Palabras clave..."
 
 #: sidebar-shop.php:16
 msgid "Recent Products"
-msgstr ""
+msgstr "Productos recientes"
 
 #: sidebar-single-job_listing-top.php:43
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: sidebar-single-job_listing-top.php:47
 msgid "Share This"
-msgstr ""
+msgstr "Comparte esto"
 
 #: sidebar-single-job_listing-top.php:60
 msgid "Company Details"
-msgstr ""
+msgstr "Detalles de la compañía"
 
 #: sidebar-single-job_listing.php:30 single-company.php:61
 msgid "Company Social"
-msgstr ""
+msgstr "Empresa medios sociales"
 
 #: sidebar-single-resume-top.php:40
 msgid "Share Resume"
-msgstr ""
+msgstr "Compartir currículum"
 
 #: sidebar-single-resume-top.php:43
 msgid "Candidate Skills"
-msgstr ""
+msgstr "Habilidades del candidato"
 
 #: sidebar-single-resume-top.php:47
 msgid "Candidate Resume"
-msgstr ""
+msgstr "Currículum vitae del candidato"
 
 #: sidebar-single-resume-top.php:60
 msgid "Candidate Details"
-msgstr ""
+msgstr "Detalles del candidato"
 
 #: single-company.php:15
 msgid "Jobs at %s"
-msgstr ""
+msgstr "Empleos en %s"
 
 #: single-company.php:17
 msgid "%d Job Available"
 msgid_plural "%d Jobs Available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s trabajo disponible"
+msgstr[1] "%s trabajos disponibles"
 
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:48
 msgid "Contents"
-msgstr ""
+msgstr "Contenido"
 
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:51
 msgid "Comment"
-msgstr ""
+msgstr "Comentario"
 
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:51
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:57
 msgid "Reset Complete"
-msgstr ""
+msgstr "Reinicio completado"
 
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:64
 msgid ""
