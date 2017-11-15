@@ -34,7 +34,7 @@ cp -rf /var/www/html/wp-content/plugins/wp-job-manager/languages/es.mo /var/www/
 
 
 #create backup and restore if exists previous backup
-file="/var/www/html/scripts/backup/backup.sql"
+file="/var/www/html/scripts/backup/backup.sql.bak"
 if [ -f $file ]; then
    wp db import $file
 else
