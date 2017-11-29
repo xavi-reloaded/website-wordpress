@@ -1,0 +1,241 @@
+/**
+ * Theme Name: Jobify - Extended
+ * Theme URI: https://astoundify.com/
+ * Author: Astoundify
+ * Author URI: http://astoundify.com
+ * Description: Everything you need to build a professional job board.
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: white, one-column, right-sidebar, fixed-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
+ * Template: jobify
+*/
+/**
+ * The parent theme's CSS is automatically included so there is no need
+ * to use the @import rule to include the parent theme CSS.
+ *
+ * Place Custom CSS Below this.
+ */
+@import url("http://fontawesome.io/assets/font-awesome/css/font-awesome.css");
+
+.woocommerce-loop-product__title {
+    font-size: 0.8em;
+}
+.woocommerce ul.products li.product img,
+.woocommerce-page ul.products li.product img {
+    border-radius: 4px;
+    height: 180px;
+
+}
+.job-spotlight__actions span, .resume-spotlight__actions span{
+    margin-right: 2em;
+
+}
+/*woocommerce shop mobile*/
+@media screen and (max-width: 768px) {
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-page[class*=columns-] ul.products li.product, .woocommerce[class*=columns-] ul.products li.product {
+        width: 100%;
+        text-align: center;
+    }
+    /*size product image*/
+    .woocommerce ul.products li.product img,
+    .woocommerce-page ul.products li.product img {
+        border-radius: 4px;
+        height: auto;
+
+    }
+    /*size product name text*/
+    .woocommerce-loop-product__title {
+        font-size: 1.8em;
+    }
+    /*size text price*/
+    .woocommerce .price, .woocommerce-page .price {
+        line-height: normal;
+        font-size: 1.25em;
+    }
+}
+
+/*Dashboard company*/
+@media screen and (max-width: 768px) {
+    .dashboardCompany {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.90em;
+        margin-bottom: 10%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .dashboardCompany > .left {
+        flex: 0 52%;
+    }
+    .dashboardCompany > .right {
+        flex: 0 48%;
+    }
+    .dashboardCompany > .job {
+        flex: 0 70%;
+        text-decoration: underline;
+    }
+    .dashboardCompany > .title {
+        flex: 0 30%
+    }
+    .page-title{
+        margin-top:0;
+        margin-bottom: 0;
+    }
+    #job-manager-job-dashboard > p {
+        text-align: center;
+        margin-top: -25px;
+        font-size: 1em;
+    }
+    .job-dashboard-actions{
+        flex:0 25%;
+
+    }
+    .job-dashboard-action-mark_not_filled{
+        margin-left: -13px;
+    }
+    .job-dashboard-action-mark_filled{
+        margin-left: -13px;
+    }
+}
+/*dashboard company*/
+@media screen and (max-width: 375px) {
+    .job-dashboard-action-mark_not_filled{
+        font-size: 0.76em !important;
+    }
+    .job-dashboard-action-mark_filled{
+
+        font-size: 0.76em !important;
+    }
+    .job-dashboard-action-duplicate{
+        font-size: 0.76em !important;
+    }
+    .job-dashboard-action-delete{
+        font-size: 0.76em !important;
+    }
+    .job-dashboard-action-edit{
+        font-size: 0.76em !important;
+    }
+}
+
+/*dashboard company*/
+@media screen and (min-width: 769px) {
+    .dashboardCompany {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1em;
+        margin-bottom: 10%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .dashboardCompany > .left {
+        flex: 0 52%;
+    }
+    .dashboardCompany > .right {
+        flex: 0 48%;
+    }
+    .dashboardCompany > .job {
+        flex: 0 70%;
+        text-decoration: underline;
+    }
+    .dashboardCompany > .title {
+        flex: 0 30%
+    }
+    .page-title{
+        margin-top:0;
+        margin-bottom: 0;
+    }
+    #job-manager-job-dashboard > p {
+        text-align: center;
+        margin-top: -30px;
+        font-size: 1em;
+    }
+    .job-dashboard-actions{
+        flex:0 25%;
+    }
+    .job-dashboard-action-mark_not_filled{
+        margin-left: -13px;
+    }
+    .job-dashboard-action-mark_filled{
+        margin-left: -13px;
+    }
+    .job-dashboard-action-mark_not_filled{
+        font-size: 0.9em !important;
+    }
+    .job-dashboard-action-mark_filled{
+
+        font-size: 0.9em !important;
+    }
+    .job-dashboard-action-duplicate{
+        font-size: 0.9em !important;
+    }
+    .job-dashboard-action-delete{
+        font-size: 0.9em !important;
+    }
+    .job-dashboard-action-edit{
+        font-size: 0.9em !important;
+    }
+}
+
+/*Company social media*/
+@media screen and (max-width: 321px){
+    .job_listing-company-social a {
+        font-size: 0.65em;
+    }
+    .page-subtitle:not(:empty){
+        margin-top: 10px;
+    }
+    .campaign-feature-image img, .comment-content img, .entry-content img, .entry-summary img, .widget img, .wp-caption{
+        margin-top: 10px;
+    }
+    .content-area{
+        margin-top: 1em;
+    }
+}
+
+/*company helped home page*/
+.companyHelped{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+
+}
+
+/*company helped home page*/
+@media screen and (max-width: 768px){
+    .companyHelped{
+        flex-direction: column;
+    }
+}
+
+/*testimonials page*/
+@media screen and (max-width: 320px){
+    .woothemes-testimonial--individual p{
+        padding:0;
+    }
+}
+
+/*buttons to add new jobs on empresas/publicar una oferta de empleo */
+@media screen and (max-width: 768px){
+    .job_listing_preview_title input[name=continue], .resume_preview_title input[name=continue]{
+        float: inherit;
+        font-size: 0.8em;
+        margin-bottom: 1.2em;
+    }
+    .job_listing_preview_title input[name=edit_job], .resume_preview_title input[name=edit_resume]{
+        float: inherit;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .woocommerce #content table.cart td.actions .coupon .button.alt, .woocommerce #content table.cart td.actions .coupon .input-text+.button, .woocommerce table.cart td.actions .coupon .button.alt, .woocommerce table.cart td.actions .coupon .input-text+.button, .woocommerce-page #content table.cart td.actions .coupon .button.alt, .woocommerce-page #content table.cart td.actions .coupon .input-text+.button, .woocommerce-page table.cart td.actions .coupon .button.alt, .woocommerce-page table.cart td.actions .coupon .input-text+.button{
+        font-size: 0.9em;
+    }
+    .application_button, .button, .button--type-action, .button--type-inverted, .button--type-inverted.view-video, .button-secondary, .button-secondary.button--type-action, .button-secondary.button--type-inverted, .button-secondary.view-video, .button.button--type-action, .button.button--type-inverted, .favorite-notice, .footer-cta .button, .footer-cta .view-video, .job-application-note-add input[type=button], .job-manager-form.wp-job-manager-bookmarks-form a.bookmark-notice, .job-manager-form.wp-job-manager-bookmarks-form a.remove-bookmark, .load_more_jobs strong, .load_more_resumes strong, .modal .nf-field-container.submit-container input[type=button], .resume_contact_button, .single-product #content .single_add_to_cart_button, .single_job_listing .application input[type=button].apply-with-facebook, .slider-text .button, .slider-text .view-video, .view-video, .widget--home-video .button, .widget--home-video .view-video, button, button.button--type-action, button.button--type-inverted, button.view-video, input[name=wp_job_manager_edit_application], input[type=button].apply-with-linkedin, input[type=button].apply-with-xing, input[type=button].import-from-linkedin, input[type=submit], input[type=submit].button--type-action, input[type=submit].button--type-inverted, input[type=submit].view-video, p.job-manager-single-alert-link a{
+        font-size: 0.9em;
+    }
+}

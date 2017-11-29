@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-13 12:53+0100\n"
+"PO-Revision-Date: 2017-11-29 10:03+0100\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7.1\n"
 "Last-Translator: \n"
@@ -142,11 +142,11 @@ msgstr ""
 #: inc/customizer/definitions/controls/cta-text.php:17
 #: inc/integrations/testimonials/widgets/class-widget-companies.php:33
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: content-single-resume.php:56
 msgid "Skills"
-msgstr ""
+msgstr "Habilidades"
 
 #: content-single-resume.php:64
 msgid "Education"
@@ -154,41 +154,43 @@ msgstr ""
 
 #: content-single-resume.php:85
 msgid "Experience"
-msgstr ""
+msgstr "Experiencia"
 
 #: content-single.php:17 content.php:16
 msgid ""
 "Written by <a class=\"author-link entry-author__link\" href=\"%s\" rel="
 "\"author\">%s</a>"
 msgstr ""
+"Escrito por <a class=\"author-link entry-author__link\" href=\"%s\" rel="
+"\"author\">%s</a>"
 
 #: content-single.php:46
 msgid "Tags:"
-msgstr ""
+msgstr "Etiquetas:"
 
 #: content-single.php:48
 msgid "Pages:"
-msgstr ""
+msgstr "Páginas:"
 
 #: footer.php:60
 msgid "Back to Top"
-msgstr ""
+msgstr "Volver arriba"
 
 #: form-fields/file-field.php:28
 msgid "%d files selected"
-msgstr ""
+msgstr "%d archivos seleccionados"
 
 #: form-fields/file-field.php:32 inc/widgets/class-widget.php:205
 msgid "Choose Image"
-msgstr ""
+msgstr "Elegir imagen"
 
 #: form-fields/file-field.php:34
 msgid "Choose File"
-msgstr ""
+msgstr "Elegir archivo"
 
 #: form-fields/file-field.php:43
 msgid "Maximum file size: %s."
-msgstr ""
+msgstr "Tamaño máximo del archivo: %s."
 
 #: functions.php:179 inc/setup/class-setup.php:217
 #: vendor/astoundify/content-importer/app/contentimporter-functions.php:46
@@ -201,7 +203,7 @@ msgstr ""
 
 #: header.php:37 inc/template/class-template-assets.php:35
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: header.php:55
 msgid "Menu"
@@ -212,6 +214,8 @@ msgid ""
 "<strong>You have not entered a Google Maps API key!</strong> You will not "
 "have access to certain features of Jobify. %s"
 msgstr ""
+"<strong>¡No ha ingresado una clave de la API de Google Maps!</strong> No "
+"tendrá acceso a ciertas funciones de Jobify. %s"
 
 #: inc/activation/class-activation.php:159
 msgid "Add an API key &rarr;"
@@ -527,7 +531,7 @@ msgstr ""
 #: inc/widgets/_widgets/class-widget-stats.php:29
 #: inc/widgets/_widgets/class-widget-video.php:31
 msgid "Description:"
-msgstr ""
+msgstr "Descripción:"
 
 #: inc/integrations/restrict-content-pro/widgets/class-widget-price-table-rcp.php:73
 msgid "free"
@@ -680,12 +684,12 @@ msgstr ""
 #: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:24
 #: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:44
 msgid "Featured Image"
-msgstr ""
+msgstr "Imagen destacada"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:25
 #: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:45
 msgid "Used for the Job Spotlight display"
-msgstr ""
+msgstr "Utilizado para la imagen destacada"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:124
 msgid "Job Page Sidebar"
@@ -705,37 +709,37 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:168
 msgid "Facebook username"
-msgstr ""
+msgstr "Cuenta de Facebook"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:171
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:179
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:187
 msgid "yourcompany"
-msgstr ""
+msgstr "tuempresa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:176
 msgid "Google+ username"
-msgstr ""
+msgstr "Cuenta de Google+"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:184
 msgid "LinkedIn username"
-msgstr ""
+msgstr "Cuenta de LinkedIn"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:226
 msgid "Company Description"
-msgstr ""
+msgstr "Cuenta de la empresa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:232
 msgid "Company Facebook"
-msgstr ""
+msgstr "Facebook de la empresa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:237
 msgid "Company Google+"
-msgstr ""
+msgstr "Google+ de la empresa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:242
 msgid "Company LinkedIn"
-msgstr ""
+msgstr "LinkedIn de la empresa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:278
 #: searchform-header.php:4 searchform.php:4
@@ -746,7 +750,7 @@ msgstr "Buscar"
 #: inc/integrations/wp-job-manager/customizer/definitions/controls/job-display-address-format.php:17
 #: inc/integrations/wp-job-manager-resumes/customizer/definitions/controls/resume-display-address-format.php:17
 msgid "Address Format"
-msgstr ""
+msgstr "Formato de dirección"
 
 #: inc/integrations/wp-job-manager/customizer/definitions/controls/job-display-address-format.php:18
 #: inc/integrations/wp-job-manager-resumes/customizer/definitions/controls/resume-display-address-format.php:18
@@ -789,7 +793,7 @@ msgstr ""
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:16
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-share.php:16
 msgid "Job or Resume"
-msgstr ""
+msgstr "Trabajo o currículum"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-apply.php:53
 msgid "Watch Video"
@@ -801,11 +805,11 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-categories.php:11
 msgid "Display the job's categories"
-msgstr ""
+msgstr "Mostrar las categorías del trabajo"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-categories.php:13
 msgid "Jobify - Job: Categories"
-msgstr ""
+msgstr "Lleidajobs - trabajo: Categorías"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-categories.php:16
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-social.php:16
@@ -815,11 +819,11 @@ msgstr ""
 #: inc/integrations/wp-job-manager-products/widgets/class-widget-products.php:18
 #: inc/integrations/wp-job-manager-tags/widgets/class-widget-job-tags.php:16
 msgid "Job"
-msgstr ""
+msgstr "Trabajo"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-logo.php:11
 msgid "Display the company logo or resume picture"
-msgstr ""
+msgstr "Mostrar el logotipo de la empresa o imagen de resumen"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-logo.php:13
 msgid "Jobify - Job/Resume: Logo"
@@ -831,7 +835,7 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-social.php:13
 msgid "Jobify - Job: Company Social"
-msgstr ""
+msgstr "Medios sociales"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-company-social.php:39
 msgid "Website"
@@ -856,7 +860,7 @@ msgstr ""
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-location.php:11
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-type.php:11
 msgid "Display the job type"
-msgstr ""
+msgstr "Mostrar el tipo de trabajo"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-location.php:13
 msgid "Jobify - Job: Location"
@@ -864,7 +868,7 @@ msgstr "Jobify - Job: Ubicación"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:11
 msgid "Display a link to more jobs from the company"
-msgstr ""
+msgstr "Mostrar un enlace a más trabajos de la compañía"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:13
 msgid "Jobify - Job: Company Listings"
@@ -872,7 +876,7 @@ msgstr ""
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:49
 msgid "More jobs by %s"
-msgstr ""
+msgstr "Más trabajos por %s"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job-more-jobs.php:50
 msgid "More Jobs"
@@ -901,7 +905,7 @@ msgstr ""
 #: inc/integrations/wp-job-manager/widgets/class-widget-jobs-map.php:24
 #: inc/integrations/wp-job-manager-resumes/widgets/class-widget-resumes-map.php:24
 msgid "Show search filters"
-msgstr ""
+msgstr "Mostrar filtros de búsqueda"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-jobs-map.php:29
 #: inc/integrations/wp-job-manager-resumes/widgets/class-widget-resumes-map.php:29
@@ -1919,7 +1923,7 @@ msgstr "Detalles de la compañía"
 
 #: sidebar-single-job_listing.php:30 single-company.php:61
 msgid "Company Social"
-msgstr "Empresa medios sociales"
+msgstr "Medios sociales"
 
 #: sidebar-single-resume-top.php:40
 msgid "Share Resume"
@@ -2212,7 +2216,7 @@ msgstr ""
 #: inc/integrations/wp-job-manager/class-wp-job-manager.php:160
 msgctxt "company description on submission form"
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: inc/template/class-template-comments.php:39
 msgctxt "comment author \"on\" date"
