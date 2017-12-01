@@ -144,7 +144,7 @@
     }
     .page-title{
         margin-top:0;
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
     #job-manager-job-dashboard > p {
         text-align: center;
@@ -179,9 +179,9 @@
 }
 
 /*Company social media*/
-@media screen and (max-width: 321px){
+@media screen and (max-width: 769px){
     .job_listing-company-social a {
-        font-size: 0.65em;
+        font-size: 0.95em;
     }
     .page-subtitle:not(:empty){
         margin-top: 10px;
@@ -229,6 +229,13 @@
         float: inherit;
         font-size: 0.8em;
     }
+    .company-profile-info, .job-meta, .col-md-2, .col-sm-4, .col-xs-4{
+        width: 50%;
+    }
+    .widget-title, .widget-title--job_listing, h3 {
+        font-size: 1em;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -237,5 +244,8 @@
     }
     .application_button, .button, .button--type-action, .button--type-inverted, .button--type-inverted.view-video, .button-secondary, .button-secondary.button--type-action, .button-secondary.button--type-inverted, .button-secondary.view-video, .button.button--type-action, .button.button--type-inverted, .favorite-notice, .footer-cta .button, .footer-cta .view-video, .job-application-note-add input[type=button], .job-manager-form.wp-job-manager-bookmarks-form a.bookmark-notice, .job-manager-form.wp-job-manager-bookmarks-form a.remove-bookmark, .load_more_jobs strong, .load_more_resumes strong, .modal .nf-field-container.submit-container input[type=button], .resume_contact_button, .single-product #content .single_add_to_cart_button, .single_job_listing .application input[type=button].apply-with-facebook, .slider-text .button, .slider-text .view-video, .view-video, .widget--home-video .button, .widget--home-video .view-video, button, button.button--type-action, button.button--type-inverted, button.view-video, input[name=wp_job_manager_edit_application], input[type=button].apply-with-linkedin, input[type=button].apply-with-xing, input[type=button].import-from-linkedin, input[type=submit], input[type=submit].button--type-action, input[type=submit].button--type-inverted, input[type=submit].view-video, p.job-manager-single-alert-link a{
         font-size: 0.9em;
+    }
+    .map-marker-info{
+        font-size: 0.8em !important;
     }
 }
